@@ -138,15 +138,14 @@ a, a:visited, a:hover {
 	cursor: pointer;
 }
 
-p a {
-	color: var(--link);
+p a, p a:visited {
+	color: var(--link) !important;
 	border-bottom: var(--line-thickness) solid var(--link-border);
-	transition: all var(--transition-speed);
 	cursor: pointer;
 }
 
 p a:hover, p a:visited:hover {
-	color: var(--link-2);
+	color: var(--link-2) !important;
 	border-bottom: var(--line-thickness) solid var(--link-border-2);
 }
 

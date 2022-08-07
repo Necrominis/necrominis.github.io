@@ -21,6 +21,15 @@
 
 // Enlarge image: https://stackoverflow.com/questions/67815853/how-do-i-make-an-image-full-screen-on-click
 
+window.onload = function () {
+	// Load then hide slideshow slides, so that they're preloaded.
+	var hidden_slides = document.querySelectorAll(".slide.hide");
+	for (var i = 0; i < hidden_slides.length; i++) {
+		hidden_slides[i].classList.remove("hide");
+		hidden_slides[i].classList.add("hide");
+	}
+};
+
 // GALLERY FILTERING //
 // TODO: support multiple galleries on a page.
 
