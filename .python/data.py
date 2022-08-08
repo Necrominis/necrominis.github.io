@@ -1,5 +1,5 @@
 data = {
-	"website": "www.necrominis.github.io/",
+	"website": "https://necrominis.github.io/",
 	"tags": {
 		"warhammer-underworlds": {
 			"text": "Warhammer: Underworlds",
@@ -36,7 +36,9 @@ data = {
 							"black": {
 								"text": "Black",
 								"icon": "vallejo-model-color-black.png",
-								"page": "vallejo-model-color-black"
+								"page": "vallejo-model-color-black",
+								"official-name": "Vallejo Model Color 70.950 Black",
+								"url": "https://acrylicosvallejo.com/en/product/hobby/model-color-en/black-70950/"
 							}
 						}
 					}

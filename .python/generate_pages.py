@@ -256,6 +256,75 @@ def build_post_article_html(page_id) -> str:
 	article_html = properties_html + slideshow_html + paragraphs_html + paints_used_html
 	return article_html
 
+
+# Build gallery-type page's article HTML.
+def build_gallery_article_html(page_id) -> str:
+	# Start with a gallery template HTML.
+	gallery_html = read_file('./.python/html/gallery.html')
+
+	# Get the list of filters.
+	tag_ids = data['tags'].keys()
+
+	# Add the tag filters.
+	filters_html = ''
+	for tag_id in tag_ids:
+		# Get the tag info for the filter.
+		tag = data['tags'][tag_id]
+		text = tag['text']
+		color = tag['color']
+
+		# Replace the HTML parts.
+		filter_html = read_file('./.python/html/gallery-filter.html')
+		filter_html = filter_html.replace('<!--TEXT-->', text)
+		filter_html = filter_html.replace('<!--FILTER_ID-->', tag_id)
+		filter_html = filter_html.replace('<!--COLOR-->', color)
+
+		# Add the filter's HTML to all the filters' HTML.
+		filters_html += filter_html
+	
+	# Add the filters HTML to the gallery HTML.
+	gallery_html = gallery_html.replace('<!--FILTERS-->', filters_html)
+
+	# Get only the post-type page IDs.
+	page_ids = data['pages'].keys()
+	post_page_ids = []
+	for page_id in page_ids:
+		if data['pages'][page_id]['type'] == 'post':
+			post_page_ids.append(page_id)
+
+	# Add the gallery items (post pages).
+	gallery_items_html = ''
+	for page_id in post_page_ids:
+		# Start with the gallery item's template HTML.
+		gallery_item_html = read_file('./.python/html/gallery-item.html')
+
+		# Get the gallery item and post info.
+		page = data['pages'][page_id]
+		page_url = f"{data['website']}post/{page_id}/"
+		page_filters = ''
+		for filter_id in page['properties']['tags']:
+			page_filters += ' ' + filter_id
+
+		# Get the page's first image, or the default cover image.
+		page_image_source = f"{data['website']}cover.png"
+		if len(page['images']) > 0:
+			page_image_source = f"{page_url}{page['images'][0]}"
+
+		# Replace the post's info into the gallery item.
+		gallery_item_html = gallery_item_html.replace('<!--URL-->', page_url)
+		gallery_item_html = gallery_item_html.replace('<!--SOURCE-->', page_image_source)
+		gallery_item_html = gallery_item_html.replace('<!--FILTERS-->', page_filters)
+
+		# Add gallery item's HTML to all the gallery items' HTML.
+		gallery_items_html += gallery_item_html
+
+	# Add all the gallery items' HTML into the gallery HTML.
+	gallery_html = gallery_html.replace('<!--GALLERY_ITEMS-->', gallery_items_html)
+
+	# Finally, return the gallery article block HTML.
+	return gallery_html
+
+
 # Build the article content HTML, based on the page's type.
 def build_article_html(page_id) -> str:
 	article_html = ''
@@ -264,7 +333,8 @@ def build_article_html(page_id) -> str:
 	page_type_id = data['pages'][page_id]['type']
 
 	if page_type_id == 'gallery':
-		pass # build_gallery_article_html(page_id)
+		article_html = build_gallery_article_html(page_id)
+	
 	elif page_type_id == 'post':
 		article_html = build_post_article_html(page_id)
 
@@ -288,12 +358,7 @@ def build_page_html(page_id) -> str:
 		page_html = page_html.replace('<!--FULL_WIDTH-->', '')
 
 	# Get the article inner HTML based on the page's type.
-	article_html = ''
-
-	if page_type_id == 'gallery':
-		pass #build_gallery_page_html(page_id)
-	else:
-		article_html = build_article_html(page_id)
+	article_html = build_article_html(page_id)
 	
 	# Add the article HTML to the page HTML.
 	page_html = page_html.replace('<!--ARTICLE-->', article_html)
@@ -351,8 +416,8 @@ def make_page(page_id: str) -> None:
 
 # Go through everything to make all the pages. This is the "main" method.
 def main() -> None:
-	# for page in data['pages']...
-	make_page('june-10-2022')
+	for page_id in data['pages'].keys():
+		make_page(page_id)
 
 
 if __name__ == '__main__':
