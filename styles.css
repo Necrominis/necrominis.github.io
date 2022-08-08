@@ -238,6 +238,10 @@ th .icon {
 	padding: 0.25rem 0.75rem; /* Plus 0.25rem vertical */
 }
 
+#navbar .filter-button .icon {
+	margin-right: 0.5rem;
+}
+
 /* PAGE COVER STUFF */
 
 #page-cover {
