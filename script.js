@@ -1,25 +1,4 @@
-// $('.filters ul li').click(function(){
-//   $('.filters ul li').removeClass('active');
-//   $(this).addClass('active');
-  
-//   var data = $(this).attr('data-filter');
-//   $grid.isotope({
-//     filter: data
-//   })
-// });
-
-// var $grid = $(".grid").isotope({
-//   itemSelector: ".all",
-//   percentPosition: true,
-//   masonry: {
-//     columnWidth: ".all"
-//   }
-// })
-
-// Gallery: https://www.foolishdeveloper.com/2021/09/responsive-filterable-image-gallery.html
-// Slideshows: https://codepen.io/imoaazahmed/pen/BwKdQQ
-
-// Enlarge image: https://stackoverflow.com/questions/67815853/how-do-i-make-an-image-full-screen-on-click
+// PAGE LOAD //
 
 window.onload = function () {
 	// Load then hide slideshow slides, so that they're preloaded.
