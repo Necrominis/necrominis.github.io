@@ -180,7 +180,7 @@ article.full-width {
 .mini-name {
 	font-weight: bold;
 	color: var(--secondary);
-	background-color: inherit;
+	background-color: none;
 }
 
 .container {
