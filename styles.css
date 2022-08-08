@@ -60,7 +60,7 @@
 	--font: sans-serif;
 	--font-spacing: 0;
 
-	--text-size: 1rem;
+	--text-size: 16px;
 	--small-header-size: 1.25rem;
 	--medium-header-size: 1.5rem;
 	--header-size: 2rem;
@@ -69,10 +69,10 @@
 	--transition-speed: 0.125s;
 	--slow-transition-speed: 0.5s;
 
-	--line-thickness: 2px;
-	--thick-line-thickness: 4px;
+	--line-thickness: 0.125rem;
+	--thick-line-thickness: 0.25rem;
 
-	--corner-radius: 2px;
+	--corner-radius: 0.125rem;
 	--border-radius: 0.5rem;
 	--large-border-radius: 1rem;
 
@@ -82,6 +82,15 @@
 	--wide-page-padding: 4rem;
 
 	--bottom-page-margin: 10rem;
+}
+
+/* DEVICE RE-SCALING STUFF */
+
+/* For mobile touch-screen devices */
+@media (hover: none), (hover: on-demand) {
+	:root {
+		--text-size: 32px; /* Double */
+	}
 }
 
 /* ROOT STUFF */
