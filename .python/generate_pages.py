@@ -309,6 +309,7 @@ def build_page_html(page_id) -> str:
 
 # Build a page's HTML, format it, then write it to the proper filepath.
 def make_page(page_id: str) -> None:
+	# Build the page's HTML.
 	page_html = build_page_html(page_id)
 	page_html = pretty_html(page_html)
 	

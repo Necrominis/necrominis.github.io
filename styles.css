@@ -84,16 +84,15 @@
 	--bottom-page-margin: 10rem;
 }
 
-/* DEVICE RE-SCALING STUFF */
-
 /* For mobile touch-screen devices */
 @media (hover: none), (hover: on-demand) {
+	/* Double the base scale (font size) */
 	:root {
-		--text-size: 32px; /* Double */
+		--text-size: 32px;
 	}
 }
 
-/* ROOT STUFF */
+/* All STUFF */
 
 * {
 	padding: 0;
@@ -170,6 +169,14 @@ article {
 	padding: 0 1rem;
 	max-width: var(--max-page-width);
 	margin-bottom: var(--bottom-page-margin) !important;
+}
+
+/* For mobile touch-screen devices */
+@media (hover: none), (hover: on-demand) {
+	/* Quarter padding for article column */
+	article {
+		padding: 0 0.25rem;
+	}
 }
 
 article.full-width {
