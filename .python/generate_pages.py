@@ -172,15 +172,18 @@ def build_slideshow_html(image_sources: 'list[str]') -> str:
 # Combine an array of paragraph lines together, adding <p> tags.
 def build_paragraphs_html(paragraph_strings: 'list[str]') -> str:
 	# Start with a line break for spacing.
-	paragraphs_html = '<br><br>'
+	paragraphs_html = '<br>'
 
 	# Turn each line into a paragrpah and add them.
 	for line in paragraph_strings:
-		paragraphs_html += '<p>' + line + '<p>'
+		paragraphs_html += f'<p>{line}</p>'
 	
-	# Don't have double breaks if there's no paragraphs.
-	if len(paragraph_strings) > 0:
-		paragraphs_html += '<br><br>'
+	# End with a line break as well.
+	paragraphs_html += '<br>'
+
+	# If there's no strings, just return a single line-break instead.
+	if len(paragraph_strings) == 0:
+		paragraphs_html = '<br>'
 
 	# Finally, return the combined paragraphs block.
 	return paragraphs_html
