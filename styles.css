@@ -359,6 +359,36 @@ th .icon {
 	display: none;
 }
 
+/* COLORED FILTER BUTTON STUFF */
+
+.filter-button.active.grey-background {
+	background-color: var(--grey) !important;
+}
+.filter-button.active.brown-background {
+	background-color: var(--brown) !important;
+}
+.filter-button.active.orange-background {
+	background-color: var(--orange) !important;
+}
+.filter-button.active.yellow-background {
+	background-color: var(--yellow) !important;
+}
+.filter-button.active.green-background {
+	background-color: var(--green) !important;
+}
+.filter-button.active.blue-background {
+	background-color: var(--blue) !important;
+}
+.filter-button.active.purple-background {
+	background-color: var(--purple) !important;
+}
+.filter-button.active.pink-background {
+	background-color: var(--pink) !important;
+}
+.filter-button.active.red-background {
+	background-color: var(--red) !important;
+}
+
 /* SLIDESHOW STUFF */
 
 .slideshow {
