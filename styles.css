@@ -46,8 +46,8 @@
 	--background: var(--black);
 	--background-2: var(--black-2);
 
-	--link: var(--grey);
-	--link-border: var(--grey);
+	--link: var(--text-2);
+	--link-border: var(--text-2);
 	--link-2: var(--blue);
 	--link-border-2: var(--blue);
 
