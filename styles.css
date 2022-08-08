@@ -69,6 +69,7 @@
 	--transition-speed: 0.125s;
 	--slow-transition-speed: 0.5s;
 
+	--thin-line-thickness: 0.0625rem;
 	--line-thickness: 0.125rem;
 	--thick-line-thickness: 0.25rem;
 
@@ -148,13 +149,13 @@ a, a:visited, a:hover {
 
 p a, p a:visited {
 	color: var(--link) !important;
-	border-bottom: var(--line-thickness) solid var(--link-border);
+	border-bottom: var(--thin-line-thickness) solid var(--link-border);
 	cursor: pointer;
 }
 
 p a:hover, p a:visited:hover {
 	color: var(--link-2) !important;
-	border-bottom: var(--line-thickness) solid var(--link-border-2);
+	border-bottom: var(--thin-line-thickness) solid var(--link-border-2);
 }
 
 hr {
