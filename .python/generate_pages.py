@@ -189,6 +189,38 @@ def build_paragraphs_html(paragraph_strings: 'list[str]') -> str:
 	return paragraphs_html
 
 
+# Build the HTML for a single paint-used link.
+def build_paint_used_html(paint_used: dict) -> str:
+	# Get the paint IDs.
+	brand_id = paint_used['brand']
+	line_id = paint_used['line']
+	color_id = paint_used['color']
+
+	# Get the paint.
+	brand = data['supplies']['paint-brands'][brand_id]
+	line = brand['lines'][line_id]
+	color = line['colors'][color_id]
+
+	# Get the paint's text.
+	text = f"{brand['text']} {line['text']} / {color['text']}"
+
+	# Get the paint info.
+	page_id = color['page']
+	url = f"{data['website']}paints/{page_id}/"
+	icon_source = url + 'icon.png'
+
+	# Get a single paint-used HTML line.
+	paint_html = read_file('./.python/html/paint-used.html')
+
+	# Add the info.
+	paint_html = paint_html.replace('<!--URL-->', url)
+	paint_html = paint_html.replace('<!--ICON_SOURCE-->', icon_source)
+	paint_html = paint_html.replace('<!--PAINT-->', text)
+
+	# Finally, return the HTML line.
+	return paint_html
+
+
 def build_paints_used_html(paints_used: dict) -> str:
 	# Start with the paints-used template HTML.
 	paints_used_html = read_file('./.python/html/paints-used.html')
@@ -196,32 +228,8 @@ def build_paints_used_html(paints_used: dict) -> str:
 	# Combine all paints used into a list.
 	paints_list_html = ''
 	for paint_used in paints_used:
-		# Get the paint IDs.
-		brand_id = paint_used['brand']
-		line_id = paint_used['line']
-		color_id = paint_used['color']
-
-		# Get the paint.
-		brand = data['supplies']['paint-brands'][brand_id]
-		line = brand['lines'][line_id]
-		color = line['colors'][color_id]
-
-		# Get the paint info.
-		page_id = color['page']
-		text = color['text']
-		url = f"{data['website']}paints/{page_id}/"
-		icon_source = url + 'icon.png'
-
-		# Get a single paint-used HTML line.
-		paint_html = read_file('./.python/html/paint-used.html')
-
-		# Add the info.
-		paint_html = paint_html.replace('<!--URL-->', url)
-		paint_html = paint_html.replace('<!--ICON_SOURCE-->', icon_source)
-		paint_html = paint_html.replace('<!--PAINT-->', text)
-
-		# Finally, add the paint HTML to the paints list HTML.
-		paints_list_html += paint_html
+		# Add the paint HTML to the paints list HTML.
+		paints_list_html += build_paint_used_html(paint_used)
 
 	# Add the paints list to the paints-used.
 	paints_used_html = paints_used_html.replace('<!--PAINTS-->', paints_list_html)
