@@ -362,9 +362,6 @@ th .icon {
 
 /* COLORED FILTER BUTTON STUFF */
 
-.filter-button.grey-background {
-	background-color: var(--grey-2) !important;
-}
 .filter-button.active.grey-background {
 	background-color: var(--white-2) !important;
 }
