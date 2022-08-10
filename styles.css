@@ -115,7 +115,7 @@ body {
 img {
 	max-width: 100%;
 	vertical-align: middle;
-	border-radius: var(--border-radius);
+	border-radius: var(--corner-radius);
 }
 
 p {
