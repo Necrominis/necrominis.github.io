@@ -28,32 +28,32 @@ data = {
 
 	"tags": {
 		"dungeons-and-dragons": {
-			"text": "Dungeons & Dragons",
+			"text": "Dungeons & Dragons",
 			"color": "red",
 			"linked-page": "gallery",
 		},
 		"warhammer-40k": {
-			"text": "Warhammer: 40,000",
+			"text": "Warhammer: 40,000",
 			"color": "blue",
 			"linked-page": "gallery",
 		},
 		"warhammer-age-of-sigmar": {
-			"text": "Warhammer: Age of Sigmar",
+			"text": "Warhammer: Age of Sigmar",
 			"color": "yellow",
 			"linked-page": "gallery",
 		},
 		"warhammer-underworlds": {
-			"text": "Warhammer: Underworlds",
+			"text": "Warhammer: Underworlds",
 			"color": "red",
 			"linked-page": "gallery",
 		},
 		"star-wars-legion": {
-			"text": "Star Wars: Legion",
+			"text": "Star Wars: Legion",
 			"color": "grey",
 			"linked-page": "gallery",
 		},
 		"star-wars": {
-			"text": "Star Wars",
+			"text": "Star Wars",
 			"color": "blue",
 			"linked-page": "gallery",
 		},
@@ -93,12 +93,12 @@ data = {
 			"linked-page": "gallery",
 		},
 		"technique-testing": {
-			"text": "Technique Testing",
+			"text": "Technique Testing",
 			"color": "grey",
 			"linked-page": "gallery",
 		},
 		"wip": {
-			"text": "WIP",
+			"text": "Work in Progress",
 			"color": "grey",
 			"linked-page": "gallery",
 		},
@@ -115,12 +115,12 @@ data = {
 			"url": "#",
 		},
 		"games-workshop": {
-			"text": "Games Workshop",
+			"text": "Games Workshop",
 			"color": "yellow",
 			"url": "#",
 		},
 		"fantasy-flight-games": {
-			"text": "Fantasy Flight Games",
+			"text": "Fantasy Flight Games",
 			"color": "blue",
 			"url": "#",
 		},
@@ -135,12 +135,12 @@ data = {
 			"url": "#",
 		},
 		"3d-printed": {
-			"text": "3D Printed",
+			"text": "3D Printed",
 			"color": "grey",
 			"url": "#",
 		},
 		"hero-forge": {
-			"text": "Hero Forge",
+			"text": "Hero Forge",
 			"color": "red",
 			"url": "#",
 		},
@@ -150,7 +150,7 @@ data = {
 			"url": "#",
 		},
 		"war-base-west": {
-			"text": "War Base West",
+			"text": "War Base West",
 			"color": "grey",
 			"url": "#",
 		},
