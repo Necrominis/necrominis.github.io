@@ -91,6 +91,7 @@ https://www.w3schools.com/howto/howto_css_aspect_ratio.asp
 
 	--small-text-size: 0.75rem;
 	--text-size: 16px;
+	--text-size-2: 32px; /* For increasing everything's size on small-but-high-resolution screens*/
 	--small-header-size: 1.25rem;
 	--medium-header-size: 1.5rem;
 	--header-size: 1.75rem;
@@ -121,6 +122,13 @@ https://www.w3schools.com/howto/howto_css_aspect_ratio.asp
 	font-family: var(--font);
 	letter-spacing: var(--font-spacing);
 	color: var(--text);
+}
+
+/* Increase font size on small screens with high resolution */
+@media only screen and (hover: none) and (pointer: coarse) and (max-width: 1000px) {
+	* {
+		font-size: var(--text-size-2);
+	}
 }
 
 html, body {
@@ -414,7 +422,7 @@ img.icon.inline {
 }
 
 /* Make navbar fixed at the top (except on small screens) */
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 500px), only screen and (hover: none) and (pointer: coarse) {
 	#navbar {
 		position: relative;
 		width: auto;
@@ -475,7 +483,7 @@ img.icon.inline {
 }
 
 /* On mobile touch-screen devices, have less wide padding */
-@media (hover: none), (hover: on-demand) {
+@media only screen and (hover: none) and (pointer: coarse) {
 	#article {
 		padding: 0 0.25rem;
 	}
