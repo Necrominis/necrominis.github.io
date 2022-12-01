@@ -1,0 +1,31 @@
+<section id="gallery">
+	<section id="gallery-filters" class="button-container">
+		<span class="filter button blue all" data-filter="all" onclick="toggleGalleryFilter(this)">All</span>
+		<span class="filter button yellow" data-filter="warhammer" onclick="toggleGalleryFilter(this)">Warhammer</span>
+		<span class="filter button red" data-filter="dungeons-and-dragons" onclick="toggleGalleryFilter(this)">Dungeons & Dragons</span>
+		<span class="filter button green" data-filter="3d-printed" onclick="toggleGalleryFilter(this)">3D Printed</span>
+		<span class="filter button brown" data-filter="tabletop" onclick="toggleGalleryFilter(this)">Tabletop</span>
+	</section>
+	<section id="gallery-items">
+		<div class="gallery-item" data-filter="all warhammer">
+			<a href="#">
+				<img src="image-1.jpeg" loading="lazy">
+			</a>
+		</div>
+		<div class="gallery-item" data-filter="all dungeons-and-dragons">
+			<a href="#">
+				<img src="image-2.jpeg" loading="lazy">
+			</a>
+		</div>
+		<div class="gallery-item" data-filter="all warhammer dungeons-and-dragons">
+			<a href="#">
+				<img src="image-3.jpeg" loading="lazy">
+			</a>
+		</div>
+		<div class="gallery-item" data-filter="all dungeons-and-dragons tabletop">
+			<a href="#">
+				<img src="image-4.jpeg" loading="lazy">
+			</a>
+		</div>
+	</section>
+</section>

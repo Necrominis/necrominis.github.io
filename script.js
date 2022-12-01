@@ -1,133 +1,177 @@
-// PAGE LOAD //
-
 window.onload = function () {
-	// Load then hide slideshow slides, so that they're preloaded.
-	var hidden_slides = document.querySelectorAll(".slide.hide");
-	for (var i = 0; i < hidden_slides.length; i++) {
-		hidden_slides[i].classList.remove("hide");
-		hidden_slides[i].classList.add("hide");
+	let slideIndex = 1;
+	showSlides(slideIndex);
+	updateGalleryFilters();
+}
+
+// SLIDESHOW
+// TODO: Support more than one slideshow on a page.
+
+let slideIndex = 1;
+showSlides();
+
+function changeSlide(n) {
+	slideIndex += n;
+	showSlides();
+}
+
+function setSlide(n) {
+	slideIndex = n;
+	showSlides();
+}
+
+function showSlides() {
+	// Change slide.
+	let slides = document.querySelectorAll('.slideshow .slides .slide');
+	if (slides != null) {
+		if (slideIndex > slides.length) {
+			slideIndex = 1;
+		}
+		if (slideIndex < 1) {
+			slideIndex = slides.length;
+		}
+		for (let i = 0; i < slides.length; i++) {
+			slides[i].style.display = "none";
+		}
+		slides[slideIndex - 1].style.display = "block";
 	}
-};
 
-// GALLERY FILTERING //
-// TODO: support multiple galleries on a page.
+	// Update dots.
+	let dots = document.querySelectorAll('.slideshow .dots .dot');
+	if (dots != null) {
+		for (let i = 0; i < dots.length; i++) {
+			dots[i].className = dots[i].className.replace(" active", "");
+		}
+		dots[slideIndex - 1].className += " active";
+	}
 
-// Get the (one) gallery's filter filter-items.
-const filterContainer = document.querySelector(".gallery .gallery-filter"),
-	galleryItems = document.querySelectorAll(".gallery .filter-item");
+	// Update numbers.
+	let number = document.querySelector('.slideshow .overlay .number');
+	if (number != null) {
+		number.innerHTML = slideIndex + " / " + slides.length;
+	}
 
-// Create event listeners for filter buttons to affect visibility of filtered gallery items.
-if (filterContainer != null) {
-	filterContainer.addEventListener("click", (event) => {
-		if (event.target.classList.contains("filter-button")) {
-			// deactivate existing active 'filter-item'
-			filterContainer.querySelector(".active").classList.remove("active");
-			// activate new 'filter-item'
-			event.target.classList.add("active");
-			const filterValue = event.target.getAttribute("data-filter");
-			galleryItems.forEach((galleryItem) => {
-				// Hide all items.
-				galleryItem.classList.remove("show");
-				galleryItem.classList.add("hide");
-				// Show all items that match the filter.
-				if (galleryItem.classList.contains(filterValue)/* || filterValue === 'all'*/) {
-					galleryItem.classList.remove("hide");
-					galleryItem.classList.add("show");
-				}
+	// Show/hide next/previous buttons.
+	let previous = document.querySelector('.slideshow .overlay .previous');
+	if (previous != null) {
+		if (slideIndex == 1) {
+			previous.style.display = "none";
+		} else {
+			previous.style.display = "block";
+		}
+	}
+	let next = document.querySelector('.slideshow .overlay .next');
+	if (next != null) {
+		if (slideIndex == slides.length) {
+			next.style.display = "none";
+		} else {
+			next.style.display = "block";
+		}
+	}
+}
+
+// MODAL
+
+let modal = document.querySelector('#modal');
+let modalContent = document.querySelector('#modal #modal-content');
+
+// Click image to open modal.
+function openModal(image) {
+	modal.style.pointerEvents = "auto";
+	modal.style.opacity = "1";
+	modalContent.src = image.src;
+	modalContent.alt = image.alt;
+}
+
+// Modal close button.
+function closeModal() {
+	modal.style.pointerEvents = "none";
+	modal.style.opacity = "0";
+}
+
+// Click a modal's image again to open it in a new tab.
+function openImage(image) {
+	var newWindow = window.open(image.src);
+}
+
+// GALLERY
+// TODO: Support more than one gallery on a page.
+
+function toggleGalleryFilter(filter) {
+	// Toggle filter button (active).
+	if (filter.classList.contains('active')) {
+		filter.classList.remove('active');
+	} else {
+		filter.className += " active";
+	}
+
+	updateGalleryFilters();
+}
+
+let galleryFilters = document.querySelectorAll('#gallery-filters .filter');
+let allFilter = document.querySelector('#gallery-filters .filter.all');
+
+function updateGalleryFilters() {
+	// Get the filter tag IDs.
+	let activeGalleryTagIds = [];
+	for (let i = 0; i < galleryFilters.length; i++) {
+		if (galleryFilters[i].classList.contains('active')) {
+			let tagId = galleryFilters[i].getAttribute('data-filter')
+			activeGalleryTagIds.push(tagId);
+		}
+	}
+
+	// Show all gallery items if no tags are selected.
+	if (activeGalleryTagIds.length == 0) {
+		allFilter.classList.add('active');
+		activeGalleryTagIds.push('all');
+	}
+
+	// Show/hide gallery items based on filter tag IDs.
+	let galleryItems = document.querySelectorAll('#gallery-items .gallery-item');
+	for (let i = 0; i < galleryItems.length; i++) {
+		let galleryItem = galleryItems[i];
+		galleryItem.classList.add('show');
+		for (let j = 0; j < activeGalleryTagIds.length; j++) {
+			let filterTagId = activeGalleryTagIds[j];
+			if (!galleryItem.getAttribute('data-filter').includes(filterTagId)) {
+				galleryItem.classList.remove('show');
+				break;
+			}
+		}
+	}
+}
+
+// Gallery image lazy loading (use <img loading="lazy"> instead).
+/*
+(function () {
+	let images = document.querySelectorAll('#gallery-items .gallery-item img[data-src]');
+	let index = 0;
+	
+	let lazyLoad = function () {
+		if (index >= images.length) {
+			return;
+		}
+		let image = images[index];
+		if ((this.scrollY + this.innerHeight) > image.offsetTop) {
+			let src = image.getAttribute('data-src');
+			console.log('Loaded: ' + src);
+			image.src = src;
+			image.addEventListener('load', function () {
+				// image.removeAttribute('data-src');
 			});
+			index += 1;
+			lazyLoad();
+		} else {
+			image.src = "";
+			console.log('Unoaded: ' + image.getAttribute('data-src'));
 		}
-	});
-}
+	};
 
-// SLIDESHOW SLIDING //
-// TODO: support multiple slideshows on a page.
-
-// Get the slides and dots, and track the index.
-var slideIndex = 0;
-var slides = document.querySelectorAll('.slideshow .slide'),
-	dots = document.querySelectorAll('.slideshow .dot');
-
-// Don't do slides stuff if there is no slideshow, or a slideshow but with no images.
-if (slides != null) {
-	if (slides.length > 0) {
-		showSlide(slideIndex);
-	}
-}
-
-// Clamp slideshow index to min/max values.
-function clampSlideshowIndex(index, slideCount) {
-	// Prevent index from being out of bounds (1 to slide count).
-	var clampedIndex = index;
-	if (clampedIndex >= slideCount) {
-		clampedIndex = slideCount - 1;
-	}
-	if (clampedIndex < 0) {
-		clampedIndex = 0;
-	}
-
-	return clampedIndex;
-}
-
-// Display the first image.
-function showSlide(index) {
-	'use strict';
-	
-	slideIndex = clampSlideshowIndex(index, slides.length);
-
-	// Fix dots if their count doesn't match that of slides..
-	if (slides.length != dots.length) {
-		if (slides.length > dots.length) {
-			// Add dots.
-			for (var i = dots.length; i < slides.length; i++) {
-				const dotsContainer = document.querySelector('.slideshow .dots-container');
-
-				var newDotHTML = '\n' + dots[0].outerHTML;
-				newDotHTML = newDotHTML.replace('0', `${i}`);
-				newDotHTML = newDotHTML.replace(' active', '');
-
-				dotsContainer.innerHTML += newDotHTML;
-			}
-		} else if (dots.length > slides.length) {
-			// Remove dots.
-			for (var i = slides.length; i < dots.length; i++) {
-				dots[i].style.display = 'none';
-			}
-		}
-		slides = document.querySelectorAll('.slideshow .slide');
-		dots = document.querySelectorAll('.slideshow .dot');
-	}
-
-	// Change other slides to show/hide;
-	for (var i = 0; i < slides.length; i++) {
-		slides[i].classList.remove('show');
-		slides[i].classList.add('hide');
-	}
-	slides[slideIndex].classList.remove('hide');
-	slides[slideIndex].classList.add('show');
-
-	// Remove active class from other dots.
-	for (var i = 0; i < dots.length; i++) {
-		dots[i].classList.remove('active');
-	}
-	dots[slideIndex].classList.add('active');
-
-	// Do a check. If there's only 1 slide, remove the slideshow control elements.
-	if (slides.length <= 1) {
-		var slideshowControls = document.querySelector('.slideshow .previous, .slideshow .next, .slideshow .dots-container');
-		slideshowControls.parentNode.removeChild(slideshowControls);
-	}
-}
-	
-// Next or previous slide.
-function incrementSlideshowIndex(increment) {
-	'use strict';
-	slideIndex += increment;
-	showSlide(slideIndex);
-}
-
-// Slide selecting using dots.
-function setSlideshowIndex(index) {
-	'use strict';
-	slideIndex = clampSlideshowIndex(index, slides.length);
-	showSlide(slideIndex);
-}
+	let init = function () {
+		window.addEventListener('scroll', lazyLoad);
+		lazyLoad();
+	};
+	return init();
+})();
+*/
