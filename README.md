@@ -74,7 +74,6 @@ Changes the current working directory within the script to the given path. The p
 
 ## Code
 
-* `build_paragraphs_html()`
 * `build_paints_used_html()`
 * `build_paints_article_content_html()`
 * `build_paint_article_content_html()`

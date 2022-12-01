@@ -12,6 +12,7 @@ from common import *
 # data['pages'][page_id]['properties']['tags'][tag_id]['color']
 # data['pages'][page_id]['properties']['tags'][tag_id]['linked-page']
 # data['pages'][page_id]['images']
+# data['pages'][page_id]['paragraphs']
 
 
 
@@ -28,8 +29,21 @@ from common import *
 # Build the paragraphs HTML for page.
 # ======================================================================================= #
 def build_paragraphs_html(page_id: str) -> str:
-	# TODO
-	return ''
+	paragraphs = data['pages'][page_id]['paragraphs']
+
+	# Get the starter paragraphs HTML.
+	paragraphs_html = read_html_file('paragraphs.html')
+
+	# Go through each paragraph line, build the HTML, and combine them.
+	paragraph_lines_html = ''
+	for paragraph in paragraphs:
+		paragraph_html = read_html_file('paragraph.html')
+		paragraph_html = paragraph_html.replace('<!--PARAGRAPH-->', paragraph)
+		paragraph_lines_html += paragraph_html
+
+	# Add the paragraph lines HTML into the final paragraphs HTML and return it.
+	paragraphs_html = paragraphs_html.replace('<!--PARAGRAPHS-->', paragraph_lines_html)
+	return paragraphs_html
 
 
 
