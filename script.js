@@ -33,7 +33,9 @@ function showSlides() {
 		for (let i = 0; i < slides.length; i++) {
 			slides[i].style.display = "none";
 		}
-		slides[slideIndex - 1].style.display = "block";
+		if (slides.length > 0) {
+			slides[slideIndex - 1].style.display = "block";
+		}
 	}
 
 	// Update dots.
@@ -42,7 +44,9 @@ function showSlides() {
 		for (let i = 0; i < dots.length; i++) {
 			dots[i].className = dots[i].className.replace(" active", "");
 		}
-		dots[slideIndex - 1].className += " active";
+		if (slides.length > 0) {
+			dots[slideIndex - 1].className += " active";
+		}
 	}
 
 	// Update numbers.
