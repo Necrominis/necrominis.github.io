@@ -266,10 +266,10 @@ data = {
 				],
 			},
 			"images": [
-				"necrominis-june-10-2022-1.jpeg",
-				"necrominis-june-10-2022-2.jpeg",
-				"necrominis-june-10-2022-3.jpeg",
-				"necrominis-june-10-2022-4.jpeg",
+				"necrominis-10-06-2022-raw-1.jpeg",
+				"necrominis-10-06-2022-raw-2.jpeg",
+				"necrominis-10-06-2022-raw-3.jpeg",
+				"necrominis-10-06-2022-raw-4.jpeg",
 			],
 			"paragraphs": [
 				"""A <mark class="mini-name">Soulblight Gravelord Vampire</mark> painted with a necromancy magic scheme.""",
