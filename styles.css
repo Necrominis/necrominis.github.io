@@ -464,7 +464,7 @@ img.icon.inline {
 #article {
 	font-size: var(--text-size);
 	margin: auto;
-	padding: 0 1rem;
+	padding: 0 2rem;
 	max-width: var(--max-page-width);
 	margin-bottom: var(--bottom-page-margin) !important;
 }
