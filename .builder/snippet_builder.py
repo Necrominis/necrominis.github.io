@@ -11,6 +11,7 @@ from common import *
 # data['pages'][page_id]['properties']['tags'][tag_id]['text']
 # data['pages'][page_id]['properties']['tags'][tag_id]['color']
 # data['pages'][page_id]['properties']['tags'][tag_id]['linked-page']
+# data['pages'][page_id]['images']
 
 
 
@@ -173,8 +174,21 @@ def build_paints_used_html(page_id: str) -> str:
 # Build the slideshow HTML for a post page.
 # ======================================================================================= #
 def build_slideshow_html(page_id: str) -> str:
-	# TODO
-	return ''
+	image_files = data['pages'][page_id]['images']
+
+	# Get the starter slideshow HTML.
+	slideshow_html = read_html_file('slideshow.html')
+
+	# Go through each image, build the slide HTML, and combine them.
+	slides_html = ''
+	for image_file in image_files:
+		slide_html = read_html_file('slideshow-slide.html')
+		slide_html = slide_html.replace('<!--SLIDE-IMAGE-->', image_file)
+		slides_html += slide_html
+	
+	# Add the slides HTML into the final slideshow HTML and return it.
+	slideshow_html = slideshow_html.replace('<!--SLIDES-->', slides_html)
+	return slideshow_html
 
 
 
