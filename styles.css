@@ -168,7 +168,7 @@ body {
 }
 
 /* Hide content if display is way too thin to meaningfully display anything */
-@media screen and (max-width: 300px) {
+@media only screen and (max-width: 300px) {
 	body {
 		opacity: 0;
 	}
@@ -410,7 +410,7 @@ img.icon.inline {
 /* NAVBAR */
 
 /* Make navbar vertical on small screens. */
-@media screen and (max-width: 500px) {
+@media only screen and (max-width: 500px) {
 	.menu.button-container .button {
 		float: none;
 		display: block;
@@ -448,7 +448,7 @@ img.icon.inline {
 }
 
 /* Make navbar fixed at the top (except on small screens) */
-@media screen and (max-width: 500px), only screen and (hover: none) and (pointer: coarse) {
+@media only screen and (max-width: 500px), only screen and (hover: none) and (pointer: coarse) and (max-width: 1000px) {
 	#navbar {
 		position: relative;
 		width: auto;
@@ -509,7 +509,7 @@ img.icon.inline {
 }
 
 /* On mobile touch-screen devices, have less wide padding */
-@media only screen and (hover: none) and (pointer: coarse) {
+@media only screen and (hover: none) and (pointer: coarse) and (max-width: 1000px) {
 	#article {
 		padding: 0 0.25rem;
 	}
@@ -810,14 +810,14 @@ img.icon.inline {
 }
 
 /* Medium screen: gallery has 2 columns. */
-@media screen and (max-width: 1000px) {
+@media only screen and (max-width: 1000px) {
 	.gallery-item {
 		width: calc(50% - 1rem);
 	}
 }
 
 /* Small screen: gallery has 1 column. */
-@media screen and (max-width: 500px) {
+@media only screen and (max-width: 500px) {
 	.gallery-item {
 		width: calc(100% - 1rem);
 	}
