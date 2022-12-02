@@ -114,7 +114,8 @@ https://www.w3schools.com/howto/howto_css_aspect_ratio.asp
 
 	/* Spacing */
 
-	--max-page-width: 700px;
+	--max-page-width: 900px;
+	--max-image-height: 600px;
 
 	--bottom-page-margin: 10rem;
 }
@@ -143,6 +144,7 @@ https://www.w3schools.com/howto/howto_css_aspect_ratio.asp
 		/* Spacing */
 
 		--max-page-width: 900px;
+		--max-image-size: 900px;
 
 		--bottom-page-margin: 10rem;
 	}
@@ -516,6 +518,12 @@ img.icon.inline {
 }
 
 /* SLIDESHOW */
+
+.slideshow {
+	max-width: var(--max-image-size);
+	max-height: var(--max-image-size);
+	margin: auto;
+}
 
 .slides {
 	width: 100%;
