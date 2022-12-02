@@ -511,7 +511,7 @@ img.icon.inline {
 /* On mobile touch-screen devices, have less wide padding */
 @media only screen and (hover: none) and (pointer: coarse) and (max-width: 1000px) {
 	#article {
-		padding: 0 0.25rem;
+		padding: 0 1rem;
 	}
 }
 
