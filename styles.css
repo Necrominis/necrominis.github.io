@@ -87,6 +87,9 @@ https://www.w3schools.com/howto/howto_css_aspect_ratio.asp
 
 	--font: sans-serif;
 
+	--transition-speed: 0.125s;
+	--slow-transition-speed: 0.5s;
+
 }
 
 /* Normal scaling */
@@ -100,9 +103,6 @@ https://www.w3schools.com/howto/howto_css_aspect_ratio.asp
 	--medium-header-size: 1.5rem;
 	--header-size: 1.75rem;
 	--title-size: 2rem;
-
-	--transition-speed: 0.125s;
-	--slow-transition-speed: 0.5s;
 
 	--thin-line-thickness: 0.0625rem;
 	--line-thickness: 0.125rem;
@@ -131,9 +131,6 @@ https://www.w3schools.com/howto/howto_css_aspect_ratio.asp
 		--medium-header-size: 1.5rem;
 		--header-size: 1.75rem;
 		--title-size: 2rem;
-
-		--transition-speed: 0.125s;
-		--slow-transition-speed: 0.5s;
 
 		--thin-line-thickness: 0.0625rem;
 		--line-thickness: 0.125rem;
