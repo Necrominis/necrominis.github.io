@@ -224,7 +224,7 @@ def build_paints_used_html(page_id: str) -> str:
 	paint_items_html = ''
 	for paint_used in paints_used:
 		# Place breaks between paints if a paint item is empty.
-		if paint_used == '' or paint_used == {}:
+		if paint_used == '' or paint_used == {} or paint_used == None or paint_used == "break":
 			paint_items_html += read_html_file('paints-used-separator.html')
 			continue
 
