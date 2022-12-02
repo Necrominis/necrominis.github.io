@@ -51,10 +51,10 @@ https://www.w3schools.com/howto/howto_css_aspect_ratio.asp
 
 	--very-dark-overlay: #000000dd;
 	--very-light-overlay: #ffffffbb;
-	--dark-overlay: #00000077;
-	--light-overlay: #ffffff77;
-	--dark-overlay-2: #00000033;
-	--light-overlay-2: #ffffff33;
+	--dark-overlay: #00000099;
+	--light-overlay: #ffffff99;
+	--dark-overlay-2: #00000055;
+	--light-overlay-2: #ffffff55;
 
 	/* Theme Colors */
 	--primary: var(--blue);
