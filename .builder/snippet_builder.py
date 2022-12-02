@@ -13,6 +13,10 @@ from common import *
 # data['pages'][page_id]['properties']['tags'][tag_id]['linked-page']
 # data['pages'][page_id]['images']
 # data['pages'][page_id]['paragraphs']
+# data['pages'][page_id]['paints-used']
+# data['pages'][page_id]['paints-used'][i]['brand']
+# data['pages'][page_id]['paints-used'][i]['line']
+# data['pages'][page_id]['paints-used'][i]['color']
 
 
 
@@ -175,11 +179,67 @@ def build_tags_property_html(page_id: str) -> str:
 
 
 
+# Build the paint item HTML for a paints or paints-used section.
+# ======================================================================================= #
+def build_paint_item_html(brand_id: str, line_id: str, color_id: str) -> str:
+	separator = data['paints']['separator']
+
+	# Get the brand data.
+	brand = data['paints']['brands'][brand_id]
+	brand_text = brand['text']
+	# Get the paint line data.
+	line = brand['lines'][line_id]
+	line_text = line['text']
+	# Get the paint color data.
+	color = line['colors'][color_id]
+	color_text = color['text']
+	# Get the final paint data. (TODO: page and official-name)
+	icon = color['icon']
+	url = color['url']
+	paint_name = f'{brand_text}{separator}{line_text}{separator}{color_text}'
+
+	# Get the paint item starter HTML.
+	paint_item_html = read_html_file('paint-item.html')
+
+	# Replace the HTML with the paint's data.
+	paint_item_html = paint_item_html.replace('<!--PAINT-ICON-->', icon)
+	paint_item_html = paint_item_html.replace('<!--URL-->', url)
+	paint_item_html = paint_item_html.replace('<!--PAINT-->', paint_name)
+
+	return paint_item_html
+
+
+
+
+
 # Build the paints-used HTML for a post page.
 # ======================================================================================= #
 def build_paints_used_html(page_id: str) -> str:
-	# TODO
-	return ''
+	paints_used = data['pages'][page_id]['paints-used']
+
+	# Get the paints-used starter HTML.
+	paints_used_html = read_html_file('paints-used.html')
+
+	# GO through each paint, build the list item HTML, and combine them.
+	paint_items_html = ''
+	for paint_used in paints_used:
+		# Place breaks between paints if a paint item is empty.
+		if paint_used == '' or paint_used == {}:
+			paint_items_html += read_html_file('paints-used-separator.html')
+			continue
+
+		# Get the paint brand data.
+		brand_id = paint_used['brand']
+		line_id = paint_used['line']
+		color_id = paint_used['color']
+
+		# Build the paint item HTML and add it to the list.
+		paint_item_html = build_paint_item_html(brand_id, line_id, color_id)
+		paint_items_html += paint_item_html
+
+	# Add the paint items HTML to the final paints-used HTML and return it.
+	paints_used_html = paints_used_html.replace('<!--PAINTS-->', paint_items_html)
+	return paints_used_html
 
 
 

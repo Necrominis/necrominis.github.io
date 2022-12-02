@@ -286,6 +286,7 @@ data = {
 					"line": "model-color",
 					"color": "black",
 				},
+				"",
 			],
 		},
 	},
