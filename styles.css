@@ -819,11 +819,11 @@ img.icon.inline {
 	margin: 1rem 0;
 }
 
-#properties summary,
+/* #properties summary,
 #properties summary::marker,
 #properties th {
 	color: var(--text-2);
-}
+} */
 
 #properties th {
 	text-align: left;
