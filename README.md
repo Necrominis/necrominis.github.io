@@ -54,11 +54,11 @@ Deletes all nonessential files, before generating the new website files, in orde
 The following are identical syntaxes for the directory argument.
 
 ```bash
-python3 /path/to/nectominis.github.io/.builder/main.py -d "/path/to/nectominis.github.io/"
-python3 /path/to/nectominis.github.io/.builder/main.py -dir "/path/to/nectominis.github.io/"
-python3 /path/to/nectominis.github.io/.builder/main.py -directory "/path/to/nectominis.github.io/"
-python3 /path/to/nectominis.github.io/.builder/main.py --dir "/path/to/nectominis.github.io/"
-python3 /path/to/nectominis.github.io/.builder/main.py --directory "/path/to/nectominis.github.io/"
+python3 /path/to/necrominis.github.io/.builder/main.py -d "/path/to/necrominis.github.io/"
+python3 /path/to/necrominis.github.io/.builder/main.py -dir "/path/to/necrominis.github.io/"
+python3 /path/to/necrominis.github.io/.builder/main.py -directory "/path/to/necrominis.github.io/"
+python3 /path/to/necrominis.github.io/.builder/main.py --dir "/path/to/necrominis.github.io/"
+python3 /path/to/necrominis.github.io/.builder/main.py --directory "/path/to/necrominis.github.io/"
 ```
 
 Changes the current working directory within the script to the given path. The path must lead to this repository's root folder in order to work.
@@ -67,15 +67,15 @@ Changes the current working directory within the script to the given path. The p
 
 ## Features
 
+* Recolor icons and photo templates with the new shade of white.
 * Add page footer.
-* Create and add icons for the properties: created, tags, manufacturers, and modelsS.
+* Create and add icons for the properties: created, tags, manufacturers, and models.
 * Implement the clean argument's functionality.
 * Implement the directory argument's functionality.
 * Add a related posts gallery below post articles (ideally with the same tags/filters as the post itself).
 
 ## Code
 
-* `build_paints_used_html()`
 * `build_paints_article_content_html()`
 * `build_paint_article_content_html()`
 * `build_supplies_article_content_html()`
