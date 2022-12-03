@@ -23,7 +23,7 @@ https://www.w3schools.com/howto/howto_css_aspect_ratio.asp
 	/* --cover-image: url('images/covers/cover.png'); */
 
 	/* Raw Colors */
-	--white: rgba(230, 230, 230);
+	--white: rgba(225, 225, 225);
 	--grey: rgba(125, 125, 125);
 	--black: rgba(25, 25, 25);
 	--brown: rgba(150, 100, 75);
@@ -94,7 +94,7 @@ https://www.w3schools.com/howto/howto_css_aspect_ratio.asp
 
 /* Normal scaling */
 :root {
-	--text-size: 16px;
+	--text-size: 14px;
 
 	--font-spacing: 0;
 
@@ -102,7 +102,7 @@ https://www.w3schools.com/howto/howto_css_aspect_ratio.asp
 	--small-header-size: 1.25rem;
 	--medium-header-size: 1.5rem;
 	--header-size: 1.75rem;
-	--title-size: 2rem;
+	--title-size: 2.25rem;
 
 	--thin-line-thickness: 0.0625rem;
 	--line-thickness: 0.125rem;
