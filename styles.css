@@ -786,6 +786,10 @@ img.icon.inline {
 	margin: 1rem 0;
 }
 
+#paints-used .toggle {
+	margin-bottom: 0;
+}
+
 .toggle summary {
 	-webkit-user-select: none;
 	-moz-user-select: none;
@@ -835,7 +839,7 @@ img.icon.inline {
 
 .paint-used {
 	margin: 0;
-	/* margin-bottom: 0.25em; */
+	margin-bottom: 0.25em;
 }
 
 /* GALLERY */
