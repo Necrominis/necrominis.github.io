@@ -2,6 +2,7 @@
 # Dates are DD-MM-YYYY!
 # <mark class="mini-name">Space Marine</mark>
 # <mark class="tooltip">NMM<span class="tip">Non-Metallic Metal: Creating a shiny or metallic effect using plain, non-metallic paints.</span></mark>
+# <mark class="first-paragraph"></mark>
 
 data = {
 	"website": "https://necrominis.github.io/",
@@ -272,7 +273,7 @@ data = {
 				"necrominis-10-06-2022-raw-4.jpeg",
 			],
 			"paragraphs": [
-				"""A <mark class="mini-name">Soulblight Gravelord Vampire</mark> painted with a necromancy magic scheme.""",
+				"""<mark class="first-paragraph">A <mark class="mini-name">Soulblight Gravelord Vampire</mark> painted with a necromancy magic scheme.</mark>""",
 				"""The first thing I worked on for this miniature was actually the base. I primed it black and gave it a rough airbrushing of a dark purple. I then wanted to create a glowing effect coming out of the cracks between the stone, so I dry-brushed dark teal around the cracks, then a lighter teal closer to the cracks, and then filled in the cracks with a lime green.""",
 				"""For the actual vampire model, I started with the skin first. I layered from a medium grey to a light grey, but with some purple mixed in, with more purple in the darker tones, and more grey in the lighter tones. I used a similar technique for the wing arms, except using dark teal instead of purple. As for the actual wings, I left them black, dry-brushed dark teal toward the ends, and added a spotty texture to them.""",
 				"""Seeing the rest of the model still black made me realize a dark outfit would fit the best and contrast with the light skin. The armor pieces remained black, but were highlighted toward dark purple and edge highlighted with a similar purple-grey mix from the skin's base coat. The rest of the straps, the mace, and the hair were highlighted similarly with dark to medium greys, as I wanted to avoid using metallic paints for this mini.""",
