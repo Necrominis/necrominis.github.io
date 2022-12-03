@@ -4,8 +4,8 @@
 # <mark class="tooltip">NMM<span class="tip">Non-Metallic Metal: Creating a shiny or metallic effect using plain, non-metallic paints.</span></mark>
 
 data = {
-	"website": "https://necrominis.github.io/",
-	#"website": "/home/tucker/dev/necrominis.github.io/",
+	#"website": "https://necrominis.github.io/",
+	"website": "/home/tucker/dev/necrominis.github.io/",
 
 	# ============================================================================ #
 	#                                IMAGE FOLDERS                                 #

@@ -528,13 +528,13 @@ img.icon.inline {
 }
 
 .column-container {
-	width: calc(100% + 1.25rem);
+	max-width: calc(100% + 1.25rem);
 	margin: -0.5rem;
 }
 
 .column-container .column-item-2 {
 	float: left;
-	width: calc(50% - 1rem); /* Large screens have 2 columns. */
+	max-width: calc(50% - 1rem); /* Large screens have 2 columns. */
 	padding: 0.5rem;
 }
 
@@ -549,11 +549,11 @@ img.icon.inline {
 /* Medium screens have 2 columns. */
 @media only screen and (max-width: 1000px) {
 	#article.double-width {
-		width: var(--max-page-width);
+		max-width: var(--max-page-width);
 	}
 
 	.column-container .column-item-2 {
-		width: calc(100% - 1rem);
+		max-width: calc(100% - 1rem);
 	}
 }
 
