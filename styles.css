@@ -835,7 +835,7 @@ img.icon.inline {
 
 .paint-used {
 	margin: 0;
-	margin-bottom: 0.25em;
+	/* margin-bottom: 0.25em; */
 }
 
 /* GALLERY */
