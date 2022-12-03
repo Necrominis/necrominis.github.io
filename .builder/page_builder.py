@@ -31,6 +31,8 @@ def build_article_html(page_id: str) -> str:
 	# Set article div to full-width or not, based on page type.
 	if page_type_id in ['gallery', 'paints-home', 'supplies-home']:
 		article_html = article_html.replace('<!--FULL-WIDTH-->', 'full-width')
+	elif page_type_id in ['post']:
+		article_html = article_html.replace('<!--FULL-WIDTH-->', 'double-width')
 	article_html = article_html.replace('<!--FULL-WIDTH-->', '')
 
 	# Build HTML based on page type (post, gallery, etc.).
