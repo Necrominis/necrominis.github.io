@@ -182,6 +182,9 @@ body {
 
 hr {
 	font-size: var(--line-thickness);
+	height: 0;
+	padding: 0;
+	background-color: var(--foreground-2);
 	border: var(--line-thickness) solid var(--foreground-2);
 	border-radius: 1em;
 }
