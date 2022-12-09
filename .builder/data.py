@@ -1,8 +1,14 @@
 # Make sure to always use trailing commas!
 # Dates are DD-MM-YYYY!
-# <mark class="mini-name">Space Marine</mark>
-# <mark class="tooltip">NMM<span class="tip">Non-Metallic Metal: Creating a shiny or metallic effect using plain, non-metallic paints.</span></mark>
-# <mark class="first-paragraph"></mark>
+#
+# First Paragraph:	<mark class="first-paragraph">{text}</mark>
+# Mini Name:		<mark class="mini-name">{text}</mark>
+# Tooltip:			<mark class="tooltip">{inline_text}<span class="tip">{tip_description}</span></mark>
+# Link:				<a href="{url}">{text}</a>
+
+
+
+
 
 data = {
 	"website": "https://necrominis.github.io/",
@@ -14,7 +20,7 @@ data = {
 
 	"image-paths": {
 		"logos": "images/logos/",
-		"covers": "images/covers/", # Page covers set manually in `styles.css`.
+		"covers": "images/covers/",
 		"icons": "images/icons/",
 		"paint-photos": "images/paint/",
 		"paint-icons": "images/paint-icons/",
@@ -216,8 +222,14 @@ data = {
 
 	"pages": {
 		"home": {
-			"title": "Necrominis",
+			"title": "Necrominis Mini-Painting Studio",
 			"type": "home",
+			"paragraphs": [
+				"""<mark class="first-paragraph">I'm <mark class="mini-name">Tucker</mark> from <mark class="mini-name">Necrominis</mark>, and I'm a miniature painter hobbyist.</mark>""",
+				"""I first tried painting miniatures in 2015, for the <a href="https://dnd.wizards.com/what-is-dnd"><i>Dungeons & Dragons</i></a> tabletop roleplaying game. In 2019, I took on miniature painting as a serious hobby and have been improving my craft every since.""",
+				"""I still paint miniatures for tabletop games like <a href="https://dnd.wizards.com/what-is-dnd"><i>D&D</i></a>, <a href="https://www.warhammer-community.com/en-us"><i>Warhammer</i></a>, and <a href="https://www.fantasyflightgames.com/en/products/star-wars-legion"><i>Star Wars: Legion</i></a>, but now I also paint for the sole purpose of painting beautiful display miniatures, as well.""",
+				"""I've also purchased an <a href="https://www.anycubic.com/products/anycubic-photon-s"><i>AnyCubic Photon S</i></a>, in 2020, and have been <mark class="tooltip"><a href="https://en.wikipedia.org/wiki/3D_printing">3D printing</a><span class="tip">3D printing is the construction of physical objects from a digital 3D model file.</span></mark> resin miniatures ever since. Most of the models I print are purchased from <a href="https://www.myminifactory.com"><i>My Mini Factory</i></a> or from artists I support on <a href="https://www.patreon.com"><i>Patreon</i></a>.""",
+			]
 		},
 		# ============================================================================ #
 		"my-paints": {
