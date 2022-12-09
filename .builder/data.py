@@ -1,11 +1,40 @@
 # Make sure to always use trailing commas!
 # Dates are DD-MM-YYYY!
-# Put bold/italic outside of hyperlinks!
-#
-# First Paragraph:	<mark class="first-paragraph">{text}</mark>
-# Mini Name:		<mark class="mini-name">{text}</mark>
-# Tooltip:			<mark class="tooltip">{inline_text}<span class="tip">{tip_description}</span></mark>
-# Link:				<a href="{url}">{text}</a>
+
+
+
+
+
+# First paragraph f"{FP_}text{_FP}".
+FP_ = """<mark class="first-paragraph">"""
+_FP = """</mark>"""
+
+# Mini name f"{MN_}text{_MN}".
+MN_ = """<mark class="mini-name">"""
+_MN = """</mark>"""
+
+# Tooltip f"{TT_}text{_TT_}description{_TT}".
+TT_ = """<mark class="tooltip">"""
+_TT_ = """<span class="tip">"""
+_TT = """</span></mark>"""
+
+# Link f"{A_}url{_A_}text{_A}".
+A_ = """<a href=\""""
+_A_ = """\">"""
+_A = """</a>"""
+
+# Italic f"{I_}text{_i}".
+I_ = """<i>"""
+_I = """</i>"""
+
+# Italic link f"{IA_}url{_IA_}text{_IA}".
+IA_ = f"""{I_}{A_}"""
+_IA_ = f"""{_A_}"""
+_IA = f"""{_I}{_A}"""
+
+# Bold f"{B_}text{_B}".
+B_ = """<b>"""
+_B = """</b>"""
 
 
 
@@ -226,10 +255,10 @@ data = {
 			"title": "Necrominis Mini-Painting Studio",
 			"type": "home",
 			"paragraphs": [
-				"""<mark class="first-paragraph">I'm <mark class="mini-name">Tucker</mark> from <mark class="mini-name">Necrominis</mark>, and I'm a miniature painter hobbyist.</mark>""",
-				"""I first tried painting miniatures in 2015, for the <i><a href="https://dnd.wizards.com/what-is-dnd">Dungeons & Dragons</a></i> tabletop roleplaying game. In 2019, I took on miniature painting as a serious hobby and have been improving my craft every since.""",
-				"""I still paint miniatures for tabletop games like <i><a href="https://dnd.wizards.com/what-is-dnd">D&D</a></i>, <i><a href="https://www.warhammer-community.com/en-us">Warhammer</a></i>, and <i><a href="https://www.fantasyflightgames.com/en/products/star-wars-legion">Star Wars: Legion</a></i>, but now I also paint for the sole purpose of painting beautiful display miniatures, as well.""",
-				"""I've also purchased an <i><a href="https://www.anycubic.com/products/anycubic-photon-s">AnyCubic Photon S</a></i>, in 2020, and have been <mark class="tooltip">3D printing<span class="tip">3D printing is the construction of physical objects from a digital 3D model file.</span></mark> resin miniatures ever since. Most of the models I print are purchased from <i><a href="https://www.myminifactory.com">My Mini Factory</a></i> or from artists I support on <i><a href="https://www.patreon.com">Patreon</a></i>.""",
+				f"""{FP_}I'm {MN_}Tucker{_MN} from {MN_}Necrominis{_MN}, and I'm a miniature painter hobbyist.{_FP}""",
+				f"""I first tried painting miniatures in 2015, for the {IA_}https://dnd.wizards.com/what-is-dnd{_IA_}Dungeons & Dragons{_IA} tabletop roleplaying game. In 2019, I took on miniature painting as a serious hobby and have been improving my craft every since.""",
+				f"""I still paint miniatures for tabletop games like {IA_}https://dnd.wizards.com/what-is-dnd{_IA_}D&D{_IA}, {IA_}https://www.warhammer-community.com/en-us{_IA_}Warhammer{_IA}, and {IA_}https://www.fantasyflightgames.com/en/products/star-wars-legion{_IA_}Star Wars: Legion{_IA}, but now I also paint for the sole purpose of painting beautiful display miniatures, as well.""",
+				f"""I've also purchased an {IA_}https://www.anycubic.com/products/anycubic-photon-s{_IA_}AnyCubic Photon S{_IA}, in 2020, and have been {TT_}3D printing{_TT_}3D printing is the construction of physical objects from a digital 3D model file.{_TT} resin miniatures ever since. Most of the models I print are purchased from {IA_}https://www.myminifactory.com{_IA_}My Mini Factory{_IA} or from artists I support on {IA_}https://www.patreon.com{_IA_}Patreon{_IA}.""",
 			]
 		},
 		# ============================================================================ #
@@ -286,13 +315,13 @@ data = {
 				"necrominis-10-06-2022-raw-4.jpeg",
 			],
 			"paragraphs": [
-				"""<mark class="first-paragraph">A <mark class="mini-name">Soulblight Gravelord Vampire</mark> painted with a necromancy magic scheme.</mark>""",
-				"""The first thing I worked on for this miniature was actually the base. I primed it black and gave it a rough airbrushing of a dark purple. I then wanted to create a glowing effect coming out of the cracks between the stone, so I dry-brushed dark teal around the cracks, then a lighter teal closer to the cracks, and then filled in the cracks with a lime green.""",
-				"""For the actual vampire model, I started with the skin first. I layered from a medium grey to a light grey, but with some purple mixed in, with more purple in the darker tones, and more grey in the lighter tones. I used a similar technique for the wing arms, except using dark teal instead of purple. As for the actual wings, I left them black, dry-brushed dark teal toward the ends, and added a spotty texture to them.""",
-				"""Seeing the rest of the model still black made me realize a dark outfit would fit the best and contrast with the light skin. The armor pieces remained black, but were highlighted toward dark purple and edge highlighted with a similar purple-grey mix from the skin's base coat. The rest of the straps, the mace, and the hair were highlighted similarly with dark to medium greys, as I wanted to avoid using metallic paints for this mini.""",
-				"""The last details were a few gems and a bottle on the vampire's waist. These were painted with the two teal colors and the lime green, to remain coherent with the base.""",
-				"""Finally, I airbrushed the two teal colors onto the model from below, to give the effect that the green light from the base is lighting up the vampire from below. Then I gave it a clear coat of gloss, for protective purposes, and matte for the final finish.""",
-				"""All-in-all, I think this might be my best miniature yet, in terms of the color coherency, the skin shading, and the glow effect. One of my <a href="https://necrominis.github.io/post/10-06-2022/">previous miniatures</a> had a better paint job for the skin, but that was with an airbrush; this miniature's skin was painted by hand, and this one has higher contrast. I do think the wings' spots could be redone, though. I wanted to highlight the horizontal folds in the wings, but they weren't defined enough to catch the edge of my brush, and were too small to highlight by hand. Overall, though, I think this miniature turned out beautifully.""",
+				f"""{FP_}A {MN_}Soulblight Gravelord Vampire{_MN} painted with a necromancy magic scheme.{_FP}""",
+				f"""The first thing I worked on for this miniature was actually the base. I primed it black and gave it a rough airbrushing of a dark purple. I then wanted to create a glowing effect coming out of the cracks between the stone, so I dry-brushed dark teal around the cracks, then a lighter teal closer to the cracks, and then filled in the cracks with a lime green.""",
+				f"""For the actual vampire model, I started with the skin first. I layered from a medium grey to a light grey, but with some purple mixed in, with more purple in the darker tones, and more grey in the lighter tones. I used a similar technique for the wing arms, except using dark teal instead of purple. As for the actual wings, I left them black, dry-brushed dark teal toward the ends, and added a spotty texture to them.""",
+				f"""Seeing the rest of the model still black made me realize a dark outfit would fit the best and contrast with the light skin. The armor pieces remained black, but were highlighted toward dark purple and edge highlighted with a similar purple-grey mix from the skin's base coat. The rest of the straps, the mace, and the hair were highlighted similarly with dark to medium greys, as I wanted to avoid using metallic paints for this mini.""",
+				f"""The last details were a few gems and a bottle on the vampire's waist. These were painted with the two teal colors and the lime green, to remain coherent with the base.""",
+				f"""Finally, I airbrushed the two teal colors onto the model from below, to give the effect that the green light from the base is lighting up the vampire from below. Then I gave it a clear coat of gloss, for protective purposes, and matte for the final finish.""",
+				f"""All-in-all, I think this might be my best miniature yet, in terms of the color coherency, the skin shading, and the glow effect. One of my {A_}https://necrominis.github.io/post/10-06-2022/{_A_}previous miniatures{_A} had a better paint job for the skin, but that was with an airbrush; this miniature's skin was painted by hand, and this one has higher contrast. I do think the wings' spots could be redone, though. I wanted to highlight the horizontal folds in the wings, but they weren't defined enough to catch the edge of my brush, and were too small to highlight by hand. Overall, though, I think this miniature turned out beautifully.""",
 			],
 			"paints-used": [
 				{
