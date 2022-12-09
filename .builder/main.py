@@ -9,6 +9,7 @@ from page_builder import build_page_html
 
 
 # The following are assumed to exist and required for this to work:
+# data['website']
 # data['pages'][page_id]
 
 
@@ -32,6 +33,11 @@ def make_page(page_id: str) -> None:
 # Main method. Loop through every page and make it.
 # ======================================================================================= #
 def main(clean: bool = False, verbose: bool = False, silent: bool = False) -> None:
+	if 'https://' in data['website']:
+		print('GENERATING PRODUCTION WEBSITE')
+	else:
+		print('GENERATING LOCAL DEVELOPMENT WEBSITE')
+
 	print('CREATING PAGES')
 
 	page_ids = data['pages'].keys()
@@ -44,10 +50,10 @@ def main(clean: bool = False, verbose: bool = False, silent: bool = False) -> No
 	for page_id in page_ids:
 		# If specified, print out when each page is made. 
 		if not silent:
-			print(f'./{page_id_to_subpath(page_id)}')
+			print(f'  ./{page_id_to_subpath(page_id)}')
 			if verbose:
-				print(f'    {page_id_to_url(page_id)}')
-				print(f'    {page_id_to_filepath(page_id, True)}')
+				print(f'      {page_id_to_url(page_id)}')
+				print(f'      {page_id_to_filepath(page_id, True)}')
 
 		# Build and create the page file(s).
 		make_page(page_id)
