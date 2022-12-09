@@ -352,6 +352,7 @@ img.icon.inline {
 
 .menu .button {
 	padding: 1em;
+	margin-bottom: 0;
 }
 
 #gallery .button, #properties .button {
@@ -375,6 +376,7 @@ img.icon.inline {
 	border-radius: 1.5em;
 	margin-right: var(--border-radius);
 	margin-top: 0.25em;
+	margin-bottom: 0.25em;
 	transition: all var(--transition-speed);
 }
 
