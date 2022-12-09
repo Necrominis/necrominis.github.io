@@ -485,7 +485,7 @@ data = {
 				"models": [
 					{
 						"text": "Soulblight Gravelord",
-						"url": "https://www.games-workshop.com/en-US/WHU-The-Crimson-Court-EN-2021"
+						"url": "https://www.games-workshop.com/en-US/solblight-gravelords-the-crimson-court-2022"
 					},
 				],
 			},
