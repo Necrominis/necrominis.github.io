@@ -135,7 +135,7 @@ data = {
 		},
 		"kitbash": {
 			"text": "Kitbash",
-			"color": "grey",
+			"color": "white",
 			"linked-page": "gallery",
 		},
 		"technique-testing": {
@@ -145,7 +145,7 @@ data = {
 		},
 		"wip": {
 			"text": "Work in Progress",
-			"color": "grey",
+			"color": "white",
 			"linked-page": "gallery",
 		},
 	},
