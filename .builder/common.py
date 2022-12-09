@@ -184,11 +184,7 @@ def page_id_to_url(page_id: str) -> str:
 	website = data['website']
 	page_subpath = page_id_to_subpath(page_id)
 
-	url = f'{website}{page_subpath}{page_id}/'
-
-	# Prevent .../paints/my-paints/
-	if page_id in ['home', 'gallery', 'my-paints', 'my-supplies']:
-		url = f'{website}{page_subpath}'
+	url = f'{website}{page_subpath}'
 
 	return url
 
