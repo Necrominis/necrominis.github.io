@@ -399,6 +399,7 @@ img.icon.inline {
 .button-container .button.logo {
 	padding: 0em;
 	margin-top: 0;
+	margin-bottom: 0;
 }
 
 .button-container .button.logo img, .button-container .button.icon img {
