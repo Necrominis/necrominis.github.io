@@ -881,21 +881,31 @@ img.icon.inline {
 .gallery-item {
 	display: none;
 	float: left;
-	width: calc(25% - 1rem); /* Large screen: gallery has 4 columns. */
 	border-radius: var(--corner-radius);
 	padding: 0.5rem;
 }
 
-/* Medium screen: gallery has 2 columns. */
+/* Large screen: gallery has 4 columns when wide or 2 columns when thin. */
+.full-width .gallery-item {
+	width: calc(25% - 1rem);
+}
+.gallery-item {
+	width: calc(50% - 1rem);
+}
+
+/* Medium screen: gallery has 2 columns when wide or 1 column when thin. */
 @media only screen and (max-width: 1200px) {
-	.gallery-item {
+	.full-width .gallery-item {
 		width: calc(50% - 1rem);
+	}
+	.gallery-item {
+		width: calc(100% - 1rem);
 	}
 }
 
 /* Small screen: gallery has 1 column. */
 @media only screen and (max-width: 600px) {
-	.gallery-item {
+	.full-width .gallery-item, .gallery-item {
 		width: calc(100% - 1rem);
 	}
 }
