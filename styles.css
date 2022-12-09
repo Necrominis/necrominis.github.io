@@ -873,14 +873,14 @@ img.icon.inline {
 }
 
 /* Medium screen: gallery has 2 columns. */
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 1200px) {
 	.gallery-item {
 		width: calc(50% - 1rem);
 	}
 }
 
 /* Small screen: gallery has 1 column. */
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 600px) {
 	.gallery-item {
 		width: calc(100% - 1rem);
 	}
