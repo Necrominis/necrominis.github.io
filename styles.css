@@ -788,6 +788,14 @@ img.icon.inline {
 	margin: 1rem 0;
 }
 
+.callout p:first-child {
+	margin-top: 0;
+}
+
+.callout p:last-child {
+	margin-bottom: 0;
+}
+
 /* TOGGLE */
 
 .toggle {

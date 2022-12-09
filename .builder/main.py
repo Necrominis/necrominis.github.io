@@ -19,7 +19,7 @@ from page_builder import build_page_html
 # ======================================================================================= #
 def make_page(page_id: str) -> None:
 	page_html = build_page_html(page_id)
-	page_html = pretty_html(page_html)
+	page_html = linear_html(page_html)
 	
 	page_filepath = page_id_to_filepath(page_id, True)
 

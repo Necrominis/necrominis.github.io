@@ -33,20 +33,34 @@ from common import *
 
 
 
-# Build the paragraphs HTML for page.
+# Build the list of paragraphs HTML for page.
 # ======================================================================================= #
 def build_paragraphs_html(page_id: str) -> str:
+	paragraphs = data['pages'][page_id]['paragraphs']
+
+	# Go through each paragraph line, build the HTML, and combine them.
+	paragraphs_html = ''
+	for paragraph in paragraphs:
+		paragraph_html = read_html_file('paragraph.html')
+		paragraph_html = paragraph_html.replace('<!--PARAGRAPH-->', paragraph)
+		paragraphs_html += paragraph_html
+
+	return paragraphs_html
+
+
+
+
+
+# Build the paragraphs section HTML for page.
+# ======================================================================================= #
+def build_paragraphs_section_html(page_id: str) -> str:
 	paragraphs = data['pages'][page_id]['paragraphs']
 
 	# Get the starter paragraphs HTML.
 	paragraphs_html = read_html_file('paragraphs.html')
 
 	# Go through each paragraph line, build the HTML, and combine them.
-	paragraph_lines_html = ''
-	for paragraph in paragraphs:
-		paragraph_html = read_html_file('paragraph.html')
-		paragraph_html = paragraph_html.replace('<!--PARAGRAPH-->', paragraph)
-		paragraph_lines_html += paragraph_html
+	paragraph_lines_html = build_paragraphs_html(page_id)
 
 	# Add the paragraph lines HTML into the final paragraphs HTML and return it.
 	paragraphs_html = paragraphs_html.replace('<!--PARAGRAPHS-->', paragraph_lines_html)
@@ -318,7 +332,7 @@ def build_post_article_content_html(page_id: str) -> str:
 	article_content = article_content.replace('<!--SLIDESHOW-->', slideshow_html)
 
 	# Get the paragraphs HTML and add it to the article content HTML.
-	paragraphs_html = build_paragraphs_html(page_id)
+	paragraphs_html = build_paragraphs_section_html(page_id)
 	article_content = article_content.replace('<!--PARAGRAPHS-->', paragraphs_html)
 
 	# Get the paints-used HTML and add it to the article content HTML.
@@ -533,8 +547,18 @@ def build_gallery_article_content_html(page_id: str) -> str:
 # Build the article content HTML for the home page.
 # ======================================================================================= #
 def build_home_article_content_html(page_id: str) -> str:
-	# TODO
-	return ''
+	# Get the startre home article content HTML.
+	home_html = read_html_file('home-article-content.html')
+
+	# Build and add the paragraphs HTML.
+	paragraphs_html = build_paragraphs_html(page_id)
+	home_html = home_html.replace('<!--PARAGRAPHS-->', paragraphs_html)
+
+	# Build and add the gallery HTML.
+	gallery_html = build_gallery_html('gallery')
+	home_html = home_html.replace('<!--GALLERY-->', gallery_html)
+
+	return home_html
 
 
 
