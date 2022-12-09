@@ -59,8 +59,6 @@ def build_paragraphs_html(page_id: str) -> str:
 # Build the paragraphs section HTML for page.
 # ======================================================================================= #
 def build_paragraphs_section_html(page_id: str) -> str:
-	paragraphs = data['pages'][page_id]['paragraphs']
-
 	# Get the starter paragraphs HTML.
 	paragraphs_html = read_html_file('paragraphs.html')
 
