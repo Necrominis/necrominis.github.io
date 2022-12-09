@@ -215,7 +215,7 @@ def build_paint_item_html(paint_id: str) -> str:
 	# Get the paint color data.
 	color_text = paint['text']
 	# Get the final paint data. (TODO: page and official-name)
-	icon = paint['icon']
+	icon = f"{paint_id}.png"
 	url = paint['url']
 	paint_name = f'{brand_text} / {line_text} / {color_text}'
 

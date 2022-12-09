@@ -1,6 +1,15 @@
 # Make sure to always use trailing commas!
 # Dates are YYYY-MM-DD!
-
+# Paint orders are:
+# - Vallejo colors (white to black, red to purple).
+# - Vallejo metallics.
+# - Vallejo washes & inks.
+# - Citadel colors.
+# - Citadel metallics.
+# - Citadel contrasts.
+# - Citadel shades.
+# - Citadel technicals and textures.
+# - Primers, varnishes, and paint additives.
 
 
 
@@ -238,14 +247,174 @@ data = {
 	},
 
 	"paints": {
+		"vallejo-model-color-white": {
+			"text": "White",
+			"brand": "vallejo",
+			"line": "model-color",
+			"official-name": "Vallejo Model Color 70.951 White",
+			"url": "https://acrylicosvallejo.com/en/product/hobby/model-color-en/white-70951/",
+		},
+		"vallejo-game-color-dead-white": {
+			"text": "Dead White",
+			"brand": "vallejo",
+			"line": "game-color",
+			"official-name": "Vallejo Game Color 72.001 Dead White",
+			"url": "https://acrylicosvallejo.com/en/product/hobby/game-color-en/dead-white-72001/",
+		},
+		"vallejo-model-color-off-white": {
+			"text": "Off-White",
+			"brand": "vallejo",
+			"line": "model-color",
+			"official-name": "Vallejo Model Color 70.820 Off-White",
+			"url": "https://acrylicosvallejo.com/en/product/hobby/model-color-en/off-white-70820/",
+		},
+		"vallejo-game-color-wolf-grey": {
+			"text": "Wolf Grey",
+			"brand": "vallejo",
+			"line": "game-color",
+			"official-name": "Vallejo Game Color 72.047 Wolf Grey",
+			"url": "https://acrylicosvallejo.com/en/product/hobby/game-color-en/wolf-grey-72047/",
+		},
+		"vallejo-model-color-medium-sea-grey": {
+			"text": "Medium Sea Grey",
+			"brand": "vallejo",
+			"line": "model-color",
+			"official-name": "Vallejo Model Color 70.870 Medium Sea Grey",
+			"url": "https://acrylicosvallejo.com/en/product/hobby/model-color-en/medium-sea-grey-70870/",
+		},
+		"vallejo-model-color-neutral-grey": {
+			"text": "Neutral Grey",
+			"brand": "vallejo",
+			"line": "model-color",
+			"official-name": "Vallejo Model Color 70.992 Neutral Grey",
+			"url": "https://acrylicosvallejo.com/en/product/hobby/model-color-en/neutral-grey-70992/",
+		},
+		"vallejo-game-color-sombre-grey": {
+			"text": "Sombre Grey",
+			"brand": "vallejo",
+			"line": "game-color",
+			"official-name": "Vallejo Game Color 72.048 Sombre Grey",
+			"url": "https://acrylicosvallejo.com/en/product/hobby/game-color-en/sombre-grey-72048/",
+		},
+		"vallejo-model-color-intermediate-blue": {
+			"text": "Intermediate Blue",
+			"brand": "vallejo",
+			"line": "model-color",
+			"official-name": "Vallejo Model Color 70.903 Intermediate Blue",
+			"url": "https://acrylicosvallejo.com/en/product/hobby/model-color-en/intermediate-blue-70903/",
+		},
 		"vallejo-model-color-black": {
 			"text": "Black",
 			"brand": "vallejo",
 			"line": "model-color",
-			"icon": "vallejo-model-color-black.png",
 			"official-name": "Vallejo Model Color 70.950 Black",
 			"url": "https://acrylicosvallejo.com/en/product/hobby/model-color-en/black-70950/",
-		}
+		},
+		"vallejo-model-color-flat-red": {
+			"text": "Flat Red",
+			"brand": "vallejo",
+			"line": "model-color",
+			"official-name": "Vallejo Model Color 70.957 Flat Red",
+			"url": "https://acrylicosvallejo.com/en/product/hobby/model-color-en/flat-red-70957/",
+		},
+		"vallejo-game-color-gory-red": {
+			"text": "Gory Red",
+			"brand": "vallejo",
+			"line": "game-color",
+			"official-name": "Vallejo Game Color 72.011 Gory Red",
+			"url": "https://acrylicosvallejo.com/en/product/hobby/game-color-en/gory-red-72011/",
+		},
+		"vallejo-model-color-hull-red": {
+			"text": "Hull Red",
+			"brand": "vallejo",
+			"line": "model-color",
+			"official-name": "Vallejo Model Color 70.985 Hull Red",
+			"url": "https://acrylicosvallejo.com/en/product/hobby/model-color-en/hull-red-70985/",
+		},
+		"vallejo-game-color-terracotta": {
+			"text": "Terracotta",
+			"brand": "vallejo",
+			"line": "game-color",
+			"official-name": "Vallejo Game Color 72.065 Terracotta",
+			"url": "https://acrylicosvallejo.com/en/product/hobby/game-color-en/terracotta-72065/",
+		},
+		"vallejo-game-color-hot-orange": {
+			"text": "Hot Orange",
+			"brand": "vallejo",
+			"line": "game-color",
+			"official-name": "Vallejo Game Color 72.009 Hot Orange",
+			"url": "https://acrylicosvallejo.com/en/product/hobby/game-color-en/hot-orange-72009/",
+		},
+		"vallejo-model-color-clear-orange": {
+			"text": "Clear Orange",
+			"brand": "vallejo",
+			"line": "model-color",
+			"official-name": "Vallejo Model Color 70.956 Clear Orange",
+			"url": "https://acrylicosvallejo.com/en/product/hobby/model-color-en/clear-orange-70956/",
+		},
+		"vallejo-game-color-pale-flesh": {
+			"text": "Pale Flesh",
+			"brand": "vallejo",
+			"line": "game-color",
+			"official-name": "Vallejo Game Color 72.003 Pale Flesh",
+			"url": "https://acrylicosvallejo.com/en/product/hobby/game-color-en/pale-flesh-72003/",
+		},
+		"vallejo-model-color-flat-flesh": {
+			"text": "Flat Flesh",
+			"brand": "vallejo",
+			"line": "model-color",
+			"official-name": "Vallejo Model Color 70.995 Flat Flesh",
+			"url": "https://acrylicosvallejo.com/en/product/hobby/model-color-en/flat-flesh-70955/",
+		},
+		"vallejo-game-color-charred-brown": {
+			"text": "Charred Brown",
+			"brand": "vallejo",
+			"line": "game-color",
+			"official-name": "Vallejo Game Color 72.045 Charred Brown",
+			"url": "https://acrylicosvallejo.com/en/product/hobby/game-color-en/charred-brown-72045/",
+		},
+		"vallejo-model-color-flat-brown": {
+			"text": "Flat Brown",
+			"brand": "vallejo",
+			"line": "model-color",
+			"official-name": "Vallejo Model Color 70.984 Flat Brown",
+			"url": "https://acrylicosvallejo.com/en/product/hobby/model-color-en/flat-brown-70984/",
+		},
+		"vallejo-game-color-beasty-brown": {
+			"text": "Beasty Brown",
+			"brand": "vallejo",
+			"line": "game-color",
+			"official-name": "Vallejo Game Color 72.043 Beasty Brown",
+			"url": "https://acrylicosvallejo.com/en/product/hobby/game-color-en/beasty-brown-72043/",
+		},
+		"vallejo-game-color-orange-fire": {
+			"text": "Orange Fire",
+			"brand": "vallejo",
+			"line": "game-color",
+			"official-name": "Vallejo Game Color 72.008 Orange Fire",
+			"url": "https://acrylicosvallejo.com/en/product/hobby/game-color-en/orange-fire-72008/",
+		},
+		"vallejo-game-color-scrofulous-brown": {
+			"text": "Scrofulous Brown",
+			"brand": "vallejo",
+			"line": "game-color",
+			"official-name": "Vallejo Game Color 72.038 Scrofulous Brown",
+			"url": "https://acrylicosvallejo.com/en/product/hobby/game-color-en/scrofulous-brown-72038/",
+		},
+		"vallejo-model-color-buff": {
+			"text": "Buff",
+			"brand": "vallejo",
+			"line": "model-color",
+			"official-name": "Vallejo Model Color 70.976 Buff",
+			"url": "https://acrylicosvallejo.com/en/product/hobby/model-color-en/buff-70976/",
+		},
+		"vallejo-model-color-yellow-ochre": {
+			"text": "Yellow Ochre",
+			"brand": "vallejo",
+			"line": "model-color",
+			"official-name": "Vallejo Model Color 70.913 Yellow Ochre",
+			"url": "https://acrylicosvallejo.com/en/product/hobby/model-color-en/yellow-ochre-70913/",
+		},
 	},
 
 	# ============================================================================ #
@@ -336,64 +505,19 @@ data = {
 				f"""All-in-all, I think this might be my best miniature yet, in terms of the color coherency, the skin shading, and the glow effect. One of my {A_}https://necrominis.github.io/post/2022-03-15/{_A_}previous miniatures{_A} had a better paint job for the skin, but that was with an airbrush; this miniature's skin was painted by hand, and this one has higher contrast. I do think the wings' spots could be redone, though. I wanted to highlight the horizontal folds in the wings, but they weren't defined enough to catch the edge of my brush, and were too small to highlight by hand. Overall, though, I think this miniature turned out beautifully.""",
 			],
 			"paints-used": [
+				"vallejo-game-color-wolf-grey",
+				"vallejo-model-color-medium-sea-grey",
+				"vallejo-game-color-sombre-grey",
 				"vallejo-model-color-black",
-				"",
-				# {
-				# 	"brand": "vallejo",
-				# 	"line": "game-color",
-				# 	"color": "sombre-grey",
-				# },
-				# {
-				# 	"brand": "vallejo",
-				# 	"line": "model-color",
-				# 	"color": "medium-sea-grey",
-				# },
-				# {
-				# 	"brand": "vallejo",
-				# 	"line": "game-color",
-				# 	"color": "wolf-grey",
-				# },
-				# {
-				# 	"brand": "vallejo",
-				# 	"line": "model-color",
-				# 	"color": "lime-green",
-				# },
-				# {
-				# 	"brand": "vallejo",
-				# 	"line": "model-color",
-				# 	"color": "park-green-flat",
-				# },
-				# {
-				# 	"brand": "vallejo",
-				# 	"line": "game-color",
-				# 	"color": "scurvy-green",
-				# },
-				# {
-				# 	"brand": "vallejo",
-				# 	"line": "game-color",
-				# 	"color": "heavy-violet",
-				# },
-				# "break",
-				# {
-				# 	"brand": "vallejo",
-				# 	"line": "surface-primer",
-				# 	"color": "black",
-				# },
-				# {
-				# 	"brand": "krylon",
-				# 	"line": "spray",
-				# 	"color": "matte-finish",
-				# },
-				# {
-				# 	"brand": "vallejo",
-				# 	"line": "auxiliary",
-				# 	"color": "gloss-acrylic-varnish",
-				# },
-				# {
-				# 	"brand": "liquitex",
-				# 	"line": "acrylic-medium",
-				# 	"color": "flow-aid",
-				# },
+				# "vallejo-model-color-lime-green",
+				# "vallejo-model-color-park-green-flat",
+				# "vallejo-game-color-scurvy-green",
+				# "vallejo-game-color-heavy-violet",
+				# "",
+				# "vallejo-surface-primer-black",
+				# "krylon-spray-matte-finish",
+				# "vallejo-auxiliary-gloss-acrylic-varnish",
+				# "liquitex-acrylic-medium-flow-aid",
 			],
 		},
 	},
