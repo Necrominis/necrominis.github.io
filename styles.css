@@ -374,7 +374,7 @@ img.icon.inline {
 	text-align: center;
 	border-radius: 1.5em;
 	margin-right: var(--border-radius);
-	margin-top: 0.25em;
+	margin-top: 0.5em;
 	transition: all var(--transition-speed);
 }
 
