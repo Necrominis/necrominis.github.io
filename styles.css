@@ -847,6 +847,7 @@ img.icon.inline {
 	text-align: left;
 	font-weight: normal;
 	padding-right: 1rem;
+	width: 10rem; /* Fit "Manufacturer(s)" without line breaking. */
 }
 
 #properties td {
