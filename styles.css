@@ -310,14 +310,14 @@ hr {
 
 /* LINKS */
 
-a, a:visited {
+a, a:visited, a b, a:visited b, a i a:visited i {
 	color: var(--link);
 	text-decoration: none;
 	border-bottom: var(--link-border) solid var(--thin-line-thickness);
 	transition: all var(--transition-speed);
 }
 
-a:hover, a:visited:hover {
+a:hover, a:visited:hover, a:hover b, a:visited:hover b, a:hover i, a:visited:hover i {
 	color: var(--link-2);
 	border-color: var(--link-border-2);
 }
