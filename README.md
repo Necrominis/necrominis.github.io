@@ -80,5 +80,4 @@ Changes the current working directory within the script to the given path. The p
 * `build_paint_article_content_html()`
 * `build_supplies_article_content_html()`
 * `build_supply_article_content_html()`
-* `build_gallery_article_content_html()`
 * `build_home_article_content_html()`
