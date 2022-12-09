@@ -50,12 +50,12 @@ data = {
 		},
 		"star-wars-legion": {
 			"text": "Star Wars: Legion",
-			"color": "white",
+			"color": "blue",
 			"linked-page": "gallery",
 		},
 		"star-wars": {
 			"text": "Star Wars",
-			"color": "blue",
+			"color": "yellow",
 			"linked-page": "gallery",
 		},
 		"superhero": {
@@ -75,17 +75,17 @@ data = {
 		},
 		"display": {
 			"text": "Display",
-			"color": "grey",
+			"color": "pink",
 			"linked-page": "gallery",
 		},
 		"bust": {
 			"text": "Bust",
-			"color": "grey",
+			"color": "orange",
 			"linked-page": "gallery",
 		},
 		"tabletop": {
 			"text": "Tabletop",
-			"color": "grey",
+			"color": "brown",
 			"linked-page": "gallery",
 		},
 		"kitbash": {
@@ -95,7 +95,7 @@ data = {
 		},
 		"technique-testing": {
 			"text": "Technique Testing",
-			"color": "grey",
+			"color": "green",
 			"linked-page": "gallery",
 		},
 		"wip": {
