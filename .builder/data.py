@@ -328,7 +328,62 @@ data = {
 					"line": "model-color",
 					"color": "black",
 				},
+				{
+					"brand": "vallejo",
+					"line": "game-color",
+					"color": "sombre-grey",
+				},
+				{
+					"brand": "vallejo",
+					"line": "model-color",
+					"color": "medium-sea-grey",
+				},
+				{
+					"brand": "vallejo",
+					"line": "game-color",
+					"color": "wolf-grey",
+				},
+				{
+					"brand": "vallejo",
+					"line": "model-color",
+					"color": "lime-green",
+				},
+				{
+					"brand": "vallejo",
+					"line": "model-color",
+					"color": "park-green-flat",
+				},
+				{
+					"brand": "vallejo",
+					"line": "game-color",
+					"color": "scurvy-green",
+				},
+				{
+					"brand": "vallejo",
+					"line": "game-color",
+					"color": "heavy-violet",
+				},
 				"break",
+				{
+					"brand": "vallejo",
+					"line": "surface-primer",
+					"color": "black",
+				},
+				{
+					"brand": "krylon",
+					"line": "spray",
+					"color": "matte-finish",
+				},
+				{
+					"brand": "vallejo",
+					"line": "auxiliary",
+					"color": "gloss-acrylic-varnish",
+				},
+				{
+					"brand": "liquitex",
+					"line": "acrylic-medium",
+					"color": "flow-aid",
+				},
 			],
 		},
 	},
