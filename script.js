@@ -132,6 +132,8 @@ function updateGalleryFilters() {
 		activeGalleryTagIds.push('all');
 	}
 
+
+
 	// Show/hide gallery items based on filter tag IDs.
 	let galleryItems = document.querySelectorAll('#gallery-items .gallery-item');
 	for (let i = 0; i < galleryItems.length; i++) {
@@ -147,9 +149,19 @@ function updateGalleryFilters() {
 	}
 }
 
-// Uncheck all if wip is selected.
+// Uncheck all filter if anything else is selected.
 function deactivateAllFilter() {
 	allFilter.classList.remove('active');
+	updateGalleryFilters();
+}
+
+// Uncheck all other filfers if all is selected.
+function deactivateAllOtherFilters() {
+	for (let i = 0; i < galleryFilters.length; i++) {
+		if (!galleryFilters[i].classList.contains('all')) {
+			galleryFilters[i].classList.remove('active');
+		}
+	}
 	updateGalleryFilters();
 }
 
