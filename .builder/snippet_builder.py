@@ -392,11 +392,124 @@ def build_supply_article_content_html(page_id: str) -> str:
 
 
 
+# Build the filters HTML for a gallery.
+# ======================================================================================= #
+def build_gallery_filters_html(page_id: str) -> str:
+	tags = data['tags']
+
+	# Get gallery filters starter HTML.
+	gallery_filters_html = read_html_file('gallery-filters.html')
+
+	# Go through each filter and add it to a list of filters.
+	filters_html = ''
+	for tag_id in tags.keys():
+		# Get the tag filter data.
+		tag_text = tags[tag_id]['text']
+		tag_color = tags[tag_id]['color']
+
+		# Build the filter HTML.
+		filter_html = read_html_file('gallery-filter.html')
+		filter_html = filter_html.replace('<!--COLOR-->', tag_color)
+		filter_html = filter_html.replace('<!--ID-->', tag_id)
+		filter_html = filter_html.replace('<!--NAME-->', tag_text)
+
+		# Add the filter HTML to the filters HTML.
+		filters_html += filter_html
+	
+	# Add the filters HTML to the gallery filters HTML.
+	gallery_filters_html = gallery_filters_html.replace('<!--FILTERS-->', filters_html)
+
+	return gallery_filters_html
+
+
+
+
+
+# Build the items HTML for a gallery.
+# ======================================================================================= #
+def build_gallery_items_html(page_id: str) -> str:
+	gallery_page = data['pages'][page_id]
+	page_ids = gallery_page['pages']
+
+	# Get gallery starter HTML.
+	gallery_items_html = read_html_file('gallery-items.html')
+
+	# Get the gallery items starter HTML.
+	gallery_items_html = read_html_file('gallery-items.html')
+
+	# Go through each item and add a list of items.
+	items_html = ''
+	for item_page_id in page_ids:
+		# Get the page (gallery item) data.
+		page = data['pages'][item_page_id]
+		page_url = page_id_to_url(item_page_id)
+		page_tag_ids = page['properties']['tags']
+
+		# Pick either the first page image, or the default no-image.
+		page_image = 'no-image.jpeg'
+		if len(page['images']) > 0:
+			page_image = page['images'][0]
+
+		# Build the starter gallery item HTML, and add the image and URL.
+		item_html = read_html_file('gallery-item.html')
+		item_html = item_html.replace('<!--URL-->', page_url)
+		item_html = item_html.replace('<!--IMAGE-->', page_image)
+
+		# Get the filter tags CSS for the item's page.
+		tags_css = 'all '
+		for tag_id in page_tag_ids:
+			tags_css += f'{tag_id} '
+		tags_css = tags_css[:len(tags_css)-1] # Remove trailing space.
+		# Include WIP alone, and don't show it in any other filters.
+		if 'wip' in page_tag_ids:
+			tags_css = 'wip'
+		
+		# Add the filter tags CSS to the HTML.
+		item_html = item_html.replace('<!--FILTERS-->', tags_css)
+
+		# Add the item HTML to the items list HTML.
+		items_html += item_html
+
+	# Add the items HTML to the gallery items HTML.
+	gallery_items_html = gallery_items_html.replace('<!--ITEMS-->', items_html)
+
+	return gallery_items_html
+
+
+
+
+
+# Build a gallery HTML.
+# ======================================================================================= #
+def build_gallery_html(page_id: str) -> str:
+	# Get gallery starter HTML.
+	gallery_html = read_html_file('gallery.html')
+
+	# Build and add the filters HTML to the gallery HTML.
+	gallery_filters_html = build_gallery_filters_html(page_id)
+	gallery_html = gallery_html.replace('<!--FILTERS-->', gallery_filters_html)
+
+	# Build and add the items HTML to the gallery HTML.
+	gallery_items_html = build_gallery_items_html(page_id)
+	gallery_html = gallery_html.replace('<!--ITEMS-->', gallery_items_html)
+
+	return gallery_html
+
+
+
+
+
 # Build the article content HTML for the gallery page.
 # ======================================================================================= #
 def build_gallery_article_content_html(page_id: str) -> str:
-	# TODO
-	return ''
+	# Get gallery starter HTML.
+	gallery_article_content_html = read_html_file('gallery-article-content.html')
+
+	# Build the gallery HTML and place it into the article content HTML
+	gallery_html = build_gallery_html(page_id)
+	gallery_article_content_html = gallery_article_content_html.replace('<!--GALLERY-->', gallery_html)
+
+	return gallery_article_content_html
 
 
 
