@@ -15,6 +15,12 @@ from data import data
 
 
 
+UNFINISHED = "This website is still under construction, so this content is missing or unfinished."
+
+
+
+
+
 # Read a file and return its content.
 # ======================================================================================= #
 def read_file(filepath: str) -> str:

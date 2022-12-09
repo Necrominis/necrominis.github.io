@@ -357,7 +357,7 @@ def build_post_article_content_html(page_id: str) -> str:
 # ======================================================================================= #
 def build_paints_article_content_html(page_id: str) -> str:
 	# TODO
-	return ''
+	return UNFINISHED
 
 
 
@@ -367,7 +367,7 @@ def build_paints_article_content_html(page_id: str) -> str:
 # ======================================================================================= #
 def build_paint_article_content_html(page_id: str) -> str:
 	# TODO
-	return ''
+	return UNFINISHED
 
 
 
@@ -385,7 +385,7 @@ def build_paint_article_content_html(page_id: str) -> str:
 # ======================================================================================= #
 def build_supplies_article_content_html(page_id: str) -> str:
 	# TODO
-	return ''
+	return UNFINISHED
 
 
 
@@ -395,7 +395,7 @@ def build_supplies_article_content_html(page_id: str) -> str:
 # ======================================================================================= #
 def build_supply_article_content_html(page_id: str) -> str:
 	# TODO
-	return ''
+	return UNFINISHED
 
 
 
