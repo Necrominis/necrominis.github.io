@@ -114,6 +114,7 @@ function toggleGalleryFilter(filter) {
 
 let galleryFilters = document.querySelectorAll('#gallery-filters .filter');
 let allFilter = document.querySelector('#gallery-filters .filter.all');
+let wipFilter = document.querySelector('#gallery-filters .filter.wip');
 
 function updateGalleryFilters() {
 	// Get the filter tag IDs.
@@ -144,6 +145,18 @@ function updateGalleryFilters() {
 			}
 		}
 	}
+}
+
+// Uncheck all if wip is selected.
+function deactivateAllFilter() {
+	allFilter.classList.remove('active');
+	updateGalleryFilters();
+}
+
+// Uncheck wip if all is selected.
+function deactivateWipFilter() {
+	wipFilter.classList.remove('active');
+	updateGalleryFilters();
 }
 
 // Gallery image lazy loading (use <img loading="lazy"> instead).

@@ -1,4 +1,5 @@
 <section id="gallery-filters" class="button-container">
-	<span class="filter button blue all" data-filter="all" onclick="toggleGalleryFilter(this)">All</span>
+	<span class="filter button blue all" data-filter="all" onclick="toggleGalleryFilter(this); deactivateWipFilter()">All</span>
 	<!--FILTERS-->
+	<span class="filter button grey wip" data-filter="wip" onclick="toggleGalleryFilter(this); deactivateAllFilter()">Work in Progress</span>
 </section>

@@ -6,6 +6,9 @@ from common import *
 
 
 # The following are assumed to exist and required for this to work:
+# data['tags'][tag_id]['text']
+# data['tags'][tag_id]['color']
+# data['pages']['gallery']['pages']
 # data['pages'][page_id]['properties']
 # data['pages'][page_id]['properties']['tags'][tag_id]
 # data['pages'][page_id]['properties']['tags'][tag_id]['text']
@@ -403,6 +406,10 @@ def build_gallery_filters_html(page_id: str) -> str:
 	# Go through each filter and add it to a list of filters.
 	filters_html = ''
 	for tag_id in tags.keys():
+		# Skip the WIP tag, since it's custom-made.
+		if tag_id == 'wip':
+			continue
+
 		# Get the tag filter data.
 		tag_text = tags[tag_id]['text']
 		tag_color = tags[tag_id]['color']

@@ -50,7 +50,7 @@ data = {
 		},
 		"star-wars-legion": {
 			"text": "Star Wars: Legion",
-			"color": "grey",
+			"color": "white",
 			"linked-page": "gallery",
 		},
 		"star-wars": {

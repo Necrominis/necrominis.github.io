@@ -32,12 +32,12 @@
 </section>
 <section id="gallery">
 <section id="gallery-filters" class="button-container">
-<span class="filter button blue all" data-filter="all" onclick="toggleGalleryFilter(this)">All</span>
+<span class="filter button blue all" data-filter="all" onclick="toggleGalleryFilter(this); deactivateWipFilter()">All</span>
 <span class="filter button red" data-filter="dungeons-and-dragons" onclick="toggleGalleryFilter(this)">Dungeons & Dragons</span>
 <span class="filter button blue" data-filter="warhammer-40k" onclick="toggleGalleryFilter(this)">Warhammer: 40,000</span>
 <span class="filter button yellow" data-filter="warhammer-age-of-sigmar" onclick="toggleGalleryFilter(this)">Warhammer: Age of Sigmar</span>
 <span class="filter button red" data-filter="warhammer-underworlds" onclick="toggleGalleryFilter(this)">Warhammer: Underworlds</span>
-<span class="filter button grey" data-filter="star-wars-legion" onclick="toggleGalleryFilter(this)">Star Wars: Legion</span>
+<span class="filter button white" data-filter="star-wars-legion" onclick="toggleGalleryFilter(this)">Star Wars: Legion</span>
 <span class="filter button blue" data-filter="star-wars" onclick="toggleGalleryFilter(this)">Star Wars</span>
 <span class="filter button red" data-filter="superhero" onclick="toggleGalleryFilter(this)">Superhero</span>
 <span class="filter button green" data-filter="fantasy" onclick="toggleGalleryFilter(this)">Fantasy</span>
@@ -47,7 +47,7 @@
 <span class="filter button grey" data-filter="tabletop" onclick="toggleGalleryFilter(this)">Tabletop</span>
 <span class="filter button grey" data-filter="kitbash" onclick="toggleGalleryFilter(this)">Kitbash</span>
 <span class="filter button grey" data-filter="technique-testing" onclick="toggleGalleryFilter(this)">Technique Testing</span>
-<span class="filter button grey" data-filter="wip" onclick="toggleGalleryFilter(this)">Work in Progress</span>
+<span class="filter button grey wip" data-filter="wip" onclick="toggleGalleryFilter(this); deactivateAllFilter()">Work in Progress</span>
 </section>
 <section id="gallery-items">
 <div class="gallery-item" data-filter="all warhammer-underworlds fantasy tabletop">
