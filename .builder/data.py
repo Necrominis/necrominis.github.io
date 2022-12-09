@@ -265,7 +265,7 @@ data = {
 		},
 		# ============================================================================ #
 		"my-paints": {
-			"title": "My Paints",
+			"title": "My Paint Collection",
 			"type": "my-paints",
 			"lists": {
 				"vallejo": {
@@ -278,7 +278,7 @@ data = {
 		},
 		# ============================================================================ #
 		"my-supplies": {
-			"title": "My Supplies",
+			"title": "My Hobby Supplies",
 			"type": "my-supplies",
 			"lists": {
 
