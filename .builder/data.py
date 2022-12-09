@@ -223,27 +223,29 @@ data = {
 	#                                    PAINTS                                    #
 	# ============================================================================ #
 
-	"paints": {
-		"separator": " / ",
-		"brands": {
-			"vallejo": {
-				"text": "Vallejo",
-				"lines": {
-					"model-color": {
-						"text": "Model Color",
-						"colors": {
-							"black": {
-								"text": "Black",
-								"icon": "vallejo-model-color-black.png",
-								"page": "vallejo-model-color-black",
-								"official-name": "Vallejo Model Color 70.950 Black",
-								"url": "https://acrylicosvallejo.com/en/product/hobby/model-color-en/black-70950/",
-							}
-						},
-					},
+	"paint-brands": {
+		"vallejo": {
+			"text": "Vallejo",
+			"lines": {
+				"model-color": {
+					"text": "Model Color",
+				},
+				"game-color": {
+					"text": "Game Color",
 				},
 			},
 		},
+	},
+
+	"paints": {
+		"vallejo-model-color-black": {
+			"text": "Black",
+			"brand": "vallejo",
+			"line": "model-color",
+			"icon": "vallejo-model-color-black.png",
+			"official-name": "Vallejo Model Color 70.950 Black",
+			"url": "https://acrylicosvallejo.com/en/product/hobby/model-color-en/black-70950/",
+		}
 	},
 
 	# ============================================================================ #
@@ -265,11 +267,22 @@ data = {
 		"my-paints": {
 			"title": "My Paints",
 			"type": "my-paints",
+			"lists": {
+				"vallejo": {
+					"text": "Vallejo Paints",
+					"paints": [
+						"vallejo-model-color-black",
+					],
+				},
+			},
 		},
 		# ============================================================================ #
 		"my-supplies": {
 			"title": "My Supplies",
 			"type": "my-supplies",
+			"lists": {
+
+			},
 		},
 		# ============================================================================ #
 		"gallery": {
@@ -323,67 +336,64 @@ data = {
 				f"""All-in-all, I think this might be my best miniature yet, in terms of the color coherency, the skin shading, and the glow effect. One of my {A_}https://necrominis.github.io/post/2022-03-15/{_A_}previous miniatures{_A} had a better paint job for the skin, but that was with an airbrush; this miniature's skin was painted by hand, and this one has higher contrast. I do think the wings' spots could be redone, though. I wanted to highlight the horizontal folds in the wings, but they weren't defined enough to catch the edge of my brush, and were too small to highlight by hand. Overall, though, I think this miniature turned out beautifully.""",
 			],
 			"paints-used": [
-				{
-					"brand": "vallejo",
-					"line": "model-color",
-					"color": "black",
-				},
-				{
-					"brand": "vallejo",
-					"line": "game-color",
-					"color": "sombre-grey",
-				},
-				{
-					"brand": "vallejo",
-					"line": "model-color",
-					"color": "medium-sea-grey",
-				},
-				{
-					"brand": "vallejo",
-					"line": "game-color",
-					"color": "wolf-grey",
-				},
-				{
-					"brand": "vallejo",
-					"line": "model-color",
-					"color": "lime-green",
-				},
-				{
-					"brand": "vallejo",
-					"line": "model-color",
-					"color": "park-green-flat",
-				},
-				{
-					"brand": "vallejo",
-					"line": "game-color",
-					"color": "scurvy-green",
-				},
-				{
-					"brand": "vallejo",
-					"line": "game-color",
-					"color": "heavy-violet",
-				},
-				"break",
-				{
-					"brand": "vallejo",
-					"line": "surface-primer",
-					"color": "black",
-				},
-				{
-					"brand": "krylon",
-					"line": "spray",
-					"color": "matte-finish",
-				},
-				{
-					"brand": "vallejo",
-					"line": "auxiliary",
-					"color": "gloss-acrylic-varnish",
-				},
-				{
-					"brand": "liquitex",
-					"line": "acrylic-medium",
-					"color": "flow-aid",
-				},
+				"vallejo-model-color-black",
+				"",
+				# {
+				# 	"brand": "vallejo",
+				# 	"line": "game-color",
+				# 	"color": "sombre-grey",
+				# },
+				# {
+				# 	"brand": "vallejo",
+				# 	"line": "model-color",
+				# 	"color": "medium-sea-grey",
+				# },
+				# {
+				# 	"brand": "vallejo",
+				# 	"line": "game-color",
+				# 	"color": "wolf-grey",
+				# },
+				# {
+				# 	"brand": "vallejo",
+				# 	"line": "model-color",
+				# 	"color": "lime-green",
+				# },
+				# {
+				# 	"brand": "vallejo",
+				# 	"line": "model-color",
+				# 	"color": "park-green-flat",
+				# },
+				# {
+				# 	"brand": "vallejo",
+				# 	"line": "game-color",
+				# 	"color": "scurvy-green",
+				# },
+				# {
+				# 	"brand": "vallejo",
+				# 	"line": "game-color",
+				# 	"color": "heavy-violet",
+				# },
+				# "break",
+				# {
+				# 	"brand": "vallejo",
+				# 	"line": "surface-primer",
+				# 	"color": "black",
+				# },
+				# {
+				# 	"brand": "krylon",
+				# 	"line": "spray",
+				# 	"color": "matte-finish",
+				# },
+				# {
+				# 	"brand": "vallejo",
+				# 	"line": "auxiliary",
+				# 	"color": "gloss-acrylic-varnish",
+				# },
+				# {
+				# 	"brand": "liquitex",
+				# 	"line": "acrylic-medium",
+				# 	"color": "flow-aid",
+				# },
 			],
 		},
 	},
