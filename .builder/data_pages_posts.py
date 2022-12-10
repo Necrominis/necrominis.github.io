@@ -5,6 +5,7 @@ from data_common import FP_, _FP, MN_, _MN, TT_, _TT_, _TT, A_, _A_, _A, I_, _I,
 
 
 # Make sure to always use trailing commas!
+# Always add newest posts to the top!
 # Dates are YYYY-MM-DD!
 
 
@@ -56,7 +57,6 @@ posts = {
 			"vallejo-model-color-park-green-flat",
 			"vallejo-game-color-scurvy-green",
 			"vallejo-game-color-heavy-violet",
-			"",
 			# "vallejo-surface-primer-black",
 			# "krylon-spray-matte-finish",
 			# "vallejo-auxiliary-gloss-acrylic-varnish",

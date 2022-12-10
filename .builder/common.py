@@ -9,10 +9,15 @@ from data import data
 
 # The following are assumed to exist and required for this to work:
 # data['website']
+# data['pages'][page_id]['index']
 # data['pages'][page_id]['type']
 # data['pages'][page_id]['type'] == 'home' or 'gallery' or 'post' or 'my-paints' or 'paint' or 'my-supplies' or 'supplies'
+# data['paints'] is sorted
 # data['paints'][paint_id]['index']
+# data['paints'][paint_id]['category']
+# data['supplies'] is sorted
 # data['supplies'][supplies_id]['index']
+# data['supplies'][supplies_id]['category']
 
 
 
@@ -230,10 +235,68 @@ def _sort_list(ids: '[str]', data_dictionary: dict) -> '[str]':
 
 
 
+# Take a list of IDs and return the list sorted, with separators between the categories.
+# ======================================================================================= #
+def _sort_by_category(ids: '[str]', data_dictionary: dict, separators: bool = True) -> '[str]':
+	sorted_ids = _sort_list(ids, data_dictionary)
+
+	# Return without separators if desired, or if list is too short to need separators.
+	if not separators or len(ids) < 2:
+		return sorted_ids
+
+	# Get a list of the paints.
+	items = []
+	for item_id in sorted_ids:
+		items.append(data_dictionary[item_id])
+
+	# Add separators between categories.
+	organized_ids = [ids[0]]
+	previous_item = data_dictionary[ids[0]]
+	for i in len(items) - 1:
+		item = items[i+1]
+		item_id = ids[i+1]
+
+		if item['category'] != previous_item['category']:
+			organized_ids.append('')
+
+		previous_item = item
+		organized_ids.append(item_id)
+
+	return organized_ids
+
+
+
+
+
 # Take a list of paint IDs and return the list sorted.
 # ======================================================================================= #
-def sort_paints(paint_ids: '[str]') -> '[str]':
-	return _sort_list(paint_ids, data['paints'])
+def sort_paints(paint_ids: '[str]', separators: bool = False) -> '[str]':
+	sorted_paint_ids = _sort_by_category(paint_ids, data['paints'], separators)
+	return sorted_paint_ids
+
+
+
+
+
+# Take a list of supplies IDs and return the list sorted.
+# ======================================================================================= #
+def sort_supplies(supplies_ids: '[str]', separators: bool = False) -> '[str]':
+	sorted_supplies_ids = _sort_by_category(supplies_ids, data['supplies'], separators)
+	return sorted_supplies_ids
+
+
+
+
+
+# Take a list of page IDs and return the list sorted.
+# ======================================================================================= #
+def sort_pages(page_ids: '[str]', descending: bool = False) -> '[str]':
+	sorted_page_ids = _sort_list(page_ids, data['pages'])
+
+	if descending:
+		sorted_page_ids = list(reversed(sorted_page_ids))
+
+	return sorted_page_ids
 
 
 

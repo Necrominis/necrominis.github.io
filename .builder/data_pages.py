@@ -59,3 +59,13 @@ pages = {
 }
 
 pages.update(posts)
+
+
+
+
+
+# ============================================================================ #
+_i = 0
+for page_id in pages.keys():
+	pages[page_id]['index'] = _i
+	_i += 1
