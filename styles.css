@@ -552,7 +552,14 @@ img.icon.inline {
 	padding: 0 0.5rem;
 }
 
-/* Medium screens have 2 columns. */
+/* Only display when 1 column. */
+@media only screen and (min-width: 1001px) {
+	.column-container .single-column-only {
+		display: none;
+	}
+}
+
+/* Medium screens have 1 column. */
 @media only screen and (max-width: 1000px) {
 	#article.double-width {
 		max-width: var(--max-page-width);
