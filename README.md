@@ -74,6 +74,7 @@ Changes the current working directory within the script to the given path. The p
 * Implement the directory argument's functionality.
 * Add a related posts gallery below post articles (ideally with the same tags/filters as the post itself).
 * Have paints page get paints automatically, without having to list them specifically.
+* Add a dynamic and easier way to have inline page links in post paragraphs.
 
 ## Data
 

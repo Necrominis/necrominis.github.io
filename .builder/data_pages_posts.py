@@ -63,4 +63,45 @@ posts = {
 			# "liquitex-acrylic-medium-flow-aid",
 		],
 	},
+	# ============================================================================ #
+	"2022-06-09": {
+		"title": "Purple Marble Tile Base",
+		"type": "post",
+		"properties": {
+			"created": "June 9, 2022",
+			"tags": [
+				"technique-testing",
+			],
+			"manufacturers": [
+				"war-base-west",
+			],
+			"models": [
+				{
+					"text": "32mm Round Base",
+					"url": "https://www.amazon.com/Round-Bases-Warhammer-Workshop-Wargame/dp/B0849TR1P1/ref=sr_1_1?crid=3QHZBP0QTVUJL&keywords=lot+of+100+32mm+round+base&qid=1654872587&sprefix=lot%2520of%2520100%252032mm%2520round%2520bases%2Caps%2C80&sr=8-1"
+				},
+			],
+		},
+		"images": [
+			"necrominis-2022-06-09-raw-1.jpeg",
+		],
+		"paragraphs": [
+			f"""{FP_}A {MN_}32 mm Round Base{_MN} painted with a purple and black marble tile effect.{_FP}""",
+			f"""First I scratched the base with some {A_}https://www.amazon.com/Army-Painter-Sculpting-Tools-Double-Sided/dp/B07PVBRQS1{_A_}metal clay sculpting tools{_A} to create a tile or brick pattern on the base, as well as add a few scratches and dents.""",
+			f"""Then I used {A_}https://www.amazon.com/Badger-Air-Brush-Co-Patriot-Airbrush/dp/B002W84GTO/ref=sr_1_1?crid=13TABVFPVOAAP&keywords=badger%2B105%2Bairbrush&qid=1647451154&sprefix=badger%2B105airbrush%2Caps%2C99&sr=8-1&th=1{_A_}my airbrush{_A} to paint the base according to the bright purple colors I wanted for the marble veins. I primed the base black, base coated with {I_}Heavy Violet{_I}, randomly sprayed {I_}Royal Purple{_I} (covering about 2/3 of the base), then randomly sprayed {I_}Purple{_I} (covering about 1/3 of the base).""",
+			f"""Next I stretched out a cotton baby wipe (creating various stretches and small holes), let it dry out next to a fan, then wrapped it over the base. This would create the marble vein pattern by covering up the purple where the veins should be, so I could then paint the marble's stone color.""",
+			f"""I then sprayed the whole base black, and then sprayed it with {I_}Hexed Lichen{_I}, covering almost like a base coat, but with a slightly lighter touch in some areas so it wouldn't appear too flat. Then I removed the baby wipe.""",
+			f"""Finally, I touched up some of the veins with thin lines of {I_}Purple{_I}, painted black in the cracks and tile lines, and did some edge highlighting with {I_}Purple{_I} on each tile. I then painted the base rim black and gave it a clear coat.""",
+			f"""All-in-all, I think the effect turned out perfectly. It looks like some dark purple marble you might see in a necromancer's base of operations. This was my first attempt to test a marble effect that I might use for the armor plates on my upcoming purple {TT_}{I_}Necron{_I}{_TT_}Killer alien robots from {I_}Warhammer: 40,000{_I}.{_TT} army. I think I have the technique down, but it’s too dark for my purposes. I might brighten the black stone parts to be more purple, and get a brighter purple for the veins. It also could use a little more contrast on the veins and edge highlights. I also think it might be worth using a satin or gloss coat, since marble is generally polished and not matte.""",
+		],
+		"paints-used": [
+			"vallejo-model-color-black",
+			"vallejo-model-color-purple",
+			"vallejo-model-color-royal-purple",
+			"vallejo-game-color-hexed-lichen",
+			"vallejo-game-color-heavy-violet",
+			# "vallejo-surface-primer-black",
+			# "vallejo-auxiliary-matt-acrylic-varnish",
+		],
+	},
 }

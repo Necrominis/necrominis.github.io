@@ -19,7 +19,7 @@ from data_pages import *
 
 data = {
 	"website": "https://necrominis.github.io/",
-	#"website": "/home/tucker/dev/necrominis.github.io/",
+	"website-local": "/home/tucker/dev/necrominis.github.io/",
 
 	"image-paths": image_paths,
 
