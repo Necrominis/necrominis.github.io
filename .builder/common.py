@@ -1,5 +1,4 @@
 import os
-from xml.dom import minidom
 from data import data
 
 
