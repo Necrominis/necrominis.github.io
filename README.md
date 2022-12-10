@@ -73,6 +73,20 @@ Changes the current working directory within the script to the given path. The p
 * Implement the clean argument's functionality.
 * Implement the directory argument's functionality.
 * Add a related posts gallery below post articles (ideally with the same tags/filters as the post itself).
+* Have gallery page get posts automatically, without having to list them specifically.
+* Have paints page get paints automatically, without having to list them specifically.
+* Sort posts function.
+* Sort paints function.
+
+## Data
+
+* Add Citadel paints.
+* Add Technical, Texture, and Contrast paints.
+* Add Wash, Shade, and Ink paints.
+* Add Varnish and Additive paints.
+* Add Primer paints.
+* Organize the paints lists.
+* Add the rest of the posts.
 
 ## Code
 
