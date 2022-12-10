@@ -16,7 +16,6 @@ from data_pages import *
 
 
 
-
 data = {
 	"website": "https://necrominis.github.io/",
 	"website-local": "/home/tucker/dev/necrominis.github.io/",
