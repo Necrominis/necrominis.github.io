@@ -28,61 +28,7 @@ pages = {
 		"title": "My Paint Collection",
 		"type": "my-paints",
 		"lists": {
-			"colors": {
-				"text": "Color Paints",
-				"paints": [
-				],
-			},
-			"metallics": {
-				"text": "Metallic Paints",
-				"paints": [
-				],
-			},
-			"washes": {
-				"text": "Washes",
-				"paints": [
-				],
-			},
-			"shades": {
-				"text": "Shades",
-				"paints": [
-				],
-			},
-			"contrasts": {
-				"text": "Contrasts",
-				"paints": [
-				],
-			},
-			"inks": {
-				"text": "Inks",
-				"paints": [
-				],
-			},
-			"technicals": {
-				"text": "Technicals",
-				"paints": [
-				],
-			},
-			"textures": {
-				"text": "Textures",
-				"paints": [
-				],
-			},
-			"varnishes": {
-				"text": "Varnishes",
-				"paints": [
-				],
-			},
-			"additives": {
-				"text": "Additives",
-				"paints": [
-				],
-			},
-			"primers": {
-				"text": "Primers",
-				"paints": [
-				],
-			},
+			
 		},
 	},
 	# ============================================================================ #

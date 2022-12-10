@@ -15,12 +15,39 @@
 
 
 # ============================================================================ #
-paint_categories ={
+paint_categories = {
 	"colors": {
-		"text": "Colors",
+		"text": "Color Paints",
 	},
 	"metallics": {
-		"text": "Metallics",
+		"text": "Metallic Paints",
+	},
+	"washes": {
+		"text": "Washes",
+	},
+	"shades": {
+		"text": "Shades",
+	},
+	"contrasts": {
+		"text": "Contrasts",
+	},
+	"inks": {
+		"text": "Inks",
+	},
+	"technicals": {
+		"text": "Technicals",
+	},
+	"textures": {
+		"text": "Textures",
+	},
+	"varnishes": {
+		"text": "Varnishes",
+	},
+	"additives": {
+		"text": "Additives",
+	},
+	"primers": {
+		"text": "Primers",
 	},
 }
 
@@ -486,3 +513,23 @@ metallics = {
 paints = {}
 paints.update(colors)
 paints.update(metallics)
+
+
+
+
+
+# ============================================================================ #
+_i = 0
+for category_id in paint_categories.keys():
+	paint_categories[category_id]['index'] = _i
+	_i += 1
+
+_i = 0
+for brand_id in paint_brands.keys():
+	paint_brands[brand_id]['index'] = _i
+	_i = 0
+
+_i = 0
+for paint_id in paints.keys():
+	paints[paint_id]['index'] = _i
+	_i += 1

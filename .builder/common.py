@@ -1,5 +1,6 @@
 import os
 from xml.dom import minidom
+from collections import OrderedDict
 from data import data
 
 
@@ -10,6 +11,8 @@ from data import data
 # data['website']
 # data['pages'][page_id]['type']
 # data['pages'][page_id]['type'] == 'home' or 'gallery' or 'post' or 'my-paints' or 'paint' or 'my-supplies' or 'supplies'
+# data['paints'][paint_id]['index']
+# data['supplies'][supplies_id]['index']
 
 
 
@@ -193,6 +196,44 @@ def page_id_to_url(page_id: str) -> str:
 	url = f'{website}{page_subpath}'
 
 	return url
+
+
+
+
+
+# Take a list of IDs and return the list sorted.
+# ======================================================================================= #
+def _sort_list(ids: '[str]', data_dictionary: dict) -> '[str]':
+	all_ids = data_dictionary.keys()
+
+	# Create a list of tuples with index and ID.
+	sorted_tuples = []
+	for id in all_ids:
+		# Skip empty items and items not in the original list.
+		if id == '' or not id in ids:
+			continue
+
+		index = data_dictionary[id]['index']
+		sorted_tuples.append((index, id))
+	
+	# Sort the list of tuples.
+	sorted_tuples.sort()
+
+	# Replace the sorted lists's tuples with just the IDs.
+	sorted_ids = []
+	for _index, id in sorted_tuples:
+		sorted_ids.append(id)
+
+	return sorted_ids
+
+
+
+
+
+# Take a list of paint IDs and return the list sorted.
+# ======================================================================================= #
+def sort_paints(paint_ids: '[str]') -> '[str]':
+	return _sort_list(paint_ids, data['paints'])
 
 
 

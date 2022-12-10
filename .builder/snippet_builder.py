@@ -235,6 +235,27 @@ def build_paint_item_html(paint_id: str) -> str:
 
 # Build the paints-used HTML for a post page.
 # ======================================================================================= #
+def build_paints_list_html(paint_ids: '[str]') -> str:
+	# GO through each paint, build the list item HTML, and combine them.
+	paint_items_html = ''
+	for paint_id in paint_ids:
+		# Place breaks between paints if a paint item is empty.
+		if paint_id == '':
+			paint_items_html += read_html_file('paints-used-separator.html')
+			continue
+
+		# Build the paint item HTML and add it to the list.
+		paint_item_html = build_paint_item_html(paint_id)
+		paint_items_html += paint_item_html
+	
+	return paint_items_html
+
+
+
+
+
+# Build the paints-used HTML for a post page.
+# ======================================================================================= #
 def build_paints_used_html(page_id: str) -> str:
 	paints_used_ids = data['pages'][page_id]['paints-used']
 
@@ -242,16 +263,7 @@ def build_paints_used_html(page_id: str) -> str:
 	paints_used_html = read_html_file('paints-used.html')
 
 	# GO through each paint, build the list item HTML, and combine them.
-	paint_items_html = ''
-	for paint_used_id in paints_used_ids:
-		# Place breaks between paints if a paint item is empty.
-		if paint_used_id == '' or paint_used_id == {} or paint_used_id == None or paint_used_id == "break" or paint_used_id == "br":
-			paint_items_html += read_html_file('paints-used-separator.html')
-			continue
-
-		# Build the paint item HTML and add it to the list.
-		paint_item_html = build_paint_item_html(paint_used_id)
-		paint_items_html += paint_item_html
+	paint_items_html = build_paints_list_html(paints_used_ids)
 
 	# Add the paint items HTML to the final paints-used HTML and return it.
 	paints_used_html = paints_used_html.replace('<!--PAINTS-->', paint_items_html)
