@@ -15,7 +15,7 @@ from data import data
 
 
 
-UNFINISHED = "This website is still under construction, so this content is missing or unfinished."
+UNFINISHED = "<p>This website is still under construction, so this content is missing or unfinished.<p>"
 
 
 
