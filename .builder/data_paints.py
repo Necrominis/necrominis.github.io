@@ -1,14 +1,6 @@
 # Make sure to always use trailing commas!
-# Paint orders are:
-# - Vallejo colors (white to black, red to purple).
-# - Vallejo metallics.
-# - Vallejo washes & inks.
-# - Citadel colors.
-# - Citadel metallics.
-# - Citadel contrasts.
-# - Citadel shades.
-# - Citadel technicals and textures.
-# - Primers, varnishes, and paint additives.
+# Paint orders are the same as category orders!
+# Paint colors arw white to black and red to purple!
 
 
 
@@ -23,22 +15,16 @@ paint_categories = {
 		"text": "Metallic Paints",
 	},
 	"washes": {
-		"text": "Washes",
-	},
-	"shades": {
-		"text": "Shades",
+		"text": "Washes & Shades",
 	},
 	"contrasts": {
-		"text": "Contrasts",
+		"text": "Contrast Paints",
 	},
 	"inks": {
 		"text": "Inks",
 	},
 	"technicals": {
-		"text": "Technicals",
-	},
-	"textures": {
-		"text": "Textures",
+		"text": "Texture & Technical Paints",
 	},
 	"varnishes": {
 		"text": "Varnishes",
@@ -510,9 +496,79 @@ metallics = {
 
 
 # ============================================================================ #
+washes = {
+	
+}
+
+
+
+
+
+# ============================================================================ #
+contrasts = {
+
+}
+
+
+
+
+
+# ============================================================================ #
+inks = {
+
+}
+
+
+
+
+
+# ============================================================================ #
+technicals = {
+
+}
+
+
+
+
+
+# ============================================================================ #
+varnishes = {
+
+}
+
+
+
+
+
+# ============================================================================ #
+additives = {
+
+}
+
+
+
+
+
+# ============================================================================ #
+primers = {
+
+}
+
+
+
+
+
+# ============================================================================ #
 paints = {}
 paints.update(colors)
 paints.update(metallics)
+paints.update(washes)
+paints.update(contrasts)
+paints.update(inks)
+paints.update(technicals)
+paints.update(varnishes)
+paints.update(additives)
+paints.update(primers)
 
 
 
