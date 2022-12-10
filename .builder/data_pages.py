@@ -44,21 +44,21 @@ pages = {
 		"title": "Gallery",
 		"type": "gallery",
 		"pages": [
-			"2022-06-10",
-			"2022-06-10",
-			"2022-06-10",
-			"2022-06-10",
-			"2022-06-10",
-			"2022-06-10",
-			"2022-06-10",
-			"2022-06-10",
-			"2022-06-10",
-			"2022-06-10",
+			# Added with code below.
 		],
 	},
 }
 
 pages.update(posts)
+
+
+
+
+
+# Populate gallery pages list with all post-type pages.
+# ============================================================================ #
+for post_id in posts.keys():
+	pages['gallery']['pages'].append(post_id)
 
 
 
