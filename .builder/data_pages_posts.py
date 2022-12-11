@@ -1,4 +1,4 @@
-from data_common import FP_, _FP, NBP_, _NBP
+from data_common import NBP_, _NBP
 from data_common import *
 
 
@@ -42,7 +42,7 @@ posts = {
 			"necrominis-2022-06-10-raw-4.jpeg",
 		],
 		"paragraphs": [
-			f"""{FP_}A [[Soulblight Gravelord Vampire]] painted with a necromancy magic scheme.{_FP}""",
+			f""":A [[Soulblight Gravelord Vampire]] painted with a necromancy magic scheme.""",
 			
 			f"""The first thing I worked on for this miniature was actually the base. I primed it black and gave it a rough airbrushing of a dark purple. I then wanted to create a glowing effect coming out of the cracks between the stone, so I dry-brushed dark teal around the cracks, then a lighter teal closer to the cracks, and then filled in the cracks with a lime green.""",
 			
@@ -94,7 +94,7 @@ posts = {
 			"necrominis-2022-06-09-raw-1.jpeg",
 		],
 		"paragraphs": [
-			f"""{FP_}A [[32 mm Round Base]] painted with a purple and black marble tile effect.{_FP}""",
+			f""":A [[32 mm Round Base]] painted with a purple and black marble tile effect.""",
 			
 			f"""First I scratched the base with some [metal clay sculpting tools](https://www.amazon.com/Army-Painter-Sculpting-Tools-Double-Sided/dp/B07PVBRQS1) to create a tile or brick pattern on the base, as well as add a few scratches and dents.""",
 			

@@ -14,6 +14,25 @@ from printer import *
 
 
 
+# Process the mini-names and highlights using markdown-ish syntax.
+# Example: :paragraph
+# ======================================================================================= #
+def _process_first_paragraph(paragraph: str) -> str:
+	processed_paragraph = paragraph
+
+	# Find every highlight syntax and replace it with link HTML.
+	first_paragraph_pattern = regex.compile(r'^:(.*$)', regex.U)
+	for match in first_paragraph_pattern.finditer(paragraph):
+		whole_paragraph = match.groups()[0]
+		processed_paragraph = processed_paragraph.replace(f':{whole_paragraph}', f'<mark class="first-paragraph">{whole_paragraph}</mark>', 1)
+		break
+
+	return processed_paragraph
+
+
+
+
+
 # Process the links using markdown syntax.
 # Must be done after bold processing.
 # Example: *text*
@@ -128,6 +147,7 @@ def _process_links(paragraph: str) -> str:
 def process_paragraph(paragraph: str) -> str:
 	processed_paragraph = paragraph
 
+	processed_paragraph = _process_first_paragraph(processed_paragraph)
 	processed_paragraph = _process_bolds(processed_paragraph)
 	processed_paragraph = _process_italics(processed_paragraph)
 	processed_paragraph = _process_highlights(processed_paragraph)
