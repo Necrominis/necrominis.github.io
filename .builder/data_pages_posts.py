@@ -6,6 +6,7 @@ from data_common import *
 
 
 # Make sure to always use trailing commas!
+# Press Alt+Z to toggle word-wrap when typing paragraphs!
 # Always add newest posts to the top!
 # Dates are YYYY-MM-DD!
 

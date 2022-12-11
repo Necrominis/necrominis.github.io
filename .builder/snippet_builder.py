@@ -46,8 +46,12 @@ def build_paragraphs_html(page_id: str) -> str:
 	# Go through each paragraph line, build the HTML, and combine them.
 	paragraphs_html = ''
 	for paragraph in paragraphs:
+		# Remove newlines and tabs from paragraph (so data can be multi-lined without breaking things).
+		single_lined_paragraph = paragraph.replace('\n', '').replace('\t', '')
+
+		# Build and add the paragraph HTML.
 		paragraph_html = read_html_file('paragraph.html')
-		paragraph_html = paragraph_html.replace('<!--PARAGRAPH-->', paragraph)
+		paragraph_html = paragraph_html.replace('<!--PARAGRAPH-->', single_lined_paragraph)
 		paragraphs_html += paragraph_html
 
 	return paragraphs_html
