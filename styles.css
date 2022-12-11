@@ -223,7 +223,19 @@ h3, h4, h5, h6 {
 	font-size: var(--small-header-size);
 }
 
-mark {
+i, .italic {
+	font-size: inherit;
+	color: inherit;
+	font-style: italic;
+}
+
+b, .bold {
+	font-size: inherit;
+	color: inherit;
+	font-weight: bold;
+}
+
+mark, span {
 	color: inherit;
 	background-color: transparent;
 }
@@ -355,14 +367,14 @@ mark {
 
 /* LINKS */
 
-a, a:visited, a b, a:visited b, a i a:visited i {
+a, a:visited {
 	color: var(--link);
 	text-decoration: none;
 	border-bottom: var(--link-border) solid var(--thin-line-thickness);
 	transition: all var(--transition-speed);
 }
 
-a:hover, a:visited:hover, a:hover b, a:visited:hover b, a:hover i, a:visited:hover i {
+a:hover, a:visited:hover {
 	color: var(--link-2);
 	border-color: var(--link-border-2);
 }

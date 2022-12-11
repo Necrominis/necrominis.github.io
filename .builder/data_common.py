@@ -12,11 +12,6 @@ _NBP = """</mark>"""
 MN_ = """<mark class="mini-name">"""
 _MN = """</mark>"""
 
-# Tooltip f"""{TT_}text{_TT_}description{_TT}""".
-TT_ = """<mark class="tooltip">"""
-_TT_ = """<span class="tip">"""
-_TT = """</span></mark>"""
-
 # Italic f"""{I_}text{_i}""".
 I_ = """<i>"""
 _I = """</i>"""
@@ -27,4 +22,4 @@ _B = """</b>"""
 
 # ============================================================================ #
 
-THREE_D_PRINTING = """3D printing is the construction of physical objects from a digital 3D model file."""
+THREE_D_PRINTING = """3D printing is the construction of physical objects from a digital 3D model file, using a machine called a 3D printer."""

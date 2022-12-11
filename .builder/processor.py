@@ -15,6 +15,24 @@ from printer import *
 
 
 # Process the links using markdown syntax:
+# Example: [text]T(tip)
+# ======================================================================================= #
+def _process_tooltips(paragraph: str) -> str:
+	processed_paragraph = paragraph
+
+	# Find every tooltip syntax and replace it with link HTML.
+	tooltip = regex.compile(r'\[([^][]+)?\]T\((.*?)\)', regex.U)
+	for match in tooltip.finditer(paragraph):
+		text, tip = match.groups()
+		processed_paragraph = processed_paragraph.replace(f'[{text}]T({tip})', f'<mark class="tooltip">{text}<span class="tip">{tip}</span></mark>', 1)
+
+	return processed_paragraph
+
+
+
+
+
+# Process the links using markdown syntax:
 # Example: [text](url)
 # Example: [text](page_id)
 # ======================================================================================= #
@@ -48,6 +66,9 @@ def process_paragraph(paragraph: str) -> str:
 	processed_paragraph = paragraph
 
 	# Process links.
-	processed_paragraph = _process_links(paragraph)
+	processed_paragraph = _process_links(processed_paragraph)
+
+	# Process tooltips.
+	processed_paragraph = _process_tooltips(processed_paragraph)
 	
 	return processed_paragraph
