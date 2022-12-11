@@ -217,7 +217,7 @@ def build_paint_item_html(paint_id: str) -> str:
 	# Get the final paint data. (TODO: page and official-name)
 	icon = f"{paint_id}.png"
 	url = paint['url']
-	paint_name = f'{brand_text} / {line_text} / {color_text}'
+	paint_name = f'{brand_text}{separator}{line_text}{separator}{color_text}'
 
 	# Get the paint item starter HTML.
 	paint_item_html = read_html_file('paint-item.html')

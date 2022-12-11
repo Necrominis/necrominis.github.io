@@ -24,6 +24,7 @@ from data import data
 
 
 UNFINISHED = "<p>This website is still under construction, so this content is missing or unfinished.<p>"
+separator = ' - '
 
 
 

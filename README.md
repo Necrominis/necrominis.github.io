@@ -75,6 +75,7 @@ Changes the current working directory within the script to the given path. The p
 * Add a related posts gallery below post articles (ideally with the same tags/filters as the post itself).
 * Have paints page get paints automatically, without having to list them specifically.
 * Add a dynamic and easier way to have inline page links in post paragraphs.
+* Add custom 404 page.
 
 ## Data
 
@@ -83,7 +84,6 @@ Changes the current working directory within the script to the given path. The p
 * Add Wash, Shade, and Ink paints.
 * Add Varnish and Additive paints.
 * Add Primer paints.
-* Organize the paints lists.
 * Add the rest of the posts.
 
 ## Code
