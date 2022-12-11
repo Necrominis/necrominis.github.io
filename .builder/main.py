@@ -1,5 +1,6 @@
 import os
 import sys
+import re as regex
 from data import data
 from common import *
 from page_builder import build_page_html
@@ -36,9 +37,10 @@ def make_page(page_id: str) -> None:
 
 
 
-# Main method. Loop through every page and make it.
+# Loop through every page and make it.
 # ======================================================================================= #
-def main(clean: bool = False, verbose: bool = False, silent: bool = False) -> None:
+def make_pages() -> None:
+	# Print out starting text.
 	if 'https://' in data['website']:
 		print('GENERATING PRODUCTION WEBSITE')
 	else:
@@ -47,10 +49,6 @@ def main(clean: bool = False, verbose: bool = False, silent: bool = False) -> No
 	print('CREATING PAGES')
 
 	page_ids = data['pages'].keys()
-
-	# If specified, delete all the old pages first.
-	if clean:
-		pass # TODO
 
 	# Make all the pages.
 	for page_id in page_ids:
@@ -64,7 +62,42 @@ def main(clean: bool = False, verbose: bool = False, silent: bool = False) -> No
 		# Build and create the page file(s).
 		make_page(page_id)
 	
-	print('DONE')
+	# Print out finished text.
+	print('DONE CREATING PAGES')
+
+
+
+
+
+# Post-process the data and fix paragraphs.
+# ======================================================================================= #
+def process_data() -> None:
+	# Paragraph Parsing.
+	for page in data['pages']:
+		if page['paragraphs']:
+			for paragraph in page['paragraphs']:
+				# Process links.
+				link_pattern = regex.compile(r'\[([^][]+)?\]\((.*?)\)', regex.U)
+				for match in link_pattern.finditer(paragraph):
+					link_text, link_page_id = match.groups()
+					paragraph = paragraph.replace(f'[{link_text}]({link_page_id})', f'<a href="{page_id_to_url(link_page_id)}">{link_text}</a>', 1)
+
+
+
+
+
+# Main method.
+# ======================================================================================= #
+def main(clean: bool = False, verbose: bool = False, silent: bool = False) -> None:
+	# If specified, delete all the old pages first.
+	if clean:
+		pass # TODO
+
+	# Process data (fix markdown links, etc.).
+	process_data()
+
+	# Generate all the page files.
+	make_pages()
 
 
 
