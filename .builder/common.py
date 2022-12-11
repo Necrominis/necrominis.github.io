@@ -1,7 +1,7 @@
 import os
 from xml.dom import minidom
-from collections import OrderedDict
 from data import data
+from printer import *
 
 
 
@@ -35,7 +35,7 @@ separator = ' - '
 def read_file(filepath: str) -> str:
 	# Ensure the filepath exists before reading from it.
 	if not os.path.exists(filepath):
-		print(f'ERROR: Trying to read from nonexistant file: {filepath}')
+		print_error(f'Trying to read from nonexistant file: {filepath}')
 		return ''
 
 	# Read the file and return its content.
@@ -151,7 +151,7 @@ def page_id_to_subpath(page_id: str) -> str:
 	elif page_type_id == 'home':
 		page_subpath = ''
 	else:
-		print(f'ERROR: Page type ID \'{page_type_id}\' not implemented.')
+		print_error(f'Page type ID \'{page_type_id}\' not implemented.')
 	
 	return page_subpath
 
@@ -306,4 +306,4 @@ def sort_pages(page_ids: '[str]', descending: bool = False) -> '[str]':
 # Don't allow running this as the main file. Run main.py instead.
 # ======================================================================================= #
 if __name__ == '__main__':
-	print('ERROR: Run \'main.py\' instead.')
+	print_error('Run \'main.py\' instead.')

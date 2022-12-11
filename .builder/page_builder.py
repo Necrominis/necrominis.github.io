@@ -1,5 +1,6 @@
 from data import data
 from common import *
+from printer import *
 from snippet_builder import *
 
 
@@ -76,7 +77,7 @@ def build_article_html(page_id: str) -> str:
 	elif page_type_id == 'home':
 		article_content_html = build_home_article_content_html(page_id)
 	else:
-		print(f'ERROR: Page type ID \'{page_type_id}\' not implemented.')
+		print_error(f'Page type ID \'{page_type_id}\' not implemented.')
 
 	article_html = article_html.replace('<!--CONTENT-->', article_content_html)
 
@@ -115,4 +116,4 @@ def build_page_html(page_id: str) -> str:
 # Don't allow running this as the main file. Run main.py instead.
 # ======================================================================================= #
 if __name__ == '__main__':
-	print('ERROR: Run \'main.py\' instead.')
+	print_error('Run \'main.py\' instead.')

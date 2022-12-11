@@ -23,7 +23,7 @@ pages = {
 			
 			f"""I first tried painting miniatures in 2015, for the {I_}[Dungeons & Dragons](https://dnd.wizards.com/what-is-dnd){_I} tabletop roleplaying game. In 2019, I took on miniature painting as a serious hobby and have been improving my craft every since.""",
 			
-			f"""I still paint miniatures for tabletop games like {I_}[D&D](https://dnd.wizards.com/what-is-dnd){_I}, {I_}[Warhemmer](https://www.warhammer-community.com/en-us){_I}, and {I_}[Star Wars: Legion](https://www.fantasyflightgames.com/en/products/star-wars-legion){_I}, but now I also paint for the sole purpose of painting beautiful display miniatures, as well.""",
+			f"""I still paint miniatures for tabletop games like {I_}[D&D](https://dnd.wizards.com/what-is-dnd){_I}, {I_}[Warhammer](https://www.warhammer-community.com/en-us){_I}, and {I_}[Star Wars: Legion](https://www.fantasyflightgames.com/en/products/star-wars-legion){_I}, but now I also paint for the sole purpose of painting beautiful display miniatures, as well.""",
 			
 			f"""I've also purchased an {I_}[AnyCubic Photon S](https://www.anycubic.com/products/anycubic-photon-s){_I}, in 2020, and have been {TT_}3D printing{_TT_}{THREE_D_PRINTING}{_TT} resin miniatures ever since. Most of the models I print are purchased from {I_}[My Mini Factory](https://www.myminifactory.com){_I} or from artists I support on {I_}[Patreon](https://www.patreon.com){_I}.""",
 		]

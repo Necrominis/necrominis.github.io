@@ -1,6 +1,7 @@
 from data import data
 from common import *
-
+from printer import *
+from processor import *
 
 
 
@@ -48,6 +49,9 @@ def build_paragraphs_html(page_id: str) -> str:
 	for paragraph in paragraphs:
 		# Remove newlines and tabs from paragraph (so data can be multi-lined without breaking things).
 		single_lined_paragraph = paragraph.replace('\n', '').replace('\t', '')
+
+		# Process markdown in paragraph.
+		single_lined_paragraph = process_paragraph(single_lined_paragraph)
 
 		# Build and add the paragraph HTML.
 		paragraph_html = read_html_file('paragraph.html')
@@ -582,4 +586,4 @@ def build_home_article_content_html(page_id: str) -> str:
 # Don't allow running this as the main file. Run main.py instead.
 # ======================================================================================= #
 if __name__ == '__main__':
-	print('ERROR: Run \'main.py\' instead.')
+	print_error('Run \'main.py\' instead.')
