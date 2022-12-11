@@ -179,7 +179,7 @@ def _process_links(paragraph: str) -> str:
 		link_text, link_url = match.groups()
 		# Link to a page ID, if it's not a normal URL.
 		new_url = link_url
-		if not 'https://' in link_url:
+		if not is_web_url(link_url):
 			
 			# Check page ID link.
 			if link_url in page_ids:

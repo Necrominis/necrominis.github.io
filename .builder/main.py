@@ -67,7 +67,7 @@ def make_pages(verbose: bool = False, silent: bool = False) -> None:
 # ======================================================================================= #
 def main(clean: bool = False, verbose: bool = False, silent: bool = False) -> None:
 	# Print out starting text.
-	if 'https://' in data['website']:
+	if is_web_url(data['website']):
 		print_good('GENERATING PRODUCTION WEBSITE')
 	else:
 		print_warning('GENERATING LOCAL DEVELOPMENT WEBSITE')

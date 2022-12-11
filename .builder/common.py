@@ -318,6 +318,18 @@ def sort_pages(page_ids: '[str]', descending: bool = False) -> '[str]':
 
 
 
+# Take a list of page IDs and return the list sorted.
+# ======================================================================================= #
+def is_web_url(url: str) -> bool:
+	for check in ['http', 'www.', '.com', '.net', '.io', 'org']:
+		if check in url:
+			return True
+	return False
+
+
+
+
+
 # Don't allow running this as the main file. Run main.py instead.
 # ======================================================================================= #
 if __name__ == '__main__':
