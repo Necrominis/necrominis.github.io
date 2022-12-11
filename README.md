@@ -74,16 +74,16 @@ Changes the current working directory within the script to the given path. The p
 * Implement the directory argument's functionality.
 * Add a related posts gallery below post articles (ideally with the same tags/filters as the post itself).
 * Have paints page get paints automatically, without having to list them specifically.
-* Add a dynamic and easier way to have inline page links in post paragraphs.
-* Add custom 404 page.
 
 ## Data
 
-* Add Citadel paints.
-* Add Technical, Texture, and Contrast paints.
-* Add Wash, Shade, and Ink paints.
-* Add Varnish and Additive paints.
-* Add Primer paints.
+* Add the rest of the paints.
+	* Add Citadel paints.
+	* Add Technical, Texture, and Contrast paints.
+	* Add Wash, Shade, and Ink paints.
+	* Add Varnish and Additive paints.
+	* Add Primer paints.
+* Add the rest of the supplies.
 * Add the rest of the posts.
 
 ## Code
