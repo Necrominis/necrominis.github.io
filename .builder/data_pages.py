@@ -1,4 +1,3 @@
-from data_common import NBP_, _NBP
 from data_common import *
 from data_pages_posts import *
 

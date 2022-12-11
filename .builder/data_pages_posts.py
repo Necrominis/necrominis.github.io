@@ -1,4 +1,3 @@
-from data_common import NBP_, _NBP
 from data_common import *
 
 
@@ -106,7 +105,7 @@ posts = {
 			
 			f"""Finally, I touched up some of the veins with thin lines of *Purple*, painted black in the cracks and tile lines, and did some edge highlighting with *Purple* on each tile. I then painted the base rim black and gave it a clear coat.""",
 			
-			f"""All-in-all, I think the effect turned out perfectly. It looks like some dark purple marble you might see in a necromancer's base of operations. This was my first attempt to test a marble effect that I might use for the armor plates on my upcoming purple [*Necron*]T(Killer alien robots from *Warhammer: 40,000*.) army. I think I have the technique down, but it's too dark for my purposes. I might brighten the black stone parts to be more purple, and get a brighter purple for the veins. It also could use a little more contrast on the veins and edge highlights. I also think it might be worth using a satin or gloss coat, since marble is generally polished and not matte.""",
+			f"""All-in-all, I think the effect turned out perfectly. It looks like some dark purple marble you might see in a necromancer's base of operations. This was my first attempt to test a marble effect that I might use for the armor plates on my upcoming purple [*Necron*]T(Necrons are a species of alien killer robots from the fictional world of *Warhammer: 40,000*.) army. I think I have the technique down, but it's too dark for my purposes. I might brighten the black stone parts to be more purple, and get a brighter purple for the veins. It also could use a little more contrast on the veins and edge highlights. I also think it might be worth using a satin or gloss coat, since marble is generally polished and not matte.""",
 		],
 		"paints-used": [
 			"vallejo-model-color-black",
