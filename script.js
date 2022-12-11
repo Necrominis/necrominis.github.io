@@ -2,6 +2,7 @@ window.onload = function () {
 	let slideIndex = 1;
 	showSlides(slideIndex);
 	updateGalleryFilters();
+	toggleDropdownsBasedOnWidth();
 }
 
 // SLIDESHOW
@@ -117,6 +118,10 @@ let allFilter = document.querySelector('#gallery-filters .filter.all');
 let wipFilter = document.querySelector('#gallery-filters .filter.wip');
 
 function updateGalleryFilters() {
+	if (galleryFilters.length == 0) {
+		return;
+	}
+
 	// Get the filter tag IDs.
 	let activeGalleryTagIds = [];
 	for (let i = 0; i < galleryFilters.length; i++) {
@@ -169,6 +174,17 @@ function deactivateAllOtherFilters() {
 function deactivateWipFilter() {
 	wipFilter.classList.remove('active');
 	updateGalleryFilters();
+}
+
+// Toggle properties and paints-used is starting on a wide screen.
+function toggleDropdownsBasedOnWidth() {
+	let viewWidth = Math.max(document.documentElement.clientWidth || 0, window.innerWidth || 0);
+	if (viewWidth > 1000) {
+		let toggles = document.querySelectorAll('details');
+		for (let i = 0; i < toggles.length; i++) {
+			toggles[i].open = true;
+		}
+	}
 }
 
 // Gallery image lazy loading (use <img loading="lazy"> instead).
