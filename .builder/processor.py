@@ -14,15 +14,59 @@ from printer import *
 
 
 
-# Process the links using markdown syntax:
+# Process the links using markdown syntax.
+# Must be done after bold processing.
+# Example: *text*
+# Example: _text_
+# ======================================================================================= #
+def _process_italics(paragraph: str) -> str:
+	processed_paragraph = paragraph
+
+	# Find every *italic* syntax and replace it with link HTML.
+	italic_pattern = regex.compile(r'\*(\S{1}|\S{1}.*?\S{1})\*', regex.U)
+	for match in italic_pattern.finditer(paragraph):
+		text = match.groups()
+		processed_paragraph = processed_paragraph.replace(f'*{text}*', f'<i>{text}</i>', 1)
+
+	# Find every _italic_ syntax and replace it with link HTML.
+	italic_pattern_2 = regex.compile(r'\_(\S{1}|\S{1}.*?\S{1})\_', regex.U)
+	for match in italic_pattern_2.finditer(paragraph):
+		text = match.groups()
+		processed_paragraph = processed_paragraph.replace(f'_{text}_', f'<i>{text}</i>', 1)
+
+	return processed_paragraph
+
+
+
+
+
+# Process the links using markdown syntax.
+# Example: **text**
+# ======================================================================================= #
+def _process_bolds(paragraph: str) -> str:
+	processed_paragraph = paragraph
+
+	# Find every italic syntax and replace it with link HTML.
+	bold_pattern = regex.compile(r'\*\*(\S{1}|\S{1}.*?\S{1})\*\*', regex.U)
+	for match in bold_pattern.finditer(paragraph):
+		text = match.groups()
+		processed_paragraph = processed_paragraph.replace(f'**{text}**', f'<b>{text}</b>', 1)
+
+	return processed_paragraph
+
+
+
+
+
+# Process the tooltips using markdown syntax.
 # Example: [text]T(tip)
 # ======================================================================================= #
 def _process_tooltips(paragraph: str) -> str:
 	processed_paragraph = paragraph
 
 	# Find every tooltip syntax and replace it with link HTML.
-	tooltip = regex.compile(r'\[([^][]+)?\]T\((.*?)\)', regex.U)
-	for match in tooltip.finditer(paragraph):
+	tooltip_pattern = regex.compile(r'\[([^][]+)?\]T\((.*?)\)', regex.U)
+	for match in tooltip_pattern.finditer(paragraph):
 		text, tip = match.groups()
 		processed_paragraph = processed_paragraph.replace(f'[{text}]T({tip})', f'<mark class="tooltip">{text}<span class="tip">{tip}</span></mark>', 1)
 
@@ -32,7 +76,7 @@ def _process_tooltips(paragraph: str) -> str:
 
 
 
-# Process the links using markdown syntax:
+# Process the links using markdown syntax.
 # Example: [text](url)
 # Example: [text](page_id)
 # ======================================================================================= #
@@ -65,10 +109,9 @@ def _process_links(paragraph: str) -> str:
 def process_paragraph(paragraph: str) -> str:
 	processed_paragraph = paragraph
 
-	# Process links.
+	processed_paragraph = _process_bolds(processed_paragraph)
+	processed_paragraph = _process_italics(processed_paragraph)
 	processed_paragraph = _process_links(processed_paragraph)
-
-	# Process tooltips.
 	processed_paragraph = _process_tooltips(processed_paragraph)
 	
 	return processed_paragraph

@@ -1,4 +1,4 @@
-from data_common import FP_, _FP, NBP_, _NBP, MN_, _MN, I_, _I, B_, _B
+from data_common import FP_, _FP, NBP_, _NBP, MN_, _MN
 from data_common import *
 
 
@@ -98,15 +98,15 @@ posts = {
 			
 			f"""First I scratched the base with some [metal clay sculpting tools](https://www.amazon.com/Army-Painter-Sculpting-Tools-Double-Sided/dp/B07PVBRQS1) to create a tile or brick pattern on the base, as well as add a few scratches and dents.""",
 			
-			f"""Then I used [my airbrush](https://www.amazon.com/Badger-Air-Brush-Co-Patriot-Airbrush/dp/B002W84GTO/ref=sr_1_1?crid=13TABVFPVOAAP&keywords=badger%2B105%2Bairbrush&qid=1647451154&sprefix=badger%2B105airbrush%2Caps%2C99&sr=8-1&th=1) to paint the base according to the bright purple colors I wanted for the marble veins. I primed the base black, base coated with {I_}Heavy Violet{_I}, randomly sprayed {I_}Royal Purple{_I} (covering about 2/3 of the base), then randomly sprayed {I_}Purple{_I} (covering about 1/3 of the base).""",
+			f"""Then I used [my airbrush](https://www.amazon.com/Badger-Air-Brush-Co-Patriot-Airbrush/dp/B002W84GTO/ref=sr_1_1?crid=13TABVFPVOAAP&keywords=badger%2B105%2Bairbrush&qid=1647451154&sprefix=badger%2B105airbrush%2Caps%2C99&sr=8-1&th=1) to paint the base according to the bright purple colors I wanted for the marble veins. I primed the base black, base coated with *Heavy Violet*, randomly sprayed *Royal Purple* (covering about 2/3 of the base), then randomly sprayed *Purple* (covering about 1/3 of the base).""",
 			
 			f"""Next I stretched out a cotton baby wipe (creating various stretches and small holes), let it dry out next to a fan, then wrapped it over the base. This would create the marble vein pattern by covering up the purple where the veins should be, so I could then paint the marble's stone color.""",
 			
-			f"""I then sprayed the whole base black, and then sprayed it with {I_}Hexed Lichen{_I}, covering almost like a base coat, but with a slightly lighter touch in some areas so it wouldn't appear too flat. Then I removed the baby wipe.""",
+			f"""I then sprayed the whole base black, and then sprayed it with *Hexed Lichen*, covering almost like a base coat, but with a slightly lighter touch in some areas so it wouldn't appear too flat. Then I removed the baby wipe.""",
 			
-			f"""Finally, I touched up some of the veins with thin lines of {I_}Purple{_I}, painted black in the cracks and tile lines, and did some edge highlighting with {I_}Purple{_I} on each tile. I then painted the base rim black and gave it a clear coat.""",
+			f"""Finally, I touched up some of the veins with thin lines of *Purple*, painted black in the cracks and tile lines, and did some edge highlighting with *Purple* on each tile. I then painted the base rim black and gave it a clear coat.""",
 			
-			f"""All-in-all, I think the effect turned out perfectly. It looks like some dark purple marble you might see in a necromancer's base of operations. This was my first attempt to test a marble effect that I might use for the armor plates on my upcoming purple [{I_}Necron{_I}]T(Killer alien robots from {I_}Warhammer: 40,000{_I}.) army. I think I have the technique down, but it's too dark for my purposes. I might brighten the black stone parts to be more purple, and get a brighter purple for the veins. It also could use a little more contrast on the veins and edge highlights. I also think it might be worth using a satin or gloss coat, since marble is generally polished and not matte.""",
+			f"""All-in-all, I think the effect turned out perfectly. It looks like some dark purple marble you might see in a necromancer's base of operations. This was my first attempt to test a marble effect that I might use for the armor plates on my upcoming purple [*Necron*]T(Killer alien robots from *Warhammer: 40,000*.) army. I think I have the technique down, but it's too dark for my purposes. I might brighten the black stone parts to be more purple, and get a brighter purple for the veins. It also could use a little more contrast on the veins and edge highlights. I also think it might be worth using a satin or gloss coat, since marble is generally polished and not matte.""",
 		],
 		"paints-used": [
 			"vallejo-model-color-black",
