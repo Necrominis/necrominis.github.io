@@ -599,7 +599,7 @@ img.icon.inline {
 
 .column-container .column-item-2 {
 	float: left;
-	max-width: calc(50% - 1rem); /* Large screens have 2 columns. */
+	width: calc(50% - 1rem); /* Large screens have 2 columns. */
 	padding: 0 0.5rem;
 }
 
@@ -620,7 +620,7 @@ img.icon.inline {
 	}
 
 	.column-container .column-item-2 {
-		max-width: calc(100% - 1rem);
+		width: calc(100% - 1rem);
 	}
 
 	.column-container .column-item-2:last-child {
