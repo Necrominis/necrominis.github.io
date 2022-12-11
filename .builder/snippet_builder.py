@@ -566,7 +566,7 @@ def build_gallery_article_content_html(page_id: str) -> str:
 # Build the article content HTML for the home page.
 # ======================================================================================= #
 def build_home_article_content_html(page_id: str) -> str:
-	# Get the startre home article content HTML.
+	# Get the starter home article content HTML.
 	home_html = read_html_file('home-article-content.html')
 
 	# Build and add the paragraphs HTML.
@@ -578,6 +578,30 @@ def build_home_article_content_html(page_id: str) -> str:
 	home_html = home_html.replace('<!--GALLERY-->', gallery_html)
 
 	return home_html
+
+
+
+
+
+	# ============================================================================ #
+	#                                     404                                      #
+	# ============================================================================ #
+
+
+
+
+
+# Build the article content HTML for the home page.
+# ======================================================================================= #
+def build_404_article_content_html(page_id: str) -> str:
+	# Get the starter 404 article content HTML.
+	error_404_html = read_html_file('404-article-content.html')
+
+	# Build and add the paragraphs HTML.
+	paragraphs_html = build_paragraphs_html(page_id)
+	error_404_html = error_404_html.replace('<!--PARAGRAPHS-->', paragraphs_html)
+
+	return error_404_html
 
 
 

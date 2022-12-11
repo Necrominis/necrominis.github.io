@@ -11,7 +11,7 @@ from printer import *
 # data['website']
 # data['pages'][page_id]['index']
 # data['pages'][page_id]['type']
-# data['pages'][page_id]['type'] == 'home' or 'gallery' or 'post' or 'my-paints' or 'paint' or 'my-supplies' or 'supplies'
+# data['pages'][page_id]['type'] == 'home' or 'gallery' or 'post' or 'my-paints' or 'paint' or 'my-supplies' or 'supplies' or '404'
 # data['paints'] is sorted
 # data['paints'][paint_id]['index']
 # data['paints'][paint_id]['category']
@@ -129,26 +129,29 @@ def page_id_to_subpath(page_id: str) -> str:
 	# Get the page subpath.
 	page_subpath = ''
 
-	# .../post/index.html
+	# ./post/index.html
 	if page_type_id == 'post':
 		page_subpath = f'post/{page_id}/'
-	# .../paints/index.html
+	# ./paints/index.html
 	elif page_type_id == 'my-paints':
 		page_subpath = 'paints/'
-	# .../paints/{page_id}/index.html
+	# ./paints/{page_id}/index.html
 	elif page_type_id == 'paint':
 		page_subpath = f'paints/{page_id}/'
-	# .../supplies/index.html
+	# ./supplies/index.html
 	elif page_type_id == 'my-supplies':
 		page_subpath = 'supplies/'
-	# .../supplies/{page_id}/index.html
+	# ./supplies/{page_id}/index.html
 	elif page_type_id == 'supplies':
 		page_subpath = f'supplies/{page_id}/'
-	# .../gallery/index.html
+	# ./gallery/index.html
 	elif page_type_id == 'gallery':
 		page_subpath = 'gallery/'
-	# .../index.html
+	# ./index.html
 	elif page_type_id == 'home':
+		page_subpath = ''
+	# ./404.html
+	elif page_type_id == '404':
 		page_subpath = ''
 	else:
 		print_error(f'Page type ID \'{page_type_id}\' not implemented.')
@@ -167,6 +170,7 @@ def page_id_to_subpath(page_id: str) -> str:
 def _page_id_to_folderpath(page_id: str, absolute: bool = False) -> str:
 	page_subpath = page_id_to_subpath(page_id)
 
+	# Get the page's folderpath.
 	folderpath = f'./{page_subpath}'
 	if absolute:
 		folderpath = f'{os.getcwd()}/{page_subpath}'
@@ -184,7 +188,13 @@ def _page_id_to_folderpath(page_id: str, absolute: bool = False) -> str:
 def page_id_to_filepath(page_id: str, absolute: bool = False) -> str:
 	folderpath = _page_id_to_folderpath(page_id, absolute)
 
+	# Get the page's filepath.
 	filepath = f'{folderpath}index.html'
+
+	# Handle special 404 page.
+	if data['pages'][page_id]['type'] == '404':
+		filepath = f'{folderpath}404.html'
+
 	return filepath
 
 
@@ -199,7 +209,12 @@ def page_id_to_url(page_id: str) -> str:
 	website = data['website']
 	page_subpath = page_id_to_subpath(page_id)
 
+	# Get the page's URL.
 	url = f'{website}{page_subpath}'
+
+	# Handle special 404 page.
+	if data['pages'][page_id]['type'] == '404':
+		url = f'{website}{page_subpath}404.html'
 
 	return url
 

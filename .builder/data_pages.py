@@ -14,6 +14,13 @@ from data_pages_posts import *
 
 # ============================================================================ #
 pages = {
+	"404": {
+		"title": "404: Page Not Found",
+		"type": "404",
+		"paragraphs": [
+			f""":Uh-oh! This page doesn't seem to exist!""",
+		],
+	},
 	"home": {
 		"title": "Necrominis Mini-Painting Studio",
 		"type": "home",
@@ -25,7 +32,7 @@ pages = {
 			f"""I still paint miniatures for tabletop games like *[D&D](https://dnd.wizards.com/what-is-dnd)*, *[Warhammer](https://www.warhammer-community.com/en-us)*, and *[Star Wars: Legion](https://www.fantasyflightgames.com/en/products/star-wars-legion)*, but now I also paint for the sole purpose of painting beautiful display miniatures, as well.""",
 			
 			f"""I've also purchased an *[AnyCubic Photon S](https://www.anycubic.com/products/anycubic-photon-s)*, in 2020, and have been [3D printing]T({THREE_D_PRINTING}) resin miniatures ever since. Most of the models I print are purchased from *[My Mini Factory](https://www.myminifactory.com)* or from artists I support on *[Patreon](https://www.patreon.com)*.""",
-		]
+		],
 	},
 	# ============================================================================ #
 	"my-paints": {

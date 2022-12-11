@@ -12,7 +12,7 @@ from snippet_builder import *
 # data["image-paths"] == 'logos' or 'covers' or 'icons' or 'paint-photos' or 'paint-icons' or 'supplies-photos' or 'supplies-icons' or 'post-photos'
 # data['pages'][page_id]['title']
 # data['pages'][page_id]['type']
-# data['pages'][page_id]['type'] == 'home' or 'gallery' or 'post' or 'my-paints' or 'paint' or 'my-supplies' or 'supplies'
+# data['pages'][page_id]['type'] == 'home' or 'gallery' or 'post' or 'my-paints' or 'paint' or 'my-supplies' or 'supplies' or '404'
 
 
 
@@ -76,6 +76,8 @@ def build_article_html(page_id: str) -> str:
 		article_content_html = build_gallery_article_content_html(page_id)
 	elif page_type_id == 'home':
 		article_content_html = build_home_article_content_html(page_id)
+	elif page_type_id == '404':
+		article_content_html = build_404_article_content_html(page_id)
 	else:
 		print_error(f'Page type ID \'{page_type_id}\' not implemented.')
 
