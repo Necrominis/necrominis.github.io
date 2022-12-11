@@ -24,7 +24,7 @@ function setSlide(n) {
 function showSlides() {
 	// Change slide.
 	let slides = document.querySelectorAll('.slideshow .slides .slide');
-	if (slides != null) {
+	if (slides != null && slides.length > 0) {
 		if (slideIndex > slides.length) {
 			slideIndex = 1;
 		}
@@ -41,11 +41,11 @@ function showSlides() {
 
 	// Update dots.
 	let dots = document.querySelectorAll('.slideshow .dots .dot');
-	if (dots != null) {
+	if (dots != null && dots.length > 0) {
 		for (let i = 0; i < dots.length; i++) {
 			dots[i].className = dots[i].className.replace(" active", "");
 		}
-		if (slides.length > 0) {
+		if (slides.length > 0 && dots.length > 0) {
 			dots[slideIndex - 1].className += " active";
 		}
 	}
@@ -82,16 +82,20 @@ let modalContent = document.querySelector('#modal #modal-content');
 
 // Click image to open modal.
 function openModal(image) {
-	modal.style.pointerEvents = "auto";
-	modal.style.opacity = "1";
-	modalContent.src = image.src;
-	modalContent.alt = image.alt;
+	if (modal != null) {
+		modal.style.pointerEvents = "auto";
+		modal.style.opacity = "1";
+		modalContent.src = image.src;
+		modalContent.alt = image.alt;
+	}
 }
 
 // Modal close button.
 function closeModal() {
-	modal.style.pointerEvents = "none";
-	modal.style.opacity = "0";
+	if (modal != null) {
+		modal.style.pointerEvents = "none";
+		modal.style.opacity = "0";
+	}
 }
 
 // Click a modal's image again to open it in a new tab.
