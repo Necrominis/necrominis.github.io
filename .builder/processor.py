@@ -177,10 +177,13 @@ def _process_links(paragraph: str) -> str:
 		link_text, link_url = match.groups()
 		# Link to a page ID, if it's not a normal URL.
 		new_url = link_url
-		if link_url in page_ids:
-			new_url = page_id_to_url(link_url)
-		elif not 'https://' in link_url:
-			print_error(f'Paragraph link is not a URL and not a page ID: {link_url}')
+		if not 'https://' in link_url:
+			# Check page ID link.
+			if link_url in page_ids:
+				new_url = page_id_to_url(link_url)
+			else:
+				new_url = f"{data['website']}404/{link_url}"
+				print_error(f'Paragraph link is not a URL and not a page ID: {link_url}')
 			
 		processed_paragraph = processed_paragraph.replace(f'[{link_text}]({link_url})', f'<a href="{new_url}">{link_text}</a>', 1)
 
