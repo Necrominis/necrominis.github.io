@@ -117,8 +117,6 @@ https://www.w3schools.com/howto/howto_css_aspect_ratio.asp
 	--max-page-width: 700px;
 	--max-double-page-width: 1200px;
 	--max-image-size: 700px;
-
-	--bottom-page-margin: 10rem;
 }
 
 /* Increase font size on small screens with high resolution */
@@ -147,8 +145,6 @@ https://www.w3schools.com/howto/howto_css_aspect_ratio.asp
 		--max-page-width: 900px;
 		--max-double-page-width: 900px;
 		--max-image-size: 900px;
-
-		--bottom-page-margin: 10rem;
 	}
 }
 
@@ -182,7 +178,6 @@ body {
 
 hr {
 	font-size: var(--line-thickness);
-	width: 100%;
 	height: 0;
 	padding: 0;
 	background-color: var(--foreground-2);
@@ -390,7 +385,9 @@ img.icon.inline {
 .button-container {
 	overflow: hidden;
 	line-height: 0;
-	margin: var(--border-radius);
+	margin: 0;
+	margin-top: -0.25rem; /* Offset the .button margins */
+	margin-bottom: -0.25rem; /* Offset the .button margins */
 }
 
 .button-container .button {
@@ -403,8 +400,8 @@ img.icon.inline {
 	text-align: center;
 	border-radius: 1.5em;
 	margin-right: var(--border-radius);
-	margin-top: 0.25em;
-	margin-bottom: 0.25em;
+	margin-top: 0.25rem;
+	margin-bottom: 0.25rem;
 	transition: all var(--transition-speed);
 }
 
@@ -512,10 +509,6 @@ img.icon.inline {
 
 /* TITLE HEADER */
 
-#title-header {
-	margin-bottom: 1rem;
-}
-
 #title-header .icon {
 	width: 5rem;
 	height: 5rem;
@@ -534,7 +527,6 @@ img.icon.inline {
 	color: var(--text-color);
 	font-size: var(--title-size);
 	font-weight: bold;
-	margin-bottom: 0.25rem;
 }
 
 /* ARTICLE */
@@ -544,7 +536,6 @@ img.icon.inline {
 	margin: auto;
 	padding: 0 2rem;
 	max-width: var(--max-page-width);
-	margin-bottom: var(--bottom-page-margin) !important;
 }
 
 #article.double-width {
@@ -806,7 +797,6 @@ img.icon.inline {
 .callout {
 	border-radius: var(--large-border-radius);
 	padding: 1rem;
-	margin: 1rem 0;
 }
 
 .callout p:first-child {
@@ -881,12 +871,11 @@ img.icon.inline {
 
 #gallery {
 	width: 100%;
-	margin: 1rem 0;
+	margin: 0;
 }
 
 #gallery-filters  {
 	width: 100%;
-	margin: 1rem 0;
 }
 
 #gallery-items {
