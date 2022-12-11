@@ -72,7 +72,7 @@ https://www.w3schools.com/howto/howto_css_aspect_ratio.asp
 	--background-2: var(--black-2);
 
 	--link: var(--text-2);
-	--link-border: var(--text-2);
+	--link-border: var(--grey-2);
 	--link-2: var(--blue);
 	--link-border-2: var(--blue);
 
@@ -83,7 +83,7 @@ https://www.w3schools.com/howto/howto_css_aspect_ratio.asp
 
 	--tooltip-text: var(--background);
 	--tooltip-background: var(--primary);
-	--tooltip-underline: var(--text-2);
+	--tooltip-underline: var(--link-border);
 
 	--font: sans-serif;
 
@@ -368,14 +368,15 @@ mark, span {
 
 /* LINKS */
 
-a, a:visited {
+a, a:visited, a .underline, a:visited .underline {
 	color: var(--link);
 	text-decoration: none;
 	border-bottom: var(--link-border) solid var(--thin-line-thickness);
 	transition: all var(--transition-speed);
 }
 
-a:hover, a:visited:hover {
+a:hover, a:visited:hover, a:hover .underline, a:visited:hover .underline {
+	border-bottom: var(--link-border) solid var(--thin-line-thickness);
 	color: var(--link-2);
 	border-color: var(--link-border-2);
 }
@@ -906,6 +907,10 @@ img.icon.inline {
 
 .paint-used {
 	margin: 0;
+}
+
+.paint-used a {
+	border: none;
 }
 
 /* GALLERY */
