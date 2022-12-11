@@ -15,7 +15,8 @@ from printer import *
 
 
 # Process the first-paragraph using markdown-ish syntax.
-# Example: :paragraph
+# Example: :-paragraph
+# Example: -:paragraph
 # ======================================================================================= #
 def _process_non_breaking_first_paragraph(paragraph: str) -> str:
 	processed_paragraph = paragraph
