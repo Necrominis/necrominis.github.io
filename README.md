@@ -67,7 +67,7 @@ Changes the current working directory within the script to the given path. The p
 
 ## Features
 
-* Recolor icons and photo templates with the new shade of white.
+* Prepend `necrominis-` to all icon and logo files.
 * Add page footer.
 * Create and add icons for the properties: created, tags, manufacturers, and models.
 * Implement the clean argument's functionality.
