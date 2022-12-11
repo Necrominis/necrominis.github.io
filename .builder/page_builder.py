@@ -15,6 +15,29 @@ from snippet_builder import *
 
 
 
+def parse_filepaths(html: str) -> str:
+	website = data["website"]
+	image_paths = data['image-paths']
+
+	parsed_html = html
+
+	# Add website URL to any relative filepaths.
+	parsed_html = parsed_html.replace('<!--WEBSITE-->', website)
+
+	# Add image filepaths.
+	parsed_html = parsed_html.replace('<!--WEBSITE-LOGO-->', website + image_paths['logos'])
+	parsed_html = parsed_html.replace('<!--WEBSITE-COVER-->', website + image_paths['covers'])
+	parsed_html = parsed_html.replace('<!--WEBSITE-ICON-->', website + image_paths['icons'])
+	parsed_html = parsed_html.replace('<!--WEBSITE-PAINT-PHOTO-->', website + image_paths['paint-photos'])
+	parsed_html = parsed_html.replace('<!--WEBSITE-PAINT-ICON-->', website + image_paths['paint-icons'])
+	parsed_html = parsed_html.replace('<!--WEBSITE-SUPPLIES-PHOTO-->', website + image_paths['supplies-photos'])
+	parsed_html = parsed_html.replace('<!--WEBSITE-SUPPLIES-ICON-->', website + image_paths['supplies-icons'])
+	parsed_html = parsed_html.replace('<!--WEBSITE-POST-PHOTO-->', website + image_paths['post-photos'])
+
+	return parsed_html
+
+
+
 
 
 # Get the article section HTML for a page.
@@ -79,18 +102,8 @@ def build_page_html(page_id: str) -> str:
 	article_html = build_article_html(page_id)
 	page_html = page_html.replace('<!--ARTICLE-->', article_html)
 
-	# Add website URL to any relative filepaths.
-	page_html = page_html.replace('<!--WEBSITE-->', website)
-
-	# Add image filepaths.
-	page_html = page_html.replace('<!--WEBSITE-LOGO-->', website + image_paths['logos'])
-	page_html = page_html.replace('<!--WEBSITE-COVER-->', website + image_paths['covers'])
-	page_html = page_html.replace('<!--WEBSITE-ICON-->', website + image_paths['icons'])
-	page_html = page_html.replace('<!--WEBSITE-PAINT-PHOTO-->', website + image_paths['paint-photos'])
-	page_html = page_html.replace('<!--WEBSITE-PAINT-ICON-->', website + image_paths['paint-icons'])
-	page_html = page_html.replace('<!--WEBSITE-SUPPLIES-PHOTO-->', website + image_paths['supplies-photos'])
-	page_html = page_html.replace('<!--WEBSITE-SUPPLIES-ICON-->', website + image_paths['supplies-icons'])
-	page_html = page_html.replace('<!--WEBSITE-POST-PHOTO-->', website + image_paths['post-photos'])
+	# Replace filepath comments with actual filepaths.
+	page_html = parse_filepaths(page_html)
 
 	# Finally, return the page's completed HTML.
 	return page_html

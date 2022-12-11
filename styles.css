@@ -237,6 +237,10 @@ mark {
 	font-weight: bold;
 }
 
+.non-breaking-paragraph {
+	margin: 0;
+}
+
 /* GENERAL */
 
 .highlighted {
