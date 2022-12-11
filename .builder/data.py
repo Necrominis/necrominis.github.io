@@ -20,7 +20,7 @@ data = {
 	"website-local": "/home/tucker/dev/necrominis.github.io/",
 
 	"image-paths": image_paths,
-	"no-image": "no-image.jpg",
+	"no-image": "necrominis-missing-image.jpg",
 
 	"tags": tags,
 	"manufacturers": manufacturers,
