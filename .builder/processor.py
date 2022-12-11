@@ -25,13 +25,13 @@ def _process_italics(paragraph: str) -> str:
 	# Find every *italic* syntax and replace it with link HTML.
 	italic_pattern = regex.compile(r'\*(\S{1}|\S{1}.*?\S{1})\*', regex.U)
 	for match in italic_pattern.finditer(paragraph):
-		text = match.groups()
+		text = match.groups()[0]
 		processed_paragraph = processed_paragraph.replace(f'*{text}*', f'<i>{text}</i>', 1)
 
 	# Find every _italic_ syntax and replace it with link HTML.
 	italic_pattern_2 = regex.compile(r'\_(\S{1}|\S{1}.*?\S{1})\_', regex.U)
 	for match in italic_pattern_2.finditer(paragraph):
-		text = match.groups()
+		text = match.groups()[0]
 		processed_paragraph = processed_paragraph.replace(f'_{text}_', f'<i>{text}</i>', 1)
 
 	return processed_paragraph
@@ -46,11 +46,29 @@ def _process_italics(paragraph: str) -> str:
 def _process_bolds(paragraph: str) -> str:
 	processed_paragraph = paragraph
 
-	# Find every italic syntax and replace it with link HTML.
+	# Find every bold syntax and replace it with link HTML.
 	bold_pattern = regex.compile(r'\*\*(\S{1}|\S{1}.*?\S{1})\*\*', regex.U)
 	for match in bold_pattern.finditer(paragraph):
-		text = match.groups()
+		text = match.groups()[0]
 		processed_paragraph = processed_paragraph.replace(f'**{text}**', f'<b>{text}</b>', 1)
+
+	return processed_paragraph
+
+
+
+
+
+# Process the mini-names and highlights using markdown-ish syntax.
+# Example: [[text]]
+# ======================================================================================= #
+def _process_highlights(paragraph: str) -> str:
+	processed_paragraph = paragraph
+
+	# Find every highlight syntax and replace it with link HTML.
+	highlight_pattern = regex.compile(r'\[\[(\S{1}|\S{1}.*?\S{1})\]\]', regex.U)
+	for match in highlight_pattern.finditer(paragraph):
+		text = match.groups()[0]
+		processed_paragraph = processed_paragraph.replace(f'[[{text}]]', f'<mark class="mini-name">{text}</mark>', 1)
 
 	return processed_paragraph
 
@@ -77,6 +95,7 @@ def _process_tooltips(paragraph: str) -> str:
 
 
 # Process the links using markdown syntax.
+# Must be done after highlight processing.
 # Example: [text](url)
 # Example: [text](page_id)
 # ======================================================================================= #
@@ -111,6 +130,7 @@ def process_paragraph(paragraph: str) -> str:
 
 	processed_paragraph = _process_bolds(processed_paragraph)
 	processed_paragraph = _process_italics(processed_paragraph)
+	processed_paragraph = _process_highlights(processed_paragraph)
 	processed_paragraph = _process_links(processed_paragraph)
 	processed_paragraph = _process_tooltips(processed_paragraph)
 	

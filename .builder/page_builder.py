@@ -92,8 +92,6 @@ def build_article_html(page_id: str) -> str:
 def build_page_html(page_id: str) -> str:
 	page = data['pages'][page_id]
 	page_title = page['title']
-	website = data["website"]
-	image_paths = data['image-paths']
 	
 	# Get the starter template HTML and set the title.
 	page_html = read_html_file('template.html')
