@@ -1,4 +1,4 @@
-from data_common import FP_, _FP, NBP_, _NBP, MN_, _MN, TT_, _TT_, _TT, A_, _A_, _A, I_, _I, IA_, _IA_, _IA, B_, _B
+from data_common import FP_, _FP, NBP_, _NBP, MN_, _MN, TT_, _TT_, _TT, I_, _I, B_, _B
 from data_common import *
 
 
@@ -54,7 +54,7 @@ posts = {
 			
 			f"""Finally, I airbrushed the two teal colors onto the model from below, to give the effect that the green light from the base is lighting up the vampire from below. Then I gave it a clear coat of gloss, for protective purposes, and matte for the final finish.""",
 			
-			f"""All-in-all, I think this might be my best miniature yet, in terms of the color coherency, the skin shading, and the glow effect. One of my {A_}https://necrominis.github.io/post/2022-03-15/{_A_}previous miniatures{_A} had a better paint job for the skin, but that was with an airbrush; this miniature's skin was painted by hand, and this one has higher contrast. I do think the wings' spots could be redone, though. I wanted to highlight the horizontal folds in the wings, but they weren't defined enough to catch the edge of my brush, and were too small to highlight by hand. Overall, though, I think this miniature turned out beautifully.""",
+			f"""All-in-all, I think this might be my best miniature yet, in terms of the color coherency, the skin shading, and the glow effect. One of my [previous miniatures](2022-03-15) had a better paint job for the skin, but that was with an airbrush; this miniature's skin was painted by hand, and this one has higher contrast. I do think the wings' spots could be redone, though. I wanted to highlight the horizontal folds in the wings, but they weren't defined enough to catch the edge of my brush, and were too small to highlight by hand. Overall, though, I think this miniature turned out beautifully.""",
 		],
 		"paints-used": [
 			"vallejo-game-color-wolf-grey",
@@ -96,9 +96,9 @@ posts = {
 		"paragraphs": [
 			f"""{FP_}A {MN_}32 mm Round Base{_MN} painted with a purple and black marble tile effect.{_FP}""",
 			
-			f"""First I scratched the base with some {A_}https://www.amazon.com/Army-Painter-Sculpting-Tools-Double-Sided/dp/B07PVBRQS1{_A_}metal clay sculpting tools{_A} to create a tile or brick pattern on the base, as well as add a few scratches and dents.""",
+			f"""First I scratched the base with some [metal clay sculpting tools](https://www.amazon.com/Army-Painter-Sculpting-Tools-Double-Sided/dp/B07PVBRQS1) to create a tile or brick pattern on the base, as well as add a few scratches and dents.""",
 			
-			f"""Then I used {A_}https://www.amazon.com/Badger-Air-Brush-Co-Patriot-Airbrush/dp/B002W84GTO/ref=sr_1_1?crid=13TABVFPVOAAP&keywords=badger%2B105%2Bairbrush&qid=1647451154&sprefix=badger%2B105airbrush%2Caps%2C99&sr=8-1&th=1{_A_}my airbrush{_A} to paint the base according to the bright purple colors I wanted for the marble veins. I primed the base black, base coated with {I_}Heavy Violet{_I}, randomly sprayed {I_}Royal Purple{_I} (covering about 2/3 of the base), then randomly sprayed {I_}Purple{_I} (covering about 1/3 of the base).""",
+			f"""Then I used [my airbrush](https://www.amazon.com/Badger-Air-Brush-Co-Patriot-Airbrush/dp/B002W84GTO/ref=sr_1_1?crid=13TABVFPVOAAP&keywords=badger%2B105%2Bairbrush&qid=1647451154&sprefix=badger%2B105airbrush%2Caps%2C99&sr=8-1&th=1) to paint the base according to the bright purple colors I wanted for the marble veins. I primed the base black, base coated with {I_}Heavy Violet{_I}, randomly sprayed {I_}Royal Purple{_I} (covering about 2/3 of the base), then randomly sprayed {I_}Purple{_I} (covering about 1/3 of the base).""",
 			
 			f"""Next I stretched out a cotton baby wipe (creating various stretches and small holes), let it dry out next to a fan, then wrapped it over the base. This would create the marble vein pattern by covering up the purple where the veins should be, so I could then paint the marble's stone color.""",
 			
@@ -106,7 +106,7 @@ posts = {
 			
 			f"""Finally, I touched up some of the veins with thin lines of {I_}Purple{_I}, painted black in the cracks and tile lines, and did some edge highlighting with {I_}Purple{_I} on each tile. I then painted the base rim black and gave it a clear coat.""",
 			
-			f"""All-in-all, I think the effect turned out perfectly. It looks like some dark purple marble you might see in a necromancer's base of operations. This was my first attempt to test a marble effect that I might use for the armor plates on my upcoming purple {TT_}{I_}Necron{_I}{_TT_}Killer alien robots from {I_}Warhammer: 40,000{_I}.{_TT} army. I think I have the technique down, but it’s too dark for my purposes. I might brighten the black stone parts to be more purple, and get a brighter purple for the veins. It also could use a little more contrast on the veins and edge highlights. I also think it might be worth using a satin or gloss coat, since marble is generally polished and not matte.""",
+			f"""All-in-all, I think the effect turned out perfectly. It looks like some dark purple marble you might see in a necromancer's base of operations. This was my first attempt to test a marble effect that I might use for the armor plates on my upcoming purple {TT_}{I_}Necron{_I}{_TT_}Killer alien robots from {I_}Warhammer: 40,000{_I}.{_TT} army. I think I have the technique down, but it's too dark for my purposes. I might brighten the black stone parts to be more purple, and get a brighter purple for the veins. It also could use a little more contrast on the veins and edge highlights. I also think it might be worth using a satin or gloss coat, since marble is generally polished and not matte.""",
 		],
 		"paints-used": [
 			"vallejo-model-color-black",

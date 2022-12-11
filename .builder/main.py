@@ -39,13 +39,7 @@ def make_page(page_id: str) -> None:
 
 # Loop through every page and make it.
 # ======================================================================================= #
-def make_pages() -> None:
-	# Print out starting text.
-	if 'https://' in data['website']:
-		print('GENERATING PRODUCTION WEBSITE')
-	else:
-		print('GENERATING LOCAL DEVELOPMENT WEBSITE')
-
+def make_pages(verbose: bool = False, silent: bool = False) -> None:
 	print('CREATING PAGES')
 
 	page_ids = data['pages'].keys()
@@ -71,16 +65,37 @@ def make_pages() -> None:
 
 # Post-process the data and fix paragraphs.
 # ======================================================================================= #
-def process_data() -> None:
+def process_data(verbose: bool = False, silent: bool = False) -> None:
+	print('PROCESSING DATA')
+
+	page_ids = data['pages'].keys()
+
 	# Paragraph Parsing.
-	for page in data['pages']:
-		if page['paragraphs']:
-			for paragraph in page['paragraphs']:
+	for page_id in page_ids:
+		if not silent:
+			print(f'  ./{page_id_to_subpath(page_id)}')
+		if 'paragraphs' in data['pages'][page_id].keys():
+			for i in range(len(data['pages'][page_id]['paragraphs'])):
+				paragraph = data['pages'][page_id]['paragraphs'][i]
+
 				# Process links.
 				link_pattern = regex.compile(r'\[([^][]+)?\]\((.*?)\)', regex.U)
 				for match in link_pattern.finditer(paragraph):
-					link_text, link_page_id = match.groups()
-					paragraph = paragraph.replace(f'[{link_text}]({link_page_id})', f'<a href="{page_id_to_url(link_page_id)}">{link_text}</a>', 1)
+					link_text, link_url = match.groups()
+
+					# Link to a page ID, if it's not a normal URL.
+					replacement_url = link_url
+					if link_url in page_ids:
+						replacement_url = page_id_to_url(link_url)
+					elif not 'https://' in link_url:
+						print(f'ERROR: Paragraph link is not a URL and not a page ID: {link_url}')
+						
+					paragraph = paragraph.replace(f'[{link_text}]({link_url})', f'<a href="{replacement_url}">{link_text}</a>', 1)
+
+				data['pages'][page_id]['paragraphs'][i] = paragraph
+
+
+	print('DONE PROCESSING DATA')
 
 
 
@@ -89,15 +104,25 @@ def process_data() -> None:
 # Main method.
 # ======================================================================================= #
 def main(clean: bool = False, verbose: bool = False, silent: bool = False) -> None:
+	# Print out starting text.
+	if 'https://' in data['website']:
+		print('GENERATING PRODUCTION WEBSITE')
+	else:
+		print('GENERATING LOCAL DEVELOPMENT WEBSITE')
+
+	print()
+
 	# If specified, delete all the old pages first.
 	if clean:
 		pass # TODO
 
 	# Process data (fix markdown links, etc.).
-	process_data()
+	process_data(verbose, silent)
+
+	print()
 
 	# Generate all the page files.
-	make_pages()
+	make_pages(verbose, silent)
 
 
 
