@@ -82,6 +82,7 @@ https://www.w3schools.com/howto/howto_css_aspect_ratio.asp
 	--title-2: var(--text-2);
 
 	--tooltip-text: var(--background);
+	--tooltip-hover: var(--primary);
 	--tooltip-background: var(--primary);
 	--tooltip-underline: var(--link-border);
 
@@ -320,6 +321,10 @@ mark, span {
 	position: relative;
 	display: inline-block;
 	cursor: help;
+}
+
+.tooltip:hover {
+	color: var(--tooltip-hover);
 }
 
 .tooltip .tip::before {

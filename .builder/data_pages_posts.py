@@ -95,9 +95,9 @@ posts = {
 		"paragraphs": [
 			f""":A [[32 mm Round Base]] painted with a purple and black marble tile effect.""",
 			
-			f"""First I scratched the base with some [metal clay sculpting tools](https://www.amazon.com/Army-Painter-Sculpting-Tools-Double-Sided/dp/B07PVBRQS1) to create a tile or brick pattern on the base, as well as add a few scratches and dents.""",
+			f"""First I scratched the base with some [metal clay sculpting tools](army-painter-sculpting-tools) to create a tile or brick pattern on the base, as well as add a few scratches and dents.""",
 			
-			f"""Then I used [my airbrush](https://www.amazon.com/Badger-Air-Brush-Co-Patriot-Airbrush/dp/B002W84GTO/ref=sr_1_1?crid=13TABVFPVOAAP&keywords=badger%2B105%2Bairbrush&qid=1647451154&sprefix=badger%2B105airbrush%2Caps%2C99&sr=8-1&th=1) to paint the base according to the bright purple colors I wanted for the marble veins. I primed the base black, base coated with *Heavy Violet*, randomly sprayed *Royal Purple* (covering about 2/3 of the base), then randomly sprayed *Purple* (covering about 1/3 of the base).""",
+			f"""Then I used [my airbrush](105-patriot-air-brush) to paint the base according to the bright purple colors I wanted for the marble veins. I primed the base black, base coated with *Heavy Violet*, randomly sprayed *Royal Purple* (covering about 2/3 of the base), then randomly sprayed *Purple* (covering about 1/3 of the base).""",
 			
 			f"""Next I stretched out a cotton baby wipe (creating various stretches and small holes), let it dry out next to a fan, then wrapped it over the base. This would create the marble vein pattern by covering up the purple where the veins should be, so I could then paint the marble's stone color.""",
 			

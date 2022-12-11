@@ -27,11 +27,11 @@ pages = {
 		"paragraphs": [
 			f""":I'm [[Tucker]] from [[Necrominis]], and I'm a miniature painter hobbyist.""",
 			
-			f"""I first tried painting miniatures in 2015, for the [*Dungeons & Dragons*](https://dnd.wizards.com/what-is-dnd) tabletop roleplaying game. In 2019, I took on miniature painting as a serious hobby and have been improving my craft every since.""",
+			f"""I first tried painting miniatures in 2015, for the [*Dungeons & Dragons*]({URL_DND}) tabletop roleplaying game. In 2019, I took on miniature painting as a serious hobby and have been improving my craft every since.""",
 			
-			f"""I still paint miniatures for tabletop games like *[D&D](https://dnd.wizards.com/what-is-dnd)*, *[Warhammer](https://www.warhammer-community.com/en-us)*, and *[Star Wars: Legion](https://www.fantasyflightgames.com/en/products/star-wars-legion)*, but now I also paint for the sole purpose of painting beautiful display miniatures, as well.""",
+			f"""I still paint miniatures for tabletop games like *[D&D]({URL_DND})*, *[Warhammer]({URL_WARHAMMER})*, and *[Star Wars: Legion]({URL_STAR_WARS_LEGION})*, but now I also paint for the sole purpose of painting beautiful display miniatures, as well.""",
 			
-			f"""I've also purchased an *[AnyCubic Photon S](https://www.anycubic.com/products/anycubic-photon-s)*, in 2020, and have been [3D printing]T({THREE_D_PRINTING}) resin miniatures ever since. Most of the models I print are purchased from *[My Mini Factory](https://www.myminifactory.com)* or from artists I support on *[Patreon](https://www.patreon.com)*.""",
+			f"""I've also purchased an *[Anycubic Photon S](anycubic-photon-s)*, in 2020, and have been [3D printing]T({TT_3D_PRINTING}) resin miniatures ever since. Most of the models I print are purchased from *[My Mini Factory]({URL_MY_MINI_FACTORY})* or from artists I support on *[Patreon]({URL_PATREON})*.""",
 		],
 	},
 	# ============================================================================ #

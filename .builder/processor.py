@@ -168,6 +168,8 @@ def _process_tooltips(paragraph: str) -> str:
 # ======================================================================================= #
 def _process_links(paragraph: str) -> str:
 	page_ids = data['pages'].keys()
+	paint_ids = data['paints'].keys()
+	supplies_ids = data['supplies'].keys()
 
 	processed_paragraph = paragraph
 
@@ -178,11 +180,19 @@ def _process_links(paragraph: str) -> str:
 		# Link to a page ID, if it's not a normal URL.
 		new_url = link_url
 		if not 'https://' in link_url:
+			
 			# Check page ID link.
 			if link_url in page_ids:
 				new_url = page_id_to_url(link_url)
+			# Check paint ID link.
+			elif link_url in paint_ids:
+				new_url = data['paints'][link_url]['url']
+			# Check supplies ID link.
+			elif link_url in supplies_ids:
+				new_url = data['supplies'][link_url]['url']
+			# Bad link.
 			else:
-				new_url = f"{data['website']}404/{link_url}"
+				new_url = f"{data['website']}{link_url}"
 				print_error(f'Paragraph link is not a URL and not a page ID: {link_url}')
 			
 		processed_paragraph = processed_paragraph.replace(f'[{link_text}]({link_url})', f'<a href="{new_url}">{link_text}</a>', 1)

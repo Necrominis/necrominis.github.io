@@ -64,7 +64,7 @@ paint_brands = {
 
 
 # ============================================================================ #
-colors = {
+_colors = {
 	"vallejo-model-color-white": {
 		"text": "White",
 		"brand": "vallejo",
@@ -448,7 +448,7 @@ colors = {
 
 
 # ============================================================================ #
-metallics = {
+_metallics = {
 	"vallejo-metal-color-aluminium": {
 		"text": "Aluminium",
 		"brand": "vallejo",
@@ -496,7 +496,7 @@ metallics = {
 
 
 # ============================================================================ #
-washes = {
+_washes = {
 	
 }
 
@@ -505,7 +505,7 @@ washes = {
 
 
 # ============================================================================ #
-contrasts = {
+_contrasts = {
 
 }
 
@@ -514,7 +514,7 @@ contrasts = {
 
 
 # ============================================================================ #
-inks = {
+_inks = {
 
 }
 
@@ -523,7 +523,7 @@ inks = {
 
 
 # ============================================================================ #
-technicals = {
+_technicals = {
 
 }
 
@@ -532,7 +532,7 @@ technicals = {
 
 
 # ============================================================================ #
-varnishes = {
+_varnishes = {
 
 }
 
@@ -541,7 +541,7 @@ varnishes = {
 
 
 # ============================================================================ #
-additives = {
+_additives = {
 
 }
 
@@ -550,7 +550,7 @@ additives = {
 
 
 # ============================================================================ #
-primers = {
+_primers = {
 
 }
 
@@ -560,15 +560,15 @@ primers = {
 
 # ============================================================================ #
 paints = {}
-paints.update(colors)
-paints.update(metallics)
-paints.update(washes)
-paints.update(contrasts)
-paints.update(inks)
-paints.update(technicals)
-paints.update(varnishes)
-paints.update(additives)
-paints.update(primers)
+paints.update(_colors)
+paints.update(_metallics)
+paints.update(_washes)
+paints.update(_contrasts)
+paints.update(_inks)
+paints.update(_technicals)
+paints.update(_varnishes)
+paints.update(_additives)
+paints.update(_primers)
 
 
 
