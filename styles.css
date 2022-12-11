@@ -319,6 +319,7 @@ mark, span {
 	border-bottom: var(--thin-line-thickness) dotted var(--tooltip-underline);
 	position: relative;
 	display: inline-block;
+	cursor: help;
 }
 
 .tooltip .tip::before {
