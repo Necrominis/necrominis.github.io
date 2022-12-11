@@ -193,7 +193,7 @@ def _process_links(paragraph: str) -> str:
 			# Bad link.
 			else:
 				new_url = f"{data['website']}{link_url}"
-				print_error(f'Paragraph link is not a URL and not a page ID: {link_url}')
+				print_error(f'Paragraph link is not a valid URL, page ID, paint ID, or supplies ID: {link_url}')
 			
 		processed_paragraph = processed_paragraph.replace(f'[{link_text}]({link_url})', f'<a href="{new_url}">{link_text}</a>', 1)
 

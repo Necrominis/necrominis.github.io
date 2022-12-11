@@ -286,6 +286,11 @@ def build_paints_used_html(page_id: str) -> str:
 def build_slideshow_html(page_id: str) -> str:
 	image_files = data['pages'][page_id]['images']
 
+	# Handle no images being specified by the post.
+	if len(image_files) == 0:
+		image_files = [data['no-image']]
+		print_warning(f'Missing image reference for slideshow on page with ID: {page_id}')
+
 	# Get the starter slideshow HTML.
 	slideshow_html = read_html_file('slideshow.html')
 
@@ -486,9 +491,11 @@ def build_gallery_items_html(page_id: str) -> str:
 		page_tag_ids = page['properties']['tags']
 
 		# Pick either the first page image, or the default no-image.
-		page_image = 'no-image.jpeg'
+		page_image = data['no-image']
 		if len(page['images']) > 0:
 			page_image = page['images'][0]
+		else:
+			print_warning(f'Missing image reference for slideshow on page with ID: {page_id}')
 
 		# Build the starter gallery item HTML, and add the image and URL.
 		item_html = read_html_file('gallery-item.html')
