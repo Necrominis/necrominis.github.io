@@ -10,7 +10,7 @@
    sodipodi:docname="necrominis-models-property-icon.svg"
    xml:space="preserve"
    inkscape:version="1.2.2 (1:1.2.2+202212051550+b0a8486541)"
-   inkscape:export-filename="necrominis-models-property-icon.png"
+   inkscape:export-filename="necrominis-models-property-icon-grey.png"
    inkscape:export-xdpi="192"
    inkscape:export-ydpi="192"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
@@ -28,8 +28,8 @@
      inkscape:document-units="px"
      showgrid="true"
      inkscape:zoom="1.0567607"
-     inkscape:cx="219.06568"
-     inkscape:cy="109.29627"
+     inkscape:cx="-20.345193"
+     inkscape:cy="124.43688"
      inkscape:window-width="1920"
      inkscape:window-height="1015"
      inkscape:window-x="0"
@@ -46,10 +46,10 @@
      inkscape:groupmode="layer"
      id="layer1"><path
        id="path342"
-       style="fill:#e1e1e1;fill-opacity:1;stroke:none;stroke-width:24;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:#7d7d7d;fill-opacity:1;stroke:none;stroke-width:24;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
        d="m 128,16 c -17.67311,-6e-6 -32,14.326884 -32,32 0.02626,8.179701 3.183878,16.038811 8.82422,21.962891 C 90.025913,78.139295 80.000036,93.896749 80,112 c -8e-6,4 0,32 0,32 0,11.99999 4.000012,16 16,16 h 4 v 32 h 56 v -32 h 4 c 11.99999,0 16,-4.00001 16,-16 V 112 C 176,93.896747 165.9741,78.139294 151.17578,69.962891 156.81612,64.038811 159.97374,56.179701 160,48 160,30.326884 145.67311,15.999994 128,16 Z"
        sodipodi:nodetypes="sccscccccccssccs" /><path
-       style="fill:#e1e1e1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;fill-opacity:1"
+       style="fill:#7d7d7d;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;fill-opacity:1"
        d="m 72,232 c 0,8 4,8 8,8 h 96 c 4,0 8,0 8,-8 0,-12 -12,-24 -24,-24 H 96 c -12,0 -24,12 -24,24 z"
        id="path1105"
        sodipodi:nodetypes="ccccccc" /></g></svg>

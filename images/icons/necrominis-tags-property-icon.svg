@@ -10,7 +10,7 @@
    sodipodi:docname="necrominis-tags-property-icon.svg"
    xml:space="preserve"
    inkscape:version="1.2.2 (1:1.2.2+202212051550+b0a8486541)"
-   inkscape:export-filename="necrominis-tags-property-icon.png"
+   inkscape:export-filename="necrominis-tags-property-icon-grey.png"
    inkscape:export-xdpi="192"
    inkscape:export-ydpi="192"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
@@ -28,7 +28,7 @@
      inkscape:document-units="px"
      showgrid="true"
      inkscape:zoom="1.4944853"
-     inkscape:cx="64.570725"
+     inkscape:cx="7.0258302"
      inkscape:cy="132.15252"
      inkscape:window-width="1920"
      inkscape:window-height="1015"
@@ -46,8 +46,8 @@
      inkscape:groupmode="layer"
      id="layer1"><path
        id="path1057"
-       style="color:#000000;fill:#e1e1e1;stroke-width:32;stroke-linecap:round;stroke-linejoin:round;-inkscape-stroke:none;fill-opacity:1"
+       style="color:#000000;fill:#7d7d7d;stroke-width:32;stroke-linecap:round;stroke-linejoin:round;-inkscape-stroke:none;fill-opacity:1"
        d="m 136.00082,16 a 16.0016,16.0016 0 0 0 -11.31445,4.685547 l -96,96.000003 a 16.0016,16.0016 0 0 0 0,22.6289 l 1.591797,1.5918 c 0.910287,-1.22918 1.884736,-2.42372 2.99414,-3.5332 a 16.0016,16.0016 0 0 0 0,-0.002 L 129.2723,41.371094 a 16.0016,16.0016 0 0 0 0.002,0 C 135.27156,35.375073 143.42065,31.999564 151.90121,32 h 64 a 16.0016,16.0016 0 0 0 0.002,0 c 0.0329,3e-6 0.0647,0.0058 0.0977,0.0059 V 32 a 16.0016,16.0016 0 0 0 -16,-16 z" /><path
        id="path1195"
-       style="color:#000000;fill:#e1e1e1;stroke-width:32;stroke-linecap:round;stroke-linejoin:round;-inkscape-stroke:none;fill-opacity:1"
+       style="color:#000000;fill:#7d7d7d;stroke-width:32;stroke-linecap:round;stroke-linejoin:round;-inkscape-stroke:none;fill-opacity:1"
        d="M 152 48 A 16.0016 16.0016 0 0 0 140.68555 52.685547 L 44.685547 148.68555 A 16.0016 16.0016 0 0 0 44.685547 171.31445 L 108.68555 235.31445 A 16.0016 16.0016 0 0 0 131.31445 235.31445 L 227.31445 139.31445 A 16.0016 16.0016 0 0 0 232 128 L 232 64 A 16.0016 16.0016 0 0 0 216 48 L 152 48 z M 184 76 A 24 24 0 0 1 208 100 A 24 24 0 0 1 184 124 A 24 24 0 0 1 160 100 A 24 24 0 0 1 184 76 z " /></g></svg>
