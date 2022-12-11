@@ -301,6 +301,20 @@ def build_slideshow_html(page_id: str) -> str:
 		slide_html = slide_html.replace('<!--SLIDE-IMAGE-->', image_file)
 		slides_html += slide_html
 	
+	# If there are multiple images, add the slideshow arrows and dots.
+	if len(image_files) > 1:
+		# Adds slideshow arrows.
+		arrows_html = read_html_file('slideshow-arrows.html')
+		slideshow_html = slideshow_html.replace('<!--ARROWS-->', arrows_html)
+	
+		# Add a dot for each slide.
+		dots_html = ''
+		for slide_index in range(len(image_files)):
+			dot_html = read_html_file('slideshow-dot.html')
+			dot_html = dot_html.replace('1', f'{slide_index + 1}') # Slide indices start at 1 not 0.
+			dots_html += dot_html
+		slideshow_html = slideshow_html.replace('<!--DOTS-->', dots_html)
+	
 	# Add the slides HTML into the final slideshow HTML and return it.
 	slideshow_html = slideshow_html.replace('<!--SLIDES-->', slides_html)
 	return slideshow_html
