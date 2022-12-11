@@ -259,7 +259,7 @@ mark {
 	100% { transform: translate(0.5px, -1px) rotate(-1deg); }
 }
 
-.br, .br-1-4, .br-1-2, .br-1 {
+.br, .br-1-8, .br-1-4, .br-1-2, .br-1 {
 	display: block;
 	width: 100%;
 	margin: 0;
@@ -277,6 +277,10 @@ mark {
 
 .br-1-4 {
 	height: 0.25rem;
+}
+
+.br-1-8 {
+	height: 0.125rem;
 }
 
 .tooltip {
