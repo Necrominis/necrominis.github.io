@@ -48,10 +48,10 @@ def make_pages(verbose: bool = False, silent: bool = False) -> None:
 	for page_id in page_ids:
 		# If specified, print out when each page is made. 
 		if not silent:
-			print(f'  ./{page_id_to_subpath(page_id)}')
+			print_normal(f'  ./{page_id_to_subpath(page_id)}')
 			if verbose:
-				print(f'      {page_id_to_url(page_id)}')
-				print(f'      {page_id_to_filepath(page_id, True)}')
+				print_normal(f'      {page_id_to_url(page_id)}')
+				print_normal(f'      {page_id_to_filepath(page_id, True)}')
 
 		# Build and create the page file(s).
 		make_page(page_id)
@@ -66,13 +66,15 @@ def make_pages(verbose: bool = False, silent: bool = False) -> None:
 # Main method.
 # ======================================================================================= #
 def main(clean: bool = False, verbose: bool = False, silent: bool = False) -> None:
+	init_printer()
+
 	# Print out starting text.
 	if is_web_url(data['website']):
 		print_good('GENERATING PRODUCTION WEBSITE')
 	else:
 		print_warning('GENERATING LOCAL DEVELOPMENT WEBSITE')
 		
-	print()
+	print_normal()
 
 	# If specified, delete all the old pages first.
 	if clean:
@@ -80,6 +82,8 @@ def main(clean: bool = False, verbose: bool = False, silent: bool = False) -> No
 
 	# Generate all the page files.
 	make_pages(verbose, silent)
+
+	deinit_printer()
 
 
 
@@ -122,11 +126,11 @@ if __name__ == '__main__':
 				os.chdir(args[0])
 			else:
 				# If directory is specified and an invalid path is given, bail.
-				print("ERROR: Bailing because the directory may not be correct: " + args[0])
+				print_fault("Bailing because the directory may not be correct: ", args[0])
 				exit()
 		else:
 			# If directory is specified, and no path is given, bail.
-			print("ERROR: Bailing because the directory flag was specified, but no path was given.")
+			print_fault("Bailing because the directory flag was specified, but no path was given.")
 			exit()
 	else:
 		if os.path.exists(os.getcwd()) and os.getcwd().join('/.builder/main.py'):
@@ -134,7 +138,7 @@ if __name__ == '__main__':
 			pass
 		else:
 			# If directory wasn't specified, and the current path is invalid, bail.
-			print("ERROR: Bailing because the directory may not be correct: " + os.getcwd())
+			print_fault("Bailing because the directory may not be correct: ", f"{os.getcwd()}")
 			exit()
 
 	# After processing arguments, start the main method.
