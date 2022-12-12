@@ -55,6 +55,15 @@ paint_brands = {
 			"metal-color": {
 				"text": "Metal Color",
 			},
+			"diorama-effects": {
+				"text": "Diorama Effects",
+			},
+			"auxiliaries": {
+				"text": "Auxiliaries",
+			},
+			"surface-primer": {
+				"text": "Surface Primer",
+			},
 		},
 	},
 	"citadel": {
@@ -74,6 +83,50 @@ paint_brands = {
 			},
 			"contrast": {
 				"text": "Contrast",
+			},
+			"technical": {
+				"text": "Technical",
+			},
+			"texture": {
+				"text": "Texture",
+			},
+			"sprays": {
+				"text": "Sprays",
+			},
+			"air": {
+				"text": "Air",
+			},
+		},
+	},
+	"army-painter": {
+		"text": "Army Painter",
+		"lines": {
+			"warpaints": {
+				"text": "Warpaints",
+			},
+		},
+	},
+	"liquitex": {
+		"text": "Liquitex",
+		"lines": {
+			"acrylic-mediums": {
+				"text": "Acrylic Mediums"
+			},
+		},
+	},
+	"tamiya": {
+		"text": "Tamiya",
+		"lines": {
+			"surface-primer": {
+				"text": "Surface Primer"
+			},
+		},
+	},
+	"krylon": {
+		"text": "Krylon",
+		"lines": {
+			"color-maxx": {
+				"text": "Color Maxx"
 			},
 		},
 	},
