@@ -1028,7 +1028,42 @@ _washes = {
 
 # ============================================================================ #
 _contrasts = {
-
+	"citadel-contrast-apothecary-white": {
+		"text": "Apothecary White",
+		"brand": "citadel",
+		"line": "contrast",
+		"category": "contrasts",
+		"icon-css": _right("#8fadc8, #f6fbff"),
+		"official-name": "Citadel Contrast Apothecary White",
+		"url": "https://www.games-workshop.com/en-US/Apothecary-White-2019",
+	},
+	"citadel-contrast-blood-angels-red": {
+		"text": "Blood Angels Red",
+		"brand": "citadel",
+		"line": "contrast",
+		"category": "contrasts",
+		"icon-css": _right("#76080b, #c11519"),
+		"official-name": "Citadel Contrast Blood Angels Red",
+		"url": "https://www.games-workshop.com/en-US/Blood-Angels-Red-2019",
+	},
+	"citadel-contrast-guilliman-flesh": {
+		"text": "Guilliman Flesh",
+		"brand": "citadel",
+		"line": "contrast",
+		"category": "contrasts",
+		"icon-css": _right("#912d20, #d1a194"),
+		"official-name": "Citadel Contrast Guilliman Flesh",
+		"url": "https://www.games-workshop.com/en-US/Guilliman-Flesh-2019",
+	},
+	"citadel-contrast-ultramarines-blue": {
+		"text": "Ultramarines Blue",
+		"brand": "citadel",
+		"line": "contrast",
+		"category": "contrasts",
+		"icon-css": _right("#000a37, #294f86"),
+		"official-name": "Citadel Contrast Ultramarines Blue",
+		"url": "https://www.games-workshop.com/en-US/Ultramarines-Blue-2019",
+	},
 }
 
 
