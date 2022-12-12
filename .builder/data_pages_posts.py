@@ -68,7 +68,7 @@ posts = {
 			"vallejo-surface-primer-black",
 			"krylon-clear-coatings-matte-finish",
 			"vallejo-auxiliaries-gloss-acrylic-varnish",
-			"liquitex-acrylic-medium-flow-aid",
+			"liquitex-acrylic-mediums-flow-aid",
 		],
 	},
 	# ============================================================================ #

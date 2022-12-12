@@ -982,7 +982,54 @@ _varnishes = {
 
 # ============================================================================ #
 _additives = {
-
+	"vallejo-auxiliaries-glaze-medium": {
+		"text": "Glaze Medium",
+		"brand": "vallejo",
+		"line": "auxiliaries",
+		"category": "additives",
+		"official-name": "Vallejo Auxiliaries 70.596 Glaze Medium",
+		"url": "https://acrylicosvallejo.com/en/product/hobby/auxiliaries-model/glaze-medium-70596/",
+	},
+	"vallejo-auxiliaries-flow-improver": {
+		"text": "Flow Improver",
+		"brand": "vallejo",
+		"line": "auxiliaries",
+		"category": "additives",
+		"official-name": "Vallejo Auxiliaries 71.262 Flow Improver",
+		"url": "https://acrylicosvallejo.com/en/product/hobby/auxiliaries-model/airbrush-flow-improver-71262/",
+	},
+	"vallejo-auxiliaries-airbrush-thinner": {
+		"text": "Airbrush Thinner",
+		"brand": "vallejo",
+		"line": "auxiliaries",
+		"category": "additives",
+		"official-name": "Vallejo Auxiliaries 71.161 Airbrush Thinner",
+		"url": "https://acrylicosvallejo.com/en/product/hobby/auxiliaries-model/airbrush-thinner-71261/",
+	},
+	"liquitex-acrylic-mediums-flow-aid": {
+		"text": "Flow Aid",
+		"brand": "liquitex",
+		"line": "acrylic-mediums",
+		"category": "additives",
+		"official-name": "Liquitex Acrylic Mediums Flow Aid Additive",
+		"url": "https://www.amazon.com/dp/B000KNPM46?psc=1&ref=ppx_yo2_dt_b_product_details",
+	},
+	"liquitex-acrylic-mediums-slow-dri": {
+		"text": "Slow-Dri",
+		"brand": "liquitex",
+		"line": "acrylic-mediums",
+		"category": "additives",
+		"official-name": "Liquitex Acrylic Mediums SLow-Dri Fluid Additive",
+		"url": "https://www.amazon.com/Liquitex-126704-Professional-Slow-Dri-Retarder/dp/B004M559I2/ref=sr_1_2?keywords=liquitex+slow+dri&qid=1639589671&sr=8-2",
+	},
+	"citadel-technical-lahmian-medium": {
+		"text": "Lahmian Medium",
+		"brand": "citadel",
+		"line": "technical",
+		"category": "additives",
+		"official-name": "Citadel Technical Lahmian Medium",
+		"url": "https://www.games-workshop.com/en-US/Technical-Lahmian-Medium-2019",
+	},
 }
 
 
