@@ -112,6 +112,12 @@ function toggleGalleryFilter(filter) {
 		filter.classList.remove('active');
 	} else {
 		filter.className += " active";
+		// Deactivate all other filters.
+		for (let i = 0; i < galleryFilters.length; i++) {
+			if (galleryFilters[i] != filter) {
+				galleryFilters[i].classList.remove('active');
+			}
+		}
 	}
 
 	updateGalleryFilters();
