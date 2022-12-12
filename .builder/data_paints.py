@@ -80,6 +80,9 @@ paint_brands = {
 			"game-color": {
 				"text": "Game Color",
 			},
+			"game-wash": {
+				"text": "Game Wash",
+			},
 			"game-ink": {
 				"text": "Game Ink",
 			},
@@ -909,7 +912,78 @@ _metallics = {
 
 # ============================================================================ #
 _washes = {
-	
+	"vallejo-game-wash-pale-grey": {
+		"text": "Pale Grey",
+		"brand": "vallejo",
+		"line": "game-wash",
+		"category": "washes",
+		"icon-css": _solid("#cacad2"),
+		"official-name": "Vallejo Game Wash 73.202 Pale Grey Wash",
+		"url": "https://acrylicosvallejo.com/en/product/hobby/game-color-en/pale-grey-wash-73202/",
+	},
+	"vallejo-game-wash-black": {
+		"text": "Black",
+		"brand": "vallejo",
+		"line": "game-wash",
+		"category": "washes",
+		"icon-css": _solid("#343235"),
+		"official-name": "Vallejo Game Wash 73.201 Black Wash",
+		"url": "https://acrylicosvallejo.com/en/product/hobby/game-color-en/black-wash/",
+	},
+	"vallejo-game-wash-red": {
+		"text": "Red",
+		"brand": "vallejo",
+		"line": "game-wash",
+		"category": "washes",
+		"icon-css": _solid("#d55e86"),
+		"official-name": "Vallejo Game Wash 73.206 Red Wash",
+		"url": "https://acrylicosvallejo.com/en/product/hobby/game-color-en/red-wash-73206/",
+	},
+	"vallejo-game-wash-flesh": {
+		"text": "Flesh",
+		"brand": "vallejo",
+		"line": "game-wash",
+		"category": "washes",
+		"icon-css": _solid("#b67c78"),
+		"official-name": "Vallejo Game Wash 73.204 Flesh Wash",
+		"url": "https://acrylicosvallejo.com/en/product/hobby/game-color-en/flesh-wash-73204/",
+	},
+	"vallejo-game-wash-umber": {
+		"text": "Umber",
+		"brand": "vallejo",
+		"line": "game-wash",
+		"category": "washes",
+		"icon-css": _solid("#766053"),
+		"official-name": "Vallejo Game Wash 73.203 Umber Wash",
+		"url": "https://acrylicosvallejo.com/en/product/hobby/game-color-en/umber-wash-73203/",
+	},
+	"vallejo-game-wash-sepia": {
+		"text": "Sepia",
+		"brand": "vallejo",
+		"line": "game-wash",
+		"category": "washes",
+		"icon-css": _solid("#8b622c"),
+		"official-name": "Vallejo Game Wash 73.200 Sepia Wash",
+		"url": "https://acrylicosvallejo.com/en/product/hobby/game-color-en/sepia-wash/",
+	},
+	"vallejo-game-wash-green": {
+		"text": "Green",
+		"brand": "vallejo",
+		"line": "game-wash",
+		"category": "washes",
+		"icon-css": _solid("#72b25b"),
+		"official-name": "Vallejo Game Wash 73.305 Green Wash",
+		"url": "https://acrylicosvallejo.com/en/product/hobby/game-color-en/green-wash-73205/",
+	},
+	"vallejo-game-wash-blue": {
+		"text": "Blue",
+		"brand": "vallejo",
+		"line": "game-wash",
+		"category": "washes",
+		"icon-css": _solid("#1a5b9b"),
+		"official-name": "Vallejo Game Wash 73.207 Blue Wash",
+		"url": "https://acrylicosvallejo.com/en/product/hobby/game-color-en/blue-wash-73207/",
+	},
 }
 
 
