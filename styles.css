@@ -397,6 +397,16 @@ img.icon.inline {
 	margin-right: 0.5em;
 }
 
+.paint-icon-container {
+	display: inline;
+	margin: 0;
+	padding: var(--line-thickness);
+}
+
+.paint-icon-container img.icon {
+	height: calc(1.5em - 2 * var(--line-thickness));
+}
+
 /* BUTTONS */
 
 .button {
