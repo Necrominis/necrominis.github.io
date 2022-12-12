@@ -68,7 +68,6 @@ Changes the current working directory within the script to the given path. The p
 ## Features
 
 * Add page footer.
-* Create new icons for the properties: created, tags, manufacturers, and models.
 * Implement the clean argument's functionality.
 * Implement the directory argument's functionality.
 * Add a related posts gallery below post articles (ideally with the same tags/filters as the post itself).
