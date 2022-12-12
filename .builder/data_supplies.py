@@ -1,3 +1,9 @@
+from printer import *
+
+
+
+
+
 # Make sure to always use trailing commas!
 # Make sure to sort supplies alphabetically!
 
@@ -452,3 +458,12 @@ _i = 0
 for supplies_id in supplies.keys():
 	supplies[supplies_id]['index'] = _i
 	_i += 1
+
+
+
+
+
+# Don't allow running this as the main file. Run main.py instead.
+# ======================================================================================= #
+if __name__ == '__main__':
+	print_error('Run \'main.py\' instead.')

@@ -1,3 +1,4 @@
+from printer import *
 from data_image_paths import *
 from data_tags import *
 from data_manufacturers import *
@@ -35,3 +36,12 @@ data = {
 	
 	"pages": pages,
 }
+
+
+
+
+
+# Don't allow running this as the main file. Run main.py instead.
+# ======================================================================================= #
+if __name__ == '__main__':
+	print_error('Run \'main.py\' instead.')

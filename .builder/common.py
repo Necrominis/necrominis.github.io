@@ -227,6 +227,11 @@ def page_id_to_url(page_id: str) -> str:
 def _sort_list(ids: '[str]', data_dictionary: dict) -> '[str]':
 	all_ids = data_dictionary.keys()
 
+	# Check for ID in ids that's not in all_ids.
+	for id in ids:
+		if not id in all_ids:
+			print_warning('ID not found in list of IDs while sorting: ', id)
+
 	# Create a list of tuples with index and ID.
 	sorted_tuples = []
 	for id in all_ids:

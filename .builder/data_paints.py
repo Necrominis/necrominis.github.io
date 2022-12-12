@@ -1,3 +1,9 @@
+from printer import *
+
+
+
+
+
 # Make sure to always use trailing commas!
 # Paint orders are the same as category orders!
 # Paint colors arw white to black and red to purple!
@@ -934,3 +940,12 @@ _i = 0
 for paint_id in paints.keys():
 	paints[paint_id]['index'] = _i
 	_i += 1
+
+
+
+
+
+# Don't allow running this as the main file. Run main.py instead.
+# ======================================================================================= #
+if __name__ == '__main__':
+	print_error('Run \'main.py\' instead.')

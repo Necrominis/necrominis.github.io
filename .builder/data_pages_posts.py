@@ -1,4 +1,5 @@
 from data_common import *
+from printer import *
 
 
 
@@ -65,9 +66,9 @@ posts = {
 			"vallejo-game-color-scurvy-green",
 			"vallejo-game-color-heavy-violet",
 			"vallejo-surface-primer-black",
-			# "krylon-spray-matte-finish",
-			# "vallejo-auxiliary-gloss-acrylic-varnish",
-			# "liquitex-acrylic-medium-flow-aid",
+			"krylon-spray-matte-finish",
+			"vallejo-auxiliary-gloss-acrylic-varnish",
+			"liquitex-acrylic-medium-flow-aid",
 		],
 	},
 	# ============================================================================ #
@@ -114,7 +115,16 @@ posts = {
 			"vallejo-game-color-hexed-lichen",
 			"vallejo-game-color-heavy-violet",
 			"vallejo-surface-primer-black",
-			# "vallejo-auxiliary-matt-acrylic-varnish",
+			"vallejo-auxiliary-matt-acrylic-varnish",
 		],
 	},
 }
+
+
+
+
+
+# Don't allow running this as the main file. Run main.py instead.
+# ======================================================================================= #
+if __name__ == '__main__':
+	print_error('Run \'main.py\' instead.')

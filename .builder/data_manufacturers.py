@@ -1,3 +1,8 @@
+from printer import *
+
+
+
+
 # Make sure to always use trailing commas!
 
 
@@ -52,3 +57,12 @@ manufacturers = {
 		"url": "#",
 	},
 }
+
+
+
+
+
+# Don't allow running this as the main file. Run main.py instead.
+# ======================================================================================= #
+if __name__ == '__main__':
+	print_error('Run \'main.py\' instead.')

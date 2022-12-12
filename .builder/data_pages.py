@@ -1,4 +1,5 @@
 from data_common import *
+from printer import *
 from data_pages_posts import *
 
 
@@ -88,3 +89,12 @@ _i = 0
 for page_id in pages.keys():
 	pages[page_id]['index'] = _i
 	_i += 1
+
+
+
+
+
+# Don't allow running this as the main file. Run main.py instead.
+# ======================================================================================= #
+if __name__ == '__main__':
+	print_error('Run \'main.py\' instead.')

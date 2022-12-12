@@ -80,7 +80,7 @@ def build_article_html(page_id: str) -> str:
 	elif page_type_id == '404':
 		article_content_html = build_404_article_content_html(page_id)
 	else:
-		print_error(f'Page type ID \'{page_type_id}\' not implemented.')
+		print_error('Page type ID not implemented: ', page_type_id)
 
 	article_html = article_html.replace('<!--CONTENT-->', article_content_html)
 

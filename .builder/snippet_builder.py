@@ -289,7 +289,7 @@ def build_slideshow_html(page_id: str) -> str:
 	# Handle no images being specified by the post.
 	if len(image_files) == 0:
 		image_files = [data['no-image']]
-		print_warning(f'Missing image reference for slideshow on page with ID: {page_id}')
+		print_warning('Missing image reference for slideshow on page with ID: ', page_id)
 
 	# Get the starter slideshow HTML.
 	slideshow_html = read_html_file('slideshow.html')
@@ -509,7 +509,7 @@ def build_gallery_items_html(page_id: str) -> str:
 		if len(page['images']) > 0:
 			page_image = page['images'][0]
 		else:
-			print_warning(f'Missing image reference for slideshow on page with ID: {page_id}')
+			print_warning('Missing image reference for slideshow on page with ID: ', page_id)
 
 		# Build the starter gallery item HTML, and add the image and URL.
 		item_html = read_html_file('gallery-item.html')

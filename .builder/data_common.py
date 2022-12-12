@@ -1,3 +1,9 @@
+from printer import *
+
+
+
+
+
 # Make sure to sort alphabetically!
 
 
@@ -27,3 +33,12 @@ URL_MY_MINI_FACTORY = """https://www.myminifactory.com"""
 URL_PATREON = """https://www.patreon.com"""
 URL_STAR_WARS_LEGION = """https://www.fantasyflightgames.com/en/products/star-wars-legion"""
 URL_WARHAMMER = """https://www.warhammer-community.com/en-us"""
+
+
+
+
+
+# Don't allow running this as the main file. Run main.py instead.
+# ======================================================================================= #
+if __name__ == '__main__':
+	print_error('Run \'main.py\' instead.')
