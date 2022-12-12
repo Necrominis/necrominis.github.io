@@ -82,6 +82,8 @@ Changes the current working directory within the script to the given path. The p
 	* Add Wash, Shade, and Ink paints.
 	* Add Varnish and Additive paints.
 	* Add Primer paints.
+	* Citadel Contrast / Blood Angels Red
+	* Stynylrez / SNR-403 Black Primer
 * Add the rest of the posts.
 
 ## Code
