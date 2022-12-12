@@ -77,7 +77,7 @@ Changes the current working directory within the script to the given path. The p
 
 * Add those lamp covers I got.
 * Add the rest of the paints.
-	* Add Citadel paints.
+	* Integrate citadel color paints into Vallejo color paints.
 	* Add Technical, Texture, and Contrast paints.
 	* Add Wash, Shade, and Ink paints.
 	* Add Varnish and Additive paints.
