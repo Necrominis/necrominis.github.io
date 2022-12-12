@@ -45,8 +45,20 @@ supplies_brands = {
 	"badger": {
 		"text": "Badger",
 	},
+	"dahle-vantage": {
+		"text": "Dahle Vantage",
+	},
+	"ebest-store": {
+		"text": "Ebest Store",
+	},
 	"ecotools": {
 		"text": "ecoTools",
+	},
+	"ge-lighting": {
+		"text": "GE Lighting",
+	},
+	"gcmini": {
+		"text": "GCMini",
 	},
 	"green-stuff-world": {
 		"text": "Green Stuff World",
@@ -54,11 +66,20 @@ supplies_brands = {
 	"hayes-paper": {
 		"text": "Hayes Paper",
 	},
+	"intllab": {
+		"text": "INTLLAB",
+	},
 	"iwata-medea": {
 		"text": "Iwata Medea",
 	},
 	"litko": {
 		"text": "LITKO",
+	},
+	"master-airbrush": {
+		"text": "Master Airbrush",
+	},
+	"medpride": {
+		"text": "MedPride",
 	},
 	"microscale": {
 		"text": "Microscale",
@@ -68,6 +89,9 @@ supplies_brands = {
 	},
 	"rosemary-co": {
 		"text": "Rosemary & Co",
+	},
+	"torchstar": {
+		"text": "TORCHSTAR",
 	},
 	"vallejo": {
 		"text": "Vallejo",
@@ -199,6 +223,69 @@ _equipment = {
 		"category": "equipment",
 		"official-name": "Anycubic Photon S",
 		"url": "https://www.anycubic.com/products/anycubic-photon-s",
+	},
+	"dahle-cantage-cutting-mat-18x25": {
+		"text": "Cutting Mat 18\"x25\"",
+		"brand": "dahle-vantage",
+		"category": "equipment",
+		"official-name": "Dahle Vantage 10672 Self-Healing Cutting Mat 18\"x25\" 1/2\" Grid Black",
+		"url": "https://www.amazon.com/Dahle-Vantage-Self-Healing-Cutting-Cropping/dp/B0027ROZ9G/ref=sr_1_2?crid=152DG803ZBBV4&keywords=vantage+cutting+mat+24+18&qid=1647148803&sprefix=vantage+cutting+mat+24+18%2Caps%2C106&sr=8-2",
+	},
+	"ebest-store-airbrush-spray-pot-cleaning-set": {
+		"text": "Airbrush Spray Pot Cleaning Set",
+		"brand": "ebest-store",
+		"category": "equipment",
+		"official-name": "Ebest Store 4 Set Airbrush Spray Gun Wash Cleaning Tools Needle Nozzle Brush Glass Cleaning Pot Holder",
+		"url": "https://www.amazon.com/Airbrush-Cleaning-Needle-Nozzle-Holder/dp/B0154HN2NA/ref=sr_1_2?crid=34WTWNRD7KLM0&keywords=ebest+4+set+airbrush+spray+gun&qid=1654874315&sprefix=ebest+4+set+airbrush+spray+gun%2Caps%2C94&sr=8-2",
+	},
+	"ge-lighting-daylight-led-a19-light-bulbs": {
+		"text": "Daylight LED A19 Light Bulbs",
+		"brand": "ge-lighting",
+		"category": "equipment",
+		"official-name": "GE LED Light Bulbs A1910 Watts Daylight Medium Base Non-Dimmable",
+		"url": "https://www.amazon.com/dp/B077QCWTCV?psc=1&ref=ppx_yo2_dt_b_product_details",
+	},
+	"gcmini-citadel-paint-rack": {
+		"text": "Citadel Paint Rack",
+		"brand": "gcmini",
+		"category": "equipment",
+		"official-name": "GCMini Paint Rack 34mm GW / Citadel",
+		"url": "https://gcmini.mybigcommerce.com/paint-rack-34mm-designed-for-gw-and-citadel-paint-pots/",
+	},
+	"gcmini-vallejo-paint-rack": {
+		"text": "Vallejo Paint Rack",
+		"brand": "gcmini",
+		"category": "equipment",
+		"official-name": "GCMini Paint Rack for Vallejo and Army Painter Style Dropper Bottles",
+		"url": "https://gcmini.mybigcommerce.com/paint-rack-26mm-for-vallejo-and-army-painter-style-dropper-bottles/",
+	},
+	"intllab-vortex-mixer": {
+		"text": "Vortex Mixer",
+		"brand": "intllab",
+		"category": "equipment",
+		"official-name": "INTLLAB Lab Vortex Mixer",
+		"url": "https://www.amazon.com/INTLLAB-Function-Vortexer-Adhesives-Centrifuge/dp/B08CR43XR3/ref=sr_1_3?crid=KETPNCRTX5DG&keywords=intllab+lab+vortex+mixer&qid=1654874777&sprefix=intllab+lab+vortex+mixer%2Caps%2C99&sr=8-3",
+	},
+	"master-airbrush-air-compressor": {
+		"text": "Air Compressor",
+		"brand": "master-airbrush",
+		"category": "equipment",
+		"official-name": "Master Airbrush Cool Runner || Dual Fan Air Compressor Kit Model TC-320",
+		"url": "https://www.amazon.com/Master-Airbrush-Runner-Compressor-TC-320/dp/B07ZQL2BHQ/ref=sr_1_2?crid=3Q5WVH8A7DQPO&keywords=master+airbrush+1%2F5+hp+cool+runner+ii+dual+fan+air+compressor&qid=1654874427&sprefix=master+airbrush+1%2F5+hp+cool+%2Caps%2C97&sr=8-2",
+	},
+	"medpride-nitrile-exam-gloves": {
+		"text": "Nitrile Exam Gloves",
+		"brand": "medpride",
+		"category": "equipment",
+		"official-name": "MedPride Nitrile Exam Gloves Powder-Free Small",
+		"url": "https://www.amazon.com/dp/B00GS8W2HC?psc=1&ref=ppx_yo2_dt_b_product_details",
+	},
+	"torchstar-metal-swing-arm-desk-lamp": {
+		"text": "Metal Swing Arm Desk Lamp",
+		"brand": "torchstar",
+		"category": "equipment",
+		"official-name": "TORCHSTAR Metal Swing Arm Desk Lamp Black",
+		"url": "https://www.amazon.com/dp/B01NAHT5CE?ref=ppx_yo2_dt_b_product_details&th=1",
 	},
 }
 

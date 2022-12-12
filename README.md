@@ -76,14 +76,13 @@ Changes the current working directory within the script to the given path. The p
 
 ## Data
 
+* Add those lamp covers I got.
 * Add the rest of the paints.
 	* Add Citadel paints.
 	* Add Technical, Texture, and Contrast paints.
 	* Add Wash, Shade, and Ink paints.
 	* Add Varnish and Additive paints.
 	* Add Primer paints.
-* Add the rest of the supplies.
-	* Add storage, furnature, and equipment.
 * Add the rest of the posts.
 
 ## Code
