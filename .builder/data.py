@@ -22,6 +22,8 @@ data = {
 
 	"image-paths": image_paths,
 	"no-image": "necrominis-missing-image.jpg", # In the ./images/posts/ directory
+	"no-paint": "necrominis-missing-paint-icon.png", # In the ./images/paint-icons/ directory
+	"blank-paint": "necrominis-blank-paint-icon.png", # In the ./images/paint-icons/ directory
 
 	"tags": tags,
 	"manufacturers": manufacturers,

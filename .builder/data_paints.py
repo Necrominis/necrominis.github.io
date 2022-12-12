@@ -173,6 +173,9 @@ _colors = {
 		"brand": "vallejo",
 		"line": "game-color",
 		"category": "colors",
+		"icon": [
+			"#afc1cb"
+		],
 		"official-name": "Vallejo Game Color 72.047 Wolf Grey",
 		"url": "https://acrylicosvallejo.com/en/product/hobby/game-color-en/wolf-grey-72047/",
 	},

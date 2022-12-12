@@ -7,6 +7,8 @@ from processor import *
 
 
 # The following are assumed to exist and required for this to work:
+# data['no-paint']
+# data['blank-paint']
 # data['tags'][tag_id]['text']
 # data['tags'][tag_id]['color']
 # data['pages']['gallery']['pages']
@@ -20,10 +22,11 @@ from processor import *
 # data['pages'][page_id]['paints-used']
 # data['paint-brands'][brand_id]['text']
 # data['paint-brands'][brand_id]['lines'][line_id]['text']
+# data['paint-brands'][brand_id]['lines'][line_id]['direction'] == gradient direction or empty string if solid color
 # data['paints']['text']
 # data['paints']['brand']
 # data['paints']['line']
-# data['paints']['icon']
+# data['paints']['icon'] == image-path or array of color values
 # data['paints']['official-name']
 # data['paints']['url']
 
@@ -207,6 +210,49 @@ def build_tags_property_html(page_id: str) -> str:
 
 
 
+# Build the paint icon HTML for a paints or paints-used section.
+# ======================================================================================= #
+def build_paint_icon_html(paint_id: str) -> str:
+	paint = data['paints'][paint_id]
+
+	# Get paint gradient direction.
+	direction = ''
+	if 'direction' in paint.keys():
+		direction = paint['direction']
+
+	# Choose icon image based on paint data.
+	icon_path = data['no-paint']
+	style_css = ''
+	if 'icon' in paint.keys():
+		icon = paint['icon']
+		icon_path = data['blank-paint']
+		# Specified icon file.
+		if isinstance(icon, str):
+			icon_path = f"{icon}"
+
+		# Specified icon color values.
+		elif isinstance(icon, list):
+			# No direction: solid color.
+			if direction == '':
+				style_css += f"""background-color: {icon[0]};"""
+			# Direction: gradient.
+			else:
+				style_css += f"""background-image: linear-gradient(to {direction}"""
+				for color in icon:
+					style_css += f""", {color}"""
+				style_css += """);"""
+
+	# Place the icon into the HTML.
+	icon_html = read_html_file('paint-icon.html')
+	icon_html = icon_html.replace('<!--PAINT-ICON-->', icon_path)
+	icon_html = icon_html.replace('<!--ICON-STYLE-->', style_css)
+
+	return icon_html
+
+
+
+
+
 # Build the paint item HTML for a paints or paints-used section.
 # ======================================================================================= #
 def build_paint_item_html(paint_id: str) -> str:
@@ -223,7 +269,7 @@ def build_paint_item_html(paint_id: str) -> str:
 	# Get the paint color data.
 	color_text = paint['text']
 	# Get the final paint data. (TODO: page and official-name)
-	icon = f"{paint_id}.png"
+	icon_html = build_paint_icon_html(paint_id)
 	url = paint['url']
 	paint_name = f'{brand_text}{separator}{line_text}{separator}{color_text}'
 
@@ -231,7 +277,7 @@ def build_paint_item_html(paint_id: str) -> str:
 	paint_item_html = read_html_file('paint-item.html')
 
 	# Replace the HTML with the paint's data.
-	paint_item_html = paint_item_html.replace('<!--PAINT-ICON-->', icon)
+	paint_item_html = paint_item_html.replace('<!--PAINT-ICON-->', icon_html)
 	paint_item_html = paint_item_html.replace('<!--URL-->', url)
 	paint_item_html = paint_item_html.replace('<!--PAINT-->', paint_name)
 
