@@ -22,7 +22,7 @@ from processor import *
 # data['pages'][page_id]['paints-used']
 # data['paint-brands'][brand_id]['text']
 # data['paint-brands'][brand_id]['lines'][line_id]['text']
-# data['paint-brands'][brand_id]['lines'][line_id]['direction'] == gradient direction or empty string if solid color
+# data['paint-brands'][brand_id]['lines'][line_id]['icon-direction'] == gradient direction or empty string if solid color
 # data['paints']['text']
 # data['paints']['brand']
 # data['paints']['line']
@@ -214,11 +214,14 @@ def build_tags_property_html(page_id: str) -> str:
 # ======================================================================================= #
 def build_paint_icon_html(paint_id: str) -> str:
 	paint = data['paints'][paint_id]
+	brand_id = paint['brand']
+	line_id = paint['line']
+	line = data['paint-brands'][brand_id]['lines'][line_id]
 
 	# Get paint gradient direction.
 	direction = ''
-	if 'direction' in paint.keys():
-		direction = paint['direction']
+	if 'icon-direction' in line.keys():
+		direction = line['direction']
 
 	# Choose icon image based on paint data.
 	icon_path = data['no-paint']
