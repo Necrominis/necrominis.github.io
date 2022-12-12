@@ -921,6 +921,15 @@ _washes = {
 		"official-name": "Vallejo Game Wash 73.202 Pale Grey Wash",
 		"url": "https://acrylicosvallejo.com/en/product/hobby/game-color-en/pale-grey-wash-73202/",
 	},
+	"citadel-shade-wash-bulb-oil": {
+		"text": "Nuln Oil",
+		"brand": "citadel",
+		"line": "shade",
+		"category": "washes",
+		"icon-css": _down("#dfd9d6, #101010"),
+		"official-name": "Citadel Shade Nuln Oil",
+		"url": "https://www.games-workshop.com/en-US/Shade-Nuln-Oil-2019",
+	},
 	"vallejo-game-wash-black": {
 		"text": "Black",
 		"brand": "vallejo",
@@ -938,6 +947,15 @@ _washes = {
 		"icon-css": _solid("#d55e86"),
 		"official-name": "Vallejo Game Wash 73.206 Red Wash",
 		"url": "https://acrylicosvallejo.com/en/product/hobby/game-color-en/red-wash-73206/",
+	},
+	"citadel-shade-reikland-fleshshade": {
+		"text": "Reikland Fleshshade",
+		"brand": "citadel",
+		"line": "shade",
+		"category": "washes",
+		"icon-css": _down("#ffd5b7, #311908"),
+		"official-name": "Citadel Shade Reikland Fleshshade",
+		"url": "https://www.games-workshop.com/en-US/shade-Reikland-Fleshshade-2019",
 	},
 	"vallejo-game-wash-flesh": {
 		"text": "Flesh",
@@ -957,6 +975,15 @@ _washes = {
 		"official-name": "Vallejo Game Wash 73.203 Umber Wash",
 		"url": "https://acrylicosvallejo.com/en/product/hobby/game-color-en/umber-wash-73203/",
 	},
+	"citadel-shade-agrax-earthshade": {
+		"text": "Agrax Earthshade",
+		"brand": "citadel",
+		"line": "shade",
+		"category": "washes",
+		"icon-css": _down("#e2dac8, #2d190c"),
+		"official-name": "Citadel Shade Agrax Earthshade",
+		"url": "https://www.games-workshop.com/en-US/shade-Agrax-Earthshade-2019",
+	},
 	"vallejo-game-wash-sepia": {
 		"text": "Sepia",
 		"brand": "vallejo",
@@ -965,6 +992,15 @@ _washes = {
 		"icon-css": _solid("#8b622c"),
 		"official-name": "Vallejo Game Wash 73.200 Sepia Wash",
 		"url": "https://acrylicosvallejo.com/en/product/hobby/game-color-en/sepia-wash/",
+	},
+	"citadel-shade-athonian-camoshade": {
+		"text": "Athonian Camoshade",
+		"brand": "citadel",
+		"line": "shade",
+		"category": "washes",
+		"icon-css": _down("#fdfebf, #1c1c10"),
+		"official-name": "Citadel Shade Athonian Camoshade",
+		"url": "https://www.games-workshop.com/en-US/shade-Athonian-Camoshade-2019",
 	},
 	"vallejo-game-wash-green": {
 		"text": "Green",
