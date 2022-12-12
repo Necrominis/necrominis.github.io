@@ -80,7 +80,7 @@ Changes the current working directory within the script to the given path. The p
 	* Integrate citadel color paints into Vallejo color paints.
 	* Add Technical, Texture, and Contrast paints.
 	* Add Wash, Shade, and Ink paints.
-	* Add Varnish and Additive paints.
+	* Add Additive paints.
 	* Add Citadel Contrast / Blood Angels Red
 	* Add Stynylrez / SNR-403 Black Primer
 * Add the rest of the posts.

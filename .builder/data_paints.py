@@ -6,7 +6,9 @@ from printer import *
 
 # Make sure to always use trailing commas!
 # Paint orders are the same as category orders!
-# Paint colors arw white to black and red to purple!
+# Paint colors are white to black and red to purple!
+# Varnishes are matt to gloss!
+# Do view-image and inspect-element on citadel gradients to get color IDs!
 
 
 
@@ -15,12 +17,16 @@ from printer import *
 # ============================================================================ #
 def _solid(color: str) -> str:
 	return f"background-color: {color};"
+
 def _right(comma_separated_colors: str) -> str:
 	return f"background-image: linear-gradient(to right, {comma_separated_colors});"
+
 def _down(comma_separated_colors: str) -> str:
 	return f"background-image: linear-gradient(to bottom, {comma_separated_colors});"
+
 def _diagonal(comma_separated_colors: str) -> str:
 	return f"background-image: linear-gradient(to bottom right, {comma_separated_colors});"
+
 def _radial(comma_separated_colors: str) -> str:
 	return f"background-image: radial-gradient({comma_separated_colors});"
 
@@ -132,7 +138,7 @@ paint_brands = {
 		"text": "Liquitex",
 		"lines": {
 			"acrylic-mediums": {
-				"text": "Acrylic Mediums"
+				"text": "Acrylic Mediums",
 			},
 		},
 	},
@@ -140,15 +146,18 @@ paint_brands = {
 		"text": "Tamiya",
 		"lines": {
 			"surface-primer-l": {
-				"text": "Surface Primer L"
+				"text": "Surface Primer L",
 			},
 		},
 	},
 	"krylon": {
 		"text": "Krylon",
 		"lines": {
-			"color-maxx": {
-				"text": "Color Maxx"
+			"colormaxx": {
+				"text": "COLORmaxx",
+			},
+			"clear-coatings": {
+				"text": "Clear Coatings",
 			},
 		},
 	},
@@ -933,7 +942,38 @@ _technicals = {
 
 # ============================================================================ #
 _varnishes = {
-
+	"krylon-clear-coatings-matte-finish": {
+		"text": "Matte Finish",
+		"brand": "krylon",
+		"line": "clear-coatings",
+		"category": "varnishes",
+		"official-name": "Krylon Clear Coatings Matte Finish Spray Coating",
+		"url": "https://www.krylon.com/en/products/clear-coatings/matte-finish-spray-coating/",
+	},
+	"vallejo-auxiliaries-matt-acrylic-varnish": {
+		"text": "Matt Acrylic Varnish",
+		"brand": "vallejo",
+		"line": "auxiliaries",
+		"category": "varnishes",
+		"official-name": "Vallejo Auxiliaries 26.518 Matt Acrylic Varnish",
+		"url": "https://acrylicosvallejo.com/en/product/crafts/auxiliaries-decorative-arts/matt-acrylic-varnish/",
+	},
+	"krylon-colormaxx-satin-crystal-clear": {
+		"text": "Satin Crystal Clear",
+		"brand": "krylon",
+		"line": "colormaxx",
+		"category": "varnishes",
+		"official-name": "Krylon COLORmaxx Satin Crystal Clear",
+		"url": "https://www.amazon.com/Krylon-K05562007-COLORmaxx-Spray-Aerosol/dp/B07LFPDD64/ref=sr_1_6?dchild=1&keywords=krylon+satin+spray&qid=1621994641&sr=8-6",
+	},
+	"vallejo-auxiliaries-gloss-acrylic-varnish": {
+		"text": "Gloss Acrylic Varnish",
+		"brand": "vallejo",
+		"line": "auxiliaries",
+		"category": "varnishes",
+		"official-name": "Vallejo Auxiliaries 26.517 Gloss Acrylic Varnish",
+		"url": "https://acrylicosvallejo.com/en/product/crafts/auxiliaries-decorative-arts/gloss-acrylic-varnish/",
+	},
 }
 
 
