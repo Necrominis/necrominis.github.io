@@ -271,14 +271,16 @@ def _sort_by_category(ids: '[str]', data_dictionary: dict, separators: bool = Tr
 		items.append(data_dictionary[item_id])
 
 	# Add separators between categories.
-	organized_ids = [ids[0]]
-	previous_item = data_dictionary[ids[0]]
-	for i in len(items) - 1:
-		item = items[i+1]
-		item_id = ids[i+1]
+	organized_ids = []
+	previous_item = None
+	for i in range(len(items)):
+		item = items[i]
+		item_id = ids[i]
 
-		if item['category'] != previous_item['category']:
-			organized_ids.append('')
+		# Compare with previous item and att a separator if the categories changed.
+		if previous_item != None:
+			if item['category'] != previous_item['category'] and separators:
+				organized_ids.append('')
 
 		previous_item = item
 		organized_ids.append(item_id)
