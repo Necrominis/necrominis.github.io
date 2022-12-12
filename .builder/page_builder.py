@@ -10,6 +10,7 @@ from snippet_builder import *
 # The following are assumed to exist and required for this to work:
 # data["website"]
 # data["image-paths"] == 'logos' or 'covers' or 'icons' or 'paint-photos' or 'paint-icons' or 'supplies-photos' or 'supplies-icons' or 'post-photos'
+# data['pages'][page_id] == 'home' or 'gallery' or 'my-paints' or 'my-supplies'
 # data['pages'][page_id]['title']
 # data['pages'][page_id]['type']
 # data['pages'][page_id]['type'] == 'home' or 'gallery' or 'post' or 'my-paints' or 'paint' or 'my-supplies' or 'supplies' or '404'
@@ -102,6 +103,24 @@ def build_page_html(page_id: str) -> str:
 	# Get and add the article inner HTML based on the page type.
 	article_html = build_article_html(page_id)
 	page_html = page_html.replace('<!--ARTICLE-->', article_html)
+
+	# Activate or deactivate the navbar buttons based on the page.
+	if page_id == 'home':
+		page_html = page_html.replace('<!--HOME-ACTIVE-->', 'active')
+	else:
+		page_html = page_html.replace('<!--HOME-ACTIVE-->', '')
+	if page_id == 'gallery':
+		page_html = page_html.replace('<!--GALLERY-ACTIVE-->', 'active')
+	else:
+		page_html = page_html.replace('<!--GALLERY-ACTIVE-->', '')
+	if page_id == 'my-paints':
+		page_html = page_html.replace('<!--PAINTS-ACTIVE-->', 'active')
+	else:
+		page_html = page_html.replace('<!--PAINTS-ACTIVE-->', '')
+	if page_id == 'my-supplies':
+		page_html = page_html.replace('<!--SUPPLIES-ACTIVE-->', 'active')
+	else:
+		page_html = page_html.replace('<!--SUPPLIES-ACTIVE-->', '')
 
 	# Replace filepath comments with actual filepaths.
 	page_html = parse_filepaths(page_html)
