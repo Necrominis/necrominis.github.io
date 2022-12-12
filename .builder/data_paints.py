@@ -80,6 +80,9 @@ paint_brands = {
 			"game-color": {
 				"text": "Game Color",
 			},
+			"game-ink": {
+				"text": "Game Ink",
+			},
 			"metal-color": {
 				"text": "Metal Color",
 			},
@@ -924,7 +927,78 @@ _contrasts = {
 
 # ============================================================================ #
 _inks = {
-
+	"vallejo-game-ink-black": {
+		"text": "Black",
+		"brand": "vallejo",
+		"line": "game-ink",
+		"category": "inks",
+		"icon-css": _solid("#282722"),
+		"official-name": "Vallejo Game Ink 72.094 Black",
+		"url": "https://acrylicosvallejo.com/en/product/hobby/game-color-en/black-ink-72094/",
+	},
+	"vallejo-game-ink-red": {
+		"text": "Red",
+		"brand": "vallejo",
+		"line": "game-ink",
+		"category": "inks",
+		"icon-css": _solid("#e53238"),
+		"official-name": "Vallejo Game Ink 72.086 Red",
+		"url": "https://acrylicosvallejo.com/en/product/hobby/game-color-en/red-ink-72086/",
+	},
+	"vallejo-game-ink-skin-wash": {
+		"text": "Skin Wash",
+		"brand": "vallejo",
+		"line": "game-ink",
+		"category": "inks",
+		"icon-css": _solid("#c56f18"),
+		"official-name": "Vallejo Game Ink 70.093 Skin Wash",
+		"url": "https://acrylicosvallejo.com/en/product/hobby/game-color-en/skin-wash-ink-72093/",
+	},
+	"vallejo-game-ink-yellow": {
+		"text": "Yellow",
+		"brand": "vallejo",
+		"line": "game-color",
+		"category": "inks",
+		"icon-css": _solid("#fed346"),
+		"official-name": "Vallejo Game Color 72.085 Yellow",
+		"url": "https://acrylicosvallejo.com/en/product/hobby/game-color-en/yellow-ink-72085/",
+	},
+	"vallejo-game-ink-green": {
+		"text": "Green",
+		"brand": "vallejo",
+		"line": "game-ink",
+		"category": "inks",
+		"icon-css": _solid("#3aa764"),
+		"official-name": "Vallejo Game Ink 72.089 Green",
+		"url": "https://acrylicosvallejo.com/en/product/hobby/game-color-en/green-ink-72089/",
+	},
+	"vallejo-game-ink-black-green": {
+		"text": "Black Green",
+		"brand": "vallejo",
+		"line": "game-ink",
+		"category": "inks",
+		"icon-css": _solid("#0f654a"),
+		"official-name": "Vallejo Game Ink 72.090 Black Green",
+		"url": "https://acrylicosvallejo.com/en/product/hobby/game-color-en/black-green-ink-72090/",
+	},
+	"vallejo-game-ink-blue": {
+		"text": "Blue",
+		"brand": "vallejo",
+		"line": "game-ink",
+		"category": "inks",
+		"icon-css": _solid("#004c9a"),
+		"official-name": "Vallejo Game Ink 72.088 Blue",
+		"url": "https://acrylicosvallejo.com/en/product/hobby/game-color-en/blue-ink-72088/",
+	},
+	"vallejo-game-ink-violet": {
+		"text": "Violet",
+		"brand": "vallejo",
+		"line": "game-ink",
+		"category": "inks",
+		"icon-css": _solid("#682e85"),
+		"official-name": "Vallejo Game Ink 72.087 Violet",
+		"url": "https://acrylicosvallejo.com/en/product/hobby/game-color-en/violet-ink-72087/",
+	},
 }
 
 
