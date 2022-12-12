@@ -881,6 +881,14 @@ _primers = {
 		"official-name": "The Army Painter Warpaints Brush-On Primer",
 		"url": "https://shop.thearmypainter.com/products.php?ProductGroupId=22#Brush-On%20Primers",
 	},
+	"vallejo-surface-primer-black": {
+		"text": "Black",
+		"brand": "vallejo",
+		"line": "surface-primer",
+		"category": "primers",
+		"official-name": "Vallejo Surface Primer 73.602 Black",
+		"url": "https://acrylicosvallejo.com/en/product/hobby/surface-primer-en/black-70602/",
+	},
 	"citadel-sprays-chaos-black-primer": {
 		"text": "Chaos Black Primer",
 		"brand": "citadel",
