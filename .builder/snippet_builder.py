@@ -22,13 +22,13 @@ from processor import *
 # data['pages'][page_id]['paints-used']
 # data['paint-brands'][brand_id]['text']
 # data['paint-brands'][brand_id]['lines'][line_id]['text']
-# data['paint-brands'][brand_id]['lines'][line_id]['icon-direction'] == gradient direction or empty string if solid color
-# data['paints']['text']
-# data['paints']['brand']
-# data['paints']['line']
-# data['paints']['icon'] == image-path or array of color values
-# data['paints']['official-name']
-# data['paints']['url']
+# data['paints'][paint_id]['text']
+# data['paints'][paint_id]['brand']
+# data['paints'][paint_id]['line']
+# data['paints'][paint_id]['icon']
+# data['paints'][paint_id]['icon-css']
+# data['paints'][paint_id]['official-name']
+# data['paints'][paint_id]['url']
 
 
 
@@ -214,36 +214,17 @@ def build_tags_property_html(page_id: str) -> str:
 # ======================================================================================= #
 def build_paint_icon_html(paint_id: str) -> str:
 	paint = data['paints'][paint_id]
-	brand_id = paint['brand']
-	line_id = paint['line']
-	line = data['paint-brands'][brand_id]['lines'][line_id]
-
-	# Get paint gradient direction.
-	direction = ''
-	if 'icon-direction' in line.keys():
-		direction = line['direction']
 
 	# Choose icon image based on paint data.
 	icon_path = data['no-paint']
 	style_css = ''
+	# Specified icon file.
 	if 'icon' in paint.keys():
-		icon = paint['icon']
+		icon_path = paint['icon']
+	# Specified icon CSS.
+	elif 'icon-css' in paint.keys():
 		icon_path = data['blank-paint']
-		# Specified icon file.
-		if isinstance(icon, str):
-			icon_path = f"{icon}"
-
-		# Specified icon color values.
-		elif isinstance(icon, list):
-			# No direction: solid color.
-			if direction == '':
-				style_css += f"""background-color: {icon[0]};"""
-			# Direction: gradient.
-			else:
-				style_css += f"""background-image: linear-gradient(to {direction}"""
-				for color in icon:
-					style_css += f""", {color}"""
-				style_css += """);"""
+		style_css = paint['icon-css']
 
 	# Place the icon into the HTML.
 	icon_html = read_html_file('paint-icon.html')

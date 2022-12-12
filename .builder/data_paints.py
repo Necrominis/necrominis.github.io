@@ -13,6 +13,22 @@ from printer import *
 
 
 # ============================================================================ #
+def _solid(color: str) -> str:
+	return f"background-color: {color};"
+def _right(comma_separated_colors: str) -> str:
+	return f"background-image: linear-gradient(to right, {comma_separated_colors});"
+def _down(comma_separated_colors: str) -> str:
+	return f"background-image: linear-gradient(to bottom, {comma_separated_colors});"
+def _diagonal(comma_separated_colors: str) -> str:
+	return f"background-image: linear-gradient(to bottom right, {comma_separated_colors});"
+def _radial(comma_separated_colors: str) -> str:
+	return f"background-image: radial-gradient({comma_separated_colors});"
+
+
+
+
+
+# ============================================================================ #
 paint_categories = {
 	"colors": {
 		"text": "Color Paints",
@@ -173,9 +189,7 @@ _colors = {
 		"brand": "vallejo",
 		"line": "game-color",
 		"category": "colors",
-		"icon": [
-			"#afc1cb"
-		],
+		"icon-css": _solid("#afc1cb"),
 		"official-name": "Vallejo Game Color 72.047 Wolf Grey",
 		"url": "https://acrylicosvallejo.com/en/product/hobby/game-color-en/wolf-grey-72047/",
 	},
