@@ -67,6 +67,7 @@ Changes the current working directory within the script to the given path. The p
 
 ## Features
 
+* Add sorting to tags.
 * Add page footer.
 * Implement the clean argument's functionality.
 * Implement the directory argument's functionality.
@@ -75,11 +76,36 @@ Changes the current working directory within the script to the given path. The p
 
 ## Data
 
+* Change page IDs to not use their date (and instead use their title or something).
+* Use nicer looking apostrophies in paragraphs.
 * Add those lamp covers I got.
 * Add the rest of the paints.
 	* Integrate citadel color paints into Vallejo color paints.
 	* Add Stynylrez / SNR-403 Black Primer.
 * Add the rest of the posts.
+	* Ork slaver.
+	* Orange dragon.
+	* Black stormcast.
+	* Ork gutrippa.
+	* Air elemental.
+	* Myconids.
+	* "Necron".
+	* Desert robot.
+	* Wolf.
+	* Plague doctor.
+	* AT-ST walker.
+	* Tiefling.
+	* D&D Orc.
+	* White space marine.
+	* Lich.
+	* Worm.
+	* Grogu.
+	* Blue stormcast.
+	* WIP green gelatinous cube.
+	* WIP violet armored vampire.
+	* WIP priest of the dwarven hold.
+	* WIP astral hawk space marine assault intercessors.
+	* WIP ossiarch bonereapers mortek guard.
 
 ## Code
 

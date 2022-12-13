@@ -925,7 +925,7 @@ _washes = {
 		"official-name": "Vallejo Game Wash 73.202 Pale Grey Wash",
 		"url": "https://acrylicosvallejo.com/en/product/hobby/game-color-en/pale-grey-wash-73202/",
 	},
-	"citadel-shade-wash-bulb-oil": {
+	"citadel-shade-nuln-oil": {
 		"text": "Nuln Oil",
 		"brand": "citadel",
 		"line": "shade",
@@ -1392,7 +1392,7 @@ _additives = {
 		"line": "acrylic-mediums",
 		"category": "additives",
 		"icon": _transparent_paint_icon,
-		"official-name": "Liquitex Acrylic Mediums SLow-Dri Fluid Additive",
+		"official-name": "Liquitex Acrylic Mediums Slow-Dri Fluid Additive",
 		"url": "https://www.amazon.com/Liquitex-126704-Professional-Slow-Dri-Retarder/dp/B004M559I2/ref=sr_1_2?keywords=liquitex+slow+dri&qid=1639589671&sr=8-2",
 	},
 	"citadel-technical-lahmian-medium": {

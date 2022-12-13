@@ -70,9 +70,9 @@ def main(clean: bool = False, verbose: bool = False, silent: bool = False) -> No
 
 	# Print out starting text.
 	if is_web_url(data['website']):
-		print_good('GENERATING PRODUCTION WEBSITE')
+		print_good('GENERATING PRODUCTION WEBSITE:')
 	else:
-		print_warning('GENERATING LOCAL DEVELOPMENT WEBSITE')
+		print_warning('GENERATING LOCAL DEVELOPMENT WEBSITE:')
 		
 	print_normal()
 

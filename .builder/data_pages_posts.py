@@ -118,7 +118,120 @@ posts = {
 			"vallejo-auxiliaries-matt-acrylic-varnish",
 		],
 	},
+	# ============================================================================ #
+	"2022-03-15": {
+		"title": "Runtherd the Ork Gretchin Slaver",
+		"type": "post",
+		"properties": {
+			"created": "March 15, 2022",
+			"tags": [
+				"warhammer-40k",
+				"sci-fi",
+				"tabletop",
+			],
+			"manufacturers": [
+				"games-workshop",
+			],
+			"models": [
+				{
+					"text": "Ork Gretchin",
+					"url": "https://www.games-workshop.com/en-US/Ork-Gretchin-2018",
+				},
+			],
+		},
+		"images": [
+			"necrominis-2022-03-15-raw-1.jpeg",
+			"necrominis-2022-03-15-raw-2.jpeg",
+			"necrominis-2022-03-15-raw-3.jpeg",
+			"necrominis-2022-03-15-raw-4.jpeg",
+		],
+		"paragraphs": [
+			f""":A [[Runtherd the Ork Gretchin Slaver]] painted similar to the box art.""",
+
+			f"""This was my first time using an airbrush to paint a miniature. I used [my new airbrush](badger-105-patriot-air-brush) to paint the base skin tones on the ork and his pet squig. Although I used an airbrush to get initial shadows and highlights, I still touched up the skin with a brush. I then used a brush for everything else.""",
+			
+			f"""I used a lot of colors on this mini, compared to usual, but I really ranted to add some variety in the many articles of clothing, and equipment. It also took a bit to get the squig's color right, as I didn't quite have the right paint colors for what I wanted. I tried to make the squig orange, but I didn't have any light oranges that weren't desaturated and almost tan, so it took a few inks and washes to get it to turn out right.""",
+			
+			f"""For the base, I simply used some *Army Painter* [*Brown Battleground*](army-painter-brown-battleground) basing sand and [*Field Grass*](army-painter-field-grass) flocking, then gate it a brown rim.""",
+
+			f"""All-in-all, I think the ork's skin turned out beautifully, and is my best work yet, for skin tones. The squig didn't turn out horribly either, though I'm not entirely happy with the color I ended up with. For my first airbrushed mini, I think this was a resounding success, and I'm excited to use my airbrush on anything I can.""",
+		],
+		"paints-used": [
+			"vallejo-model-color-neutral-grey",
+			"vallejo-model-color-black",
+			"vallejo-game-color-hot-orange",
+			"vallejo-model-color-flat-flesh",
+			"vallejo-game-color-charred-brown",
+			"vallejo-model-color-flat-brown",
+			"vallejo-game-color-beasty-brown",
+			"vallejo-model-color-buff",
+			"vallejo-model-color-lime-green",
+			"vallejo-game-color-goblin-green",
+			"vallejo-model-color-refractive-green",
+			"vallejo-model-color-park-green-flat",
+			"vallejo-game-color-scurvy-green",
+			"vallejo-game-ink-red",
+			"citadel-base-leadbelcher",
+			"citadel-layer-brass-scorpion",
+			"citadel-contrast-guilliman-flesh",
+			"citadel-shade-nuln-oil",
+			"citadel-shade-reikland-fleshshade",
+			"citadel-shade-athonian-camoshade",
+			"vallejo-surface-primer-black",
+			"krylon-clear-coatings-matte-finish",
+			"citadel-technical-lahmian-medium",
+			"liquitex-acrylic-mediums-slow-dri",
+		],
+	},
 }
+
+
+
+
+
+# ============================================================================ #
+_wip_not_ready_posts = {
+
+}
+
+
+
+
+	# # ============================================================================ #
+	# "": {
+	# 	"title": "",
+	# 	"type": "post",
+	# 	"properties": {
+	# 		"created": "Month DD, YYYY",
+	# 		"tags": [
+	# 			"wip",
+	# 		],
+	# 		"manufacturers": [
+	# 			# "id",
+	# 		],
+	# 		"models": [
+	# 			{
+	# 				"text": "",
+	# 				"url": "",
+	# 			},
+	# 		],
+	# 		"images": [
+	# 			# "image.jpg",
+	# 		],
+	# 		"paragraphs": [
+	# 			f""":A [[Something]] painted with something or other...""",
+
+	# 			f"""I did blah blah and used blah blah...""",
+				
+	# 			f"""The base was blah blah...""",
+				
+	# 			f"""All-in-all, etc...""",
+	# 		],
+	# 		"paints-used": [
+	# 			# "id",
+	# 		],
+	# 	},
+	# },
 
 
 
