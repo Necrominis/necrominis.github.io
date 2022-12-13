@@ -152,7 +152,7 @@ posts = {
 			
 			f"""I used a lot of colors on this mini, compared to usual, but I really ranted to add some variety in the many articles of clothing, and equipment. It also took a bit to get the squig's color right, as I didn't quite have the right paint colors for what I wanted. I tried to make the squig orange, but I didn't have any light oranges that weren't desaturated and almost tan, so it took a few inks and washes to get it to turn out right.""",
 			
-			f"""For the base, I simply used some *Army Painter* [*Brown Battleground*](army-painter-brown-battleground) basing sand and [*Field Grass*](army-painter-field-grass) flocking, then gate it a brown rim.""",
+			f"""For the base, I simply used some *Army Painter* [*Brown Battleground*](army-painter-brown-battleground) basing sand and [*Field Grass*](army-painter-field-grass) flocking. I then finished it off with a brown rim.""",
 
 			f"""All-in-all, I think the ork's skin turned out beautifully, and is my best work yet, for skin tones. The squig didn't turn out horribly either, though I'm not entirely happy with the color I ended up with. For my first airbrushed mini, I think this was a resounding success, and I'm excited to use my airbrush on anything I can.""",
 		],
