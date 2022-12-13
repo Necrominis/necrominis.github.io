@@ -78,7 +78,6 @@ Changes the current working directory within the script to the given path. The p
 * Add those lamp covers I got.
 * Add the rest of the paints.
 	* Integrate citadel color paints into Vallejo color paints.
-	* Add Technical and Texture paints.
 	* Add Stynylrez / SNR-403 Black Primer.
 * Add the rest of the posts.
 

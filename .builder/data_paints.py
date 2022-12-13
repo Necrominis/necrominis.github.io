@@ -8,7 +8,9 @@ from printer import *
 # Paint orders are the same as category orders!
 # Paint colors are white to black and red to purple!
 # Varnishes are matt to gloss!
-# Do view-image and inspect-element on citadel gradients to get color IDs!
+# For Citadel paints:
+# - Gradients: Do view-image > inspect-element > get color IDs!
+# - Technicals: Do view-image > inspect-element > delete clip-path() > get SVG and convert to PNG!
 
 
 
@@ -1152,7 +1154,86 @@ _inks = {
 
 # ============================================================================ #
 _technicals = {
-
+	"vallejo-auxiliaries-sandy-paste": {
+		"text": "Sandy Paste",
+		"brand": "vallejo",
+		"line": "auxiliaries",
+		"category": "technicals",
+		"official-name": "Vallejo Auxiliaries 28.593 Sandy Paste",
+		"url": "https://acrylicosvallejo.com/en/product/fine-arts/auxiliaries-fine-arts/sandy-paste-28593/",
+	},
+	"vallejo-diorama-effects-rough-grey-pumice": {
+		"text": "Rough Grey Pumice",
+		"brand": "vallejo",
+		"line": "diorama-effects",
+		"category": "technicals",
+		"icon": "vallejo-diorama-effects-rough-grey-pumice.png",
+		"official-name": "Vallejo Diorama Effects 26.213 Rough Grey Pumice",
+		"url": "https://acrylicosvallejo.com/en/product/hobby/diorama-effects/rough-grey-pumice-26213/",
+	},
+	"vallejo-diorama-effects-grey-sand": {
+		"text": "Grey Sand",
+		"brand": "vallejo",
+		"line": "diorama-effects",
+		"category": "technicals",
+		"icon": "vallejo-diorama-effects-grey-sand.png",
+		"official-name": "Vallejo Diorama Effects 26.215 Grey Sand",
+		"url": "https://acrylicosvallejo.com/en/product/hobby/diorama-effects/grey-sand-26215/",
+	},
+	"citadel-technical-stirland-mud": {
+		"text": "Stirland Mud",
+		"brand": "citadel",
+		"line": "technical",
+		"category": "technicals",
+		"icon": "citadel-technical-stirland-mud.png",
+		"official-name": "Citadel Technical Stirland Mud",
+		"url": "https://www.games-workshop.com/en-US/Technical-Stirland-Mud-2019",
+	},
+	"vallejo-diorama-effects-brown-earth": {
+		"text": "Brown Earth",
+		"brand": "vallejo",
+		"line": "diorama-effects",
+		"category": "technicals",
+		"icon": "vallejo-diorama-effects-brown-earth.png",
+		"official-name": "Vallejo Diorama Effects 26.219 Brown Earth",
+		"url": "https://acrylicosvallejo.com/en/product/hobby/diorama-effects/brown-earth-26219/",
+	},
+	"citadel-technical-agrellan-earth": {
+		"text": "Agrellan Earth",
+		"brand": "citadel",
+		"line": "technical",
+		"category": "technicals",
+		"icon": "citadel-technical-agrellan-earth.png",
+		"official-name": "Citadel Technical Agrellan Earth",
+		"url": "https://www.games-workshop.com/en-US/Technical-Agrellan-Earth-2019",
+	},
+	"citadel-technical-tesseract-glow": {
+		"text": "Tesseract Glow",
+		"brand": "citadel",
+		"line": "technical",
+		"category": "technicals",
+		"icon-css": _solid("#49ad33"),
+		"official-name": "Citadel Technical Tesseract Glow",
+		"url": "https://www.games-workshop.com/en-US/Technical-Tesseract-Glow-2020",
+	},
+	"vallejo-diorama-effects-still-water": {
+		"text": "Still Water",
+		"brand": "vallejo",
+		"line": "diorama-effects",
+		"category": "technicals",
+		"icon": "vallejo-diorama-effects-still-water.png",
+		"official-name": "Vallejo Diorama Effects 26.230 Still Water",
+		"url": "https://acrylicosvallejo.com/en/product/hobby/diorama-effects/still-water-26230/",
+	},
+	"vallejo-diorama-effects-foam": {
+		"text": "Foam",
+		"brand": "vallejo",
+		"line": "diorama-effects",
+		"category": "technicals",
+		"icon": "vallejo-diorama-effects-foam.png",
+		"official-name": "Vallejo Diorama Effects 26.231 Foam",
+		"url": "https://acrylicosvallejo.com/en/product/hobby/diorama-effects/foam-26231/",
+	},
 }
 
 
