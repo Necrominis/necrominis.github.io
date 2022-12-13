@@ -32,6 +32,8 @@ def _diagonal(comma_separated_colors: str) -> str:
 def _radial(comma_separated_colors: str) -> str:
 	return f"background-image: radial-gradient({comma_separated_colors});"
 
+_transparent_paint_icon = "necrominis-transparent-paint-icon.png"
+
 
 
 
@@ -1221,7 +1223,7 @@ _technicals = {
 		"brand": "vallejo",
 		"line": "diorama-effects",
 		"category": "technicals",
-		"icon": "vallejo-diorama-effects-still-water.png",
+		"icon": _transparent_paint_icon,
 		"official-name": "Vallejo Diorama Effects 26.230 Still Water",
 		"url": "https://acrylicosvallejo.com/en/product/hobby/diorama-effects/still-water-26230/",
 	},
@@ -1230,7 +1232,7 @@ _technicals = {
 		"brand": "vallejo",
 		"line": "diorama-effects",
 		"category": "technicals",
-		"icon": "vallejo-diorama-effects-foam.png",
+		"icon": _transparent_paint_icon,
 		"official-name": "Vallejo Diorama Effects 26.231 Foam",
 		"url": "https://acrylicosvallejo.com/en/product/hobby/diorama-effects/foam-26231/",
 	},
@@ -1309,6 +1311,7 @@ _varnishes = {
 		"brand": "krylon",
 		"line": "clear-coatings",
 		"category": "varnishes",
+		"icon": _transparent_paint_icon,
 		"official-name": "Krylon Clear Coatings Matte Finish Spray Coating",
 		"url": "https://www.krylon.com/en/products/clear-coatings/matte-finish-spray-coating/",
 	},
@@ -1317,6 +1320,7 @@ _varnishes = {
 		"brand": "vallejo",
 		"line": "auxiliaries",
 		"category": "varnishes",
+		"icon": _transparent_paint_icon,
 		"official-name": "Vallejo Auxiliaries 26.518 Matt Acrylic Varnish",
 		"url": "https://acrylicosvallejo.com/en/product/crafts/auxiliaries-decorative-arts/matt-acrylic-varnish/",
 	},
@@ -1325,6 +1329,7 @@ _varnishes = {
 		"brand": "krylon",
 		"line": "colormaxx",
 		"category": "varnishes",
+		"icon": _transparent_paint_icon,
 		"official-name": "Krylon COLORmaxx Satin Crystal Clear",
 		"url": "https://www.amazon.com/Krylon-K05562007-COLORmaxx-Spray-Aerosol/dp/B07LFPDD64/ref=sr_1_6?dchild=1&keywords=krylon+satin+spray&qid=1621994641&sr=8-6",
 	},
@@ -1333,6 +1338,7 @@ _varnishes = {
 		"brand": "vallejo",
 		"line": "auxiliaries",
 		"category": "varnishes",
+		"icon": _transparent_paint_icon,
 		"official-name": "Vallejo Auxiliaries 26.517 Gloss Acrylic Varnish",
 		"url": "https://acrylicosvallejo.com/en/product/crafts/auxiliaries-decorative-arts/gloss-acrylic-varnish/",
 	},
@@ -1349,6 +1355,7 @@ _additives = {
 		"brand": "vallejo",
 		"line": "auxiliaries",
 		"category": "additives",
+		"icon": _transparent_paint_icon,
 		"official-name": "Vallejo Auxiliaries 70.596 Glaze Medium",
 		"url": "https://acrylicosvallejo.com/en/product/hobby/auxiliaries-model/glaze-medium-70596/",
 	},
@@ -1357,6 +1364,7 @@ _additives = {
 		"brand": "vallejo",
 		"line": "auxiliaries",
 		"category": "additives",
+		"icon": _transparent_paint_icon,
 		"official-name": "Vallejo Auxiliaries 71.262 Flow Improver",
 		"url": "https://acrylicosvallejo.com/en/product/hobby/auxiliaries-model/airbrush-flow-improver-71262/",
 	},
@@ -1365,6 +1373,7 @@ _additives = {
 		"brand": "vallejo",
 		"line": "auxiliaries",
 		"category": "additives",
+		"icon": _transparent_paint_icon,
 		"official-name": "Vallejo Auxiliaries 71.161 Airbrush Thinner",
 		"url": "https://acrylicosvallejo.com/en/product/hobby/auxiliaries-model/airbrush-thinner-71261/",
 	},
@@ -1373,6 +1382,7 @@ _additives = {
 		"brand": "liquitex",
 		"line": "acrylic-mediums",
 		"category": "additives",
+		"icon": _transparent_paint_icon,
 		"official-name": "Liquitex Acrylic Mediums Flow Aid Additive",
 		"url": "https://www.amazon.com/dp/B000KNPM46?psc=1&ref=ppx_yo2_dt_b_product_details",
 	},
@@ -1381,6 +1391,7 @@ _additives = {
 		"brand": "liquitex",
 		"line": "acrylic-mediums",
 		"category": "additives",
+		"icon": _transparent_paint_icon,
 		"official-name": "Liquitex Acrylic Mediums SLow-Dri Fluid Additive",
 		"url": "https://www.amazon.com/Liquitex-126704-Professional-Slow-Dri-Retarder/dp/B004M559I2/ref=sr_1_2?keywords=liquitex+slow+dri&qid=1639589671&sr=8-2",
 	},
@@ -1389,6 +1400,7 @@ _additives = {
 		"brand": "citadel",
 		"line": "technical",
 		"category": "additives",
+		"icon": _transparent_paint_icon,
 		"official-name": "Citadel Technical Lahmian Medium",
 		"url": "https://www.games-workshop.com/en-US/Technical-Lahmian-Medium-2019",
 	},
