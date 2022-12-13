@@ -873,9 +873,12 @@ img.icon.inline {
 
 .toggle {
 	border-radius: 1.1rem; /* Slightly larger than 1rem because otherwise the rounded corners don't quite match up */
-	padding: 1rem;
-	padding-top: 0.5rem;
+	padding: 0.5rem 1rem;
 	margin: 0;
+}
+
+.toggle[open] {
+	padding-bottom: 1rem;
 }
 
 .toggle summary {
