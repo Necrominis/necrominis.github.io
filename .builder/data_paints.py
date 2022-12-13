@@ -56,14 +56,14 @@ paint_categories = {
 	"technicals": {
 		"text": "Texture & Technical Paints",
 	},
+	"primers": {
+		"text": "Primers",
+	},
 	"varnishes": {
 		"text": "Varnishes",
 	},
 	"additives": {
 		"text": "Additives",
-	},
-	"primers": {
-		"text": "Primers",
 	},
 }
 
@@ -1241,6 +1241,68 @@ _technicals = {
 
 
 # ============================================================================ #
+_primers = {
+	"vallejo-surface-primer-white": {
+		"text": "White",
+		"brand": "vallejo",
+		"line": "surface-primer",
+		"category": "primers",
+		"icon-css": _solid("#ffffff"),
+		"official-name": "Vallejo Surface Primer 73.600 White",
+		"url": "https://acrylicosvallejo.com/en/product/hobby/surface-primer-en/white-70600/s",
+	},
+	"tamiya-surface-primer-l-grey": {
+		"text": "Grey",
+		"brand": "tamiya",
+		"line": "surface-primer-l",
+		"category": "primers",
+		"icon-css": _solid("#c0c4c2"),
+		"official-name": "Tamiya Surface Primer L Grey #87042",
+		"url": "https://www.tamiyausa.com/shop/finishing/surface-primer-l-gray/",
+	},
+	"vallejo-surface-primer-usn-light-ghost-grey": {
+		"text": "USN Light Ghost Grey",
+		"brand": "vallejo",
+		"line": "surface-primer",
+		"category": "primers",
+		"icon-css": _solid("#9aa1ab"),
+		"official-name": "Vallejo Surface Primer 73.615 USN Light Ghost Grey",
+		"url": "https://acrylicosvallejo.com/en/product/hobby/surface-primer-en/usn-light-ghost-grey-70615/",
+	},
+	"army-painter-warpaints-brush-on-primer": {
+		"text": "Brush-On Primer",
+		"brand": "army-painter",
+		"line": "warpaints",
+		"category": "primers",
+		"icon-css": _solid("#8f8f91"),
+		"official-name": "The Army Painter Warpaints Brush-On Primer",
+		"url": "https://shop.thearmypainter.com/products.php?ProductGroupId=22#Brush-On%20Primers",
+	},
+	"vallejo-surface-primer-black": {
+		"text": "Black",
+		"brand": "vallejo",
+		"line": "surface-primer",
+		"category": "primers",
+		"icon-css": _solid("#000000"),
+		"official-name": "Vallejo Surface Primer 73.602 Black",
+		"url": "https://acrylicosvallejo.com/en/product/hobby/surface-primer-en/black-70602/",
+	},
+	"citadel-sprays-chaos-black-primer": {
+		"text": "Chaos Black Primer",
+		"brand": "citadel",
+		"line": "sprays",
+		"category": "primers",
+		"icon-css": _solid("#000000"),
+		"official-name": "Citadel Sprays Chaos Black (Primer)",
+		"url": "https://www.games-workshop.com/en-US/Chaos-Black-Spray-US-2020s",
+	},
+}
+
+
+
+
+
+# ============================================================================ #
 _varnishes = {
 	"krylon-clear-coatings-matte-finish": {
 		"text": "Matte Finish",
@@ -1337,68 +1399,6 @@ _additives = {
 
 
 # ============================================================================ #
-_primers = {
-	"vallejo-surface-primer-white": {
-		"text": "White",
-		"brand": "vallejo",
-		"line": "surface-primer",
-		"category": "primers",
-		"icon-css": _solid("#ffffff"),
-		"official-name": "Vallejo Surface Primer 73.600 White",
-		"url": "https://acrylicosvallejo.com/en/product/hobby/surface-primer-en/white-70600/s",
-	},
-	"tamiya-surface-primer-l-grey": {
-		"text": "Grey",
-		"brand": "tamiya",
-		"line": "surface-primer-l",
-		"category": "primers",
-		"icon-css": _solid("#c0c4c2"),
-		"official-name": "Tamiya Surface Primer L Grey #87042",
-		"url": "https://www.tamiyausa.com/shop/finishing/surface-primer-l-gray/",
-	},
-	"vallejo-surface-primer-usn-light-ghost-grey": {
-		"text": "USN Light Ghost Grey",
-		"brand": "vallejo",
-		"line": "surface-primer",
-		"category": "primers",
-		"icon-css": _solid("#9aa1ab"),
-		"official-name": "Vallejo Surface Primer 73.615 USN Light Ghost Grey",
-		"url": "https://acrylicosvallejo.com/en/product/hobby/surface-primer-en/usn-light-ghost-grey-70615/",
-	},
-	"army-painter-warpaints-brush-on-primer": {
-		"text": "Brush-On Primer",
-		"brand": "army-painter",
-		"line": "warpaints",
-		"category": "primers",
-		"icon-css": _solid("#8f8f91"),
-		"official-name": "The Army Painter Warpaints Brush-On Primer",
-		"url": "https://shop.thearmypainter.com/products.php?ProductGroupId=22#Brush-On%20Primers",
-	},
-	"vallejo-surface-primer-black": {
-		"text": "Black",
-		"brand": "vallejo",
-		"line": "surface-primer",
-		"category": "primers",
-		"icon-css": _solid("#000000"),
-		"official-name": "Vallejo Surface Primer 73.602 Black",
-		"url": "https://acrylicosvallejo.com/en/product/hobby/surface-primer-en/black-70602/",
-	},
-	"citadel-sprays-chaos-black-primer": {
-		"text": "Chaos Black Primer",
-		"brand": "citadel",
-		"line": "sprays",
-		"category": "primers",
-		"icon-css": _solid("#000000"),
-		"official-name": "Citadel Sprays Chaos Black (Primer)",
-		"url": "https://www.games-workshop.com/en-US/Chaos-Black-Spray-US-2020s",
-	},
-}
-
-
-
-
-
-# ============================================================================ #
 paints = {}
 paints.update(_colors)
 paints.update(_metallics)
@@ -1406,9 +1406,9 @@ paints.update(_washes)
 paints.update(_contrasts)
 paints.update(_inks)
 paints.update(_technicals)
+paints.update(_primers)
 paints.update(_varnishes)
 paints.update(_additives)
-paints.update(_primers)
 
 
 
