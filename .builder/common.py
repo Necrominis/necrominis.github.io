@@ -266,16 +266,16 @@ def _sort_by_category(ids: '[str]', data_dictionary: dict, separators: bool = Tr
 		return sorted_ids
 
 	# Get a list of the paints.
-	items = []
+	sorted_items = []
 	for item_id in sorted_ids:
-		items.append(data_dictionary[item_id])
+		sorted_items.append(data_dictionary[item_id])
 
 	# Add separators between categories.
 	organized_ids = []
 	previous_item = None
-	for i in range(len(items)):
-		item = items[i]
-		item_id = ids[i]
+	for i in range(len(sorted_items)):
+		item = sorted_items[i]
+		item_id = sorted_ids[i]
 
 		# Compare with previous item and att a separator if the categories changed.
 		if previous_item != None:
