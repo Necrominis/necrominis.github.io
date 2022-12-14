@@ -143,3 +143,16 @@ if __name__ == '__main__':
 
 	# After processing arguments, start the main method.
 	main(clean, verbose, silent)
+
+	# Print the amout of memory used by this process.
+	import os, psutil
+	process = psutil.Process(os.getpid())
+	bytes = process.memory_info().rss
+	power = 2**10 # 1024.
+	labels = {0: 'B', 1: 'KB', 2: 'MB', 3: 'GB', 4: 'TB'}
+	memory_used = bytes
+	factor = 0
+	while memory_used > power:
+		memory_used /= power
+		factor += 1
+	print_normal(f"Process completed and used {round(memory_used, 2)} {labels[factor]} of RAM.")
