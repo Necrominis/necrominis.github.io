@@ -1013,6 +1013,55 @@ posts = {
 		],
 	},
 	# ============================================================================ #
+	"2021-01-09": {
+		"title": "Grogy (AKA Baby Yoda)",
+		"type": "post",
+		"properties": {
+			"created": "January 9, 2021",
+			"tags": [
+				"star-wars",
+				"display",
+			],
+			"manufacturers": [
+				"3d-printed",
+			],
+			"models": [
+				{
+					"text": "Baby Yoda",
+					"url": "https://www.thingiverse.com/thing:4038181",
+				},
+			],
+		},
+		"images": [
+			"necrominis-2021-01-09-raw-1.jpeg",
+			"necrominis-2021-01-09-raw-2.jpeg",
+			"necrominis-2021-01-09-raw-3.jpeg",
+		],
+		"paragraphs": [
+			f""":A [3D printed]T({TT_3D_PRINTING}) [[Grogu]] model""",
+
+			f"""This was my first successful print with my new [*AnyCubic Photon S*](anycubic-photon-s) resin 3D printer. It’s about an inch tall, and has a few imperfections. There’s a small dent on an ear, and part of the lowered hand is cut off due to forgetting to add using supports. The base’s rim is also not very smooth since the first few layers were wider and I struggled to shave them down.""",
+			
+			f"""This was my first real go at the [layering]T({TT_LAYERING}) technique for skin, and it went pretty well. I also tried [glazing]T({TT_GLAZING}) for the first time to add some red tones to the ears and face since the blood slightly shows through on areas with thinner skin like the face and ears. I also used a mix of [stippling]T({TT_STIPPLING}) and [dry-brushing]T({TT_DRY_BRUSHING}) to add a fuzzy texture to the clothes.""",
+			
+			f"""The words *"what you seek is seeking you"* on the base were very intricate, and since I was painting yellow onto black it took many layers to show up nice and solid.""",
+
+			f"""Overall, I think this miniature turned out beautifully. The print had a few mistakes, but for a first print it couldn’t gone a *lot* worse. The skin could use a little more contrast, but it's shaded and highlighted well regardless.""",
+		],
+		"paints-used": [
+			"vallejo-model-color-black",
+			"vallejo-model-color-flat-brown",
+			"vallejo-model-color-flat-red",
+			"vallejo-model-color-yellow-ochre",
+			"vallejo-model-color-lemon-yellow",
+			"vallejo-model-color-buff",
+			"vallejo-model-color-lime-green",
+			"vallejo-model-color-flat-green",
+			"army-painter-warpaints-brush-on-primer",
+			"vallejo-auxiliaries-glaze-medium",
+		],
+	},
+	# ============================================================================ #
 }
 
 
