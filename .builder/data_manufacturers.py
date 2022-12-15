@@ -38,7 +38,7 @@ manufacturers = {
 		"url": "#",
 	},
 	"3d-printed": {
-		"text": "3D Printed",
+		"text": "self 3D Printed",
 		"color": "grey",
 		"url": "#",
 	},

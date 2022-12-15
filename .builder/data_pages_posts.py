@@ -794,6 +794,68 @@ posts = {
 		],
 	},
 	# ============================================================================ #
+	"2021-05-16": {
+		"title": "Half-Orc Soldier",
+		"type": "post",
+		"properties": {
+			"created": "May 16, 2021",
+			"tags": [
+				"dungeons-and-dragons",
+				"fantasy",
+				"tabletop",
+			],
+			"manufacturers": [
+				"hero-forge",
+			],
+			"models": [
+				{
+					"text": "Half-Orc Soldier (designed myself)",
+					"url": "https://www.heroforge.com/load_config%3D10976711/",
+				},
+			],
+		},
+		"images": [
+			"necrominis-2021-05-16-raw-1.jpeg",
+			"necrominis-2021-05-16-raw-2.jpeg",
+			"necrominis-2021-05-16-raw-3.jpeg",
+		],
+		"paragraphs": [
+			f""":A [[Half-Orc Soldier]], designed myself and purchased through [*Hero Forge*]({URL_HERO_FORGE}).""",
+
+			f"""This is my character for a [*Dungeons & Dragons*]({URL_DND}) campaign I used to play in. His name is Urag Gro-Shub (a name stolen from the orc librarian character in [*Skyrim*]({URL_SKYRIM})). My character was a half-orc fighter who was in the military. He hates magic, thinking it ruins the sanctity of battle and honor, which also brought on the quote by me, *"why would they change combat? Combat is combat!"*""",
+			
+			f"""Anyway, this mini was very hard to paint because the cape and the arrows sticking out of the ground were blocking my brush from reaching a lot of spots on his back and feet. I had to just accept that his back will not be very detailed (or even fully painted).""",
+			
+			f"""I tried a technique I found where you use a sort of cross-hatching method to make fabric look stitched. I tried it out on the blue cape, but the paint was drying too fast on my brush so the lines were kind of spotty and often too thick. It didn’t turn out terrible, but didn’t quite get the effect I was going for.""",
+			
+			f"""I used a few random [stippling]T({TT_STIPPLING}) and messy [layering]T({TT_LAYERING}) methods for the fur. Not the most detailed technique, but it worked for a [tabletop-ready]T({TT_TABLE_READY}) mini such as this.""",
+
+			f"""I also used a lot of [*Vallejo* grass tufts](vallejo-wild-tuft-green) on the base, making him look like he’s walking through a grassy battlefield.""",
+			
+			f"""Overall, I really like how this mini turned out. The face is simple but effective, and the fur and cloak texture looks pretty good for my current skill level.""",
+		],
+		"paints-used": [
+			"vallejo-model-color-medium-sea-grey",
+			"vallejo-model-color-black",
+			"citadel-layer-ushabti-bone",
+			"vallejo-game-color-beasty-brown",
+			"vallejo-model-color-lime-green",
+			"vallejo-model-color-refractive-green",
+			"vallejo-model-color-flat-green",
+			"vallejo-game-color-imperial-blue",
+			"vallejo-game-color-ultramarine-blue",
+			"vallejo-model-color-silver",
+			"vallejo-game-color-gunmetal",
+			"citadel-contrast-guilliman-flesh",
+			"citadel-shade-reikland-fleshshade",
+			"citadel-shade-agrax-earthshade",
+			"citadel-contrast-ultramarines-blue",
+			"vallejo-auxiliaries-glaze-medium",
+			"krylon-colormaxx-satin-crystal-clear",
+			"krylon-clear-coatings-matte-finish",
+		],
+	},
+	# ============================================================================ #
 }
 
 

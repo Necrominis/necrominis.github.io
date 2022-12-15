@@ -33,6 +33,8 @@ TT_NMM = """Non-metallic metal, or NMM, is the technique of painting a miniature
 
 TT_OSL = """Object source lighting, or OSL, is the technique of strategically placing color highlights to give the impression that the miniature is either lit by a light source or is itself emitting light."""
 
+TT_STIPPLING = """Stippling is a painting technique where you gently jab with the tip of your paint brush to create spotty splotches of color. It’s usually used for texturing rough-looking surfaces, or combined with glazing to create smooth blends."""
+
 TT_TABLE_READY = """Table-ready is a term to describe a miniature thay may not look as good as the painter would like, but looks good enough that it’s ready to be played with on in tabletop games."""
 
 TT_VOLUMETRIC_HIGHLIGHTING = """Volumetric highlighting is the technique of highlighting and shading a miniature based on the physical properties of how light behaves on shapes and textures, rather than simply highlighting raised edges and shading recesses, in order to create a more realistic miniature."""
@@ -57,6 +59,7 @@ URL_NECRON = """https://en.wikipedia.org/wiki/Warhammer_40,000#Necrons"""
 URL_PATHFINDER = """https://paizo.com/pathfinder"""
 URL_PATREON = """https://www.patreon.com"""
 URL_POKEMON = """https://www.pokemon.com/us/parents-guide/"""
+URL_SKYRIM = """https://store.steampowered.com/app/72850/The_Elder_Scrolls_V_Skyrim/"""
 URL_SPACE_MARINE = """https://en.wikipedia.org/wiki/Adeptus_Astartes"""
 URL_STAR_WARS = """https://en.wikipedia.org/wiki/Star_Wars"""
 URL_STAR_WARS_LEGION = """https://www.fantasyflightgames.com/en/products/star-wars-legion"""
