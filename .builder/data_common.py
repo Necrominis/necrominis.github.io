@@ -19,7 +19,6 @@ from printer import *
 
 
 TT_3D_PRINTING = """3D printing is the construction of physical objects from a digital 3D model file, using a machine called a 3D printer."""
-TT_POKEMON = """Pokemon is a video game, card game, and anime franchise by *Nintendo* about catching cute monsters and battling with them."""
 
 
 
@@ -29,10 +28,15 @@ TT_POKEMON = """Pokemon is a video game, card game, and anime franchise by *Nint
 	#                                    LINKS                                     #
 	# ============================================================================ #
 
+URL_CHARIZARD = """https://bulbapedia.bulbagarden.net/wiki/Charizard"""
 URL_DND = """https://dnd.wizards.com/what-is-dnd"""
 URL_MY_MINI_FACTORY = """https://www.myminifactory.com"""
+URL_NECRON = """https://en.wikipedia.org/wiki/Warhammer_40,000#Necrons"""
 URL_PATREON = """https://www.patreon.com"""
+URL_POKEMON = """https://www.pokemon.com/us/parents-guide/"""
+URL_SPACE_MARINE = """https://en.wikipedia.org/wiki/Space_Marine_(Warhammer_40,000)"""
 URL_STAR_WARS_LEGION = """https://www.fantasyflightgames.com/en/products/star-wars-legion"""
+URL_STORMCAST_ETERNALS = """https://ageofsigmar.fandom.com/wiki/Stormcast_Eternals"""
 URL_WARHAMMER = """https://www.warhammer-community.com/en-us"""
 
 

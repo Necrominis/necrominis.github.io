@@ -839,7 +839,7 @@ _metallics = {
 	"vallejo-metal-color-aluminium": {
 		"text": "Aluminium",
 		"brand": "vallejo",
-		"line": "metal",
+		"line": "metal-color",
 		"category": "metallics",
 		"icon-css": _solid("#f8f8f8"),
 		"official-name": "Vallejo Metal Color 77.701 Aluminium",
@@ -1359,7 +1359,7 @@ _additives = {
 		"official-name": "Vallejo Auxiliaries 70.596 Glaze Medium",
 		"url": "https://acrylicosvallejo.com/en/product/hobby/auxiliaries-model/glaze-medium-70596/",
 	},
-	"vallejo-auxiliaries-flow-improver": {
+	"vallejo-auxiliaries-airbrush-flow-improver": {
 		"text": "Flow Improver",
 		"brand": "vallejo",
 		"line": "auxiliaries",

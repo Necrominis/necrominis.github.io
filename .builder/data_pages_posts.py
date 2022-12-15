@@ -106,7 +106,7 @@ posts = {
 			
 			f"""Finally, I touched up some of the veins with thin lines of *Purple*, painted black in the cracks and tile lines, and did some edge highlighting with *Purple* on each tile. I then painted the base rim black and gave it a clear coat.""",
 			
-			f"""All-in-all, I think the effect turned out perfectly. It looks like some dark purple marble you might see in a necromancer’s base of operations. This was my first attempt to test a marble effect that I might use for the armor plates on my upcoming purple [*Necron*]T(Necrons are a species of alien killer robots from the fictional world of *Warhammer: 40,000*.) army. I think I have the technique down, but it’s too dark for my purposes. I might brighten the black stone parts to be more purple, and get a brighter purple for the veins. It also could use a little more contrast on the veins and edge highlights. I also think it might be worth using a satin or gloss coat, since marble is generally polished and not matte.""",
+			f"""All-in-all, I think the effect turned out perfectly. It looks like some dark purple marble you might see in a necromancer’s base of operations. This was my first attempt to test a marble effect that I might use for the armor plates on my upcoming purple [*Necron*]T({URL_NECRON}) army. I think I have the technique down, but it’s too dark for my purposes. I might brighten the black stone parts to be more purple, and get a brighter purple for the veins. It also could use a little more contrast on the veins and edge highlights. I also think it might be worth using a satin or gloss coat, since marble is generally polished and not matte.""",
 		],
 		"paints-used": [
 			"vallejo-model-color-black",
@@ -209,7 +209,7 @@ posts = {
 			"necrominis-2022-03-13-raw-2.jpeg",
 		],
 		"paragraphs": [
-			f""":A [[Dragon Hatchling]] painted with an orange and teal color scheme, remniscent of the [*Pokémon*]T({TT_POKEMON}), [Charizard](https://bulbapedia.bulbagarden.net/wiki/Charizard).""",
+			f""":A [[Dragon Hatchling]] painted with an orange and teal color scheme, remniscent of the [*Pokémon*]({URL_POKEMON}), [Charizard]({URL_CHARIZARD}).""",
 
 			f"""I painted this mini as a gift for my partner, so I decided to paint it orange, instead of a traditional forest color like green, as it’s my partner’s color. Being such a small mini, the details were very straining to paint. I individually painted each scale, and while it turned out nice, it was a bit straining to accomplish.""",
 			
@@ -231,6 +231,70 @@ posts = {
 			"krylon-clear-coatings-matte-finish",
 		],
 	},
+	# ============================================================================ #
+	"2021-12-02": {
+		"title": "Black Stormcast Eternals Vindictor",
+		"type": "post",
+		"properties": {
+			"created": "December 2, 2021",
+			"tags": [
+				"warhammer-age-of-sigmar",
+				"fantasy",
+				"tabletop",
+			],
+			"manufacturers": [
+				"games-workshop",
+			],
+			"models": [
+				{
+					"text": "Stormcast Eternals Vindicator",
+					"url": "https://www.games-workshop.com/en-US/Getting-Started-With-Age-Of-Sigmar-Eng-2021",
+				},
+			],
+		},
+		"images": [
+			"necrominis-2021-12-02-raw-1.jpeg",
+			"necrominis-2021-12-02-raw-2.jpeg",
+			"necrominis-2021-12-02-raw-3.jpeg",
+			"necrominis-2021-12-02-raw-4.jpeg",
+		],
+		"paragraphs": [
+			f""":A [[Stormcast Eternals Vindicator]] painted black and gold.""",
+
+			f"""I painted this miniature partly because I liked the black and gold coloring of the [*Stormcast Eternals*]({URL_STORMCAST_ETERNALS}) army *Anvils of Heldenhammer*, but also as a black armor test for my future *Space Marine* army.""",
+			
+			f"""The majority of the armor is black, highlighted slightly toward light blue. This blue helped match it with the blue glow of the spear head and the shield. The glow effect on the spear head isn't as good as I would've liked, but I had to use a subpar technique for it. Being winter and having the heat on has really dried out the air in my house. Even with a humidifier I found the paint drying very fast, often before even touching my brush to the model. This meant that glazing the standard gradient-based glow effects wouldn't work (I tested it on a spare mini and it didn't work). Therefore the glow effect was a mix of dry-brushing and edge-highlighting.""",
+			
+			f"""The metal parts were simply metallic paints and some washes. I got to test my new white contrast paint on the white details on the shoulder pads. The leather parts were my favorite technique of two browns and a wash.""",
+
+			f"""The base was actually really fun to make here. I tried to go for a ruined brick road or building that's in the process of being reclaimed by nature. I broke and scratched some [*Green Stuff World* ceramic bricks]({"green-stuff-world-model-bricks"}), and then applied some *Stirland Mud* for texture. Finally, I added some [*Vallejo* grass tufts]({"vallejo-wild-tuft-green"}).""",
+
+			f"""All-in-all, the miniature was a little hard to paint, due to the very low humidity, but adding flow improver to my paints helped a little. I think the black armor turned out great, the glow effects were good but not amazing, and the gold and silver armor was simple, but could've been improved a little, provided the paint played nicely.""",
+		],
+		"paints-used": [
+			"vallejo-model-color-off-white",
+			"vallejo-model-color-neutral-grey",
+			"vallejo-model-color-black",
+			"vallejo-model-color-flat-brown",
+			"vallejo-game-color-beasty-brown",
+			"vallejo-model-color-flat-green",
+			"vallejo-model-color-deep-sky-blue",
+			"vallejo-metal-color-aluminium",
+			"citadel-layer-thunderhawk-blue",
+			"citadel-base-incubi-darkness",
+			"citadel-base-leadbelcher",
+			"citadel-layer-brass-scorpion",
+			"citadel-layer-auric-armour-gold",
+			"citadel-contrast-apothecary-white",
+			"citadel-shade-nuln-oil",
+			"citadel-shade-reikland-fleshshade",
+			"citadel-technical-stirland-mud",
+			"citadel-sprays-chaos-black-primer",
+			"krylon-clear-coatings-matte-finish",
+			"vallejo-auxiliaries-airbrush-flow-improver",
+		],
+	},
+	# ============================================================================ #
 }
 
 
@@ -263,9 +327,9 @@ _wip_not_ready_posts = {
 	# 				"url": "",
 	# 			},
 	# 		],
-	# 	","
+	# 	},
 	# 	"images": [
-	# 		# "image.jpg",
+	# 		# "necrominis-.jpeg",
 	# 	],
 	# 	"paragraphs": [
 	# 		f""":A [[Something]] painted with something or other...""",
