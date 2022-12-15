@@ -370,6 +370,7 @@ posts = {
 		"properties": {
 			"created": "October 26, 2021",
 			"tags": [
+				"dungeons-and-dragons",
 				"fantasy",
 			],
 			"manufacturers": [
@@ -464,6 +465,65 @@ posts = {
 			"citadel-technical-stirland-mud",
 			"krylon-clear-coatings-matte-finish",
 			"vallejo-auxiliaries-glaze-medium",
+		],
+	},
+	# ============================================================================ #
+	"2021-10-08": {
+		"title": "Robot Flesh-Eater",
+		"type": "post",
+		"properties": {
+			"created": "October 8, 2021",
+			"tags": [
+				"warhammer-40k",
+				"sci-fi",
+				"tabletop",
+			],
+			"manufacturers": [
+				"3d-printed",
+			],
+			"models": [
+				{
+					"text": "https://www.myminifactory.com/object/3d-print-robot-flesh-eaters-157561",
+					"url": "Robot Flesh-Eater",
+				},
+				{
+					"text": "https://www.myminifactory.com/object/3d-print-robot-legions-bases-round-square-183669",
+					"url": "Robot Legion Base",
+				},
+				{
+					"text": "https://www.thingiverse.com/thing:3894433",
+					"url": "Space Marine Helmet",
+				},
+			],
+		},
+		"images": [
+			"necrominis-2021-10-08-raw-1.jpeg",
+			"necrominis-2021-10-08-raw-2.jpeg",
+		],
+		"paragraphs": [
+			f""":A [[Robot Flesh-Eater]], stepping on a dead [Space Marine’s]({URL_SPACE_MARINE}) helmet, painted silver.""",
+
+			f"""I [3D printed]T({TT_3D_PRINTING}) this mini in parts, and he turned out great (apart from the missing claw on his right hand). I also 3D printed the base and the *Space Marine* helmet.""",
+			
+			f"""This miniature looked so cool, and (in my opinion) I botched his paint job. I tried to keep him metallic, going off of the box-art color scheme of *[Warhammer’s Necrons](https://www.games-workshop.com/en-GB/Necron-Triarch-Praetorians-2020)*, but it didn’t turn out quite right. The gun-metal color worked fine, but the silver (on the head, toes, and claws) looked weird. The bronze colored metal parts aren’t perfect, but they work. They’re simply the same paint-job as the metal, but covered in a few layers of *Guilliman Flesh* *Contrast* paint. The blood also turned out a bit brighter than I would’ve liked. And finally, the metallic blue on the *Space Marine* helmet looks poor, but I was so fed up with this mini I’d rather print a new one and try a different method than fix it.""",
+			
+			f"""All-in-all, this mini had great potential, but didn’t turn out to a level that I’d be happy with. I’ll have to print some more and try again, though, because it’s a great model!""",
+		],
+		"paints-used": [
+			"vallejo-model-color-medium-sea-grey",
+			"vallejo-model-color-black",
+			"vallejo-model-color-yellow-ochre",
+			"vallejo-model-color-lemon-yellow",
+			"vallejo-model-color-flat-blue",
+			"vallejo-model-color-silver",
+			"citadel-base-mephiston-red",
+			"citadel-layer-ushabti-bone",
+			"citadel-base-leadbelcher",
+			"citadel-contrast-guilliman-flesh",
+			"citadel-contrast-ultramarines-blue",
+			"citadel-shade-nuln-oil",
+			"tamiya-surface-primer-l-grey",
+			"krylon-clear-coatings-matte-finish",
 		],
 	},
 	# ============================================================================ #

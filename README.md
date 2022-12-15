@@ -78,6 +78,13 @@ Changes the current working directory within the script to the given path. The p
 
 * Change page IDs to not use their date (and instead use their title or something).
 * Add those lamp covers I got.
+* Update 3D printing stuff in posts.
+	* Add manufacturers for OnePageRules and the other 3d-print file vendors.
+	* Add my 3D printer to post paragraphs.
+		* Add my resins to supplies.
+			* Add my resins to post paragraphs.
+	* Posts that need updating:
+		* 2021-10-08
 * Add the rest of the paints.
 	* Integrate citadel color paints into Vallejo color paints.
 	* Add Stynylrez / SNR-403 Black Primer.
