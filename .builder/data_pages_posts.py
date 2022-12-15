@@ -410,6 +410,63 @@ posts = {
 		],
 	},
 	# ============================================================================ #
+	"2021-10-24": {
+		"title": "Six Myconids (Fungus People)",
+		"type": "post",
+		"properties": {
+			"created": "October 24, 2021",
+			"tags": [
+				"dungeons-and-dragons",
+				"fantasy",
+				"tabletop",
+			],
+			"manufacturers": [
+				"wizkids",
+			],
+			"models": [
+				{
+					"text": "https://www.miniaturemarket.com/wzk73405.html",
+					"url": "Myconid Adults",
+				},
+			],
+		},
+		"images": [
+			"necrominis-2021-10-24-raw-1.jpeg",
+			"necrominis-2021-10-24-raw-2.jpeg",
+			"necrominis-2021-10-24-raw-3.jpeg",
+		],
+		"paragraphs": [
+			f""":Six [[Myconid Adults]] (fungus people from [*Dungeons & Dragons*]({URL_DND})) painted like the box art.""",
+			
+			f"""I don’t normally paint like the box art, as I find coming up with a color scheme part of the fun, but the original colors are just too good. With the way these creatures are supposed to look, there aren’t many harsh edges between colors. Despite being multi-colored, each color kind of fades into the next. For this, I tried a new technique that I’d like to call "[dry-blending]T({TT_DRY_BLENDING})".""",
+			
+			f"""I did a quick base coat of each color, not worrying about how they blended together. I painted the body green, the arms purple, and the head tan. I then did a rough blend of light blue where the purple and green parts touched on the limbs, and blended the tan into the green around the neck area. I then did some mixing between the colors and white to highlight the details with the [dry-brush]T({TT_DRY_BRUSHING}) technique. I used my new [makeup brushes](ecotools-detail-liner) for this, as they have dense but soft bristles. I then did a [wash]T({TT_WASH}) over the body and limbs, to add shading in the recesses. I thinned the washes down with *Glaze Medium* to make them more subtle. I then did another dry-brush with an even more white highlight. For the head I did a wash and then dry-brushed to blend toward orange on the tips. This technique turned out better than I could’ve hoped. The blend from tan to orange turned out very smooth. I’ll have to look out for other times I can use this technique.""",
+			
+			f"""These minis came with terrain attached, so to blend that into the whole base smoothly, I used my favorite texture paint *Stirland Mud*. Instead of using the thin black bases that come with *WizKids* minis, I used some 1-inch wood discs I had lying around. I can’t remember where I go them, though. Painting the base was simply a mix of greys and browns, a wash, and then dry-brushing, to resemble a dirty, rocky cave.""",
+
+			f"""All-in-all, these minis turned out closer to the box art than I could’ve hoped for. The smooth blend on the head, using my "dry-blending" technique, worked perfectly, and I can’t wait to use this technique again.""",
+		],
+		"paints-used": [
+			"vallejo-model-color-off-white",
+			"vallejo-model-color-intermediate-blue",
+			"vallejo-model-color-black",
+			"vallejo-model-color-clear-orange",
+			"vallejo-model-color-buff",
+			"vallejo-game-color-beasty-brown",
+			"vallejo-model-color-flat-brown",
+			"vallejo-model-color-intermediate-green",
+			"vallejo-model-color-azure",
+			"vallejo-model-color-purple",
+			"vallejo-game-wash-red",
+			"vallejo-game-wash-green",
+			"vallejo-game-wash-blue",
+			"citadel-shade-reikland-fleshshade",
+			"citadel-technical-stirland-mud",
+			"krylon-clear-coatings-matte-finish",
+			"vallejo-auxiliaries-glaze-medium",
+		],
+	},
+	# ============================================================================ #
 }
 
 

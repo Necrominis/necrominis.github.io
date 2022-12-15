@@ -20,17 +20,23 @@ from printer import *
 
 TT_3D_PRINTING = """3D printing is the construction of physical objects from a digital 3D model file, using a machine called a 3D printer."""
 
+TT_DRY_BLENDING = """Dry-blending is the technique of using the dry-brushing technique to achieve results similar to wet-blending, in order to create smooth blends between colors on a miniature."""
+
 TT_DRY_BRUSHING = """Dru-brushing is the technique of wiping most of the paint off your brush and lightly brushing a miniature, in order to only catch the raised edges with a light dusting of a color (usually a highlight)."""
+
+TT_GLAZING = """Glazing is the technique of using very diluted paint in order to tint a miniature with a certain color. Glazing can be applied in layers to create smooth transitions between bolors."""
 
 TT_NMM = """Non-metallic metal, or NMM, is the technique of painting a miniature to look shiny or metallic using solid color paints and high contrast, rather than using actual glossy or metallic paints."""
 
 TT_OSL = """Object source lighting, or OSL, is the technique of strategically placing color highlights to give the impression that the miniature is either lit by a light source or is itself emitting light."""
 
-TT_TABLE_READY = """Table-ready is a term to describe a miniature thay may not look as good as the painter would like, but looks good enough that it's ready to be played with on in tabletop games."""
+TT_TABLE_READY = """Table-ready is a term to describe a miniature thay may not look as good as the painter would like, but looks good enough that it’s ready to be played with on in tabletop games."""
 
 TT_VOLUMETRIC_HIGHLIGHTING = """Volumetric highlighting is the technique of highlighting and shading a miniature based on the physical properties of how light behaves on shapes and textures, rather than simply highlighting raised edges and shading recesses, in order to create a more realistic miniature."""
 
 TT_WASH = """Washes are paints diluted with water, which can be "washed" onto a miniature in order for the paint to flow into the recesses (usually for shading purposes)."""
+
+TT_WET_BLENDING = """wet-blending is the technique of painting an area of a miniature with two colors and smudging the border between them while the paint is still wet, in order to create smooth blends between colors on a miniature."""
 
 
 
