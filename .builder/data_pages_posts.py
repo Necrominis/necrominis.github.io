@@ -295,6 +295,75 @@ posts = {
 		],
 	},
 	# ============================================================================ #
+	"2021-10-30": {
+		"title": "Kruleboyz Ork Gutrippa",
+		"type": "post",
+		"properties": {
+			"created": "October 30, 2021",
+			"tags": [
+				"warhammer-age-of-sigmar",
+				"fantasy",
+				"tabletop",
+			],
+			"manufacturers": [
+				"games-workshop",
+			],
+			"models": [
+				{
+					"text": "Kruleboyz Ork Gutrippa",
+					"url": "https://www.games-workshop.com/en-US/Getting-Started-With-Age-Of-Sigmar-Eng-2021",
+				},
+			],
+		},
+		"images": [
+			"necrominis-2021-10-30-raw-1.jpeg",
+			"necrominis-2021-10-30-raw-2.jpeg",
+			"necrominis-2021-10-30-raw-3.jpeg",
+		],
+		"paragraphs": [
+			f""":A [[Kryleboyz Ork Gutrippa]] painted like the box art, but with my own style of course""",
+
+			f"""I spent a few days painting this miniature. I wanted to give it a real try, with proper shading, highlighting, contrast, and texturing. I started with the skin, and highlighted from a dark green to a lime green. I added a yellow ink over it, to brighten up the slightly desaturated greens I used. I also did the same with a red ink to change the color on the scars, knees, and elbows. I think I nailed the level of contrast here, however the highlighting isn't what you'd call "[volumetric]T({TT_VOLUMETRIC_HIGHLIGHTING})", as it’s a skill I haven’t explored yet as a miniature painter.""",
+			
+			f"""For the leather clothing, I tried to give it a very warn texture. During each highlighting step, I stippled on my edge-highlights, and added scratches over the material. I think the leather is my favorite part of this paint-job. I also did a toned-down version of this paint job for the straps and the spear shaft. However, I used a lighter brown to set it apart from the leather. I did the same with the sewing on the leather as well, to help it stand out.""",
+			
+			f"""For the metal armor and the spear blade, I tried to give it a dirty and worn feel as well. I added scratches with some silver, and then washed with brown to give it a slightly rusty and dirty look. To fully sell the rusty effect, I also stippled a rusty color onto a few spots.""",
+
+			f"""The last thing I painted on the miniature was the red shield. In the box art, it's fairly bright red. I tried to keep the red look, but bring a little realism into it. I kept it red, but less bright than the box art, and then I scratched up the edges a lot with some silver. I'm not completely sure if the shields are metal, but I assumed they were. I don't know if the metal is painted on or not, but that's the look I went for. The silver scratches look like paint has been scratched off. To further sell the metal look, I painted the teeth, eyes, and rivets bronze and silver as well.""",
+			
+			f"""Finally, the base was my favorite mix of *Stirland Mud* texture paint, and grass tufts. I also added two rocks onto the base as well. This model came with the character stepping on the helmet of an enemy faction, so I painted that as well. I painted it to match the bronze metal on the rest of the mini, to give it some coherence, and I dirtied it up a bit to blend it into the base. I refrained from my usual black base rim, and made it brown to match the base and the rest of the mini. I'm really enjoying how it really ties the model together.""",
+			
+			f"""All-in-all, I could've done a bit better on the skin highlighting, but the rest of the mini turned out better than I could've hoped for. For a good test of my skills, I think it made it clear where my strengths and weaknesses lie. Now I know what to practice next!""",
+		],
+		"paints-used": [
+			"vallejo-game-color-dead-white",
+			"vallejo-model-color-medium-sea-grey",
+			"vallejo-model-color-flat-red",
+			"vallejo-game-color-terracotta",
+			"vallejo-model-color-clear-orange",
+			"vallejo-model-color-flat-brown",
+			"vallejo-game-color-beasty-brown",
+			"vallejo-model-color-buff",
+			"vallejo-model-color-lime-green",
+			"vallejo-model-color-flat-green",
+			"vallejo-metal-color-aluminium",
+			"vallejo-game-ink-red",
+			"vallejo-game-ink-yellow",
+			"citadel-layer-evil-sunz-scarlet",
+			"citadel-base-mephiston-red",
+			"citadel-base-leadbelcher",
+			"citadel-layer-brass-scorpion",
+			"citadel-layer-auric-armour-gold",
+			"citadel-shade-nuln-oil",
+			"citadel-shade-agrax-earthshade",
+			"citadel-shade-athonian-camoshade",
+			"citadel-technical-stirland-mud",
+			"citadel-sprays-chaos-black-primer",
+			"krylon-clear-coatings-matte-finish",
+			"citadel-technical-lahmian-medium",
+		],
+	},
+	# ============================================================================ #
 }
 
 

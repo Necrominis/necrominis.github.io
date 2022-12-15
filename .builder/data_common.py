@@ -20,6 +20,12 @@ from printer import *
 
 TT_3D_PRINTING = """3D printing is the construction of physical objects from a digital 3D model file, using a machine called a 3D printer."""
 
+TT_NMM = """Non-metallic metal, or NMM, is the technique of painting a miniature to look shiny or metallic using solid color paints and high contrast, rather than using actual glossy or metallic paints."""
+
+TT_OSL = """Object source lighting, or OSL, is the technique of strategically placing color highlights to give the impression that the miniature is either lit by a light source or is itself emitting light."""
+
+TT_VOLUMETRIC_HIGHLIGHTING = """Volumetric highlighting is the technique of highlighting and shading a miniature based on the physical properties of how light behaves on shapes and textures, rather than simply highlighting raised edges and shading recesses, in order to create a more realistic miniature."""
+
 
 
 
