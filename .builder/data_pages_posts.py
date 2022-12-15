@@ -378,8 +378,8 @@ posts = {
 			],
 			"models": [
 				{
-					"text": "https://www.miniaturemarket.com/wzk90174.html",
-					"url": "Huge Air Elemental",
+					"text": "Huge Air Elemental",
+					"url": "https://www.miniaturemarket.com/wzk90174.html",
 				},
 			],
 		},
@@ -426,8 +426,8 @@ posts = {
 			],
 			"models": [
 				{
-					"text": "https://www.miniaturemarket.com/wzk73405.html",
-					"url": "Myconid Adults",
+					"text": "Myconid Adults",
+					"url": "https://www.miniaturemarket.com/wzk73405.html",
 				},
 			],
 		},
@@ -483,16 +483,16 @@ posts = {
 			],
 			"models": [
 				{
-					"text": "https://www.myminifactory.com/object/3d-print-robot-flesh-eaters-157561",
-					"url": "Robot Flesh-Eater",
+					"text": "Robot Flesh-Eater",
+					"url": "https://www.myminifactory.com/object/3d-print-robot-flesh-eaters-157561",
 				},
 				{
-					"text": "https://www.myminifactory.com/object/3d-print-robot-legions-bases-round-square-183669",
-					"url": "Robot Legion Base",
+					"text": "Robot Legion Base",
+					"url": "https://www.myminifactory.com/object/3d-print-robot-legions-bases-round-square-183669",
 				},
 				{
-					"text": "https://www.thingiverse.com/thing:3894433",
-					"url": "Space Marine Helmet",
+					"text": "Space Marine Helmet",
+					"url": "https://www.thingiverse.com/thing:3894433",
 				},
 			],
 		},
@@ -594,8 +594,8 @@ posts = {
 			],
 			"models": [
 				{
-					"text": "https://www.myminifactory.com/object/3d-print-arctic-nights-set-snow-ice-winter-encounter-collection-143458",
-					"url": "Arctic Wolf",
+					"text": "Arctic Wolf",
+					"url": "https://www.myminifactory.com/object/3d-print-arctic-nights-set-snow-ice-winter-encounter-collection-143458",
 				},
 			],
 		},
