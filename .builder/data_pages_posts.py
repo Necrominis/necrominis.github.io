@@ -55,7 +55,7 @@ posts = {
 			
 			f"""Finally, I airbrushed the two teal colors onto the model from below, to give the effect that the green light from the base is lighting up the vampire from below. Then I gave it a clear coat of gloss, for protective purposes, and matte for the final finish.""",
 			
-			f"""All-in-all, I think this might be my best miniature yet, in terms of the color coherency, the skin shading, and the glow effect. One of my [previous miniatures](2022-03-15) had a better paint job for the skin, but that was with an airbrush; this miniature’s skin was painted by hand, and this one has higher contrast. I do think the wings’ spots could be redone, though. I wanted to highlight the horizontal folds in the wings, but they weren’t defined enough to catch the edge of my brush, and were too small to highlight by hand. Overall, though, I think this miniature turned out beautifully.""",
+			f"""Overall, I think this might be my best miniature yet, in terms of the color coherency, the skin shading, and the glow effect. One of my [previous miniatures](2022-03-15) had a better paint job for the skin, but that was with an airbrush; this miniature’s skin was painted by hand, and this one has higher contrast. I do think the wings’ spots could be redone, though. I wanted to highlight the horizontal folds in the wings, but they weren’t defined enough to catch the edge of my brush, and were too small to highlight by hand. Overall, though, I think this miniature turned out beautifully.""",
 		],
 		"paints-used": [
 			"vallejo-game-color-wolf-grey",
@@ -107,7 +107,7 @@ posts = {
 			
 			f"""Finally, I touched up some of the veins with thin lines of *Purple*, painted black in the cracks and tile lines, and did some edge highlighting with *Purple* on each tile. I then painted the base rim black and gave it a clear coat.""",
 			
-			f"""All-in-all, I think the effect turned out perfectly. It looks like some dark purple marble you might see in a necromancer’s base of operations. This was my first attempt to test a marble effect that I might use for the armor plates on my upcoming purple [*Necron*]T({URL_NECRON}) army. I think I have the technique down, but it’s too dark for my purposes. I might brighten the black stone parts to be more purple, and get a brighter purple for the veins. It also could use a little more contrast on the veins and edge highlights. I also think it might be worth using a satin or gloss coat, since marble is generally polished and not matte.""",
+			f"""Overall, I think the effect turned out perfectly. It looks like some dark purple marble you might see in a necromancer’s base of operations. This was my first attempt to test a marble effect that I might use for the armor plates on my upcoming purple [*Necron*]T({URL_NECRON}) army. I think I have the technique down, but it’s too dark for my purposes. I might brighten the black stone parts to be more purple, and get a brighter purple for the veins. It also could use a little more contrast on the veins and edge highlights. I also think it might be worth using a satin or gloss coat, since marble is generally polished and not matte.""",
 		],
 		"paints-used": [
 			"vallejo-model-color-black",
@@ -155,7 +155,7 @@ posts = {
 			
 			f"""For the base, I simply used some *Army Painter* [*Brown Battleground*](army-painter-brown-battleground) basing sand and [*Field Grass*](army-painter-field-grass) flocking. I then finished it off with a brown rim.""",
 
-			f"""All-in-all, I think the ork’s skin turned out beautifully, and is my best work yet, for skin tones. The squig didn’t turn out horribly either, though I’m not entirely happy with the color I ended up with. For my first airbrushed mini, I think this was a resounding success, and I’m excited to use my airbrush on anything I can.""",
+			f"""Overall, I think the ork’s skin turned out beautifully, and is my best work yet, for skin tones. The squig didn’t turn out horribly either, though I’m not entirely happy with the color I ended up with. For my first airbrushed mini, I think this was a resounding success, and I’m excited to use my airbrush on anything I can.""",
 		],
 		"paints-used": [
 			"vallejo-model-color-neutral-grey",
@@ -218,7 +218,7 @@ posts = {
 			
 			f"""Since the mini was on a random rocky shape, I decided to clue the mini onto a 1-inch wood disc for a base. I then blended the terrain with some [*Milliput*]({"milliput-standard-yellow-grey"}) epoxy, and covered it in grass, using [*Army Painter Field Grass*]({"army-painter-field-grass"}) and a few [*Vallejo* grass tufts]({"vallejo-wild-tuft-green"}). I painted the base and even the grass with the same teal as the wings, to try and limit my color palette, as well as bring everything together.""",
 			
-			f"""All-in-all, I think the miniature turned out great. For having such small details, I was able to cleanly paint most of them, including the tiny teeth and eyes. I don’t think I’d paint a small metal miniature again, though, as it was too small to pin the parts together, and super glue didn’t hold the best.""",
+			f"""Overall, I think the miniature turned out great. For having such small details, I was able to cleanly paint most of them, including the tiny teeth and eyes. I don’t think I’d paint a small metal miniature again, though, as it was too small to pin the parts together, and super glue didn’t hold the best.""",
 		],
 		"paints-used": [
 			"vallejo-model-color-white",
@@ -270,7 +270,7 @@ posts = {
 
 			f"""The base was actually really fun to make here. I tried to go for a ruined brick road or building that’s in the process of being reclaimed by nature. I broke and scratched some [*Green Stuff World* ceramic bricks]({"green-stuff-world-model-bricks"}), and then applied some *Stirland Mud* for texture. Finally, I added some [*Vallejo* grass tufts]({"vallejo-wild-tuft-green"}).""",
 
-			f"""All-in-all, the miniature was a little hard to paint, due to the very low humidity, but adding flow improver to my paints helped a little. I think the black armor turned out great, the glow effects were good but not amazing, and the gold and silver armor was simple, but could’ve been improved a little, provided the paint played nicely.""",
+			f"""Overall, the miniature was a little hard to paint, due to the very low humidity, but adding flow improver to my paints helped a little. I think the black armor turned out great, the glow effects were good but not amazing, and the gold and silver armor was simple, but could’ve been improved a little, provided the paint played nicely.""",
 		],
 		"paints-used": [
 			"vallejo-model-color-off-white",
@@ -334,7 +334,7 @@ posts = {
 			
 			f"""Finally, the base was my favorite mix of *Stirland Mud* texture paint, and grass tufts. I also added two rocks onto the base as well. This model came with the character stepping on the helmet of an enemy faction, so I painted that as well. I painted it to match the bronze metal on the rest of the mini, to give it some coherence, and I dirtied it up a bit to blend it into the base. I refrained from my usual black base rim, and made it brown to match the base and the rest of the mini. I’m really enjoying how it really ties the model together.""",
 			
-			f"""All-in-all, I could’ve done a bit better on the skin highlighting, but the rest of the mini turned out better than I could’ve hoped for. For a good test of my skills, I think it made it clear where my strengths and weaknesses lie. Now I know what to practice next!""",
+			f"""Overall, I could’ve done a bit better on the skin highlighting, but the rest of the mini turned out better than I could’ve hoped for. For a good test of my skills, I think it made it clear where my strengths and weaknesses lie. Now I know what to practice next!""",
 		],
 		"paints-used": [
 			"vallejo-game-color-dead-white",
@@ -399,7 +399,7 @@ posts = {
 			
 			f"""This miniature features some ugly mold lines, as I forgot to remove them until after priming. Since the mini was just for playing *Dungeons & Dragons*, and not a fancy display piece, I decided to just leave it and continue.""",
 			
-			f"""All-in-all, the dry-brushing turned out a little more chalky and less smooth than I would’ve hoped for, but it’s [table-ready]T({TT_TABLE_READY}) so I’m happy with the result.""",
+			f"""Overall, the dry-brushing turned out a little more chalky and less smooth than I would’ve hoped for, but it’s [table-ready]T({TT_TABLE_READY}) so I’m happy with the result.""",
 		],
 		"paints-used": [
 			"vallejo-game-color-dead-white",
@@ -446,7 +446,7 @@ posts = {
 			
 			f"""These minis came with terrain attached, so to blend that into the whole base smoothly, I used my favorite texture paint *Stirland Mud*. Instead of using the thin black bases that come with *WizKids* minis, I used some 1-inch wood discs I had lying around. I can’t remember where I go them, though. Painting the base was simply a mix of greys and browns, a wash, and then dry-brushing, to resemble a dirty, rocky cave.""",
 
-			f"""All-in-all, these minis turned out closer to the box art than I could’ve hoped for. The smooth blend on the head, using my "dry-blending" technique, worked perfectly, and I can’t wait to use this technique again.""",
+			f"""Overall, these minis turned out closer to the box art than I could’ve hoped for. The smooth blend on the head, using my "dry-blending" technique, worked perfectly, and I can’t wait to use this technique again.""",
 		],
 		"paints-used": [
 			"vallejo-model-color-off-white",
@@ -508,7 +508,7 @@ posts = {
 			
 			f"""This miniature looked so cool, and (in my opinion) I botched his paint job. I tried to keep him metallic, going off of the box-art color scheme of *[Warhammer’s Necrons](https://www.games-workshop.com/en-GB/Necron-Triarch-Praetorians-2020)*, but it didn’t turn out quite right. The gun-metal color worked fine, but the silver (on the head, toes, and claws) looked weird. The bronze colored metal parts aren’t perfect, but they work. They’re simply the same paint-job as the metal, but covered in a few layers of *Guilliman Flesh* *Contrast* paint. The blood also turned out a bit brighter than I would’ve liked. And finally, the metallic blue on the *Space Marine* helmet looks poor, but I was so fed up with this mini I’d rather print a new one and try a different method than fix it.""",
 			
-			f"""All-in-all, this mini had great potential, but didn’t turn out to a level that I’d be happy with. I’ll have to print some more and try again, though, because it’s a great model!""",
+			f"""Overall, this mini had great potential, but didn’t turn out to a level that I’d be happy with. I’ll have to print some more and try again, though, because it’s a great model!""",
 		],
 		"paints-used": [
 			"vallejo-model-color-medium-sea-grey",
@@ -561,7 +561,7 @@ posts = {
 			
 			f"""His base was some *Green Stuff* sculpted to make a small hill on top of a [*LITKO* 1-inch base](litko-1-inch-circular-base), then covered in *Agrellan Earth* to add that cracked texture. I do believe this is the fist base where I painted the rim with a complimenting color, rather than just black, and I have to say I think I’m hooked! It really makes the base’s environment feel more real.""",
 
-			f"""All-in-all, I think it turned out well. The base could look a little more speckled and sandy, but it’s not bad given I don’t have any sand texture materials yet.""",
+			f"""Overall, I think it turned out well. The base could look a little more speckled and sandy, but it’s not bad given I don’t have any sand texture materials yet.""",
 		],
 		"paints-used": [
 			"vallejo-model-color-medium-sea-grey",
@@ -617,7 +617,7 @@ posts = {
 			
 			f"""For some added detail, I gloss varnished the nose and claws, to contrast with the matte varnish on the rest of the model. The nose should look wet, and the claws shiny. I also gloss varnished the base rim as well, as I was curious about how it would turn out.""",
 
-			f"""All-in-all, I think the miniature makes a perfect gift for my animal-loving partner.""",
+			f"""Overall, I think the miniature makes a perfect gift for my animal-loving partner.""",
 		],
 		"paints-used": [
 			"vallejo-model-color-off-white",
@@ -666,7 +666,7 @@ posts = {
 
 			f"""The base was fun to make. It was a [*LITKO* 1-inch base](litko-1-inch-circular-base), covered in *Green Stuff*, then rolled with a [brick-pattern rolling pin](green-stuff-world-rolling-pin-dutch-bricks).""",
 			
-			f"""All-in-all, I’m very proud of the [OSL]T({TT_OSL}), especially since it was completely done by hand without using an airbrush.""",
+			f"""Overall, I’m very proud of the [OSL]T({TT_OSL}), especially since it was completely done by hand without using an airbrush.""",
 		],
 		"paints-used": [
 			"vallejo-game-color-wolf-grey",
@@ -718,7 +718,7 @@ posts = {
 			
 			f"""The base then, was just an old [2-inch base](wizkids-2-inch-black-base) from a *WizKids* mini; nothing fancy. I added a few levels of cork that came off an old ruler (yes trash can be useful), with some sand glued on. Apart from painting, I also added some [*Vallejo* wild grass tufts](vallejo-wild-tuft-green).""",
 			
-			f"""All-in-all, it was a quick paint job, since it’s a messy and grimy style, but it was fun and worth it nevertheless.""",
+			f"""Overall, it was a quick paint job, since it’s a messy and grimy style, but it was fun and worth it nevertheless.""",
 		],
 		"paints-used": [
 			"vallejo-model-color-neutral-grey",
@@ -736,6 +736,61 @@ posts = {
 			"citadel-shade-nuln-oil",
 			"citadel-technical-stirland-mud",
 			"citadel-sprays-chaos-black-primer",
+		],
+	},
+	# ============================================================================ #
+	"2021-05-25": {
+		"title": "Tiefling Wizard",
+		"type": "post",
+		"properties": {
+			"created": "May 25, 2021",
+			"tags": [
+				"dungeons-and-dragons",
+				"fantasy",
+				"tabletop",
+			],
+			"manufacturers": [
+				"hero-forge",
+			],
+			"models": [
+				{
+					"text": "Tiefling Wizard (designed myself)",
+					"url": "https://www.heroforge.com/load_config%3D11268901/",
+				},
+			],
+		},
+		"images": [
+			"necrominis-2021-05-25-raw-1.jpeg",
+			"necrominis-2021-05-25-raw-2.jpeg",
+		],
+		"paragraphs": [
+			f""":A [[Tiefling Wizard]], designed myself and purchased through [*Hero Forge*]({URL_HERO_FORGE}).""",
+
+			f"""I designed this Tiefling Wizard as a possible character for [*Dungeons & Dragons*]({URL_DND}) (who unfortunately never got to be played). Then, when I made some minis in *Hero Forge*, I decided to make him, and buy him.""",
+			
+			f"""The robes on this mini were very annoying to paint, so I sped through them unfortunately. The fireball is also super messy because I used [layering]T({TT_LAYERING}), which I’ve never done for fire before. Normally I use [dry-brushing]T({TT_DRY_BRUSHING}) for fire, but it was the last thing I painted so I didn’t want to risk the brushing spilling over onto his arm.""",
+			
+			f"""I tried a new technique for the wings, adding lots of horizontal lines to add texture. Unfortunately the paint was drying too fast on my brush, so the lines were either too thin for the paint to grab onto the model, or they were too thick. I think this solidified my decision to buy some paint thinners and other materials to slow the drying time of my paint.""",
+			
+			f"""The red was a nice surprise to come up with, too, since I only had the one shade. I was trying to find highlight and shade colors to match the red I used, but instead I shaded with red mixed with blue, then worked my way up to the original red. It made for a nice dark, yet rich, red.""",
+			
+			f"""Overall, I think this model turned out good, though not perfect. He’s definitely [table-ready]T({TT_TABLE_READY}), should I ever use this character in a future campaign.""",
+		],
+		"paints-used": [
+			"vallejo-game-color-dead-white",
+			"vallejo-model-color-neutral-grey",
+			"vallejo-model-color-black",
+			"citadel-base-mephiston-red",
+			"vallejo-model-color-flat-brown",
+			"vallejo-game-color-imperial-blue",
+			"citadel-base-kantor-blue",
+			"vallejo-model-color-purple",
+			"vallejo-game-color-gunmetal",
+			"vallejo-game-ink-violet",
+			"vallejo-game-ink-black",
+			"vallejo-auxiliaries-glaze-medium",
+			"krylon-clear-coatings-matte-finish",
+			"krylon-colormaxx-satin-crystal-clear",
 		],
 	},
 	# ============================================================================ #
@@ -782,7 +837,7 @@ _wip_not_ready_posts = {
 			
 	# 		f"""The base was blah blah...""",
 			
-	# 		f"""All-in-all, etc...""",
+	# 		f"""Overall, etc...""",
 	# 	],
 	# 	"paints-used": [
 	# 		"",

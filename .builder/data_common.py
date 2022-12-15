@@ -51,6 +51,7 @@ TT_WET_BLENDING = """wet-blending is the technique of painting an area of a mini
 
 URL_CHARIZARD = """https://bulbapedia.bulbagarden.net/wiki/Charizard"""
 URL_DND = """https://dnd.wizards.com/what-is-dnd"""
+URL_HERO_FORGE = """https://www.heroforge.com/"""
 URL_MY_MINI_FACTORY = """https://www.myminifactory.com"""
 URL_NECRON = """https://en.wikipedia.org/wiki/Warhammer_40,000#Necrons"""
 URL_PATHFINDER = """https://paizo.com/pathfinder"""
