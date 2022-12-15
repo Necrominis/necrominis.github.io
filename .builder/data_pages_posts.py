@@ -772,7 +772,7 @@ posts = {
 			
 			f"""I tried a new technique for the wings, adding lots of horizontal lines to add texture. Unfortunately the paint was drying too fast on my brush, so the lines were either too thin for the paint to grab onto the model, or they were too thick. I think this solidified my decision to buy some paint thinners and other materials to slow the drying time of my paint.""",
 			
-			f"""The red was a nice surprise to come up with, too, since I only had the one shade. I was trying to find highlight and shade colors to match the red I used, but instead I shaded with red mixed with blue, then worked my way up to the original red. It made for a nice dark, yet rich, red.""",
+			f"""The red was a nice surprise to come up with, too, since I didn’t have a darker red paint. I was trying to find highlight and shade colors to match the red I used, but instead I shaded with red mixed with blue, then worked my way up to the original red. It made for a nice dark, yet rich, red.""",
 			
 			f"""Overall, I think this model turned out good, though not perfect. He’s definitely [table-ready]T({TT_TABLE_READY}), should I ever use this character in a future campaign.""",
 		],
@@ -851,6 +851,68 @@ posts = {
 			"citadel-shade-agrax-earthshade",
 			"citadel-contrast-ultramarines-blue",
 			"vallejo-auxiliaries-glaze-medium",
+			"krylon-colormaxx-satin-crystal-clear",
+			"krylon-clear-coatings-matte-finish",
+		],
+	},
+	# ============================================================================ #
+	"2021-05-11": {
+		"title": "Astonaut Space Marine",
+		"type": "post",
+		"properties": {
+			"created": "May 11, 2021",
+			"tags": [
+				"warhammer-40k",
+				"sci-fi",
+				"tabletop",
+			],
+			"manufacturers": [
+				"games-workshop",
+			],
+			"models": [
+				{
+					"text": "Space Marine Assault Intercessor",
+					"url": "https://www.games-workshop.com/en-US/Getting-Started-With-Warhammer-40k-EN-2020",
+				},
+			],
+		},
+		"images": [
+			"necrominis-2021-05-11-raw-1.jpeg",
+			"necrominis-2021-05-11-raw-2.jpeg",
+			"necrominis-2021-05-11-raw-3.jpeg",
+		],
+		"paragraphs": [
+			f""":A [[Space Marine]] painted with an astronaut-like color scheme.""",
+
+			f"""When I first got this mini from a [*Warhammer*]({URL_WARHAMMER}) magazine, I noticed that under the right foot was a shoe imprint. It gets covered up by the foot, but it got me thinking about the astronauts on the moon leaving behind their foot prints. This inspired me to paint this [*Space Marine*]({URL_SPACE_MARINE}) with an astronaut theme.""",
+			
+			f"""I tried a new technique for recess shading (or panel lining). Instead of painting the base coat and shading the recesses, I decided to paint the recess color first, then paint the base coat after and avoid the recesses. This technique worked really well, in my opinion, because it gave strong dark lines to break apart the different panels and edges, but took so much longer that I don’t know if I’ll use it very often.""",
+			
+			f"""I found a concept art (which I can’t find again unfortunately) where the metal connections where the gloves and helmet attach to the suit were orange anodized metal. I loved this look so I mixed orange and gold paint and painted various parts with it. This paint mixture worked perfectly. I highlighted with more gold, which I think took away from the effect in a few spots unfortunately.""",
+			
+			f"""I free-handed some red stripes on the right shoulder, and have blue on the other shoulder. I didn’t have the confidence to add a white star to the blue shoulder, unfortunately. I shaded the blue parts, so if I messed up on the white, I couldn’t easily paint blue over it again. If I ever find a decal or increase my skills, I might update this miniature.""",
+
+			f"""Finally, I tested a new technique wherein you coat with a gloss varnish (or in my case, satin) because it’s more protective, then coat with a matte varnish (because matte looks better).""",
+			
+			f"""Overall, I really like how this miniature turned out. It totally looks like an astronaut on the moon while simultaniously still looking a *Space Marine*.""",
+		],
+		"paints-used": [
+			"vallejo-model-color-black",
+			"vallejo-model-color-neutral-grey",
+			"vallejo-game-color-wolf-grey",
+			"vallejo-model-color-white",
+			"vallejo-model-color-clear-orange",
+			"vallejo-model-color-clear-orange",
+			"vallejo-model-color-azure",
+			"vallejo-model-color-flat-blue",
+			"vallejo-game-color-gunmetal",
+			"vallejo-model-color-gold",
+			"citadel-base-mephiston-red",
+			"citadel-layer-evil-sunz-scarlet",
+			"citadel-base-macragge-blue",
+			"citadel-shade-nuln-oil",
+			"citadel-shade-reikland-fleshshade",
+			"tamiya-surface-primer-l-grey",
 			"krylon-colormaxx-satin-crystal-clear",
 			"krylon-clear-coatings-matte-finish",
 		],
