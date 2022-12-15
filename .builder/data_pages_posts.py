@@ -918,6 +918,54 @@ posts = {
 		],
 	},
 	# ============================================================================ #
+	"2021-03-20": {
+		"title": "Purple Lich Bust",
+		"type": "post",
+		"properties": {
+			"created": "March 20, 2021",
+			"tags": [
+				"dungeons-and-dragons",
+				"fantasy",
+				"bust",
+			],
+			"manufacturers": [
+				"3d-printed",
+			],
+			"models": [
+				{
+					"text": "Lich Bust",
+					"url": "https://www.myminifactory.com/object/3d-print-lich-bust-pre-supported-121619v",
+				},
+			],
+		},
+		"images": [
+			"necrominis-2021-03-20-raw-1.jpeg",
+			"necrominis-2021-03-20-raw-2.jpeg",
+			"necrominis-2021-03-20-raw-3.jpeg",
+		],
+		"paragraphs": [
+			f""":A [3D printed]T({TT_3D_PRINTING}) [[Lich]] bust painted with heavy lighting effects.""",
+
+			f"""This was my first real attempt at two things: [zenithal highlighting]T({TT_ZENITHAL_HIGHLIGHTING}) and [object-source Lighting]T({TT_OSL}). I used these two techniques to give a moonlight effect from the back of the lich, and a purple magic glow from the front of the lich, as if he’s standing in front of some purple magic at night.""",
+			
+			f"""To start off I primed the bust black. Technically, I didn’t have black primer, so I primed in grey then painted the whole thing black. Then I sprayed light grey primer from above and behind (for the moonlight effect). Finally I sprayed the light-grey primer from below on the front, as if the magical glow is coming from an object in front of the lich.""",
+
+			f"""Next I [dry-brushed]T({TT_DRY_BRUSHING}) white to get the hardest highlights. I used a combination of blue and violet inks and *Vallejo Glaze Medium*, to color the mini; purple magic in the front and blue moonlight in back.""",
+			
+			f"""Overall, I think the effect worked more or less how I expected. It’s especially good considering I used a spray can instead of an airbrush and dry-brushing instead of more accurate techniques like [glazing]T({TT_GLAZING}) or [layering]T({TT_LAYERING}).""",
+		],
+		"paints-used": [
+			"vallejo-game-color-dead-white",
+			"vallejo-model-color-black",
+			"vallejo-game-color-warlord-purple",
+			"vallejo-game-ink-blue",
+			"vallejo-game-ink-violet",
+			"tamiya-surface-primer-l-grey",
+			"vallejo-auxiliaries-glaze-medium",
+			"krylon-clear-coatings-matte-finish",
+		],
+	},
+	# ============================================================================ #
 }
 
 

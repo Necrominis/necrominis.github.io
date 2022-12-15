@@ -43,6 +43,8 @@ TT_WASH = """Washes are paints diluted with water, which can be "washed" onto a 
 
 TT_WET_BLENDING = """wet-blending is the technique of painting an area of a miniature with two colors and smudging the border between them while the paint is still wet, in order to create smooth blends between colors on a miniature."""
 
+TT_ZENITHAL_HIGHLIGHTING = """Zenithal highlighting the technique of base coating a miniature black, then spraying white paint from above, in order to give an aproximation of sunlight creating shadows and highlights."""
+
 
 
 
