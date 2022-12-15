@@ -966,6 +966,53 @@ posts = {
 		],
 	},
 	# ============================================================================ #
+	"2021-03-06": {
+		"title": "Purple Sand Worm",
+		"type": "post",
+		"properties": {
+			"created": "March 6, 2021",
+			"tags": [
+				"dungeons-and-dragons",
+				"fantasy",
+				"tabletop",
+			],
+			"manufacturers": [
+				"3d-printed",
+			],
+			"models": [
+				{
+					"text": "Sand Worm",
+					"url": "https://www.myminifactory.com/object/3d-print-sand-worm-109510s",
+				},
+			],
+		},
+		"images": [
+			"necrominis-2021-03-06-raw-1.jpeg",
+			"necrominis-2021-03-06-raw-2.jpeg",
+			"necrominis-2021-03-06-raw-3.jpeg",
+		],
+		"paragraphs": [
+			f""":A [3D printed]T({TT_3D_PRINTING}) [[Sand Worm]] painted like the iconic purple worms in [*Dungeons & Dragons*]({URL_DND})""",
+
+			f"""I couldn’t really decide on colors here, so there was a lot of adjusting and repainting. At first, it was planned to be a brown and tan worm, to match the desert theme. It was a bit monochromatic and plain, so I used some yellow ink to add some color to the belly. Eventually I added some purple to the outer scales. This made the belly stand out and not match, so I added purple to the belly as well, which brought it back to a sort of pinkish brown.""",
+			
+			f"""Overall, the mini turned out worse than if I had just went ahead and painted it purple in the first place. It was a fix-up job. I unfortunately wasn’t enjoying painting this mini, as the model doesn’t have as well defined features as it appears, so I rushed it to finish rather than starting over. Not my best work, but it works as a decent [table-ready]T({TT_TABLE_READY}) mini for *D&D*.""",
+		],
+		"paints-used": [
+			"vallejo-model-color-white",
+			"vallejo-game-color-warlord-purple",
+			"vallejo-model-color-buff",
+			"vallejo-game-color-beasty-brown",
+			"vallejo-model-color-flat-brown",
+			"vallejo-game-ink-yellow",
+			"vallejo-game-wash-sepia",
+			"vallejo-game-wash-umber",
+			"vallejo-game-ink-violet",
+			"tamiya-surface-primer-l-grey",
+			"krylon-clear-coatings-matte-finish",
+		],
+	},
+	# ============================================================================ #
 }
 
 
