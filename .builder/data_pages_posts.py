@@ -1062,6 +1062,56 @@ posts = {
 		],
 	},
 	# ============================================================================ #
+	"2020-12-09": {
+		"title": "Teal Stormcast Eternal Liberator",
+		"type": "post",
+		"properties": {
+			"created": "December 9, 2020",
+			"tags": [
+				"warhammer-age-of-sigmar",
+				"tabletop",
+			],
+			"manufacturers": [
+				"games-workshop",
+			],
+			"models": [
+				{
+					"text": "Stormcast Eternal Liberator",
+					"url": "https://www.games-workshop.com/en-US/Stormcast-Eternals-Liberators-2017",
+				},
+			],
+		},
+		"images": [
+			"necrominis-2020-12-09-1.jpeg",
+			"necrominis-2020-12-09-2.jpeg",
+			"necrominis-2020-12-09-3.jpeg",
+		],
+		"paragraphs": [
+			f""":A [[Stormcast Eternal Liberator]] painted similar to the *[Stormcast Eternal]({URL_STORMCAST_ETERNALS}) Vindicator* box art.""",
+
+			f"""This is my first mini I really slowed down on and focused on my techniques, making it a great first post to start off this website. I wanted to test a possible scheme that focuses more on blue than gold, as well as test my hand at [edge highlighting]T({TT_EDGE_HIGHLIGHTING}). There’s a bit of shading with a wash and slight layering just to get the original color back after washing. I also tested out a marble technique for the first time.""",
+			
+			f"""The base was made with some *Stirland Mud* for the dirt and broken pieces of a [plastic base](litko-1-inch-circular-base) for the ruined marble floor.""",
+			
+			f"""Overall, I think this miniature turned out amazing, and I’m excited to keep practicing to improve my skills. It feels good to be proud of your first (deliberate) attempt at a craft, since your first attempt at anything is usually terrible. It looks like I’m off to a good start, or at least good in my eyes.""",
+		],
+		"paints-used": [
+			"vallejo-model-color-white",
+			"vallejo-model-color-medium-sea-grey",
+			"vallejo-model-color-black",
+			"vallejo-model-color-emerald",
+			"vallejo-model-color-azure",
+			"vallejo-model-color-flat-blue",
+			"vallejo-model-color-purple",
+			"vallejo-model-color-silver",
+			"vallejo-model-color-gold",
+			"vallejo-game-wash-black",
+			"citadel-technical-stirland-mud",
+			"army-painter-warpaints-brush-on-primer",
+			"krylon-clear-coatings-matte-finish",
+		],
+	},
+	# ============================================================================ #
 }
 
 

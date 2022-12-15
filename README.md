@@ -92,8 +92,6 @@ Changes the current working directory within the script to the given path. The p
 	* Integrate citadel color paints into Vallejo color paints.
 	* Add Stynylrez / SNR-403 Black Primer.
 * Add the rest of the posts.
-	* Grogu.
-	* Blue stormcast.
 	* WIP green gelatinous cube.
 	* WIP violet armored vampire.
 	* WIP priest of the dwarven hold.

@@ -25,6 +25,8 @@ TT_DRY_BLENDING = """Dry-blending is the technique of using the dry-brushing tec
 
 TT_DRY_BRUSHING = """Dru-brushing is the technique of wiping most of the paint off your brush and lightly brushing a miniature, in order to only catch the raised edges with a light dusting of a color (usually a highlight)."""
 
+TT_EDGE_HIGHLIGHTING = """Edge highlighting is the technique where you paint the raised edges and corners on a miniature brighter than noraml, in order to help them stand out more, and because edges tend to reflect slightly more light in real life."""
+
 TT_GLAZING = """Glazing is the technique of using very diluted paint in order to tint a miniature with a certain color. Glazing can be applied in layers to create smooth transitions between bolors."""
 
 TT_LAYERING = """Layering is the technique of creating a smooth blend between colors by using multiple layers slightly thinned paint and shrinking each layer to create a smooth transition between colors."""
