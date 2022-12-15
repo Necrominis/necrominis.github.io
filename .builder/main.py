@@ -155,4 +155,7 @@ if __name__ == '__main__':
 	while memory_used > power:
 		memory_used /= power
 		factor += 1
-	print_normal(f"Process completed and used {round(memory_used, 2)} {labels[factor]} of RAM.")
+	if factor < 3:
+		print_good(f"Process completed and used {round(memory_used, 2)} {labels[factor]} of RAM.")
+	else:
+		print_bad(f"Process completed and used {round(memory_used, 2)} {labels[factor]} of RAM.")
