@@ -77,7 +77,6 @@ Changes the current working directory within the script to the given path. The p
 ## Data
 
 * Change page IDs to not use their date (and instead use their title or something).
-* Use nicer looking apostrophies in paragraphs.
 * Add those lamp covers I got.
 * Add the rest of the paints.
 	* Integrate citadel color paints into Vallejo color paints.

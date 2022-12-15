@@ -209,7 +209,7 @@ posts = {
 			"necrominis-2022-03-13-raw-2.jpeg",
 		],
 		"paragraphs": [
-			f""":A [[Dragon Hatchling]] painted with an orange and teal color scheme, remniscent of the *[Pokémon]T({TT_POKEMON})* [Charizard](https://bulbapedia.bulbagarden.net/wiki/Charizard_(Pok%C3%A9mon))""",
+			f""":A [[Dragon Hatchling]] painted with an orange and teal color scheme, remniscent of the [*Pokémon*]T({TT_POKEMON}), [Charizard](https://bulbapedia.bulbagarden.net/wiki/Charizard).""",
 
 			f"""I painted this mini as a gift for my partner, so I decided to paint it orange, instead of a traditional forest color like green, as it’s my partner’s color. Being such a small mini, the details were very straining to paint. I individually painted each scale, and while it turned out nice, it was a bit straining to accomplish.""",
 			
