@@ -7,6 +7,8 @@ from processor import *
 
 
 # The following are assumed to exist and required for this to work:
+# data['image-paths']['post-photos']
+# data['no-image']
 # data['no-paint']
 # data['blank-paint']
 # data['tags'][tag_id]['text']
@@ -327,8 +329,13 @@ def build_slideshow_html(page_id: str) -> str:
 	# Go through each image, build the slide HTML, and combine them.
 	slides_html = ''
 	for image_file in image_files:
+		# Use missing image image if the image file can't be found.
+		_image_file = image_file
+		if not os.path.isfile(data['image-paths']['post-photos']):
+			_image_file = data['no-image']
+		# Add the image to the slide HTML.
 		slide_html = read_html_file('slideshow-slide.html')
-		slide_html = slide_html.replace('<!--SLIDE-IMAGE-->', image_file)
+		slide_html = slide_html.replace('<!--SLIDE-IMAGE-->', _image_file)
 		slides_html += slide_html
 	
 	# If there are multiple images, add the slideshow arrows and dots.
