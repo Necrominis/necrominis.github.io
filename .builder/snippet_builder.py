@@ -331,7 +331,8 @@ def build_slideshow_html(page_id: str) -> str:
 	for image_file in image_files:
 		# Use missing image image if the image file can't be found.
 		_image_file = image_file
-		if not os.path.isfile(data['image-paths']['post-photos']):
+		if not os.path.isfile(data['image-paths']['post-photos'] + image_file):
+			print_warning('Missing image file for slideshow for page with ID: ', page_id)
 			_image_file = data['no-image']
 		# Add the image to the slide HTML.
 		slide_html = read_html_file('slideshow-slide.html')
@@ -544,9 +545,12 @@ def build_gallery_items_html(page_id: str) -> str:
 		# Pick either the first page image, or the default no-image.
 		page_image = data['no-image']
 		if 'images' in page.keys() and len(page['images']) > 0:
-			page_image = page['images'][0]
+			if os.path.isfile(data['image-paths']['post-photos'] + page['images'][0]):
+				page_image = page['images'][0]
+			else:
+				print_warning('Missing image file for gallery item for page with ID: ', page_id)
 		else:
-			print_warning('Missing image reference for slideshow on page with ID: ', page_id)
+			print_warning('Missing image reference for gallery item for page with ID: ', page_id)
 
 		# Build the starter gallery item HTML, and add the image and URL.
 		item_html = read_html_file('gallery-item.html')
