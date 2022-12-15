@@ -19,20 +19,20 @@ pages = {
 		"title": "404: Page Not Found",
 		"type": "404",
 		"paragraphs": [
-			f""":Uh-oh! This page doesn't seem to exist!""",
+			f""":Uh-oh! This page doesn’t seem to exist!""",
 		],
 	},
 	"home": {
 		"title": "Necrominis Mini-Painting Studio",
 		"type": "home",
 		"paragraphs": [
-			f""":I'm [[Tucker]] from [[Necrominis]], and I'm a miniature painter hobbyist.""",
+			f""":I’m [[Tucker]] from [[Necrominis]], and I’m a miniature painter hobbyist.""",
 			
 			f"""I first tried painting miniatures in 2015, for the [*Dungeons & Dragons*]({URL_DND}) tabletop roleplaying game. In 2019, I took on miniature painting as a serious hobby and have been improving my craft every since.""",
 			
 			f"""I still paint miniatures for tabletop games like *[D&D]({URL_DND})*, *[Warhammer]({URL_WARHAMMER})*, and *[Star Wars: Legion]({URL_STAR_WARS_LEGION})*, but now I also paint for the sole purpose of painting beautiful display miniatures, as well.""",
 			
-			f"""I've also purchased an *[Anycubic Photon S](anycubic-photon-s)*, in 2020, and have been [3D printing]T({TT_3D_PRINTING}) resin miniatures ever since. Most of the models I print are purchased from *[My Mini Factory]({URL_MY_MINI_FACTORY})* or from artists I support on *[Patreon]({URL_PATREON})*.""",
+			f"""I’ve also purchased an *[Anycubic Photon S](anycubic-photon-s)*, in 2020, and have been [3D printing]T({TT_3D_PRINTING}) resin miniatures ever since. Most of the models I print are purchased from *[My Mini Factory]({URL_MY_MINI_FACTORY})* or from artists I support on *[Patreon]({URL_PATREON})*.""",
 		],
 	},
 	# ============================================================================ #

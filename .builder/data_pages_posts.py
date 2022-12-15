@@ -468,7 +468,7 @@ posts = {
 		],
 	},
 	# ============================================================================ #
-	"2021-10-08": {
+	"2021-10-08-2": {
 		"title": "Robot Flesh-Eater",
 		"type": "post",
 		"properties": {
@@ -497,13 +497,13 @@ posts = {
 			],
 		},
 		"images": [
-			"necrominis-2021-10-08-raw-1.jpeg",
-			"necrominis-2021-10-08-raw-2.jpeg",
+			"necrominis-2021-10-08-2-raw-1.jpeg",
+			"necrominis-2021-10-08-2-raw-2.jpeg",
 		],
 		"paragraphs": [
-			f""":A [[Robot Flesh-Eater]], stepping on a dead [Space Marine’s]({URL_SPACE_MARINE}) helmet, painted silver.""",
+			f""":A [3D printed]T({TT_3D_PRINTING}) [[Robot Flesh-Eater]], stepping on a dead [Space Marine’s]({URL_SPACE_MARINE}) helmet.""",
 
-			f"""I [3D printed]T({TT_3D_PRINTING}) this mini in parts, and he turned out great (apart from the missing claw on his right hand). I also 3D printed the base and the *Space Marine* helmet.""",
+			f"""I 3D printed this mini in parts, and he turned out great (apart from the missing claw on his right hand). I also 3D printed the base and the *Space Marine* helmet.""",
 			
 			f"""This miniature looked so cool, and (in my opinion) I botched his paint job. I tried to keep him metallic, going off of the box-art color scheme of *[Warhammer’s Necrons](https://www.games-workshop.com/en-GB/Necron-Triarch-Praetorians-2020)*, but it didn’t turn out quite right. The gun-metal color worked fine, but the silver (on the head, toes, and claws) looked weird. The bronze colored metal parts aren’t perfect, but they work. They’re simply the same paint-job as the metal, but covered in a few layers of *Guilliman Flesh* *Contrast* paint. The blood also turned out a bit brighter than I would’ve liked. And finally, the metallic blue on the *Space Marine* helmet looks poor, but I was so fed up with this mini I’d rather print a new one and try a different method than fix it.""",
 			
@@ -522,6 +522,57 @@ posts = {
 			"citadel-contrast-guilliman-flesh",
 			"citadel-contrast-ultramarines-blue",
 			"citadel-shade-nuln-oil",
+			"tamiya-surface-primer-l-grey",
+			"krylon-clear-coatings-matte-finish",
+		],
+	},
+	# ============================================================================ #
+	"2021-10-08-1": {
+		"title": "Wandering Robot",
+		"type": "post",
+		"properties": {
+			"created": "October 8, 2021",
+			"tags": [
+				"fantasy",
+				"tabletop",
+			],
+			"manufacturers": [
+				"3d-printed",
+			],
+			"models": [
+				{
+					"text": "Vinci Inventor’s Helper Robot",
+					"url": "https://www.myminifactory.com/object/3d-print-inventor-167508",
+				},
+			],
+		},
+		"images": [
+			"necrominis-2021-10-08-1-raw-1.jpeg",
+			"necrominis-2021-10-08-1-raw-2.jpeg",
+			"necrominis-2021-10-08-1-raw-3.jpeg",
+		],
+		"paragraphs": [
+			f""":A [3D printed]T({TT_3D_PRINTING}) [[Steampunk Robot]], wandering through the desert.""",
+
+			f"""This has to be the smallest mini I’ve painted, so far. It was even printed at 120% scale, just to make sure he wouldn’t break if I breath on him too hard. Despite this, his print had two small failures. His left hand is partially missing, but it’s so small I elected to just accept it. The winding knob on his back was missing the lower half, so I sculpted a fix with some [*Green Stuff* epoxy](green-stuff-world-green-stuff-tape)*. It’s not perfect, but it really did turn out pretty good, considering the small size and super thin limbs.""",
+			
+			f"""This robot was mostly metal, so it was a good challenge to make sure he still has some color variety. Luckily, I used a gun-metal, a silver, and a brass color, so there was some variety in his metal parts. It was also a good way to distinguish metal plates and rods from hinges and other small details. He also had various leather straps, and some scrolls on his back, so was able to use a few colors as well, even if they were just browns and tans.""",
+			
+			f"""His base was some *Green Stuff* sculpted to make a small hill on top of a [*LITKO* 1-inch base](litko-1-inch-circular-base), then covered in *Agrellan Earth* to add that cracked texture. I do believe this is the fist base where I painted the rim with a complimenting color, rather than just black, and I have to say I think I’m hooked! It really makes the base’s environment feel more real.""",
+
+			f"""All-in-all, I think it turned out well. The base could look a little more speckled and sandy, but it’s not bad given I don’t have any sand texture materials yet.""",
+		],
+		"paints-used": [
+			"vallejo-model-color-medium-sea-grey",
+			"vallejo-model-color-black",
+			"vallejo-game-color-beasty-brown",
+			"vallejo-model-color-silver",
+			"citadel-layer-ushabti-bone",
+			"citadel-base-leadbelcher",
+			"citadel-layer-auric-armour-gold",
+			"citadel-shade-nuln-oil",
+			"citadel-shade-agrax-earthshade",
+			"citadel-technical-agrellan-earth",
 			"tamiya-surface-primer-l-grey",
 			"krylon-clear-coatings-matte-finish",
 		],
@@ -564,7 +615,7 @@ _wip_not_ready_posts = {
 	# 		# "necrominis-.jpeg",
 	# 	],
 	# 	"paragraphs": [
-	# 		f""":A [[Something]] painted with something or other...""",
+	# 		f""":A [3D printed]T({TT_3D_PRINTING}) [[Something]] painted with something or other...""",
 
 	# 		f"""I did blah blah and used blah blah...""",
 			
@@ -573,7 +624,7 @@ _wip_not_ready_posts = {
 	# 		f"""All-in-all, etc...""",
 	# 	],
 	# 	"paints-used": [
-	# 		# "id",
+	# 		"",
 	# 	],
 	# },
 
