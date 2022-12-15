@@ -215,7 +215,7 @@ posts = {
 			
 			f"""This was my first time painting a metal miniature, which was...interesting. After gluing the wings on, I broke them off three times through the painting process. Not sure I’m a fan of the brittleness of metal minis.""",
 			
-			f"""Since the mini was on a random rocky shape, I decided to clue the mini onto a 1-inch wood disc for a base. I then blended the terrain with some [*Milliput*]({"milliput-standard-yellow-grey"}) epoxy, and covered it in grass, using [*Army Painter* grass flocking]({"army-painter-field-grass"}) and a few [*Vallejo* grass tufts]({"vallejo-wild-tuft-green"}). I painted the base and even the grass with the same teal as the wings, to try and limit my color palette, as well as bring everything together.""",
+			f"""Since the mini was on a random rocky shape, I decided to clue the mini onto a 1-inch wood disc for a base. I then blended the terrain with some [*Milliput*]({"milliput-standard-yellow-grey"}) epoxy, and covered it in grass, using [*Army Painter Field Grass*]({"army-painter-field-grass"}) and a few [*Vallejo* grass tufts]({"vallejo-wild-tuft-green"}). I painted the base and even the grass with the same teal as the wings, to try and limit my color palette, as well as bring everything together.""",
 			
 			f"""All-in-all, I think the miniature turned out great. For having such small details, I was able to cleanly paint most of them, including the tiny teeth and eyes. I don’t think I’d paint a small metal miniature again, though, as it was too small to pin the parts together, and super glue didn’t hold the best.""",
 		],
@@ -574,6 +574,60 @@ posts = {
 			"citadel-shade-agrax-earthshade",
 			"citadel-technical-agrellan-earth",
 			"tamiya-surface-primer-l-grey",
+			"krylon-clear-coatings-matte-finish",
+		],
+	},
+	# ============================================================================ #
+	"2021-10-07-2": {
+		"title": "Sitting Wolf",
+		"type": "post",
+		"properties": {
+			"created": "October 7, 2021",
+			"tags": [
+				"dungeons-and-dragons",
+				"fantasy",
+				"reality",
+				"tabletop",
+			],
+			"manufacturers": [
+				"3d-printed",
+			],
+			"models": [
+				{
+					"text": "https://www.myminifactory.com/object/3d-print-arctic-nights-set-snow-ice-winter-encounter-collection-143458",
+					"url": "Arctic Wolf",
+				},
+			],
+		},
+		"images": [
+			"necrominis-2021-10-07-2-raw-1.jpeg",
+			"necrominis-2021-10-07-2-raw-2.jpeg",
+			"necrominis-2021-10-07-2-raw-3.jpeg",
+			"necrominis-2021-10-07-2-raw-4.jpeg",
+		],
+		"paragraphs": [
+			f""":A [3D printed]T({TT_3D_PRINTING}) [[Wolf]] sitting on some grass.""",
+
+			f"""This mini was 3D printed and had a small failure on the tail, so the tail was re-sculpted with some [*Green Stuff*](green-stuff-world-green-stuff-tape). I’m surprised how well it turned out, given that I’m not a sculpter.""",
+			
+			f"""For this paint-job, I simply [wet-blended]T({TT_WET_BLENDING}) the base-coat from the dark grey on the back, to brown in the middle, to tan on the belly. I then [dry-brushed]T({TT_DRY_BRUSHING}) highlights over the entirety of the fur. Finally, I painted the eyes, nose, and claws, and gave it a base.""",
+			
+			f"""The base was a plain 3D printed base, with some slight hills made with *Green Stuff*. I covered it in *Stirland Mud*, then added some [*Army Painter Field Grass*](army-painter-field-grass) and a few *[Vallejo* grass tufts](vallejo-wild-tuft-green).""",
+			
+			f"""For some added detail, I gloss varnished the nose and claws, to contrast with the matte varnish on the rest of the model. The nose should look wet, and the claws shiny. I also gloss varnished the base rim as well, as I was curious about how it would turn out.""",
+
+			f"""All-in-all, I think the miniature makes a perfect gift for my animal-loving partner.""",
+		],
+		"paints-used": [
+			"vallejo-model-color-off-white",
+			"vallejo-model-color-neutral-grey",
+			"vallejo-model-color-black",
+			"vallejo-game-color-beasty-brown",
+			"vallejo-model-color-azure",
+			"citadel-layer-ushabti-bone",
+			"citadel-technical-stirland-mud",
+			"tamiya-surface-primer-l-grey",
+			"vallejo-auxiliaries-gloss-acrylic-varnish",
 			"krylon-clear-coatings-matte-finish",
 		],
 	},

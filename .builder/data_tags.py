@@ -56,6 +56,11 @@ tags = {
 		"color": "purple",
 		"linked-page": "gallery",
 	},
+	"reality": {
+		"text": "Reality",
+		"color": "brown",
+		"linked-page": "gallery",
+	},
 	"display": {
 		"text": "Display",
 		"color": "pink",

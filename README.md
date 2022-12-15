@@ -92,10 +92,6 @@ Changes the current working directory within the script to the given path. The p
 	* Integrate citadel color paints into Vallejo color paints.
 	* Add Stynylrez / SNR-403 Black Primer.
 * Add the rest of the posts.
-	* Myconids.
-	* "Necron".
-	* Desert robot.
-	* Wolf.
 	* Plague doctor.
 	* AT-ST walker.
 	* Tiefling.
