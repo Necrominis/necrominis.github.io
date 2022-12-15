@@ -536,7 +536,7 @@ def build_gallery_items_html(page_id: str) -> str:
 
 		# Pick either the first page image, or the default no-image.
 		page_image = data['no-image']
-		if len(page['images']) > 0:
+		if 'images' in page.keys() and len(page['images']) > 0:
 			page_image = page['images'][0]
 		else:
 			print_warning('Missing image reference for slideshow on page with ID: ', page_id)

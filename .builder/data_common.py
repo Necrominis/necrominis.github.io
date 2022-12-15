@@ -19,6 +19,7 @@ from printer import *
 
 
 TT_3D_PRINTING = """3D printing is the construction of physical objects from a digital 3D model file, using a machine called a 3D printer."""
+TT_POKEMON = """Pokemon is a video game, card game, and anime franchise by *Nintendo* about catching cute monsters and battling with them."""
 
 
 
