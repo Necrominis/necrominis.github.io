@@ -5,6 +5,7 @@ from printer import *
 
 
 # Make sure to always use trailing commas!
+# Make sure to use ’ instead of ' in text!
 # Paint orders are the same as category orders!
 # Paint colors are white to black and red to purple!
 # Varnishes are matt to gloss!

@@ -6,6 +6,7 @@ from printer import *
 
 
 # Make sure to always use trailing commas!
+# Make sure to use ’ instead of ' in text!
 # Press Alt+Z to toggle word-wrap when typing paragraphs!
 # Always add newest posts to the top!
 # Dates are YYYY-MM-DD!
@@ -665,7 +666,7 @@ posts = {
 
 			f"""The base was fun to make. It was a [*LITKO* 1-inch base](litko-1-inch-circular-base), covered in *Green Stuff*, then rolled with a [brick-pattern rolling pin](green-stuff-world-rolling-pin-dutch-bricks).""",
 			
-			f"""All-in-all, I'm very proud of the [OSL]T({TT_OSL}), especially since it was completely done by hand without using an airbrush.""",
+			f"""All-in-all, I’m very proud of the [OSL]T({TT_OSL}), especially since it was completely done by hand without using an airbrush.""",
 		],
 		"paints-used": [
 			"vallejo-game-color-wolf-grey",
@@ -681,6 +682,60 @@ posts = {
 			"tamiya-surface-primer-l-grey",
 			"krylon-clear-coatings-matte-finish",
 			"vallejo-auxiliaries-airbrush-flow-improver",
+		],
+	},
+	# ============================================================================ #
+	"2021-07-05": {
+		"title": "Imperial AT-ST Walker",
+		"type": "post",
+		"properties": {
+			"created": "July 5, 2021",
+			"tags": [
+				"star-wars",
+				"sci-fi",
+				"tabletop",
+			],
+			"manufacturers": [
+				"unknown",
+			],
+			"models": [
+				{
+					"text": "Imperial AT-ST Walker",
+					"url": "",
+				},
+			],
+		},
+		"images": [
+			"necrominis-2021-07-05-raw-1.jpeg",
+			"necrominis-2021-07-05-raw-2.jpeg",
+		],
+		"paragraphs": [
+			f""":A small toy [[Imperial AT-ST Walker]] from [*Star Wars*]({URL_STAR_WARS}), repainted and given a forest base.""",
+
+			f"""Following a [painting tutorial by Sorastro](https://www.youtube.com/watch?v=J1pq6_1BIE8), I primed and painted this toy, and gave it a base. I don’t normally follow tutorials exactly — I usually just use them for inspiration — but given that the model wasn’t the large one from [Star Wars: Legion]({URL_STAR_WARS_LEGION}), and since the base is entirely different, it still came out unique.""",
+			
+			f"""Painting the walker was mostly various levels of dry-brushing different greys onto it. The greys did have a hint of brown added to them, for a warmer toned grey. I then added dirt and grime, using a sponge and various dirty colors. I also added various scratches, and some rusty drip lines under the view ports and the rear vents. I must admit, the weathering is really fun.""",
+			
+			f"""The base then, was just an old [2-inch base](wizkids-2-inch-black-base) from a *WizKids* mini; nothing fancy. I added a few levels of cork that came off an old ruler (yes trash can be useful), with some sand glued on. Apart from painting, I also added some [*Vallejo* wild grass tufts](vallejo-wild-tuft-green).""",
+			
+			f"""All-in-all, it was a quick paint job, since it’s a messy and grimy style, but it was fun and worth it nevertheless.""",
+		],
+		"paints-used": [
+			"vallejo-model-color-neutral-grey",
+			"vallejo-game-color-wolf-grey",
+			"vallejo-model-color-black",
+			"vallejo-game-color-terracotta",
+			"vallejo-model-color-flat-brown",
+			"vallejo-game-color-beasty-brown",
+			"vallejo-model-color-refractive-green",
+			"vallejo-game-color-gunmetal",
+			"vallejo-model-color-silver",
+			"vallejo-game-ink-black",
+			"vallejo-game-ink-black-green",
+			"citadel-shade-agrax-earthshade",
+			"citadel-shade-nuln-oil",
+			"citadel-technical-stirland-mud",
+			"citadel-sprays-chaos-black-primer",
 		],
 	},
 	# ============================================================================ #

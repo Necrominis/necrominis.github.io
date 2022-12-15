@@ -7,6 +7,7 @@ from data_pages_posts import *
 
 
 # Make sure to always use trailing commas!
+# Make sure to use ’ instead of ' in text!
 # Press Alt+Z to toggle word-wrap when typing paragraphs!
 
 

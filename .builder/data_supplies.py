@@ -5,6 +5,7 @@ from printer import *
 
 
 # Make sure to always use trailing commas!
+# Make sure to use ’ instead of ' in text!
 # Make sure to sort supplies alphabetically!
 
 

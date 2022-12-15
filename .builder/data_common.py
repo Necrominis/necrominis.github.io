@@ -5,6 +5,7 @@ from printer import *
 
 
 # Make sure to sort alphabetically!
+# # Make sure to use ’ instead of ' in text!
 
 
 
@@ -55,7 +56,8 @@ URL_NECRON = """https://en.wikipedia.org/wiki/Warhammer_40,000#Necrons"""
 URL_PATHFINDER = """https://paizo.com/pathfinder"""
 URL_PATREON = """https://www.patreon.com"""
 URL_POKEMON = """https://www.pokemon.com/us/parents-guide/"""
-URL_SPACE_MARINE = """https://en.wikipedia.org/wiki/Space_Marine_(Warhammer_40,000)"""
+URL_SPACE_MARINE = """https://en.wikipedia.org/wiki/Adeptus_Astartes"""
+URL_STAR_WARS = """https://en.wikipedia.org/wiki/Star_Wars"""
 URL_STAR_WARS_LEGION = """https://www.fantasyflightgames.com/en/products/star-wars-legion"""
 URL_STORMCAST_ETERNALS = """https://ageofsigmar.fandom.com/wiki/Stormcast_Eternals"""
 URL_WARHAMMER = """https://www.warhammer-community.com/en-us"""
