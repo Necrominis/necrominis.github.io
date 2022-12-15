@@ -20,11 +20,17 @@ from printer import *
 
 TT_3D_PRINTING = """3D printing is the construction of physical objects from a digital 3D model file, using a machine called a 3D printer."""
 
+TT_DRY_BRUSHING = """Dru-brushing is the technique of wiping most of the paint off your brush and lightly brushing a miniature, in order to only catch the raised edges with a light dusting of a color (usually a highlight)."""
+
 TT_NMM = """Non-metallic metal, or NMM, is the technique of painting a miniature to look shiny or metallic using solid color paints and high contrast, rather than using actual glossy or metallic paints."""
 
 TT_OSL = """Object source lighting, or OSL, is the technique of strategically placing color highlights to give the impression that the miniature is either lit by a light source or is itself emitting light."""
 
+TT_TABLE_READY = """Table-ready is a term to describe a miniature thay may not look as good as the painter would like, but looks good enough that it's ready to be played with on in tabletop games."""
+
 TT_VOLUMETRIC_HIGHLIGHTING = """Volumetric highlighting is the technique of highlighting and shading a miniature based on the physical properties of how light behaves on shapes and textures, rather than simply highlighting raised edges and shading recesses, in order to create a more realistic miniature."""
+
+TT_WASH = """Washes are paints diluted with water, which can be "washed" onto a miniature in order for the paint to flow into the recesses (usually for shading purposes)."""
 
 
 
@@ -38,6 +44,7 @@ URL_CHARIZARD = """https://bulbapedia.bulbagarden.net/wiki/Charizard"""
 URL_DND = """https://dnd.wizards.com/what-is-dnd"""
 URL_MY_MINI_FACTORY = """https://www.myminifactory.com"""
 URL_NECRON = """https://en.wikipedia.org/wiki/Warhammer_40,000#Necrons"""
+URL_PATHFINDER = """https://paizo.com/pathfinder"""
 URL_PATREON = """https://www.patreon.com"""
 URL_POKEMON = """https://www.pokemon.com/us/parents-guide/"""
 URL_SPACE_MARINE = """https://en.wikipedia.org/wiki/Space_Marine_(Warhammer_40,000)"""

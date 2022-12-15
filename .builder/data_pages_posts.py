@@ -263,13 +263,13 @@ posts = {
 
 			f"""I painted this miniature partly because I liked the black and gold coloring of the [*Stormcast Eternals*]({URL_STORMCAST_ETERNALS}) army *Anvils of Heldenhammer*, but also as a black armor test for my future *Space Marine* army.""",
 			
-			f"""The majority of the armor is black, highlighted slightly toward light blue. This blue helped match it with the blue glow of the spear head and the shield. The glow effect on the spear head isn't as good as I would've liked, but I had to use a subpar technique for it. Being winter and having the heat on has really dried out the air in my house. Even with a humidifier I found the paint drying very fast, often before even touching my brush to the model. This meant that glazing the standard gradient-based glow effects wouldn't work (I tested it on a spare mini and it didn't work). Therefore the glow effect was a mix of dry-brushing and edge-highlighting.""",
+			f"""The majority of the armor is black, highlighted slightly toward light blue. This blue helped match it with the blue glow of the spear head and the shield. The glow effect on the spear head isn’t as good as I would’ve liked, but I had to use a subpar technique for it. Being winter and having the heat on has really dried out the air in my house. Even with a humidifier I found the paint drying very fast, often before even touching my brush to the model. This meant that glazing the standard gradient-based glow effects wouldn’t work (I tested it on a spare mini and it didn’t work). Therefore the glow effect was a mix of dry-brushing and edge-highlighting.""",
 			
 			f"""The metal parts were simply metallic paints and some washes. I got to test my new white contrast paint on the white details on the shoulder pads. The leather parts were my favorite technique of two browns and a wash.""",
 
-			f"""The base was actually really fun to make here. I tried to go for a ruined brick road or building that's in the process of being reclaimed by nature. I broke and scratched some [*Green Stuff World* ceramic bricks]({"green-stuff-world-model-bricks"}), and then applied some *Stirland Mud* for texture. Finally, I added some [*Vallejo* grass tufts]({"vallejo-wild-tuft-green"}).""",
+			f"""The base was actually really fun to make here. I tried to go for a ruined brick road or building that’s in the process of being reclaimed by nature. I broke and scratched some [*Green Stuff World* ceramic bricks]({"green-stuff-world-model-bricks"}), and then applied some *Stirland Mud* for texture. Finally, I added some [*Vallejo* grass tufts]({"vallejo-wild-tuft-green"}).""",
 
-			f"""All-in-all, the miniature was a little hard to paint, due to the very low humidity, but adding flow improver to my paints helped a little. I think the black armor turned out great, the glow effects were good but not amazing, and the gold and silver armor was simple, but could've been improved a little, provided the paint played nicely.""",
+			f"""All-in-all, the miniature was a little hard to paint, due to the very low humidity, but adding flow improver to my paints helped a little. I think the black armor turned out great, the glow effects were good but not amazing, and the gold and silver armor was simple, but could’ve been improved a little, provided the paint played nicely.""",
 		],
 		"paints-used": [
 			"vallejo-model-color-off-white",
@@ -323,17 +323,17 @@ posts = {
 		"paragraphs": [
 			f""":A [[Kryleboyz Ork Gutrippa]] painted like the box art, but with my own style of course""",
 
-			f"""I spent a few days painting this miniature. I wanted to give it a real try, with proper shading, highlighting, contrast, and texturing. I started with the skin, and highlighted from a dark green to a lime green. I added a yellow ink over it, to brighten up the slightly desaturated greens I used. I also did the same with a red ink to change the color on the scars, knees, and elbows. I think I nailed the level of contrast here, however the highlighting isn't what you'd call "[volumetric]T({TT_VOLUMETRIC_HIGHLIGHTING})", as it’s a skill I haven’t explored yet as a miniature painter.""",
+			f"""I spent a few days painting this miniature. I wanted to give it a real try, with proper shading, highlighting, contrast, and texturing. I started with the skin, and highlighted from a dark green to a lime green. I added a yellow ink over it, to brighten up the slightly desaturated greens I used. I also did the same with a red ink to change the color on the scars, knees, and elbows. I think I nailed the level of contrast here, however the highlighting isn’t what you’d call "[volumetric]T({TT_VOLUMETRIC_HIGHLIGHTING})", as it’s a skill I haven’t explored yet as a miniature painter.""",
 			
 			f"""For the leather clothing, I tried to give it a very warn texture. During each highlighting step, I stippled on my edge-highlights, and added scratches over the material. I think the leather is my favorite part of this paint-job. I also did a toned-down version of this paint job for the straps and the spear shaft. However, I used a lighter brown to set it apart from the leather. I did the same with the sewing on the leather as well, to help it stand out.""",
 			
 			f"""For the metal armor and the spear blade, I tried to give it a dirty and worn feel as well. I added scratches with some silver, and then washed with brown to give it a slightly rusty and dirty look. To fully sell the rusty effect, I also stippled a rusty color onto a few spots.""",
 
-			f"""The last thing I painted on the miniature was the red shield. In the box art, it's fairly bright red. I tried to keep the red look, but bring a little realism into it. I kept it red, but less bright than the box art, and then I scratched up the edges a lot with some silver. I'm not completely sure if the shields are metal, but I assumed they were. I don't know if the metal is painted on or not, but that's the look I went for. The silver scratches look like paint has been scratched off. To further sell the metal look, I painted the teeth, eyes, and rivets bronze and silver as well.""",
+			f"""The last thing I painted on the miniature was the red shield. In the box art, it’s fairly bright red. I tried to keep the red look, but bring a little realism into it. I kept it red, but less bright than the box art, and then I scratched up the edges a lot with some silver. I’m not completely sure if the shields are metal, but I assumed they were. I don’t know if the metal is painted on or not, but that’s the look I went for. The silver scratches look like paint has been scratched off. To further sell the metal look, I painted the teeth, eyes, and rivets bronze and silver as well.""",
 			
-			f"""Finally, the base was my favorite mix of *Stirland Mud* texture paint, and grass tufts. I also added two rocks onto the base as well. This model came with the character stepping on the helmet of an enemy faction, so I painted that as well. I painted it to match the bronze metal on the rest of the mini, to give it some coherence, and I dirtied it up a bit to blend it into the base. I refrained from my usual black base rim, and made it brown to match the base and the rest of the mini. I'm really enjoying how it really ties the model together.""",
+			f"""Finally, the base was my favorite mix of *Stirland Mud* texture paint, and grass tufts. I also added two rocks onto the base as well. This model came with the character stepping on the helmet of an enemy faction, so I painted that as well. I painted it to match the bronze metal on the rest of the mini, to give it some coherence, and I dirtied it up a bit to blend it into the base. I refrained from my usual black base rim, and made it brown to match the base and the rest of the mini. I’m really enjoying how it really ties the model together.""",
 			
-			f"""All-in-all, I could've done a bit better on the skin highlighting, but the rest of the mini turned out better than I could've hoped for. For a good test of my skills, I think it made it clear where my strengths and weaknesses lie. Now I know what to practice next!""",
+			f"""All-in-all, I could’ve done a bit better on the skin highlighting, but the rest of the mini turned out better than I could’ve hoped for. For a good test of my skills, I think it made it clear where my strengths and weaknesses lie. Now I know what to practice next!""",
 		],
 		"paints-used": [
 			"vallejo-game-color-dead-white",
@@ -364,6 +364,52 @@ posts = {
 		],
 	},
 	# ============================================================================ #
+	"2021-10-26": {
+		"title": "Huge Air Elemental",
+		"type": "post",
+		"properties": {
+			"created": "October 26, 2021",
+			"tags": [
+				"fantasy",
+			],
+			"manufacturers": [
+				"wizkids",
+			],
+			"models": [
+				{
+					"text": "https://www.miniaturemarket.com/wzk90174.html",
+					"url": "Huge Air Elemental",
+				},
+			],
+		},
+		"images": [
+			"necrominis-2021-10-26-raw-1.jpeg",
+			"necrominis-2021-10-26-raw-2.jpeg",
+		],
+		"paragraphs": [
+			f""":A [[Huge Air Elemental]] from [*Pathfinder*]({URL_PATHFINDER}), though it’ll be used for playing [*Dungeons & Dragons*]({URL_DND}).""",
+
+			f"""This miniature actually comes as a semi-transparent material, but I decided to paint it with solid colors, as they’d better give the bright white effect I was going for. Still feels like an unfortunate waste of the transparent opportunity, though.""",
+			
+			f"""Anyway, this miniature was almost entirely [dry-brushing]T({TT_DRY_BRUSHING}). After priming, I base coated with a light grey-blue, then dry-brushed a lighter grey-blue and then white. Since painting realistic air is impossible, as air is invisible, painting like a cloud was the best option here.""",
+			
+			f"""This miniature comes with pre-attached terrain at the base. However, the terrain doesn’t fill the base perfectly, so I blended the edges into the circular base using some [*Green Stuff* epoxy]({"green-stuff-world-green-stuff-tape"}). To give it more of a rocky look, I base-coated with a grey that wasn’t blue (this helped to contrast with the figure) and then [washed]T({TT_WASH}) with a brown shade. Then, to keep things coherent, I highlighted by dry-brushing the same lighter grey-blue and white as I did on the miniature.""",
+			
+			f"""This miniature features some ugly mold lines, as I forgot to remove them until after priming. Since the mini was just for playing *Dungeons & Dragons*, and not a fancy display piece, I decided to just leave it and continue.""",
+			
+			f"""All-in-all, the dry-brushing turned out a little more chalky and less smooth than I would’ve hoped for, but it’s [table-ready]T({TT_TABLE_READY}) so I’m happy with the result.""",
+		],
+		"paints-used": [
+			"vallejo-game-color-dead-white",
+			"vallejo-game-color-wolf-grey",
+			"vallejo-model-color-medium-sea-grey",
+			"vallejo-model-color-black",
+			"vallejo-model-color-grey-blue",
+			"citadel-shade-agrax-earthshade",
+			"tamiya-surface-primer-l-grey",
+		],
+	},
+	# ============================================================================ #
 }
 
 
@@ -388,7 +434,7 @@ _wip_not_ready_posts = {
 	# 			"wip",
 	# 		],
 	# 		"manufacturers": [
-	# 			# "id",
+	# 			"unknown",
 	# 		],
 	# 		"models": [
 	# 			{
@@ -418,7 +464,7 @@ _wip_not_ready_posts = {
 
 
 
-# Don't allow running this as the main file. Run main.py instead.
+# Don’t allow running this as the main file. Run main.py instead.
 # ======================================================================================= #
-if __name__ == '__main__':
-	print_error('Run \'main.py\' instead.')
+if __name__ == "__main__":
+	print_error("Run \'main.py\' instead.")
