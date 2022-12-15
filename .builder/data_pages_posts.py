@@ -321,7 +321,7 @@ posts = {
 			"necrominis-2021-10-30-raw-3.jpeg",
 		],
 		"paragraphs": [
-			f""":A [[Kryleboyz Ork Gutrippa]] painted like the box art, but with my own style of course""",
+			f""":A [[Kryleboyz Ork Gutrippa]] painted like the box art, but with my own style of course.""",
 
 			f"""I spent a few days painting this miniature. I wanted to give it a real try, with proper shading, highlighting, contrast, and texturing. I started with the skin, and highlighted from a dark green to a lime green. I added a yellow ink over it, to brighten up the slightly desaturated greens I used. I also did the same with a red ink to change the color on the scars, knees, and elbows. I think I nailed the level of contrast here, however the highlighting isn’t what you’d call "[volumetric]T({TT_VOLUMETRIC_HIGHLIGHTING})", as it’s a skill I haven’t explored yet as a miniature painter.""",
 			
@@ -629,6 +629,58 @@ posts = {
 			"tamiya-surface-primer-l-grey",
 			"vallejo-auxiliaries-gloss-acrylic-varnish",
 			"krylon-clear-coatings-matte-finish",
+		],
+	},
+	# ============================================================================ #
+	"2021-10-07-1": {
+		"title": "Plague Doctor",
+		"type": "post",
+		"properties": {
+			"created": "October 7, 2021",
+			"tags": [
+				"fantasy",
+				"tabletop",
+			],
+			"manufacturers": [
+				"3d-printed",
+			],
+			"models": [
+				{
+					"text": "Vinci Alchemist",
+					"url": "https://www.myminifactory.com/object/3d-print-vinci-alchemist-171785",
+				},
+			],
+		},
+		"images": [
+			"necrominis-2021-10-07-1-raw-1.jpeg",
+			"necrominis-2021-10-07-1-raw-2.jpeg",
+			"necrominis-2021-10-07-1-raw-3.jpeg",
+		],
+		"paragraphs": [
+			f""":A [3D printed]T({TT_3D_PRINTING}) [[Plague Doctor Alchemist]] painted a glow effect around the lantern.""",
+
+			f"""This mini started out a bit messy, but turned out really well, in my opinion. I did some messy [layering]T({TT_LAYERING}) to highlight the clothes and equipment. It wasn’t going the best, but adding the glow effect around the lantern (called [*Object-Source Lighting*, or OSL]T({TT_OSL})) really improved the look and tied everything together.""",
+			
+			f"""Printing this mini was a disaster, however. It was a test print, after tweaking my settings on my [3D printer](anycubic-photon-s). The shaft of the cane broke off, which I replaced with 1mm metal wire. The lantern broke off and had to be glued back on. The lower half of his cane-holding arm printed badly, so it was re-sculpted with some [*Green Stuff*](green-stuff-world-green-stuff-tape). Finally, the feather broke off after painting and also had to be glued back on. Needless to say, this mini will be handled as delicately as possible from now on.""",
+
+			f"""The base was fun to make. It was a [*LITKO* 1-inch base](litko-1-inch-circular-base), covered in *Green Stuff*, then rolled with a [brick-pattern rolling pin](green-stuff-world-rolling-pin-dutch-bricks).""",
+			
+			f"""All-in-all, I'm very proud of the [OSL]T({TT_OSL}), especially since it was completely done by hand without using an airbrush.""",
+		],
+		"paints-used": [
+			"vallejo-game-color-wolf-grey",
+			"vallejo-model-color-medium-sea-grey",
+			"vallejo-model-color-black",
+			"vallejo-model-color-clear-orange",
+			"vallejo-model-color-flat-brown",
+			"vallejo-game-color-beasty-brown",
+			"vallejo-model-color-lemon-yellow",
+			"vallejo-game-color-gunmetal",
+			"vallejo-model-color-gold",
+			"citadel-base-mephiston-red",
+			"tamiya-surface-primer-l-grey",
+			"krylon-clear-coatings-matte-finish",
+			"vallejo-auxiliaries-airbrush-flow-improver",
 		],
 	},
 	# ============================================================================ #

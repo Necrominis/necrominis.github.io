@@ -26,6 +26,8 @@ TT_DRY_BRUSHING = """Dru-brushing is the technique of wiping most of the paint o
 
 TT_GLAZING = """Glazing is the technique of using very diluted paint in order to tint a miniature with a certain color. Glazing can be applied in layers to create smooth transitions between bolors."""
 
+TT_LAYERING = """Layering is the technique of creating a smooth blend between colors by using multiple layers slightly thinned paint and shrinking each layer to create a smooth transition between colors."""
+
 TT_NMM = """Non-metallic metal, or NMM, is the technique of painting a miniature to look shiny or metallic using solid color paints and high contrast, rather than using actual glossy or metallic paints."""
 
 TT_OSL = """Object source lighting, or OSL, is the technique of strategically placing color highlights to give the impression that the miniature is either lit by a light source or is itself emitting light."""
