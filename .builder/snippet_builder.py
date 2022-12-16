@@ -542,13 +542,21 @@ def build_gallery_items_html(page_id: str) -> str:
 		page_url = page_id_to_url(item_page_id)
 		page_tag_ids = page['properties']['tags']
 
-		# Pick either the first page image, or the default no-image.
+		# Pick either the thumbnail, first page image, or the default no-image.
 		page_image = data['no-image']
-		if 'images' in page.keys() and len(page['images']) > 0:
+		# Try thumbnail.
+		if 'thumbnail' in page.keys() and len(page['thumbnail']) > 0:
+			if os.path.isfile(data['image-paths']['post-photos'] + page['thumbnail']):
+				page_image = page['thumbnail']
+			else:
+				print_warning('Missing image file for gallery item for page with ID: ', page_id)
+		# Try first image.
+		elif 'images' in page.keys() and len(page['images']) > 0:
 			if os.path.isfile(data['image-paths']['post-photos'] + page['images'][0]):
 				page_image = page['images'][0]
 			else:
 				print_warning('Missing image file for gallery item for page with ID: ', page_id)
+		# Default to missing image.
 		else:
 			print_warning('Missing image reference for gallery item for page with ID: ', page_id)
 

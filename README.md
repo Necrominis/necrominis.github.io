@@ -67,6 +67,7 @@ Changes the current working directory within the script to the given path. The p
 
 ## Features
 
+* Add thumbnail images that are lower resolution to use in galleries.
 * Add sorting to tags.
 * Add page footer.
 * Implement the clean argument's functionality.
