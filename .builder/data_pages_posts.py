@@ -9,7 +9,7 @@ from printer import *
 # Make sure to use ’ instead of ' in text!
 # Press Alt+Z to toggle word-wrap when typing paragraphs!
 # Always add newest posts to the top!
-# Dates are YYYY-MM-DD!
+# Dates are YYYY-MM-DD-A where A-Z is for multiple posts in one day!
 
 
 
@@ -469,7 +469,7 @@ posts = {
 		],
 	},
 	# ============================================================================ #
-	"2021-10-08-2": {
+	"2021-10-08-B": {
 		"title": "Robot Flesh-Eater",
 		"type": "post",
 		"properties": {
@@ -500,8 +500,8 @@ posts = {
 			],
 		},
 		"images": [
-			"necrominis-2021-10-08-2-raw-1.jpeg",
-			"necrominis-2021-10-08-2-raw-2.jpeg",
+			"necrominis-2021-10-08-B-raw-1.jpeg",
+			"necrominis-2021-10-08-B-raw-2.jpeg",
 		],
 		"paragraphs": [
 			f""":A [3D printed]T({TT_3D_PRINTING}) [[Robot Flesh-Eater]], stepping on a dead [Space Marine’s]({URL_SPACE_MARINE}) helmet.""",
@@ -530,7 +530,7 @@ posts = {
 		],
 	},
 	# ============================================================================ #
-	"2021-10-08-1": {
+	"2021-10-08-A": {
 		"title": "Wandering Robot",
 		"type": "post",
 		"properties": {
@@ -550,9 +550,9 @@ posts = {
 			],
 		},
 		"images": [
-			"necrominis-2021-10-08-1-raw-1.jpeg",
-			"necrominis-2021-10-08-1-raw-2.jpeg",
-			"necrominis-2021-10-08-1-raw-3.jpeg",
+			"necrominis-2021-10-08-A-raw-1.jpeg",
+			"necrominis-2021-10-08-A-raw-2.jpeg",
+			"necrominis-2021-10-08-A-raw-3.jpeg",
 		],
 		"paragraphs": [
 			f""":A [3D printed]T({TT_3D_PRINTING}) [[Steampunk Robot]], wandering through the desert.""",
@@ -583,7 +583,7 @@ posts = {
 		],
 	},
 	# ============================================================================ #
-	"2021-10-07-2": {
+	"2021-10-07-A": {
 		"title": "Sitting Wolf",
 		"type": "post",
 		"properties": {
@@ -606,10 +606,10 @@ posts = {
 			],
 		},
 		"images": [
-			"necrominis-2021-10-07-2-raw-1.jpeg",
-			"necrominis-2021-10-07-2-raw-2.jpeg",
-			"necrominis-2021-10-07-2-raw-3.jpeg",
-			"necrominis-2021-10-07-2-raw-4.jpeg",
+			"necrominis-2021-10-07-B-raw-1.jpeg",
+			"necrominis-2021-10-07-B-raw-2.jpeg",
+			"necrominis-2021-10-07-B-raw-3.jpeg",
+			"necrominis-2021-10-07-B-raw-4.jpeg",
 		],
 		"paragraphs": [
 			f""":A [3D printed]T({TT_3D_PRINTING}) [[Wolf]] sitting on some grass.""",
@@ -638,7 +638,7 @@ posts = {
 		],
 	},
 	# ============================================================================ #
-	"2021-10-07-1": {
+	"2021-10-07-B": {
 		"title": "Plague Doctor",
 		"type": "post",
 		"properties": {
@@ -659,9 +659,9 @@ posts = {
 			],
 		},
 		"images": [
-			"necrominis-2021-10-07-1-raw-1.jpeg",
-			"necrominis-2021-10-07-1-raw-2.jpeg",
-			"necrominis-2021-10-07-1-raw-3.jpeg",
+			"necrominis-2021-10-07-A-raw-1.jpeg",
+			"necrominis-2021-10-07-A-raw-2.jpeg",
+			"necrominis-2021-10-07-A-raw-3.jpeg",
 		],
 		"paragraphs": [
 			f""":A [3D printed]T({TT_3D_PRINTING}) [[Plague Doctor Alchemist]] painted a glow effect around the lantern.""",
