@@ -351,20 +351,6 @@ _materials = {
 		"official-name": "Green Stuff World Rolling Pin Dutch Bricks",
 		"url": "https://www.greenstuffworld.com/en/modelling-textured-rolling-pins/334-rolling-pin-dutch-bricks.html?search_query=brick&results=34",
 	},
-	"hayes-paper-clear-water-slide-decal-paper": {
-		"text": "Clear Water-Slide Decal Paper",
-		"brand": "hayes-paper",
-		"category": "materials",
-		"official-name": "Hayes Paper Clear Water-Slide Decal Inkjet Paper",
-		"url": "https://www.amazon.com/dp/B077TMFVL9?psc=1&ref=ppx_yo2_dt_b_product_details",
-	},
-	"iwata-medea-airbrush-cleaner": {
-		"text": "Airbrush Cleaner",
-		"brand": "iwata-medea",
-		"category": "materials",
-		"official-name": "Iwata Medea Airbrush Cleaner",
-		"url": "https://www.amazon.com/Iwata-Medea-Airbrush-Cleaner-16-Oz/dp/B003TJA0S6/ref=sr_1_2?crid=3VU10UAUTDERP&keywords=medea+airbrush+cleaner&qid=1647148378&sprefix=medea+airbrush+cleaner%2Caps%2C104&sr=8-2",
-	},
 	"microscale-micro-set": {
 		"text": "Micro Set",
 		"brand": "microscale",
@@ -423,7 +409,20 @@ _bases = {
 
 # ============================================================================ #
 _other = {
-
+	"hayes-paper-clear-water-slide-decal-paper": {
+		"text": "Clear Water-Slide Decal Paper",
+		"brand": "hayes-paper",
+		"category": "materials",
+		"official-name": "Hayes Paper Clear Water-Slide Decal Inkjet Paper",
+		"url": "https://www.amazon.com/dp/B077TMFVL9?psc=1&ref=ppx_yo2_dt_b_product_details",
+	},
+	"iwata-medea-airbrush-cleaner": {
+		"text": "Airbrush Cleaner",
+		"brand": "iwata-medea",
+		"category": "materials",
+		"official-name": "Iwata Medea Airbrush Cleaner",
+		"url": "https://www.amazon.com/Iwata-Medea-Airbrush-Cleaner-16-Oz/dp/B003TJA0S6/ref=sr_1_2?crid=3VU10UAUTDERP&keywords=medea+airbrush+cleaner&qid=1647148378&sprefix=medea+airbrush+cleaner%2Caps%2C104&sr=8-2",
+	},
 }
 
 

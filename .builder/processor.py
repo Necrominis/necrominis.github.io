@@ -177,25 +177,32 @@ def _process_links(paragraph: str) -> str:
 	link_pattern = regex.compile(r'\[([^][]+)?\]\((.*?)\)', regex.U)
 	for match in link_pattern.finditer(paragraph):
 		link_text, link_url = match.groups()
+
 		# Link to a page ID, if it's not a normal URL.
+		new_text = link_text
 		new_url = link_url
 		if not is_web_url(link_url):
-			
 			# Check page ID link.
 			if link_url in page_ids:
 				new_url = page_id_to_url(link_url)
+				if link_text == '' or link_text == link_url:
+					new_text = data['pages'][link_url]['title']
 			# Check paint ID link.
 			elif link_url in paint_ids:
 				new_url = data['paints'][link_url]['url']
+				if link_text == '' or link_text == link_url:
+					new_text = data['paints'][link_url]['text']
 			# Check supplies ID link.
 			elif link_url in supplies_ids:
 				new_url = data['supplies'][link_url]['url']
+				if link_text == '' or link_text == link_url:
+					new_text = data['supplies'][link_url]['text']
 			# Bad link.
 			else:
 				new_url = f"{data['website']}{link_url}"
 				print_error('Paragraph link is not a valid URL, page ID, paint ID, or supplies ID: ', link_url)
 			
-		processed_paragraph = processed_paragraph.replace(f'[{link_text}]({link_url})', f'<a href="{new_url}">{link_text}</a>', 1)
+		processed_paragraph = processed_paragraph.replace(f'[{new_text}]({link_url})', f'<a href="{new_url}">{new_text}</a>', 1)
 
 	return processed_paragraph
 

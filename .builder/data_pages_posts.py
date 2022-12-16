@@ -1046,7 +1046,7 @@ posts = {
 			
 			f"""The words *"what you seek is seeking you"* on the base were very intricate, and since I was painting yellow onto black it took many layers to show up nice and solid.""",
 
-			f"""Overall, I think this miniature turned out beautifully. The print had a few mistakes, but for a first print it couldn’t gone a *lot* worse. The skin could use a little more contrast, but it's shaded and highlighted well regardless.""",
+			f"""Overall, I think this miniature turned out beautifully. The print had a few mistakes, but for a first print it couldn’t gone a *lot* worse. The skin could use a little more contrast, but it’s shaded and highlighted well regardless.""",
 		],
 		"paints-used": [
 			"vallejo-model-color-black",
@@ -1119,8 +1119,202 @@ posts = {
 
 
 # ============================================================================ #
-_wip_not_ready_posts = {
+_unpublished = {
+	# ============================================================================ #
+	"": {
+		"title": "Green Gelatinous Cube",
+		"type": "post",
+		"properties": {
+			"created": "Month DD, YYYY",
+			"tags": [
+				"dungeons-and-dragons",
+				"fantasy",
+				"tabletop",
+				"wip",
+			],
+			"manufacturers": [
+				"WizKids",
+			],
+			"models": [
+				{
+					"text": "Gelatinous Cube",
+					"url": "https://www.miniaturemarket.com/wzk90196.html",
+				},
+			],
+		},
+		"images": [
+			# "necrominis-.jpeg",
+		],
+		"paragraphs": [
+			f""":A [[Gelatinous Cube]] painted like a green slime rather than the usual bluish clear in [*Dungeons & Dragons*]({URL_DND}).""",
 
+			f"""I’ve owned a clear gelatinous cube pre-painted *D&D* mini for a while now, but I saw the mini again at my local game store when I was looking for new minis. Since I haven’t used my *Tesseract Glow* paint yet and rarely use my inks, I thought it’d be cool to make the iconic green slime out of the mini. So, I bought it.""",
+			
+			f"""First, I painted the dissolved corpses on the inside of the mini. I used simple metallics and tans to paint the bones and equipment. Nothing fancy.""",
+			
+			f"""I then mixed up yellow and green inks with the *Tesseract Glow*, and added *Lahmian Medium* as necessary, until I was happy with the color and consistency. I then just painted the whole miniature. I made sure to paint over the corpses a little, to show that they’re filled with and covered in slime. To make the miniature more durable, I only painted the inside of the cube. It isn’t necessary, but it makes a slight visual difference and it removes the chance of paint scratching off the corners (since this is a low-effort mini meant for tabletop play).""",
+			
+			f"""Overall, it was a fair but quick paint job. It’s not the best, and I’d barely even consider it to my own standards. It was just a quick [table-ready]T({TT_TABLE_READY}) mini for *D&D*, and not an art piece like my usual miniatures.""",
+		],
+		"paints-used": [
+			"vallejo-model-color-off-white",
+			"vallejo-model-color-buff",
+			"vallejo-game-color-beasty-brown",
+			"vallejo-game-color-silver",
+			"vallejo-game-ink-yellow",
+			"vallejo-game-ink-green",
+			"citadel-vase-leadbelcher",
+			"citadel-layer-brass-scorpion",
+			"citadel-shade-agrax-earthshade",
+			"citadel-technical-tesseract-glow",
+			"citadel-technical-lahmian-medium",
+		],
+	},
+	# ============================================================================ #
+	"": {
+		"title": "Violet Armored Vampire",
+		"type": "post",
+		"properties": {
+			"created": "Month DD, YYYY",
+			"tags": [
+				"warhammer-underworlds",
+				"fantasy",
+				"tabletop",
+				"wip",
+			],
+			"manufacturers": [
+				"games-workshop",
+			],
+			"models": [
+				{
+					"text": "Soulblight Gravelord",
+					"url": "https://www.games-workshop.com/en-US/WHU-The-Crimson-Court-EN-2021",
+				},
+			],
+		},
+		"images": [
+			# "necrominis-.jpeg",
+		],
+		"paragraphs": [
+			f""":A [[Soulblight Gravelord Vampire]] painted with a dark purple and red color scheme.""",
+
+			f"""To start off, I painted the skin. Skin is usually the hardest to fix if you get accidental paint on it (due to the non-uniform color and shading). Since it was in the most recessed and hard to reach areas, I painted it first. I used a similar light grey scheme from my previous mini (the [2022-06-10](2022-06-10)).""",
+			
+			f"""I knew I wanted to paint each of the vampires in this *Crimson Court* pack differently, and I’m saving the red armor of the box art for the main one, but I wasn’t sure what armor color to pick. It took me a bit to decide, but eventually I thought I’d test out my *Ultramarines Blue* *Contrast* paint. After priming the mini black, I gave the armor a quick coat with the blue *Contrast* paint. It looked awful. The shading was terrible, leading me to wonder how people even use it, and the color wasn’t what I imagined it to be. So, I scrapped the blue armor idea, but thought I could still salvage it. I decided on purple. Since the blue was dark enough, it could act as a shadow if I use a cool violet color. So I gave it a thick [edge highlight]T({TT_EDGE_HIGHLIGHTING}) with a dark, cool violet, and then a sharper edge highlight with a lighter, warmer purple. I found that dotting the sharp corners corners with an even lighter purple (by mixing some light grey in) adds the most subtle but important pop to these sharp armor edges.""",
+			
+			f"""I knew I still wanted some red, though, because it is a vampire after all and vampires are associated with blood and red. I decided to paint the cloth parts red, so I base coated them and noticed the horns on the armor could also use the red color. This helped balance the colors and frame the head a bit more. I shaded it with *Blood Angels Red*, another *Contrast* paint, and then [layered]T({TT_LAYERING}) back up to the original red. I slowly added light grey to the red, and layered up using a [stippling]T({TT_STIPPLING}) method. After two or three times it had nice, rough highlighting. I then gave it a stippled and messy edge highlight with the lightest red, to add one last pop to it.""",
+			
+			f"""Next I did my favorite brown leather technique on straps and leather parts, weathering it so it’d stand out from the shiny and new armor.""",
+			
+			f"""After all that, I had two things left. I painted all the metal parts with a dark silver, gave them the ol’ [wash]T({TT_WASH}) of *Nuln Oil*, and edge highlighted them up with a brighter silver.""",
+			
+			f"""The base was blah blah...""",
+			
+			f"""Overall, etc...""",
+		],
+		"paints-used": [
+			"vallejo-game-color-wolf-grey",
+			"vallejo-model-color-medium-sea-grey",
+			"vallejo-model-color-intermediate-blue",
+			"vallejo-game-color-sombre-grey",
+			"vallejo-model-color-black",
+			"vallejo-game-color-charred-brown",
+			"vallejo-model-color-flat-brown",
+			"vallejo-game-color-beasty-brown",
+			"vallejo-model-color-purple",
+			"vallejo-game-color-heavy-violet",
+			"citadel-layer-wazdakka-red",
+			"citadel-base-leadbelcher",
+			"citadel-contrast-blood-angels-red",
+			"citadel-contrast-ultramarines-blue",
+			"citadel-shade-nuln-oil",
+			"stynylrez-surface-primer-black",
+			"lituitex-axrylic-mediums-flow-aid",
+		],
+	},
+	# ============================================================================ #
+	"": {
+		"title": "Priest of the Dwarven Hold",
+		"type": "post",
+		"properties": {
+			"created": "Month DD, YYYY",
+			"tags": [
+				"wip",
+				"dungeons-and-dragons",
+				"fantasy",
+				"display",
+				"wip",
+			],
+			"manufacturers": [
+				"reaper",
+			],
+			"models": [
+				{
+					"text": "Dark Dwarf Irontongue Priest",
+					"url": "https://www.reapermini.com/search/dwarf%20irontongue%20priest/latest/44113",
+				},
+				{
+					"text": "Graveyard Entryway",
+					"url": "https://www.reapermini.com/search/graveyard%20entryway",
+				},
+			],
+		},
+		"images": [
+			# "necrominis-.jpeg",
+		],
+		"paragraphs": [
+			f""":A [[Something]] painted with something or other...""",
+
+			f"""I did blah blah and used blah blah...""",
+			
+			f"""The base was blah blah...""",
+			
+			f"""Overall, etc...""",
+		],
+		"paints-used": [
+			"vallejo-surface-primer-black",
+		],
+	},
+	# ============================================================================ #
+	"": {
+		"title": "Ossiarch Bonereapers Mortek Guard",
+		"type": "post",
+		"properties": {
+			"created": "Month DD, YYYY",
+			"tags": [
+				"warhammer-age-of-sigmar",
+				"tabletop",
+				"wip",
+			],
+			"manufacturers": [
+				"unknown",
+			],
+			"models": [
+				{
+					"text": "Mortek Guard",
+					"url": "https://www.games-workshop.com/en-US/Ossiarch-Bonereapers-Mortek-Guard-2019",
+				},
+			],
+		},
+		"images": [
+			# "necrominis-.jpeg",
+		],
+		"paragraphs": [
+			f""":A [[Something]] painted with something or other...""",
+
+			f"""I did blah blah and used blah blah...""",
+			
+			f"""The base was blah blah...""",
+			
+			f"""Overall, etc...""",
+		],
+		"paints-used": [
+			"vallejo-model-color-buff",
+			"vallejo-game-color-imperial-blue",
+			"tamiya-surface-primer-l-grey",
+		],
+	},
+	# ============================================================================ #
 }
 
 

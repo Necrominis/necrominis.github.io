@@ -172,6 +172,14 @@ paint_brands = {
 			},
 		},
 	},
+	"stynylrez": {
+		"text": "Stynylrez",
+		"lines": {
+			"surface-primer": {
+				"text": "Surface Primer",
+			},
+		},
+	},
 }
 
 
@@ -1289,6 +1297,15 @@ _primers = {
 		"icon-css": _solid("#000000"),
 		"official-name": "Vallejo Surface Primer 73.602 Black",
 		"url": "https://acrylicosvallejo.com/en/product/hobby/surface-primer-en/black-70602/",
+	},
+	"stynylrez-surface-primer-black": {
+		"text": "Black",
+		"brand": "stynylrez",
+		"line": "surface-primer",
+		"category": "primers",
+		"icon-css": _solid("#000000"),
+		"official-name": "Stynylrez Easy App Surface Primer SNR-403 Black",
+		"url": "https://www.amazon.com/Badger-Air-Brush-SNR-403-Stynylrez-Polyurethane/dp/B00K3KGSO4/ref=sr_1_1?crid=RQ3C5IOBAJK9&keywords=stynylrez+SNR-403+Black+Primer&qid=1671160271&sprefix=stynylrez+snr-403+black+primer%2Caps%2C369&sr=8-1",
 	},
 	"citadel-sprays-chaos-black-primer": {
 		"text": "Chaos Black Primer",

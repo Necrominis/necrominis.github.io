@@ -76,7 +76,7 @@ Changes the current working directory within the script to the given path. The p
 
 ## Data
 
-* Change page IDs to not use their date (and instead use their title or something).
+* Change page IDs/links to not use their date (and instead use their title or something).
 * Add those lamp covers I got.
 * Update 3D printing stuff in posts.
 	* Add manufacturers for OnePageRules (3D files only) and the other 3d-print file vendors.
@@ -90,13 +90,6 @@ Changes the current working directory within the script to the given path. The p
 		* 2021-10-07-1
 * Add the rest of the paints.
 	* Integrate citadel color paints into Vallejo color paints.
-	* Add Stynylrez / SNR-403 Black Primer.
-* Add the rest of the posts.
-	* WIP green gelatinous cube.
-	* WIP violet armored vampire.
-	* WIP priest of the dwarven hold.
-	* WIP astral hawk space marine assault intercessors.
-	* WIP ossiarch bonereapers mortek guard.
 
 ## Code
 
