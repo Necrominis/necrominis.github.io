@@ -213,6 +213,10 @@ function toggleDropdownsBasedOnWidth() {
 	}
 }
 
+function empty() {
+	
+}
+
 // Gallery image lazy loading (use <img loading="lazy"> instead).
 /*
 (function () {

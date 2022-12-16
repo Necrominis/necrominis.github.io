@@ -153,7 +153,7 @@ def _process_tooltips(paragraph: str) -> str:
 	tooltip_pattern = regex.compile(r'\[([^][]+)?\]T\((.*?)\)', regex.U)
 	for match in tooltip_pattern.finditer(paragraph):
 		text, tip = match.groups()
-		processed_paragraph = processed_paragraph.replace(f'[{text}]T({tip})', f'<mark class="tooltip" onmouseover="toggleTooltip(this);" onmouseleave="closeTooltip(this);">{text}<span class="tip">{tip}</span></mark>', 1)
+		processed_paragraph = processed_paragraph.replace(f'[{text}]T({tip})', f'<mark class="tooltip" onmouseover="toggleTooltip(this);" onmouseout="closeTooltip(this);">{text}<span class="tip">{tip}</span></mark>', 1)
 
 	return processed_paragraph
 
