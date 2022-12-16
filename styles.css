@@ -916,7 +916,9 @@ hr.invisible {
 	text-align: left;
 	font-weight: normal;
 	padding-right: 1rem;
-	width: 11rem; /* Fit "Manufacturer(s)" without line breaking. */
+	min-width: 9rem; /* Fit "Manufacturer(s)" without line breaking. */
+	font-size: var(--small-text-size);
+	vertical-align: middle;
 }
 
 #properties th .icon {
