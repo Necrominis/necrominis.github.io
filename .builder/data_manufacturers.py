@@ -54,7 +54,7 @@ manufacturers = {
 	},
 	"misc-3d-file": {
 		"text": "Misc. 3D files",
-		"color": "white",
+		"color": "blue",
 		"url": "",
 	},
 	"one-page-rules": {
@@ -74,7 +74,7 @@ manufacturers = {
 	},
 	"rocket-pig-games": {
 		"text": "Rocket Pig Games (3D Files)",
-		"color": "white",
+		"color": "pink",
 		"url": "https://www.myminifactory.com/users/RocketPigGames",
 	},
 }
