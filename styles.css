@@ -600,6 +600,8 @@ img.icon.inline {
 }
 
 .column-container {
+	display: block;
+	height: 100%;
 	max-width: calc(100% + 1.25rem);
 	margin: 0 -0.5rem;
 }
@@ -641,6 +643,12 @@ img.icon.inline {
 	.column-container .double-column-only {
 		display: none; /* Hide when 1 column. */
 	}
+}
+
+/* Used to prevent the following br-section divs from floating to the top and covering the column-container contents. */
+hr.invisible {
+	opacity: 0;
+	margin-bottom: calc(-2rem - 2 * var(--line-thickness));
 }
 
 /* SLIDESHOW */

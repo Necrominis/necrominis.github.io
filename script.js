@@ -190,11 +190,11 @@ function deactivateWipFilter() {
 
 // Toggle tooltip when clicked on, in order to support mobile which can't hover.
 function toggleTooltip(element) {
-	if (element.classList.contains('active')) {
-		element.classList.remove('active');
-	} else {
-		element.classList.add('active');
-	}
+	// if (element.classList.contains('active')) {
+	// 	element.classList.remove('active');
+	// } else {
+	// 	element.classList.add('active');
+	// }
 }
 
 // Close tooltip when moving the mouse off it (also for mobile support purposes).
