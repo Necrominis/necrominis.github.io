@@ -67,28 +67,32 @@ Changes the current working directory within the script to the given path. The p
 
 ## Features
 
-* Add thumbnail images that are lower resolution to use in galleries.
 * Add sorting to tags.
+* Add sorting to manufacturers.
+* Add manufacturers links.
+* Add filter input to gallery URL.
+	* Have tags link to their filtered gallery specifically.
 * Add page footer.
 * Implement the clean argument's functionality.
 * Implement the directory argument's functionality.
 * Add a related posts gallery below post articles (ideally with the same tags/filters as the post itself).
-* Have paints page get paints automatically, without having to list them specifically.
+* Add paints page.
+	* Have paints page get paints automatically, without having to list them specifically.
+* Add supplies page.
+	* Have supplies page get paints automatically, without having to list them specifically.
+
+## Issues
+
+* Bar section in 2-column page posts covers up hovering on first paragraph.
 
 ## Data
 
 * Change page IDs/links to not use their date (and instead use their title or something).
 * Add those lamp covers I got.
 * Update 3D printing stuff in posts.
-	* Add manufacturers for OnePageRules (3D files only) and the other 3d-print file vendors.
 	* Add my 3D printer to post paragraphs.
-		* Add my resins to supplies.
-			* Add my resins to post paragraphs.
-	* Posts that need updating:
-		* 2021-10-08-2
-		* 2021-10-08-1
-		* 2021-10-07-2
-		* 2021-10-07-1
+		* Add my resins to post paragraphs.
+			* Add my resins to supplies.
 * Add the rest of the paints.
 	* Integrate citadel color paints into Vallejo color paints.
 

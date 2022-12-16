@@ -15,7 +15,7 @@ manufacturers = {
 	"unknown": {
 		"text": "Unknown",
 		"color": "grey",
-		"url": "#",
+		"url": "",
 	},
 	"games-workshop": {
 		"text": "Games Workshop",
@@ -37,15 +37,10 @@ manufacturers = {
 		"color": "red",
 		"url": "#",
 	},
-	"3d-printed": {
-		"text": "self 3D Printed",
-		"color": "grey",
-		"url": "#",
-	},
 	"hero-forge": {
 		"text": "Hero Forge",
 		"color": "red",
-		"url": "#",
+		"url": "https://www.heroforge.com/",
 	},
 	"hallmark": {
 		"text": "Hallmark",
@@ -56,6 +51,36 @@ manufacturers = {
 		"text": "War Base West",
 		"color": "grey",
 		"url": "#",
+	},
+	"3d-printed": {
+		"text": "3D Printed Myself",
+		"color": "grey",
+		"url": "",
+	},
+	"misc-3d-file": {
+		"text": "Misc. 3D files",
+		"color": "white",
+		"url": "",
+	},
+	"one-page-rules": {
+		"text": "OnePageRules (3D Files)",
+		"color": "white",
+		"url": "https://www.myminifactory.com/users/OnePageRules",
+	},
+	"epic-miniatures": {
+		"text": "Epic Miniatures (3D Files)",
+		"color": "orange",
+		"url": "https://www.myminifactory.com/users/Epic-Miniatures",
+	},
+	"tytan-troll-miniatures": {
+		"text": "Tytan Troll Miniatures (3D Files)",
+		"color": "blue",
+		"url": "https://www.myminifactory.com/users/TytanTrollMiniatures",
+	},
+	"rocket-pig-games": {
+		"text": "Rocket Pig Games (3D Files)",
+		"color": "white",
+		"url": "https://www.myminifactory.com/users/RocketPigGames",
 	},
 }
 

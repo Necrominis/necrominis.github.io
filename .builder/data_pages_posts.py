@@ -480,6 +480,8 @@ posts = {
 				"tabletop",
 			],
 			"manufacturers": [
+				"one-page-rules",
+				"misc-3d-file",
 				"3d-printed",
 			],
 			"models": [
@@ -591,6 +593,7 @@ posts = {
 				"tabletop",
 			],
 			"manufacturers": [
+				"epic-miniatures",
 				"3d-printed",
 			],
 			"models": [
@@ -643,6 +646,7 @@ posts = {
 				"tabletop",
 			],
 			"manufacturers": [
+				"one-page-rules",
 				"3d-printed",
 			],
 			"models": [
@@ -929,12 +933,13 @@ posts = {
 				"bust",
 			],
 			"manufacturers": [
+				"tytan-troll-miniatures",
 				"3d-printed",
 			],
 			"models": [
 				{
 					"text": "Lich Bust",
-					"url": "https://www.myminifactory.com/object/3d-print-lich-bust-pre-supported-121619v",
+					"url": "https://www.myminifactory.com/object/3d-print-lich-bust-pre-supported-188078",
 				},
 			],
 		},
@@ -977,12 +982,13 @@ posts = {
 				"tabletop",
 			],
 			"manufacturers": [
+				"rocket-pig-games",
 				"3d-printed",
 			],
 			"models": [
 				{
 					"text": "Sand Worm",
-					"url": "https://www.myminifactory.com/object/3d-print-sand-worm-109510s",
+					"url": "https://www.myminifactory.com/object/3d-print-sand-worm-109510",
 				},
 			],
 		},
@@ -1023,6 +1029,7 @@ posts = {
 				"display",
 			],
 			"manufacturers": [
+				"misc-3d-file",
 				"3d-printed",
 			],
 			"models": [
