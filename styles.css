@@ -416,11 +416,8 @@ img.icon.inline {
 	-moz-user-select: none;
 	-ms-user-select: none;
 	user-select: none;
+	transition: all var(--transition-speed);
 }
-
-/* .button:hover {
-	opacity: 0.75;
-} */
 
 .menu .button {
 	padding: 1em;
@@ -953,6 +950,20 @@ img.icon.inline {
 	float: left;
 	border-radius: var(--corner-radius);
 	padding: 0.5rem;
+	transition: transform var(--transition-speed);
+	border: var(--background-2) solid inset var(--thin-line-thickness);
+}
+
+.gallery-item:hover {
+	transform: scale(101%);
+}
+
+.gallery-item img {
+	box-shadow: 0 0 var(--thin-line-thickness) var(--dark-overlay);
+}
+
+.gallery-item:hover img, .slideshow .slide img {
+	box-shadow: 0 0 var(--line-thickness) var(--dark-overlay);
 }
 
 /* Large screen: gallery has 4 columns when wide or 2 columns when thin. */
