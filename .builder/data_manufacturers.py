@@ -20,37 +20,32 @@ manufacturers = {
 	"games-workshop": {
 		"text": "Games Workshop",
 		"color": "yellow",
-		"url": "#",
+		"url": "https://www.games-workshop.com/en-US/Home",
 	},
 	"fantasy-flight-games": {
 		"text": "Fantasy Flight Games",
 		"color": "blue",
-		"url": "#",
+		"url": "https://www.fantasyflightgames.com/en/index/",
 	},
 	"wizkids": {
 		"text": "WizKids",
 		"color": "yellow",
-		"url": "#",
+		"url": "https://wizkids.com/",
 	},
 	"reaper": {
 		"text": "Reaper",
 		"color": "red",
-		"url": "#",
+		"url": "https://www.reapermini.com/",
 	},
 	"hero-forge": {
 		"text": "Hero Forge",
 		"color": "red",
 		"url": "https://www.heroforge.com/",
 	},
-	"hallmark": {
-		"text": "Hallmark",
-		"color": "purple",
-		"url": "#",
-	},
 	"war-base-west": {
 		"text": "War Base West",
-		"color": "grey",
-		"url": "#",
+		"color": "yellow",
+		"url": "https://www.amazon.com/s?i=merchant-items&me=A2WZTBIXI003FY",
 	},
 	"3d-printed": {
 		"text": "3D Printed Myself",
