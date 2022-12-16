@@ -433,7 +433,7 @@ posts = {
 			],
 		},
 		"images": [
-			"necrominis-2021-10-24-raw-1.jpeg",
+			"necrominis-2021-10-24-1.jpeg",
 			"necrominis-2021-10-24-raw-2.jpeg",
 			"necrominis-2021-10-24-raw-3.jpeg",
 		],
@@ -1082,9 +1082,9 @@ posts = {
 			],
 		},
 		"images": [
-			"necrominis-2020-12-09-1.jpeg",
-			"necrominis-2020-12-09-2.jpeg",
-			"necrominis-2020-12-09-3.jpeg",
+			"necrominis-2020-12-09-raw-1.jpeg",
+			"necrominis-2020-12-09-raw-2.jpeg",
+			"necrominis-2020-12-09-raw-3.jpeg",
 		],
 		"paragraphs": [
 			f""":A [[Stormcast Eternal Liberator]] painted similar to the *[Stormcast Eternal]({URL_STORMCAST_ETERNALS}) Vindicator* box art.""",
