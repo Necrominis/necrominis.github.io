@@ -581,7 +581,7 @@ img.icon.inline {
 #article {
 	font-size: var(--text-size);
 	margin: auto;
-	padding: 0 4rem;
+	padding: 0 2rem;
 	max-width: var(--max-page-width);
 }
 
@@ -596,7 +596,7 @@ img.icon.inline {
 /* On mobile touch-screen devices, have less wide padding */
 @media only screen and (hover: none) and (pointer: coarse) and (max-width: 1000px) {
 	#article {
-		padding: 0 4rem;
+		padding: 0 2rem;
 	}
 }
 
