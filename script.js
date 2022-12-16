@@ -186,6 +186,22 @@ function deactivateWipFilter() {
 	updateGalleryFilters();
 }
 
+// OTHER
+
+// Toggle tooltip when clicked on, in order to support mobile which can't hover.
+function toggleTooltip(element) {
+	if (element.classList.contains('active')) {
+		element.classList.remove('active');
+	} else {
+		element.classList.add('active');
+	}
+}
+
+// Close tooltip when moving the mouse off it (also for mobile support purposes).
+function closeTooltip(element) {
+	element.classList.remove('active');
+}
+
 // Toggle properties and paints-used is starting on a wide screen.
 function toggleDropdownsBasedOnWidth() {
 	let viewWidth = Math.max(document.documentElement.clientWidth || 0, window.innerWidth || 0);

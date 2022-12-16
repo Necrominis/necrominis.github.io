@@ -83,7 +83,7 @@ https://www.w3schools.com/howto/howto_css_aspect_ratio.asp
 
 	--tooltip-text: var(--background);
 	--tooltip-background: var(--primary);
-	--tooltip-underline: var(--link-border);
+	--tooltip-underline: var(--grey);
 
 	--font: sans-serif;
 
@@ -359,7 +359,7 @@ mark, span {
 	border-color: var(--tooltip-background) transparent transparent transparent;
 }
 
-.tooltip:hover .tip {
+.tooltip:hover .tip, .tooltip.active .tip {
 	transition-delay: var(--slow-transition-speed);
 	opacity: 1;
 	transform: scaleX(100%);
