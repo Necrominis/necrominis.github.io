@@ -328,8 +328,9 @@ mark, span {
 
 .tooltip .tip {
 	visibility: hidden;
-	width: 15rem;
-	margin-left: -8rem;
+	font-size: var(--small-text-size);
+	width: 9rem;
+	margin-left: -5rem;
 	color: var(--tooltip-text);
 	background-color: var(--tooltip-background);
 	border-color: var(--tooltip-background);
@@ -580,7 +581,7 @@ img.icon.inline {
 #article {
 	font-size: var(--text-size);
 	margin: auto;
-	padding: 0 2rem;
+	padding: 0 4rem;
 	max-width: var(--max-page-width);
 }
 
@@ -595,7 +596,7 @@ img.icon.inline {
 /* On mobile touch-screen devices, have less wide padding */
 @media only screen and (hover: none) and (pointer: coarse) and (max-width: 1000px) {
 	#article {
-		padding: 0 1rem;
+		padding: 0 4rem;
 	}
 }
 
