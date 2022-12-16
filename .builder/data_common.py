@@ -23,7 +23,7 @@ TT_3D_PRINTING = """3D printing is the construction of physical objects from a d
 
 TT_DRY_BLENDING = """Dry-blending is the technique of using the dry-brushing technique to achieve results similar to wet-blending, in order to create smooth blends between colors on a miniature."""
 
-TT_DRY_BRUSHING = """Dru-brushing is the technique of wiping most of the paint off your brush and lightly brushing a miniature, in order to only catch the raised edges with a light dusting of a highlight color."""
+TT_DRY_BRUSHING = """Dry-brushing is the technique of wiping most of the paint off your brush and lightly brushing a miniature, in order to only catch the raised edges with a light dusting of a highlight color."""
 
 TT_EDGE_HIGHLIGHTING = """Edge highlighting is the technique where you paint the raised edges and corners on a miniature brighter than noraml, in order to help them stand out more, and because edges tend to reflect slightly more light in real life."""
 
