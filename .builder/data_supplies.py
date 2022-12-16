@@ -409,17 +409,31 @@ _bases = {
 
 # ============================================================================ #
 _other = {
+	"anycubic-plant-based-uv-resin-grey": {
+		"text": "Plant-Based UV Resin Grey",
+		"brand": "anycubic",
+		"category": "other",
+		"official-name": "Anycubic Plant-Based UV Resin Grey",
+		"url": "https://www.anycubic.com/collections/uv-resin/products/anycubic-plant-based-uv-resin-3-6kg-package",
+	},
+	"anycubic-uv-resin-grey": {
+		"text": "UV Resin Grey",
+		"brand": "anycubic",
+		"category": "other",
+		"official-name": "Anycubic Colored UV Resin Grey",
+		"url": "https://www.anycubic.com/collections/uv-resin/products/colored-uv-resin-3-6kg-package",
+	},
 	"hayes-paper-clear-water-slide-decal-paper": {
 		"text": "Clear Water-Slide Decal Paper",
 		"brand": "hayes-paper",
-		"category": "materials",
+		"category": "other",
 		"official-name": "Hayes Paper Clear Water-Slide Decal Inkjet Paper",
 		"url": "https://www.amazon.com/dp/B077TMFVL9?psc=1&ref=ppx_yo2_dt_b_product_details",
 	},
 	"iwata-medea-airbrush-cleaner": {
 		"text": "Airbrush Cleaner",
 		"brand": "iwata-medea",
-		"category": "materials",
+		"category": "other",
 		"official-name": "Iwata Medea Airbrush Cleaner",
 		"url": "https://www.amazon.com/Iwata-Medea-Airbrush-Cleaner-16-Oz/dp/B003TJA0S6/ref=sr_1_2?crid=3VU10UAUTDERP&keywords=medea+airbrush+cleaner&qid=1647148378&sprefix=medea+airbrush+cleaner%2Caps%2C104&sr=8-2",
 	},

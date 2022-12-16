@@ -506,7 +506,7 @@ posts = {
 		"paragraphs": [
 			f""":A [3D printed]T({TT_3D_PRINTING}) [[Robot Flesh-Eater]], stepping on a dead [Space Marine’s]({URL_SPACE_MARINE}) helmet.""",
 
-			f"""I 3D printed this mini in parts, and he turned out great (apart from the missing claw on his right hand). I also 3D printed the base and the *Space Marine* helmet.""",
+			f"""This mini was 3D printed on my [*Anycubic Photon S*](anycubic-photon-s) with [*Anycubic* UV resin](anycubic-uv-resin-grey). I 3D printed this mini in parts, and he turned out great (apart from the missing claw on his right hand). I also 3D printed the base and the *Space Marine* helmet.""",
 			
 			f"""This miniature looked so cool, and (in my opinion) I botched his paint job. I tried to keep him metallic, going off of the box-art color scheme of *[Warhammer’s Necrons](https://www.games-workshop.com/en-GB/Necron-Triarch-Praetorians-2020)*, but it didn’t turn out quite right. The gun-metal color worked fine, but the silver (on the head, toes, and claws) looked weird. The bronze colored metal parts aren’t perfect, but they work. They’re simply the same paint-job as the metal, but covered in a few layers of *Guilliman Flesh* *Contrast* paint. The blood also turned out a bit brighter than I would’ve liked. And finally, the metallic blue on the *Space Marine* helmet looks poor, but I was so fed up with this mini I’d rather print a new one and try a different method than fix it.""",
 			
@@ -556,6 +556,8 @@ posts = {
 		],
 		"paragraphs": [
 			f""":A [3D printed]T({TT_3D_PRINTING}) [[Steampunk Robot]], wandering through the desert.""",
+
+			f"""This mini was 3D printed on my [*Anycubic Photon S*](anycubic-photon-s) with [*Anycubic* UV resin](anycubic-uv-resin-grey).""",
 
 			f"""This has to be the smallest mini I’ve painted, so far. It was even printed at 120% scale, just to make sure he wouldn’t break if I breath on him too hard. Despite this, his print had two small failures. His left hand is partially missing, but it’s so small I elected to just accept it. The winding knob on his back was missing the lower half, so I sculpted a fix with some [*Green Stuff* epoxy](green-stuff-world-green-stuff-tape)*. It’s not perfect, but it really did turn out pretty good, considering the small size and super thin limbs.""",
 			
@@ -612,7 +614,7 @@ posts = {
 		"paragraphs": [
 			f""":A [3D printed]T({TT_3D_PRINTING}) [[Wolf]] sitting on some grass.""",
 
-			f"""This mini was 3D printed and had a small failure on the tail, so the tail was re-sculpted with some [*Green Stuff*](green-stuff-world-green-stuff-tape). I’m surprised how well it turned out, given that I’m not a sculpter.""",
+			f"""This mini was 3D printed on my [*Anycubic Photon S*](anycubic-photon-s) with [*Anycubic* UV resin](anycubic-uv-resin-grey). It printed with a small failure on the tail, so the tail was re-sculpted with some [*Green Stuff*](green-stuff-world-green-stuff-tape). I’m surprised how well it turned out, given that I’m not a sculpter.""",
 			
 			f"""For this paint-job, I simply [wet-blended]T({TT_WET_BLENDING}) the base-coat from the dark grey on the back, to brown in the middle, to tan on the belly. I then [dry-brushed]T({TT_DRY_BRUSHING}) highlights over the entirety of the fur. Finally, I painted the eyes, nose, and claws, and gave it a base.""",
 			
@@ -663,6 +665,8 @@ posts = {
 		],
 		"paragraphs": [
 			f""":A [3D printed]T({TT_3D_PRINTING}) [[Plague Doctor Alchemist]] painted a glow effect around the lantern.""",
+
+			f"""This mini was 3D printed on my [*Anycubic Photon S*](anycubic-photon-s) with [*Anycubic* UV resin](anycubic-uv-resin-grey).""",
 
 			f"""This mini started out a bit messy, but turned out really well, in my opinion. I did some messy [layering]T({TT_LAYERING}) to highlight the clothes and equipment. It wasn’t going the best, but adding the glow effect around the lantern (called [*Object-Source Lighting*, or OSL]T({TT_OSL})) really improved the look and tied everything together.""",
 			
@@ -951,6 +955,8 @@ posts = {
 		"paragraphs": [
 			f""":A [3D printed]T({TT_3D_PRINTING}) [[Lich]] bust painted with heavy lighting effects.""",
 
+			f"""This mini was 3D printed on my [*Anycubic Photon S*](anycubic-photon-s) with [*Anycubic* UV resin](anycubic-uv-resin-grey).""",
+
 			f"""This was my first real attempt at two things: [zenithal highlighting]T({TT_ZENITHAL_HIGHLIGHTING}) and [object-source Lighting]T({TT_OSL}). I used these two techniques to give a moonlight effect from the back of the lich, and a purple magic glow from the front of the lich, as if he’s standing in front of some purple magic at night.""",
 			
 			f"""To start off I primed the bust black. Technically, I didn’t have black primer, so I primed in grey then painted the whole thing black. Then I sprayed light grey primer from above and behind (for the moonlight effect). Finally I sprayed the light-grey primer from below on the front, as if the magical glow is coming from an object in front of the lich.""",
@@ -1000,6 +1006,8 @@ posts = {
 		"paragraphs": [
 			f""":A [3D printed]T({TT_3D_PRINTING}) [[Sand Worm]] painted like the iconic purple worms in [*Dungeons & Dragons*]({URL_DND})""",
 
+			f"""This mini was 3D printed on my [*Anycubic Photon S*](anycubic-photon-s) with [*Anycubic* UV resin](anycubic-uv-resin-grey).""",
+
 			f"""I couldn’t really decide on colors here, so there was a lot of adjusting and repainting. At first, it was planned to be a brown and tan worm, to match the desert theme. It was a bit monochromatic and plain, so I used some yellow ink to add some color to the belly. Eventually I added some purple to the outer scales. This made the belly stand out and not match, so I added purple to the belly as well, which brought it back to a sort of pinkish brown.""",
 			
 			f"""Overall, the mini turned out worse than if I had just went ahead and painted it purple in the first place. It was a fix-up job. I unfortunately wasn’t enjoying painting this mini, as the model doesn’t have as well defined features as it appears, so I rushed it to finish rather than starting over. Not my best work, but it works as a decent [table-ready]T({TT_TABLE_READY}) mini for *D&D*.""",
@@ -1047,7 +1055,7 @@ posts = {
 		"paragraphs": [
 			f""":A [3D printed]T({TT_3D_PRINTING}) [[Grogu]] model""",
 
-			f"""This was my first successful print with my new [*AnyCubic Photon S*](anycubic-photon-s) resin 3D printer. It’s about an inch tall, and has a few imperfections. There’s a small dent on an ear, and part of the lowered hand is cut off due to forgetting to add using supports. The base’s rim is also not very smooth since the first few layers were wider and I struggled to shave them down.""",
+			f"""This was my first successful print with my new [*AnyCubic Photon S*](anycubic-photon-s) resin 3D printer, using the [*Anycubic* UV resin](anycubic-uv-resin-grey). It’s about an inch tall, and has a few imperfections. There’s a small dent on an ear, and part of the lowered hand is cut off due to forgetting to add using supports. The base’s rim is also not very smooth since the first few layers were wider and I struggled to shave them down.""",
 			
 			f"""This was my first real go at the [layering]T({TT_LAYERING}) technique for skin, and it went pretty well. I also tried [glazing]T({TT_GLAZING}) for the first time to add some red tones to the ears and face since the blood slightly shows through on areas with thinner skin like the face and ears. I also used a mix of [stippling]T({TT_STIPPLING}) and [dry-brushing]T({TT_DRY_BRUSHING}) to add a fuzzy texture to the clothes.""",
 			
@@ -1351,6 +1359,8 @@ _unpublished = {
 	# 	],
 	# 	"paragraphs": [
 	# 		f""":A [3D printed]T({TT_3D_PRINTING}) [[Something]] painted with something or other...""",
+
+	#		f"""This mini was 3D printed on my [*Anycubic Photon S*](anycubic-photon-s) with [*Anycubic* UV resin](anycubic-uv-resin-grey).""",
 
 	# 		f"""I did blah blah and used blah blah...""",
 			

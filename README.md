@@ -89,12 +89,7 @@ Changes the current working directory within the script to the given path. The p
 
 * Change page IDs/links to not use their date (and instead use their title or something).
 * Add those lamp covers I got.
-* Update 3D printing stuff in posts.
-	* Add my 3D printer to post paragraphs.
-		* Add my resins to post paragraphs.
-			* Add my resins to supplies.
-* Add the rest of the paints.
-	* Integrate citadel color paints into Vallejo color paints.
+* Integrate citadel color paints into Vallejo color paints.
 
 ## Code
 
