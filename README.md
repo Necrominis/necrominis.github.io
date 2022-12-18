@@ -69,6 +69,7 @@ Changes the current working directory within the script to the given path. The p
 
 * Add sorting to tags.
 * Add sorting to manufacturers.
+* Add previous/next post buttons.
 * Add filter input to gallery URL.
 	* Have tags link to their filtered gallery specifically.
 * Add page footer.

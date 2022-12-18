@@ -103,11 +103,11 @@ posts = {
 			
 			f"""Next I stretched out a cotton baby wipe (creating various stretches and small holes), let it dry out next to a fan, then wrapped it over the base. This would create the marble vein pattern by covering up the purple where the veins should be, so I could then paint the marble’s stone color.""",
 			
-			f"""I then sprayed the whole base black, and then sprayed it with *Hexed Lichen*, covering almost like a base coat, but with a slightly lighter touch in some areas so it wouldn’t appear too flat. Then I removed the baby wipe.""",
+			f"""For the paint job, I then sprayed the whole base black. I then sprayed it with *Hexed Lichen*, covering almost like a base coat, but with a slightly lighter touch in some areas so it wouldn’t appear too flat. Then I removed the baby wipe.""",
 			
-			f"""Finally, I touched up some of the veins with thin lines of *Purple*, painted black in the cracks and tile lines, and did some edge highlighting with *Purple* on each tile. I then painted the base rim black and gave it a clear coat.""",
+			f"""Finally, I touched up some of the veins with thin lines of *Purple*, painted black in the cracks and tile grooves, and did some [edge-highlighting]T({TT_EDGE_HIGHLIGHTING}) with *Purple* on each tile. To finish up, I painted the base rim black and gave it a clear coat.""",
 			
-			f"""Overall, I think the effect turned out perfectly. It looks like some dark purple marble you might see in a necromancer’s base of operations. This was my first attempt to test a marble effect that I might use for the armor plates on my upcoming purple [*Necron*]T({URL_NECRON}) army. I think I have the technique down, but it’s too dark for my purposes. I might brighten the black stone parts to be more purple, and get a brighter purple for the veins. It also could use a little more contrast on the veins and edge highlights. I also think it might be worth using a satin or gloss coat, since marble is generally polished and not matte.""",
+			f"""Overall, I think the effect turned out perfectly. It looks like some dark purple marble you might see in a necromancer’s dungeon. This was my first attempt to test a marble effect that I might use for the armor plates on my upcoming purple [*Necron*]T({URL_NECRON}) army. I think I have the technique down, but it’s too dark for my purposes. I might brighten the black stone parts to be more purple, and get a brighter purple for the veins. It could also use a little more contrast on the veins and edge highlights. I also think it might be worth using a satin or gloss coat, since marble is generally polished and not matte.""",
 		],
 		"paints-used": [
 			"vallejo-model-color-black",
