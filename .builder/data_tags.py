@@ -62,19 +62,24 @@ tags = {
 		"color": "brown",
 		"linked-page": "gallery",
 	},
+	"tabletop": {
+		"text": "Tabletop",
+		"color": "brown",
+		"linked-page": "gallery",
+	},
 	"display": {
 		"text": "Display",
 		"color": "pink",
 		"linked-page": "gallery",
 	},
+	"diorama": {
+		"text": "Diorama",
+		"color": "blue",
+		"linked-page": "gallery",
+	},
 	"bust": {
 		"text": "Bust",
 		"color": "orange",
-		"linked-page": "gallery",
-	},
-	"tabletop": {
-		"text": "Tabletop",
-		"color": "brown",
 		"linked-page": "gallery",
 	},
 	"kitbash": {

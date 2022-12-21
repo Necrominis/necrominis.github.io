@@ -87,7 +87,6 @@ Changes the current working directory within the script to the given path. The p
 ## Data
 
 * Add Army Painter Battlefield Rocks.
-* Add kitbash tag to relavent posts.
 * Change page IDs/links to not use their date (and instead use their title or something).
 * Add those lamp covers I got.
 * Integrate citadel color paints into Vallejo color paints.
