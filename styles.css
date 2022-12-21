@@ -656,7 +656,6 @@ hr.invisible {
 
 .slideshow {
 	max-width: var(--max-image-size);
-	max-height: var(--max-image-size);
 	margin: 0 auto;
 }
 
@@ -736,7 +735,7 @@ hr.invisible {
 .slideshow .dots {
 	width: 100%;
 	margin: auto;
-	margin-top: 0.25rem;
+	padding-top: 0.25rem;
 	text-align: center;
 }
 
@@ -753,6 +752,16 @@ hr.invisible {
 
 .dots .dot.active, .dots .dot:hover {
 	background-color: var(--foreground);
+}
+
+.slideshow-controls-bottom {
+	height: 2.75rem;
+}
+
+@media only screen and (min-width: 1001px) {
+	.slideshow-controls-bottom {
+		display: none;
+	}
 }
 
 /* MODAL IMAGE */
