@@ -35,6 +35,8 @@ TT_NMM = """Non-metallic metal, or NMM, is the technique of painting a miniature
 
 TT_OSL = """Object source lighting, or OSL, is the technique of strategically placing color highlights to give the impression that the miniature is either lit by a light source or is itself emitting light."""
 
+TT_SPRUE_GOO = """Sprue-goo is a sumstance made from melting bits of plastic sprues into plastic cement. Due to its thickness, it can be used in place of plastic cement to fill in gaps when gluing pieces together."""
+
 TT_STIPPLING = """Stippling is a painting technique where you gently jab with the tip of your paint brush to create spotty splotches of color. It’s usually used for texturing rough-looking surfaces, or combined with glazing to create smooth blends."""
 
 TT_TABLE_READY = """Table-ready is a term to describe a miniature thay may not look as good as the painter would like, but looks good enough that it’s ready to be played with on in tabletop games."""

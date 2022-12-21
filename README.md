@@ -80,10 +80,9 @@ Changes the current working directory within the script to the given path. The p
 	* Have paints page get paints automatically, without having to list them specifically.
 * Add supplies page.
 	* Have supplies page get paints automatically, without having to list them specifically.
+* Add slideshow to modal.
 
 ## Issues
-
-* Bar section in 2-column page posts covers up hovering on first paragraph.
 
 ## Data
 

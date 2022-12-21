@@ -18,6 +18,256 @@ from printer import *
 # ============================================================================ #
 posts = {
 	# ============================================================================ #
+	"2022-12-21": {
+		"title": "Four Ghostly Myrmourn Banshees",
+		"type": "post",
+		"properties": {
+			"created": "December 21, 2022",
+			"tags": [
+				"warhammer-age-of-sigmar",
+				"fantasy",
+				"tabletop",
+			],
+			"manufacturers": [
+				"games-workshop",
+			],
+			"models": [
+				{
+					"text": "Myrmourn Banshees",
+					"url": "https://www.games-workshop.com/en-US/Etb-Nighthaunt-Myrmourn-Banshees-2018",
+				},
+			],
+		},
+		"images": [
+			"necrominis-2022-12-21-raw-1.jpg",
+			"necrominis-2022-12-21-raw-2.jpg",
+			"necrominis-2022-12-21-raw-3.jpg",
+			"necrominis-2022-12-21-raw-4.jpg",
+			"necrominis-2022-12-21-raw-5.jpg",
+			"necrominis-2022-12-21-raw-6.jpg",
+			"necrominis-2022-12-21-raw-7.jpg",
+			"necrominis-2022-12-21-raw-8.jpg",
+			"necrominis-2022-12-21-raw-9.jpg",
+			"necrominis-2022-12-21-raw-10.jpg",
+			"necrominis-2022-12-21-raw-11.jpg",
+			"necrominis-2022-12-21-raw-12.jpg",
+		],
+		"paragraphs": [
+			f""":Four [[Myrmourn Banshees]] painted with with a darker ghostly scheme.""",
+
+			f"""For these banshees, or ghosts, I wanted a more atmospheric ghostly scheme than the box art. I I also wanted to differentiate between the cloak and the body, even if they're technically both ghostly.""",
+
+			f"""I started off by priming the minis in black and base coating with a *Incubi Darkness* as it has a good dark navy/teal color to it. This was done with my [air-brush](badger-105-patriot-air-brush). I then kept the cloak and body parts of the miniatures separate, so I could airbrush them different colors without spilling over.""",
+
+			f"""For the cloaks, I airbrushed up to to *Sotek Green* toward the edges, with athe brighter *Temple Guard Blue* just on the very tips. I then did the same from above on the heads, with an extra finish of the lightest teal mixed with white. This was to pronounce the facial features more. For the bodies, I air-brushed them up to white, which took a few layers, and then air-brushed *Temple Guard Blue* toward the mid-sections and the hands, keeping the "tail", the chest, and the shoulders mostly white.""",
+
+			f"""For the armor, I wanted an old, dirty brass color, but I only had a bright brass which was too bronze or gold. I base coated the armor and the dagger hilts with *Brass Scorpion* and gave it a quick [wash]T({TT_WASH}) with *Nuln Oil* to bring the saturation down. I then [layered]T({TT_LAYERING}) up to *Brass Scorpion*-*Leadbelcher* mix, and did a final [edge-highlight]T({TT_EDGE_HIGHLIGHTING}) with *Leadbelcher*. I also picked out a few parts like the chains to be solely gunmetal to slightly set them apart from the brass.""",
+
+			f"""Next were the blue details. I used a mix of layering and edge-highlighting on the daggers to bring them from *Flat Blue* to white. I wanted to differentiate this blue from the ghostly blue, so I used a less teal blue for this. I also painted the lantern, the armor tassles, and the ribbon with this blue as well, and used lines with my layering to give it some texture. The daggers began looking too white though, so I finished up by covering them with a blue [wash]T({TT_WASH}) to bring the blue back a bit.""",
+
+			f"""The last thing to do was the base. I wanted to keep the focus on the banshees and I also wanted them to remain the brightest part of the model, so I kept the bases dark and mostly colorless. I base coated them with black, then [dry-brushed]T({TT_DRY_BLENDING}) them with a dark bluish grey. I used a dark brown to pick out the stumps, roots, and bones, then used a dark olive green on the vines and leaves.""",
+
+			f"""Finally, I air-brushed a light glaze of the teals and a teal-white mix on the base, as well as a slight spray on the darmor. This was to bring the whole miniature together with a coherent color, as well as give the impression that the ghosts are slightly glowing. I then cleaned up the base rims with the *Incubi Darkness*, varnished them with satin (for protective purposes) then matte (for the final finish), and I was done.""",
+			
+			f"""Overall, I really like how these miniatures turned out. I do have a few things I would've done differently, though. First of all, I don't think the darker cloaks look bad by any means, but I do think they should've been a little lighter, as they look too separate from the ghosts' bodies im my opinion. I also think it takes the focus away from the ghosts' faces which is unfortunate. Another issue I have is that I tried using [sprue-goo]T({TT_SPRUE_GOO}) for the first time, since there were a few gaps when gluing the pieces together, but it just created more of a mess to fix which is still noticeable around the heads. I also think I over did it with the blue spraying on the bases. They look a little too dark with almost no contrast, and the dry-brushing and colors are hidden under the blue. This is especially noticeable when they're not under bright lights, as the bases essentially look like they're a solid color. I may have to dry-brush the bases again, if I get the chance. Overall, though, I do think these miniatures look good and they would make great pieces for an undead army or as ghosts in a [Dungeons & Dragons]({URL_DND}) campaign.""",
+		],
+		"paints-used": [
+			"vallejo-model-color-refractive-green",
+			"vallejo-model-color-off-white",
+			"vallejo-model-color-intermediate-blue",
+			"vallejo-model-color-flat-blue",
+			"vallejo-game-color-charred-brown",
+			"vallejo-game-wash-blue",
+			"citadel-base-incubi-darkness",
+			"citadel-layer-sotek-green",
+			"citadel-layer-temple-guard-blue",
+			"citadel-layer-brass-scorpion",
+			"citadel-base-leadbelcher",
+			"citadel-shade-nuln-oil",
+			"citadel-technical-lahmian-medium",
+			"liquitex-acrylic-mediums-flow-aid",
+			"stynylrez-surface-primer-black",
+			"krylon-colormaxx-satin-crystal-clear",
+			"krylon-clear-coatings-matte-finish",
+		],
+	},
+	# ============================================================================ #
+	"2022-12-20-B": {
+		"title": "Air Elemental",
+		"type": "post",
+		"properties": {
+			"created": "December 20, 2022",
+			"tags": [
+				"dungeons-and-dragons",
+				"fantasy",
+				"tabletop",
+			],
+			"manufacturers": [
+				"wizkids",
+			],
+			"models": [
+				{
+					"text": "Air Elemental",
+					"url": "https://gamegoblins.com/d-d-nolzurs-marvelous-air-elemental-wiz90205/",
+				},
+			],
+		},
+		"images": [
+			"necrominis-2022-12-20-B-raw-1.jpg",
+			"necrominis-2022-12-20-B-raw-2.jpg",
+			"necrominis-2022-12-20-B-raw-3.jpg",
+		],
+		"paragraphs": [
+			f""":An [[Air Elemental]] painted to match my previously painted [](2021-10-26).""",
+
+			f"""I wanted to paint this air elemental to match my previous one, so I used the same color palette. I primed with a light grey and base coated with a light greyish blue. I then used a [small makeup brush](ecotools-liner-smudge) to apply a heavy [dry-brush]T({TT_DRY_BRUSHING}) of a very light grey, and finished with a light dry-brush of white. I then touched up a few spots, such as the face, with some extra white highlights, to make them more defined and focused.""",
+
+			f"""For the base, I also used the same scheme as my previous air elemental, but this miniature didn't come with a pre-modelled base, so I had to make my own. I tried out my new *Rough Grey Pumice* by *Vallejo*, to add a simple rough texture to the base. It was a little more coarse than I was expecting, but it works fine. This isn'y a display piece, just a tabletop miniature, so I don't mind if it's not perfect. I then painted it with a neutral grey, cave it a [wash]T({TT_WASH}) of *Agrax Earthshade*, and dry-brushed it with light grey.""",
+			
+			f"""Overall, I think the miniature turned out well. I did smudge a spot on the front after cleat-coating it, which had to be touched up, but otherwise it turned out fine. It's no display piece, but it looks fine for a [table-ready]T({TT_TABLE_READY}) miniature for playing [D&D]({URL_DND}) with. I do think the rough texture was a little too coarse. It would work fine for very rough sand, but not for a simply bumpy rock surface like I was going for. In the future, I may have to try out my other texture pastes, and I might try mixing it with normal paint to see if diluting the texture with regular paint will give a different effect.""",
+		],
+		"paints-used": [
+			"vallejo-game-color-dead-white",
+			"vallejo-game-color-wolf-grey",
+			"vallejo-model-color-medium-sea-grey",
+			"vallejo-model-color-black",
+			"vallejo-model-color-grey-blue",
+			"citadel-shade-agrax-earthshade",
+			"tamiya-surface-primer-l-grey",
+			"vallejo-diorama-effects-rough-grey-pumice",
+			"vallejo-auxiliaries-matt-acrylic-varnish",
+			"krylon-clear-coatings-matte-finish",
+		],
+	},
+	# ============================================================================ #
+	"2022-12-20-A": {
+		"title": "Violet Armored Vampire",
+		"type": "post",
+		"properties": {
+			"created": "December 20, 2022",
+			"tags": [
+				"warhammer-underworlds",
+				"fantasy",
+				"tabletop",
+			],
+			"manufacturers": [
+				"games-workshop",
+			],
+			"models": [
+				{
+					"text": "Soulblight Gravelord",
+					"url": "https://www.games-workshop.com/en-US/WHU-The-Crimson-Court-EN-2021",
+				},
+			],
+		},
+		"images": [
+			"necrominis-2022-12-20-A-raw-1.jpg",
+			"necrominis-2022-12-20-A-raw-2.jpg",
+			"necrominis-2022-12-20-A-raw-3.jpg",
+			"necrominis-2022-12-20-A-raw-4.jpg",
+		],
+		"paragraphs": [
+			f""":A [[Soulblight Gravelord Vampire]] painted with a dark purple and red color scheme.""",
+
+			f"""To start off, I painted the skin. Skin is usually the hardest to fix if you get accidental paint on it (due to the non-uniform color and shading). Since it was in the most recessed and hard to reach areas, I painted it first. I used a similar light grey scheme from my previous mini (the [2022-06-10](2022-06-10)).""",
+			
+			f"""I knew I wanted to paint each of the vampires in this *Crimson Court* pack differently, and I’m saving the red armor of the box art for the main one, but I wasn’t sure what armor color to pick. It took me a bit to decide, but eventually I thought I’d test out my *Ultramarines Blue* *Contrast* paint. After priming the mini black, I gave the armor a quick coat with the blue *Contrast* paint. It looked awful. The shading was terrible, leading me to wonder how people even use it, and the color wasn’t what I imagined it to be. So, I scrapped the blue armor idea, but thought I could still salvage it. I decided on purple. Since the blue was dark enough, it could act as a shadow if I use a cool violet color. So I gave it a thick [edge highlight]T({TT_EDGE_HIGHLIGHTING}) with a dark, cool violet, and then a sharper edge highlight with a lighter, warmer purple. I found that dotting the sharp corners corners with an even lighter purple (by mixing some light grey in) adds the most subtle but important pop to these sharp armor edges.""",
+			
+			f"""I knew I still wanted some red, though, because it is a vampire after all and vampires are associated with blood and red. I decided to paint the cloth parts red, so I base coated them and noticed the horns on the armor could also use the red color. This helped balance the colors and frame the head a bit more. I shaded it with *Blood Angels Red*, another *Contrast* paint, and then [layered]T({TT_LAYERING}) back up to the original red. I slowly added light grey to the red, and layered up using a [stippling]T({TT_STIPPLING}) method. After two or three times it had nice, rough highlighting. I then gave it a stippled and messy edge highlight with the lightest red, to add one last pop to it.""",
+			
+			f"""Next I did my favorite brown leather technique on straps and leather parts, weathering it so it’d stand out from the shiny and new armor.""",
+			
+			f"""After all that, I had two things left. I painted all the metal parts with a dark silver or bronze, gave them a [wash]T({TT_WASH}) of *Nuln Oil* or *Agrax Earthshade* respectively, and then edge-highlighted them up with a bright silver. I also dotted some rivets with silver or bronze as well.""",
+			
+			f"""The base was fairly simple. I base coated the cobblerstones randomly with either dark brown or a deep navy blue, for some variety. I then drybrushed them with some grey and roughly edge-highlighted them with grey as well. The stake and bones were base coated with the same dark brown but roughly dry-brushed and edge-highlighted with a lighter brown.""",
+
+			f"""Finally, I gave it a clear coat of satin covered in a clear coat of matte. ier clear coats are more protective than matte finishes, so sometimes I put a gloss or satin layer under my matte finishes for extra protection. I used the *Vallejo* matte through my airbrush, but it was *too* matte for my liking, so I switched to the *Krylon* matte finish instead as it has a very slight shene that helps bring out vibrant colors better without being satin or glossy.""",
+			
+			f"""Overall, I think this miniatured turned out great. I still think my previous [vampire](2022-06-10) was a better job, but only because it had a more atmospheric lighting compared to this one which was painted as if it was in simple daylight. I do however think the armor turned out much better on this miniature.""",
+		],
+		"paints-used": [
+			"vallejo-game-color-wolf-grey",
+			"vallejo-model-color-medium-sea-grey",
+			"vallejo-model-color-neutral-grey",
+			"vallejo-model-color-intermediate-blue",
+			"vallejo-game-color-sombre-grey",
+			"vallejo-model-color-black",
+			"vallejo-game-color-charred-brown",
+			"vallejo-model-color-flat-brown",
+			"vallejo-game-color-beasty-brown",
+			"vallejo-model-color-purple",
+			"vallejo-game-color-heavy-violet",
+			"vallejo-game-color-silver",
+			"citadel-layer-wazdakka-red",
+			"citadel-base-leadbelcher",
+			"citadel-base-incubi-darkness",
+			"citadel-contrast-blood-angels-red",
+			"citadel-contrast-ultramarines-blue",
+			"citadel-shade-nuln-oil",
+			"citadel-shade-agrax-earthshade",
+			"citadel-layer-brass-scorpion",
+			"stynylrez-surface-primer-black",
+			"liquitex-acrylic-mediums-flow-aid",
+			"vallejo-auxiliaries-matt-acrylic-varnish",
+			"krylon-colormaxx-satin-crystal-clear",
+			"krylon-clear-coatings-matte-finish",
+		],
+	},
+	# ============================================================================ #
+	"2022-07-02": {
+		"title": "Green Gelatinous Cube",
+		"type": "post",
+		"properties": {
+			"created": "July 2, 2022",
+			"tags": [
+				"dungeons-and-dragons",
+				"fantasy",
+				"tabletop",
+			],
+			"manufacturers": [
+				"wizkids",
+			],
+			"models": [
+				{
+					"text": "Gelatinous Cube",
+					"url": "https://www.miniaturemarket.com/wzk90196.html",
+				},
+			],
+		},
+		"images": [
+			"necrominis-2022-07-02-raw-1.jpg",
+			"necrominis-2022-07-02-raw-2.jpg",
+			"necrominis-2022-07-02-raw-3.jpg",
+		],
+		"paragraphs": [
+			f""":A [[Gelatinous Cube]] painted like a green slime rather than the usual bluish clear in [*Dungeons & Dragons*]({URL_DND}).""",
+
+			f"""I’ve owned a clear gelatinous cube pre-painted *D&D* mini for a while now, but I saw the mini again at my local game store when I was looking for new minis. Since I haven’t used my *Tesseract Glow* paint yet and rarely use my inks, I thought it’d be cool to make the iconic green slime out of the mini. So, I bought it.""",
+			
+			f"""First, I painted the dissolved corpses on the inside of the mini. I used simple metallics and tans to paint the bones and equipment. Nothing fancy.""",
+			
+			f"""I then mixed up yellow and green inks with the *Tesseract Glow*, and added *Lahmian Medium* as necessary, until I was happy with the color and consistency. I then just painted the whole miniature. I made sure to paint over the corpses a little, to show that they’re filled with and covered in slime. To make the miniature more durable, I only painted the inside of the cube. It isn’t necessary, but it makes a slight visual difference and it removes the chance of paint scratching off the corners (since this is a low-effort mini meant for tabletop play).""",
+
+			f"""Finally, I finished it off with a satin clear coat to protect the paint and to give it a fairly shiny finish to look like wet slime.""",
+			
+			f"""Overall, it was a fair but quick paint job. It’s not the best, and I’d barely even consider it to my own standards. It was just a quick [table-ready]T({TT_TABLE_READY}) mini for *D&D*, and not an art piece like my usual miniatures.""",
+		],
+		"paints-used": [
+			"vallejo-model-color-off-white",
+			"vallejo-model-color-buff",
+			"vallejo-game-color-beasty-brown",
+			"vallejo-game-color-silver",
+			"vallejo-game-ink-yellow",
+			"vallejo-game-ink-green",
+			"citadel-base-leadbelcher",
+			"citadel-layer-brass-scorpion",
+			"citadel-shade-agrax-earthshade",
+			"citadel-technical-tesseract-glow",
+			"citadel-technical-lahmian-medium",
+			"krylon-colormaxx-satin-crystal-clear",
+		],
+	},
+	# ============================================================================ #
 	"2022-06-10": {
 		"title": "Vampire Necromancer",
 		"type": "post",
@@ -1135,118 +1385,6 @@ posts = {
 
 # ============================================================================ #
 _unpublished = {
-	# ============================================================================ #
-	"": {
-		"title": "Green Gelatinous Cube",
-		"type": "post",
-		"properties": {
-			"created": "Month DD, YYYY",
-			"tags": [
-				"dungeons-and-dragons",
-				"fantasy",
-				"tabletop",
-				"wip",
-			],
-			"manufacturers": [
-				"WizKids",
-			],
-			"models": [
-				{
-					"text": "Gelatinous Cube",
-					"url": "https://www.miniaturemarket.com/wzk90196.html",
-				},
-			],
-		},
-		"images": [
-			# "necrominis-.jpeg",
-		],
-		"paragraphs": [
-			f""":A [[Gelatinous Cube]] painted like a green slime rather than the usual bluish clear in [*Dungeons & Dragons*]({URL_DND}).""",
-
-			f"""I’ve owned a clear gelatinous cube pre-painted *D&D* mini for a while now, but I saw the mini again at my local game store when I was looking for new minis. Since I haven’t used my *Tesseract Glow* paint yet and rarely use my inks, I thought it’d be cool to make the iconic green slime out of the mini. So, I bought it.""",
-			
-			f"""First, I painted the dissolved corpses on the inside of the mini. I used simple metallics and tans to paint the bones and equipment. Nothing fancy.""",
-			
-			f"""I then mixed up yellow and green inks with the *Tesseract Glow*, and added *Lahmian Medium* as necessary, until I was happy with the color and consistency. I then just painted the whole miniature. I made sure to paint over the corpses a little, to show that they’re filled with and covered in slime. To make the miniature more durable, I only painted the inside of the cube. It isn’t necessary, but it makes a slight visual difference and it removes the chance of paint scratching off the corners (since this is a low-effort mini meant for tabletop play).""",
-			
-			f"""Overall, it was a fair but quick paint job. It’s not the best, and I’d barely even consider it to my own standards. It was just a quick [table-ready]T({TT_TABLE_READY}) mini for *D&D*, and not an art piece like my usual miniatures.""",
-		],
-		"paints-used": [
-			"vallejo-model-color-off-white",
-			"vallejo-model-color-buff",
-			"vallejo-game-color-beasty-brown",
-			"vallejo-game-color-silver",
-			"vallejo-game-ink-yellow",
-			"vallejo-game-ink-green",
-			"citadel-vase-leadbelcher",
-			"citadel-layer-brass-scorpion",
-			"citadel-shade-agrax-earthshade",
-			"citadel-technical-tesseract-glow",
-			"citadel-technical-lahmian-medium",
-		],
-	},
-	# ============================================================================ #
-	"": {
-		"title": "Violet Armored Vampire",
-		"type": "post",
-		"properties": {
-			"created": "Month DD, YYYY",
-			"tags": [
-				"warhammer-underworlds",
-				"fantasy",
-				"tabletop",
-				"wip",
-			],
-			"manufacturers": [
-				"games-workshop",
-			],
-			"models": [
-				{
-					"text": "Soulblight Gravelord",
-					"url": "https://www.games-workshop.com/en-US/WHU-The-Crimson-Court-EN-2021",
-				},
-			],
-		},
-		"images": [
-			# "necrominis-.jpeg",
-		],
-		"paragraphs": [
-			f""":A [[Soulblight Gravelord Vampire]] painted with a dark purple and red color scheme.""",
-
-			f"""To start off, I painted the skin. Skin is usually the hardest to fix if you get accidental paint on it (due to the non-uniform color and shading). Since it was in the most recessed and hard to reach areas, I painted it first. I used a similar light grey scheme from my previous mini (the [2022-06-10](2022-06-10)).""",
-			
-			f"""I knew I wanted to paint each of the vampires in this *Crimson Court* pack differently, and I’m saving the red armor of the box art for the main one, but I wasn’t sure what armor color to pick. It took me a bit to decide, but eventually I thought I’d test out my *Ultramarines Blue* *Contrast* paint. After priming the mini black, I gave the armor a quick coat with the blue *Contrast* paint. It looked awful. The shading was terrible, leading me to wonder how people even use it, and the color wasn’t what I imagined it to be. So, I scrapped the blue armor idea, but thought I could still salvage it. I decided on purple. Since the blue was dark enough, it could act as a shadow if I use a cool violet color. So I gave it a thick [edge highlight]T({TT_EDGE_HIGHLIGHTING}) with a dark, cool violet, and then a sharper edge highlight with a lighter, warmer purple. I found that dotting the sharp corners corners with an even lighter purple (by mixing some light grey in) adds the most subtle but important pop to these sharp armor edges.""",
-			
-			f"""I knew I still wanted some red, though, because it is a vampire after all and vampires are associated with blood and red. I decided to paint the cloth parts red, so I base coated them and noticed the horns on the armor could also use the red color. This helped balance the colors and frame the head a bit more. I shaded it with *Blood Angels Red*, another *Contrast* paint, and then [layered]T({TT_LAYERING}) back up to the original red. I slowly added light grey to the red, and layered up using a [stippling]T({TT_STIPPLING}) method. After two or three times it had nice, rough highlighting. I then gave it a stippled and messy edge highlight with the lightest red, to add one last pop to it.""",
-			
-			f"""Next I did my favorite brown leather technique on straps and leather parts, weathering it so it’d stand out from the shiny and new armor.""",
-			
-			f"""After all that, I had two things left. I painted all the metal parts with a dark silver, gave them the ol’ [wash]T({TT_WASH}) of *Nuln Oil*, and edge highlighted them up with a brighter silver.""",
-			
-			f"""The base was blah blah...""",
-			
-			f"""Overall, etc...""",
-		],
-		"paints-used": [
-			"vallejo-game-color-wolf-grey",
-			"vallejo-model-color-medium-sea-grey",
-			"vallejo-model-color-intermediate-blue",
-			"vallejo-game-color-sombre-grey",
-			"vallejo-model-color-black",
-			"vallejo-game-color-charred-brown",
-			"vallejo-model-color-flat-brown",
-			"vallejo-game-color-beasty-brown",
-			"vallejo-model-color-purple",
-			"vallejo-game-color-heavy-violet",
-			"citadel-layer-wazdakka-red",
-			"citadel-base-leadbelcher",
-			"citadel-contrast-blood-angels-red",
-			"citadel-contrast-ultramarines-blue",
-			"citadel-shade-nuln-oil",
-			"stynylrez-surface-primer-black",
-			"lituitex-axrylic-mediums-flow-aid",
-		],
-	},
 	# ============================================================================ #
 	"": {
 		"title": "Priest of the Dwarven Hold",
