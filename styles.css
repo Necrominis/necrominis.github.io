@@ -700,6 +700,10 @@ hr.invisible {
 	user-select: none;
 }
 
+.slideshow-controls {
+	padding: 0.25rem 0;
+}
+
 .previous, .next {
 	cursor: pointer;
 	top: 50%;
@@ -713,9 +717,13 @@ hr.invisible {
 	font-weight: bold;
 	border-radius: var(--border-radius);
 	user-select: none;
-	color: var(--text);
-	background-color: var(--background-2);
+	color: var(--background);
+	background-color: var(--foreground);
 	transition: all var(--transition-speed);
+}
+
+.previous .arrow, .next .arrow {
+	border-color: var(--background);
 }
 
 .previous {
@@ -729,7 +737,7 @@ hr.invisible {
 }
 
 .previous:hover, .next:hover {
-	background-color: var(--foreground-2);
+	background-color: var(--text);
 }
 
 .slideshow .dots {
@@ -750,18 +758,13 @@ hr.invisible {
 	transition: all var(--transition-speed);
 }
 
-.dots .dot.active, .dots .dot:hover {
+.dots .dot.active {
 	background-color: var(--foreground);
 }
 
-.slideshow-controls-bottom {
-	height: 2.75rem;
-}
-
-@media only screen and (min-width: 1001px) {
-	.slideshow-controls-bottom {
-		display: none;
-	}
+.dots .dot:hover {
+	border-color: var(--text);
+	background-color: var(--text);
 }
 
 /* MODAL IMAGE */
