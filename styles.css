@@ -701,7 +701,7 @@ hr.invisible {
 }
 
 .slideshow-controls {
-	padding: 0.25rem 0;
+	padding: 0.32rem 0;
 }
 
 .previous, .next {
@@ -903,7 +903,6 @@ hr.invisible {
 
 .toggle-container {
 	padding-top: 0.5rem;
-	padding-left: 0.75rem;
 	opacity: 0;
 	transition: opacity var(--slow-transition-speed);
 }
