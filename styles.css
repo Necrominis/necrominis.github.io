@@ -680,7 +680,7 @@ hr.invisible {
 .slideshow .previous,
 .slideshow .next,
 .slideshow .dots {
-	opacity: 0;
+	opacity: 1;
 	transition: all var(--slow-transition-speed);
 }
 

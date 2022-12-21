@@ -67,6 +67,7 @@ Changes the current working directory within the script to the given path. The p
 
 ## Features
 
+* Mode slideshow buttons under the image rather than on top of it.
 * Add sorting to tags.
 * Add sorting to manufacturers.
 * Add previous/next post buttons.
