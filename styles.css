@@ -164,8 +164,16 @@ https://www.w3schools.com/howto/howto_css_aspect_ratio.asp
 	/* Spacing */
 
 	--max-page-width: 700px;
-	--max-double-page-width: 1200px;
+	--max-double-page-width: 850px;
 	--max-image-size: 700px;
+}
+
+/* Increase page widths on 4K screens */
+
+@media only screen and (min-width: 2001px) {
+	:root {
+		--max-double-page-width: 1200px;
+	}
 }
 
 /* Increase font size on small screens with high resolution */
