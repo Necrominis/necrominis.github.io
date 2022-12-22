@@ -165,7 +165,7 @@ paint_brands = {
 		"text": "Krylon",
 		"lines": {
 			"colormaxx": {
-				"text": "COLORmaxx",
+				"text": "Color Maxx",
 			},
 			"clear-coatings": {
 				"text": "Clear Coatings",
