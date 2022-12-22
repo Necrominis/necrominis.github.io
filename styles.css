@@ -928,12 +928,12 @@ hr.invisible {
 	font-weight: normal; /* Default th is bold. */
 	padding-top: 0.25rem; /* Fix it not aligning with td text for some reason (likely the inline icons). */
 	padding-right: 1rem;
-	min-width: 10.1rem; /* Fit "Model Brands(s)" without line breaking. */
+	min-width: 9.5rem; /* Fit "Model Brands(s)" without line breaking. */
 	vertical-align: middle;
 }
 
 #properties th .icon {
-	margin-right: 1rem;
+	margin-right: 0.5rem;
 }
 
 #properties td {
