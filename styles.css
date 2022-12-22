@@ -19,6 +19,31 @@ Aspect ratios?
 https://www.w3schools.com/howto/howto_css_aspect_ratio.asp
 */
 
+/* FONTS */
+
+@font-face {
+	font-family: dejavu-sans;
+	src: url(./fonts/DejaVuSans.ttf);
+}
+@font-face {
+	font-family: dejavu-sans;
+	src: url(./fonts/DejaVuSans-Bold.ttf);
+	font-weight: bold;
+}
+@font-face {
+	font-family: dejavu-sans;
+	src: url(./fonts/DejaVuSans-Oblique.ttf);
+	font-style: italic;
+}
+@font-face {
+	font-family: dejavu-sans;
+	src: url(./fonts/DejaVuSans-BoldOblique.ttf);
+	font-weight: bold;
+	font-style: italic;
+}
+
+/* DEFAULT STYLE VARIABLES */
+
 :root {
 	/* --cover-image: url('images/covers/cover.png'); */
 
@@ -85,7 +110,7 @@ https://www.w3schools.com/howto/howto_css_aspect_ratio.asp
 	--tooltip-background: var(--primary);
 	--tooltip-underline: var(--grey);
 
-	--font: sans-serif;
+	--font: dejavu-sans;
 
 	--transition-speed: 0.125s;
 	--slow-transition-speed: 0.5s;
