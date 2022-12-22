@@ -736,8 +736,10 @@ hr.invisible {
 	float: right;
 }
 
-.previous:hover, .next:hover {
-	background-color: var(--text);
+@media only screen and (hover: none) and (pointer: coarse) {
+	.previous:hover, .next:hover {
+		background-color: var(--text);
+	}
 }
 
 .slideshow .dots {
@@ -762,9 +764,11 @@ hr.invisible {
 	background-color: var(--foreground);
 }
 
-.dots .dot:hover {
-	border-color: var(--text);
-	background-color: var(--text);
+@media only screen and (hover: none) and (pointer: coarse) {
+	.dots .dot:hover {
+		border-color: var(--text);
+		background-color: var(--text);
+	}
 }
 
 /* MODAL IMAGE */
