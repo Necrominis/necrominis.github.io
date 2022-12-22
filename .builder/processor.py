@@ -174,7 +174,7 @@ def _process_links(paragraph: str) -> str:
 	processed_paragraph = paragraph
 
 	# Find every link syntax and replace it with HTML.
-	link_pattern = regex.compile(r'\[([^][]+)?\]\((.*?)\)', regex.U)
+	link_pattern = regex.compile(r'\[([^][]*)?\]\((.*?)\)', regex.U)
 	for match in link_pattern.finditer(paragraph):
 		link_text, link_url = match.groups()
 
@@ -201,8 +201,8 @@ def _process_links(paragraph: str) -> str:
 			else:
 				new_url = f"{data['website']}{link_url}"
 				print_error('Paragraph link is not a valid URL, page ID, paint ID, or supplies ID: ', link_url)
-			
-		processed_paragraph = processed_paragraph.replace(f'[{new_text}]({link_url})', f'<a href="{new_url}">{new_text}</a>', 1)
+		
+		processed_paragraph = processed_paragraph.replace(f'[{link_text}]({link_url})', f'<a href="{new_url}">{new_text}</a>', 1)
 
 	return processed_paragraph
 
