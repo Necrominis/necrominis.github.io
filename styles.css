@@ -522,7 +522,7 @@ img.icon.inline {
 /* NAVBAR */
 
 /* Make navbar vertical on small screens. */
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 600px) {
 	.menu.button-container .button {
 		float: none;
 		display: block;
