@@ -170,7 +170,10 @@ https://www.w3schools.com/howto/howto_css_aspect_ratio.asp
 
 /* Increase page widths on 4K screens */
 
-@media only screen and (min-width: 2001px) {
+@media only screen and (-moz-min-device-pixel-ratio: 2), 
+       only screen and (-o-min-device-pixel-ratio: 2/1), 
+       only screen and (-webkit-min-device-pixel-ratio: 2), 
+       only screen and (min-device-pixel-ratio: 2) {
 	:root {
 		--max-double-page-width: 1200px;
 	}
@@ -559,7 +562,7 @@ img.icon.inline {
 /* NAVBAR */
 
 /* Make navbar vertical on small screens or touch screens. */
-@media only screen and (max-width: 600px), only screen and (hover: none) and (pointer: coarse) and (max-width: 1000px) {
+@media only screen and (max-width: 550px), only screen and (hover: none) and (pointer: coarse) and (max-width: 1000px) {
 	.menu.button-container .button {
 		float: none;
 		display: block;
