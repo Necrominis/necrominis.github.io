@@ -59,7 +59,7 @@ tags = {
 	},
 	"reality": {
 		"text": "Reality",
-		"color": "brown",
+		"color": "orange",
 		"linked-page": "gallery",
 	},
 	"tabletop": {
