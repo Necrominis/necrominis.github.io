@@ -81,15 +81,14 @@ Changes the current working directory within the script to the given path. The p
 * Add supplies page.
 	* Have supplies page get paints automatically, without having to list them specifically.
 * Add slideshow to modal.
+* Add redirect links for posts based on title.
 
 ## Issues
 
 ## Data
 
 * Add Army Painter Battlefield Rocks.
-* Change page IDs/links to not use their date (and instead use their title or something).
 * Add those lamp covers I got.
-* Integrate citadel color paints into Vallejo color paints.
 
 ## Code
 
