@@ -920,9 +920,9 @@ hr.invisible {
 #properties th {
 	text-align: left;
 	font-weight: normal; /* Default th is bold. */
+	padding-top: 0.25rem; /* Fix it not aligning with td text for some reason (likely the inline icons). */
 	padding-right: 1rem;
-	min-width: 9rem; /* Fit "Manufacturer(s)" without line breaking. */
-	font-size: var(--small-text-size);
+	min-width: 10.5rem; /* Fit "Model Brands(s)" without line breaking. */
 	vertical-align: middle;
 }
 
