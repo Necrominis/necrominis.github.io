@@ -887,6 +887,8 @@ hr.invisible {
 	border-radius: 1.1rem; /* Slightly larger than 1rem because otherwise the rounded corners don't quite match up */
 	padding: 0.5rem 1rem;
 	margin: 0;
+	width: 100%;
+	overflow: hidden;
 }
 
 .toggle[open] {
@@ -916,6 +918,10 @@ hr.invisible {
 }
 
 /* PROPERTIES */
+
+#properties, #paints-used {
+	width: calc(100% - 2rem);
+}
 
 #properties th {
 	text-align: left;
