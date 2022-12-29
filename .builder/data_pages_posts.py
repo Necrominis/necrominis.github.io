@@ -604,11 +604,14 @@ posts = {
 				},
 			],
 		},
+		"thumbnail": "necrominis-2021-12-02-thumbnail.jpg",
 		"images": [
-			"necrominis-2021-12-02-raw-1.jpeg",
-			"necrominis-2021-12-02-raw-2.jpeg",
-			"necrominis-2021-12-02-raw-3.jpeg",
-			"necrominis-2021-12-02-raw-4.jpeg",
+			"necrominis-2021-12-02-1.jpg",
+			"necrominis-2021-12-02-2.jpg",
+			"necrominis-2021-12-02-3.jpg",
+			"necrominis-2021-12-02-4.jpg",
+			"necrominis-2021-12-02-5.jpg",
+			"necrominis-2021-12-02-6.jpg",
 		],
 		"paragraphs": [
 			f""":A [[Stormcast Eternals Vindicator]] painted black and gold.""",
