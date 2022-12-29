@@ -84,7 +84,6 @@ def _process_first_paragraph(paragraph: str) -> str:
 # Process the links using markdown syntax.
 # Must be done after bold processing.
 # Example: *text*
-# Example: _text_
 # ======================================================================================= #
 def _process_italics(paragraph: str) -> str:
 	processed_paragraph = paragraph
@@ -94,12 +93,6 @@ def _process_italics(paragraph: str) -> str:
 	for match in italic_pattern.finditer(paragraph):
 		text = match.groups()[0]
 		processed_paragraph = processed_paragraph.replace(f'*{text}*', f'<i>{text}</i>', 1)
-
-	# Find every _italic_ syntax and replace it with HTML.
-	italic_pattern_2 = regex.compile(r'\_(\S{1}|\S{1}.*?\S{1})\_', regex.U)
-	for match in italic_pattern_2.finditer(paragraph):
-		text = match.groups()[0]
-		processed_paragraph = processed_paragraph.replace(f'_{text}_', f'<i>{text}</i>', 1)
 
 	return processed_paragraph
 

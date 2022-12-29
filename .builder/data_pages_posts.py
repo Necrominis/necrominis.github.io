@@ -58,7 +58,7 @@ posts = {
 			"necrominis-2022-12-28-7.jpg",
 		],
 		"paragraphs": [
-			f""":A [[Space Marine Assault Intercessor]] painted as a sergeant of the [Astral Hawks]({URL_ASTRAL_HAWKS}) [Space Marine]({URL_SPACE_MARINE}) chapter.""",
+			f""":A [[Space Marine Assault Intercessor]] painted as a sergeant of the [*Astral Hawks*]({URL_ASTRAL_HAWKS}) [*Space Marine*]({URL_SPACE_MARINE}) chapter.""",
 
 			f"""This miniature was a created to test my color scheme and techniques before I use them for the entirety of my upcoming army. Because of this, I'll go into greated detail on the colors and techniques used to make this mini.""",
 
