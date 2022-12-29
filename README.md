@@ -87,6 +87,8 @@ Changes the current working directory within the script to the given path. The p
 
 ## Data
 
+* Add my camera.
+* Add the backdrop papers.
 * Add the flocking and basing materials I got for Christmas.
 * Add those lamp covers I got.
 

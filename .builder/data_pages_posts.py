@@ -47,8 +47,15 @@ posts = {
 				},
 			],
 		},
+		"thumbnail": "necrominis-2022-12-28-thumbnail.jpg",
 		"images": [
-			# "necrominis-.jpeg",
+			"necrominis-2022-12-28-1.jpg",
+			"necrominis-2022-12-28-2.jpg",
+			"necrominis-2022-12-28-3.jpg",
+			"necrominis-2022-12-28-4.jpg",
+			"necrominis-2022-12-28-5.jpg",
+			"necrominis-2022-12-28-6.jpg",
+			"necrominis-2022-12-28-7.jpg",
 		],
 		"paragraphs": [
 			f""":A [[Space Marine Assault Intercessor]] painted as a sergeant of the [Astral Hawks]({URL_ASTRAL_HAWKS}) [Space Marine]({URL_SPACE_MARINE}) chapter.""",
