@@ -9,6 +9,7 @@ from processor import *
 # The following are assumed to exist and required for this to work:
 # data['image-paths']['post-photos']
 # data['no-image']
+# data['no-image-thumbnail']
 # data['no-paint']
 # data['blank-paint']
 # data['tags'][tag_id]['text']
@@ -19,6 +20,7 @@ from processor import *
 # data['pages'][page_id]['properties']['tags'][tag_id]['text']
 # data['pages'][page_id]['properties']['tags'][tag_id]['color']
 # data['pages'][page_id]['properties']['tags'][tag_id]['linked-page']
+# data['pages'][page_id]['thumbnail']
 # data['pages'][page_id]['images']
 # data['pages'][page_id]['paragraphs']
 # data['pages'][page_id]['paints-used']
@@ -562,21 +564,21 @@ def build_gallery_items_html(page_id: str) -> str:
 		page_url = page_id_to_url(item_page_id)
 		page_tag_ids = page['properties']['tags']
 
-		# Pick either the thumbnail, first page image, or the default no-image.
-		page_image = data['no-image']
+		# Pick either the thumbnail, first page image, or the default no-image thumbnail.
+		page_image = data['no-image-thumbnail']
 		# Try thumbnail.
 		if 'thumbnail' in page.keys() and len(page['thumbnail']) > 0:
 			if os.path.isfile(data['image-paths']['post-photos'] + page['thumbnail']):
 				page_image = page['thumbnail']
 			else:
-				print_warning('Missing image file for gallery item for page with ID: ', item_page_id)
+				print_warning('Missing thumbnail image file for gallery item for page with ID: ', item_page_id)
 		# Try first image.
 		elif 'images' in page.keys() and len(page['images']) > 0:
 			if os.path.isfile(data['image-paths']['post-photos'] + page['images'][0]):
 				page_image = page['images'][0]
 			else:
 				print_warning('Missing image file for gallery item for page with ID: ', item_page_id)
-		# Default to missing image.
+		# Default to missing image thumbnail.
 		else:
 			print_warning('Missing image reference for gallery item for page with ID: ', item_page_id)
 
