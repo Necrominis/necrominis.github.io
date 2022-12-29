@@ -84,7 +84,7 @@ https://www.w3schools.com/howto/howto_css_aspect_ratio.asp
 	--pink: rgba(215, 90, 175);
 	--red: rgba(255, 75, 75);
 
-	--white-2: rgba(155, 155, 155);
+	--white-2: rgba(170, 170, 170);
 	--grey-2: rgba(75, 75, 75);
 	--black-2: rgba(45, 45, 45);
 	--brown-2: rgba(100, 70, 50);
@@ -1015,11 +1015,6 @@ hr.invisible {
 
 .paint-used {
 	margin: 0;
-}
-
-.paint-used a {
-	color: var(--text);
-	border: none;
 }
 
 /* GALLERY */
