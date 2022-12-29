@@ -18,6 +18,99 @@ from printer import *
 # ============================================================================ #
 posts = {
 	# ============================================================================ #
+	"2022-12-28": {
+		"title": "Astral Hawks Space Marine Assault Intercessor Sergeant",
+		"type": "post",
+		"properties": {
+			"created": "December 28, 2022",
+			"tags": [
+				"warhammer-40k",
+				"sci-fi",
+				"tabletop",
+				"kitbash",
+			],
+			"manufacturers": [
+				"games-workshop",
+			],
+			"models": [
+				{
+					"text": "Space Marine Assault Intercessor",
+					"url": "https://www.games-workshop.com/en-US/Getting-Started-With-Warhammer-40k-EN-2020",
+				},
+				{
+					"text": "Space Marine Sergeant Helmet",
+					"url": "https://www.games-workshop.com/en-US/Warhammer-40000-Recruit-EN-2020",
+				},
+				{
+					"text": "Skulls",
+					"url": "https://www.games-workshop.com/en-US/Citadel-Skulls-2017",
+				},
+			],
+		},
+		"images": [
+			# "necrominis-.jpeg",
+		],
+		"paragraphs": [
+			f""":A [[Space Marine Assault Intercessor]] painted as a sergeant of the [Astral Hawks]({URL_ASTRAL_HAWKS}) [Space Marine]({URL_SPACE_MARINE}) chapter.""",
+
+			f"""This miniature was a created to test my color scheme and techniques before I use them for the entirety of my upcoming army. Because of this, I'll go into greated detail on the colors and techniques used to make this mini.""",
+
+			f"""Before I could paint the miniature, I created a custom helmet, added a skull to the backpack, and added more detailed terrain to the base. I decided to [kitbash]T({TT_KITBASH}) a custom helmet because I'm planning on replacing the *Space Marine* helmets with ones that have bird beaks, as an homage to the fact that this army is called the *Astral Hawks*. I have some 3D models that I'll be [3D printing]T({TT_3D_PRINTING}) in the future, but for now I thought I'd test making a helmet myself, since I'm impatient. Since I wanted to test a scheme for leadership, rather than a basic foot-soldier, I swapped the helmet with a spare sergeant helmet (which is exactly the same but with a small skull on the forhead). I then shaved the front vents off, to make room to glue the beak on. The beak was clipped off of a bird skull from the *Citadel Skulls* set. I trimmed the parts with a knife until they mostly fit together, and then used some [*Green Stuff*](green-stuff-world-green-stuff-tape) to fill the gaps as I glued them together. I used some [silicone sculpting tools](aye-vision-silicone-sculpting-tools) to try to smooth the *Green Stuff's* transition as much as possible. I then glued a human skull from the same set onto the backpack, for some added detail. Finally, I used some [*Milliput*](milliput-standard-yellow-grey) to fill in the gaps created by the mold parts, and drilled the gun barrel hollow, using my [small hand drill](army-painter-miniature-model-drill).""",
+
+			f"""Now the the mini was ready, I worked on the base. The base had some small rocks and a rough texture already, but I wanted to make it feel more like terrain from the planet, Mars. I glued some cork [*Battlefield Rocks*](army-painter-battlefield-rocks) onto the base, as well as a [Tyranid]T({URL_TYRANID}) skull (also from the *Citadel Skulls* set). I then added some *Rough Grey Pumice* texture paste onto the base for a better looking sandy texture, and to blend the transitions between the base and the rocks. I finally added a few spots of *Agrellan Earth* texture paint for some spots of cracked, dry dirt.""",
+
+			f"""Now that the miniature was ready to paint, I primed it black and then base coated it in the normal black paint I'd be using, since touching up the primer with paint will show the difference in color/finish. Since I planned on using messier techniques for the base, I painted it first. I gave the base a base coat of *Terracotta*, did a heavy [dry-brush]T({TT_DRY_BRUSHING}) with *Cadian Fleshtone*, and a lighter final dry-brush of *Ushabti Bone*. I then used a mix of [stippling]T({TT_STIPPLING}) and [layering]T({TT_LAYERING}) to paint the skulls on the base and backpack with these same colors, but with more of the lighter tans.""",
+
+			f"""To start on the actual *Space Marine*, I [edge-highlighted]T({TT_EDGE_HIGHLIGHTING}) the undersuit that shows through some gaps in the armor, and the straps with *Eshin Grey*. Next, I wanted block out which parts of the armor would be black and which would be blue, so I base coated the blue parts with *Thunderhawk Blue*. I then painted the black armor parts first. I did a thick edge-highlighted of *Incubi Darkness* and a thin edge-highlight with *Thunderhawk Blue*. To add some battle damage, I lightly sponged on some splotches of *Thunderhawk Blue* onto the black armor, and added a few scratch lines as well. For the blue armor parts, I edge-highlighted with *Fenrisian Grey*, and applied the same sponge and scratch techniques again. I used the blur armor's colors to highlight the black in order to tie the miniature together with some coherency.""",
+
+			f"""Next, I painted the red parts. The *Astral Hawks* have a symbol on their shoulder pad of a white hawk on a red circle, but I decided to just expand that circle to the whole shoulder pad. Since this specific *Space Marine* was a sergeant, it has a red helmet too. I base coated the red parts with *Mephiston Red*, then edge-highlighted them with *Evil Sunz Scarlet*. I then did a final edge-highlight on corners with *Hot Orange*, though the colors were so similar it had little effect. Again, I applied some battle damage by sponging on some splotches and adding some scratch lines.""",
+
+			f"""Since I had the red out, I painted some of the wires and dots on the backpack red. I then painted the other wires and dots with  Park Green Flat. And since I had the green out, I decided to paint the helmet lenses next. I base coated the lenses with Scurvy Green, then painded the innter half with Park Green Flat. I then painted the innter corner with *Lime Green* and painted a dot of *White* on the outer corners. This created the effect that the lenses were colored, but transparent and glossy. I also decided to paint some of the other details at this point. I painted the leather strap and bags with a base coat of *Charred Brown*, a scratchy layer of *Flat Brown*, and a scratchy edge-highlight of *Beasty Brown*. Finally, for the *Purity Seal* on the leg, I painted the stamp with *Gory Red* and the paper with *Beasty Brown*. I then layered *Ushabti Bone* onto the paper and added some thin black lines to resemble written text. I then gave it a [wash]T({TT_WASH}) of *Reikland Fleshshade* to add some slight shading to it.""",
+
+			f"""Next was the white details. To start, I applied a custom [*Astral Hawks* (raptor head) waterslide decal](chapter-customizer-raptor-head-decals) to the red shoulder pad. I used [Micro Set](microscale-micro-set) to help it apply, but I really needed [Micro Sol](microscale-micro-sol) (which helps decals stretch around curved surfaces better). I then painted over the decal with *Corax White*, since I wanted its white to match the other white details I'll be doing. I then added some red battle damage onto the white logo to make it look like it was painted on but was chipping away. On the other shoulder pad, I [free-handed]T({TT_FREE_HANDING}) a white arrow (which symbolizes this *Space Marine* as part of a Battline squad). I also painted the right knee pad with *Corax White* as well, wich an edge-highlight of pure *White*. I added a white "II" to the shoulder pad to mark this *Space Marine* as part of 2nd Company, and painted a black "I" on the white knee pad to mark it as part of 1st Squadron. I then added some battle damage to these markings just like I did with the hawk logo.""",
+
+			f"""The last things I needed to paint were the grey and metal parts. First, I base coated the grey parts on the weapons with *Eshin Grey*, and edge-highlighted with *Neutral Grey*. I then applied some battle damage with this color as well. For the metal parts on the weapons, backpack, helmet, and armor, I simply base coated them with *Leadbelcher* and edge-highlighted them with *Silver*. I also dotted any rivets on the mini with *Silver* as well.""",
+			
+			f"""Lastly, I noticed some of the battle damaged needed a little extra pop, so I added *Black* into the largest spots and scratches to give the effect that the paint had been scratched all the way to the bare metal underneath. Finally, I painted the base rim *Black* and gave the miniature a satin varnish (for protective purposes), then a matte varnish (for the final finish), and the miniature was complete.""",
+			
+			f"""Overall, I think this miniature turned out beautifully. The edge-highlighting and battle damage really pops, and the color scheme works well. This miniature will work as a good template for the rest of my army. That being said, there are some things I'll need to change, when I start my army. First, the red is too bright. I wanted to use a darker red, but I didn't have one at the moment, and I didn't want to mix colors since this'll need to be replicated to many miniatures and matching color mictures isn't easy. This miniature also took about two whole days to paint. This will need to be shortened, so I can paint an army without taking a year to finish. The edge-highlighting takes up the most time, so I'll have to experiment with a quicker and easier method of adding highlights. I might try to see if sponging battle damage toward the edges will be a good alternative. Overall, this miniature looks too good to be quickly replicated in bulk, but as a standalone miniature, it looks great. I might use this method on more important miniatures in my armies, like captains and unique characters.""",
+		],
+		"paints-used": [
+			"vallejo-model-color-white",
+			"vallejo-model-color-lime-green",
+			"vallejo-model-color-black",
+			"vallejo-model-color-park-green-flat",
+			"vallejo-model-color-flat-brown",
+			"vallejo-model-color-neutral-grey",
+			"vallejo-game-color-charred-brown",
+			"vallejo-game-color-terracotta",
+			"vallejo-game-color-beasty-brown",
+			"vallejo-game-color-gory-red",
+			"vallejo-game-color-silver",
+			"vallejo-game-color-scurvy-green",
+			"vallejo-game-color-hot-orange",
+			"citadel-shade-reikland-fleshshade",
+			"citadel-technical-agrellan-earth",
+			"citadel-base-leadbelcher",
+			"citadel-layer-ushabti-bone",
+			"citadel-base-corax-white",
+			"citadel-layer-cadian-fleshtone",
+			"citadel-layer-eshin-grey",
+			"citadel-layer-fenrisian-grey",
+			"citadel-layer-thunderhawk-blue",
+			"citadel-base-incubi-darkness",
+			"citadel-layer-evil-sunz-scarlet",
+			"citadel-base-mephiston-red",
+			"stynylrez-surface-primer-black",
+			"krylon-clear-coatings-matte-finish",
+			"krylon-colormaxx-satin-crystal-clear",
+			"vallejo-auxiliaries-airbrush-thinner",
+			"liquitex-acrylic-mediums-flow-aid",
+			"liquitex-acrylic-mediums-slow-dri",
+			"vallejo-diorama-effects-rough-grey-pumice",
+		],
+	},
+	# ============================================================================ #
 	"2022-12-21": {
 		"title": "Four Ghostly Myrmourn Banshees",
 		"type": "post",
@@ -141,7 +234,7 @@ posts = {
 	},
 	# ============================================================================ #
 	"2022-12-20-A": {
-		"title": "Violet Armored Vampire",
+		"title": "Violet Armored Soulblight Vampire",
 		"type": "post",
 		"properties": {
 			"created": "December 20, 2022",
@@ -269,7 +362,7 @@ posts = {
 	},
 	# ============================================================================ #
 	"2022-06-10": {
-		"title": "Vampire Necromancer",
+		"title": "Soulblight Vampire Necromancer",
 		"type": "post",
 		"properties": {
 			"created": "June 10, 2022",

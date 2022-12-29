@@ -569,16 +569,16 @@ def build_gallery_items_html(page_id: str) -> str:
 			if os.path.isfile(data['image-paths']['post-photos'] + page['thumbnail']):
 				page_image = page['thumbnail']
 			else:
-				print_warning('Missing image file for gallery item for page with ID: ', page_id)
+				print_warning('Missing image file for gallery item for page with ID: ', item_page_id)
 		# Try first image.
 		elif 'images' in page.keys() and len(page['images']) > 0:
 			if os.path.isfile(data['image-paths']['post-photos'] + page['images'][0]):
 				page_image = page['images'][0]
 			else:
-				print_warning('Missing image file for gallery item for page with ID: ', page_id)
+				print_warning('Missing image file for gallery item for page with ID: ', item_page_id)
 		# Default to missing image.
 		else:
-			print_warning('Missing image reference for gallery item for page with ID: ', page_id)
+			print_warning('Missing image reference for gallery item for page with ID: ', item_page_id)
 
 		# Build the starter gallery item HTML, and add the image and URL.
 		item_html = read_html_file('gallery-item.html')

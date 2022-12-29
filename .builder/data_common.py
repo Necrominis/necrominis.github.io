@@ -27,7 +27,11 @@ TT_DRY_BRUSHING = """Dry-brushing is the technique of wiping most of the paint o
 
 TT_EDGE_HIGHLIGHTING = """Edge highlighting is the technique where you paint the raised edges and corners on a miniature brighter than noraml, in order to help them stand out more, and because edges tend to reflect slightly more light in real life."""
 
+TT_FREE_HANDING = """Free-handing is the technique of painting shapes and pictures (such as symbols, heraldry, etc.) by hand, rather than with decals."""
+
 TT_GLAZING = """Glazing is the technique of using very diluted paint in order to tint a miniature with a certain color. Glazing can be applied in layers to create smooth transitions between bolors."""
+
+TT_KITBASH = """Kitbashing is a term that describes combining multiple model "kits", by cutting and gluing different parts together to create a more customized model."""
 
 TT_LAYERING = """Layering is the technique of creating a smooth blend between colors by using multiple layers slightly thinned paint and shrinking each layer to create a smooth transition between colors."""
 
@@ -57,6 +61,7 @@ TT_ZENITHAL_HIGHLIGHTING = """Zenithal highlighting the technique of base coatin
 	#                                    LINKS                                     #
 	# ============================================================================ #
 
+URL_ASTRAL_HAWKS = """https://warhammer40k.fandom.com/wiki/Astral_Hawks"""
 URL_CHARIZARD = """https://bulbapedia.bulbagarden.net/wiki/Charizard"""
 URL_DND = """https://dnd.wizards.com/what-is-dnd"""
 URL_HERO_FORGE = """https://www.heroforge.com/"""
@@ -70,6 +75,7 @@ URL_SPACE_MARINE = """https://en.wikipedia.org/wiki/Adeptus_Astartes"""
 URL_STAR_WARS = """https://en.wikipedia.org/wiki/Star_Wars"""
 URL_STAR_WARS_LEGION = """https://www.fantasyflightgames.com/en/products/star-wars-legion"""
 URL_STORMCAST_ETERNALS = """https://ageofsigmar.fandom.com/wiki/Stormcast_Eternals"""
+URL_TYRANID = """https://warhammer40k.fandom.com/wiki/Tyranids"""
 URL_WARHAMMER = """https://www.warhammer-community.com/en-us"""
 
 

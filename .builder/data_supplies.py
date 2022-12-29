@@ -302,6 +302,13 @@ _equipment = {
 
 # ============================================================================ #
 _materials = {
+	"army-painter-battlefield-rocks": {
+		"text": "Brown Battleground",
+		"brand": "army-painter",
+		"category": "materials",
+		"official-name": "The Army Painter Battlefield Basing: Battlefield Rocks",
+		"url": "https://www.thearmypainter.com/shop/eu/bf4117p",
+	},
 	"army-painter-brown-battleground": {
 		"text": "Brown Battleground",
 		"brand": "army-painter",
@@ -322,6 +329,13 @@ _materials = {
 		"category": "materials",
 		"official-name": "The Army Painter Miniature & Model Magnets",
 		"url": "https://www.thearmypainter.com/shop/us/tl5038p",
+	},
+	"chapter-customizer-raptor-head-decals": {
+		"text": "Raptor Head Decals",
+		"brand": "chapter-customizer",
+		"category": "materials",
+		"official-name": "Chapter Customizer Raptor Head Decal White Version",
+		"url": "https://www.chaptercustomizer.com/products/cc-decal-001?variant=40619640140",
 	},
 	"green-stuff-world-blue-stuff-mold": {
 		"text": "Blue Stuff Mold",
@@ -357,6 +371,13 @@ _materials = {
 		"category": "materials",
 		"official-name": "Microscale Micro Set Setting Solution For Decals",
 		"url": "http://www.microscale.com/Merchant2/merchant.mvc?Screen=PROD&Product_Code=MI-1",
+	},
+	"microscale-micro-sol": {
+		"text": "Micro Set",
+		"brand": "microscale",
+		"category": "materials",
+		"official-name": "Microscale Micro Sol Setting Solution For Decals",
+		"url": "https://www.microscale.com/Merchant2/merchant.mvc?Screen=PROD&Product_Code=MI-2&Store_Code=MD",
 	},
 	"milliput-standard-yellow-grey": {
 		"text": "Standard Yellow-Grey",
