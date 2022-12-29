@@ -7,6 +7,7 @@ from printer import *
 
 # Make sure to always use trailing commas!
 # Make sure to use ’ instead of ' in text!
+# Make sure to put italics and bold outside of links!
 # Press Alt+Z to toggle word-wrap when typing paragraphs!
 # Always add newest posts to the top!
 # Dates are YYYY-MM-DD-A where A-Z is for multiple posts in one day!
@@ -58,13 +59,13 @@ posts = {
 			"necrominis-2022-12-28-7.jpg",
 		],
 		"paragraphs": [
-			f""":A [[Space Marine Assault Intercessor Sergeant]] painted as a member of the [*Astral Hawks*]({URL_ASTRAL_HAWKS}) [*Space Marine*]({URL_SPACE_MARINE}) chapter.""",
+			f""":A [[Space Marine Assault Intercessor Sergeant]] painted as a member of the *[Astral Hawks]({URL_ASTRAL_HAWKS})* *[Space Marine]({URL_SPACE_MARINE})* chapter.""",
 
 			f"""This miniature was a created to test my color scheme and techniques before I use them for the entirety of my upcoming army. Because of this, I’ll go into greated detail on the colors and techniques used to make this mini.""",
 
-			f"""Before I could paint the miniature, I created a custom helmet, added a skull to the backpack, and added more detailed terrain to the base. I decided to [kitbash]T({TT_KITBASH}) a custom helmet because I’m planning on replacing the *Space Marine* helmets with ones that have bird beaks, as an homage to the fact that this army is called the *Astral Hawks*. I have some 3D models that I’ll be [3D printing]T({TT_3D_PRINTING}) in the future, but for now I thought I’d test making a helmet myself, since I’m impatient. Since I wanted to test a scheme for leadership, rather than a basic foot-soldier, I swapped the helmet with a spare sergeant helmet (which is exactly the same but with a small skull on the forhead). I then shaved the front vents off, to make room to glue the beak on. The beak was clipped off of a bird skull from the *Citadel Skulls* set. I trimmed the parts with a knife until they mostly fit together, and then used some [*Green Stuff*](green-stuff-world-green-stuff-tape) to fill the gaps as I glued them together. I used some [silicone sculpting tools](aye-vision-silicone-sculpting-tools) to try to smooth the *Green Stuff’s* transition as much as possible. I then glued a human skull from the same set onto the backpack, for some added detail. Finally, I used some [*Milliput*](milliput-standard-yellow-grey) to fill in the gaps created by the mold parts, and drilled the gun barrel hollow, using my [small hand drill](army-painter-miniature-model-drill).""",
+			f"""Before I could paint the miniature, I created a custom helmet, added a skull to the backpack, and added more detailed terrain to the base. I decided to [kitbash]T({TT_KITBASH}) a custom helmet because I’m planning on replacing the *Space Marine* helmets with ones that have bird beaks, as an homage to the fact that this army is called the *Astral Hawks*. I have some 3D models that I’ll be [3D printing]T({TT_3D_PRINTING}) in the future, but for now I thought I’d test making a helmet myself, since I’m impatient. Since I wanted to test a scheme for leadership, rather than a basic foot-soldier, I swapped the helmet with a spare sergeant helmet (which is exactly the same but with a small skull on the forhead). I then shaved the front vents off, to make room to glue the beak on. The beak was clipped off of a bird skull from the *Citadel Skulls* set. I trimmed the parts with a knife until they mostly fit together, and then used some *[Green Stuff](green-stuff-world-green-stuff-tape)* to fill the gaps as I glued them together. I used some [silicone sculpting tools](aye-vision-silicone-sculpting-tools) to try to smooth the *Green Stuff’s* transition as much as possible. I then glued a human skull from the same set onto the backpack, for some added detail. Finally, I used some *[Milliput](milliput-standard-yellow-grey)* to fill in the gaps created by the mold parts, and drilled the gun barrel hollow, using my [small hand drill](army-painter-miniature-model-drill).""",
 
-			f"""Now the the mini was ready, I worked on the base. The base had some small rocks and a rough texture already, but I wanted to make it feel more like terrain from the planet, Mars. I glued some cork [*Battlefield Rocks*](army-painter-battlefield-rocks) onto the base, as well as a [Tyranid]T({URL_TYRANID}) skull (also from the *Citadel Skulls* set). I then added some *Rough Grey Pumice* texture paste onto the base for a better looking sandy texture, and to blend the transitions between the base and the rocks. I finally added a few spots of *Agrellan Earth* texture paint for some spots of cracked, dry dirt.""",
+			f"""Now the the mini was ready, I worked on the base. The base had some small rocks and a rough texture already, but I wanted to make it feel more like terrain from the planet, Mars. I glued some cork *[Battlefield Rocks](army-painter-battlefield-rocks)* onto the base, as well as a [Tyranid]T({URL_TYRANID}) skull (also from the *Citadel Skulls* set). I then added some *Rough Grey Pumice* texture paste onto the base for a better looking sandy texture, and to blend the transitions between the base and the rocks. I finally added a few spots of *Agrellan Earth* texture paint for some spots of cracked, dry dirt.""",
 
 			f"""Now that the miniature was ready to paint, I primed it black and then base coated it in the normal black paint I’d be using, since touching up the primer with paint will show the difference in color/finish. Since I planned on using messier techniques for the base, I painted it first. I gave the base a base coat of *Terracotta*, did a heavy [dry-brush]T({TT_DRY_BRUSHING}) with *Cadian Fleshtone*, and a lighter final dry-brush of *Ushabti Bone*. I then used a mix of [stippling]T({TT_STIPPLING}) and [layering]T({TT_LAYERING}) to paint the skulls on the base and backpack with these same colors, but with more of the lighter tans.""",
 
@@ -340,7 +341,7 @@ posts = {
 			"necrominis-2022-07-02-raw-3.jpg",
 		],
 		"paragraphs": [
-			f""":A [[Gelatinous Cube]] painted like a green slime rather than the usual bluish clear in [*Dungeons & Dragons*]({URL_DND}).""",
+			f""":A [[Gelatinous Cube]] painted like a green slime rather than the usual bluish clear in *[Dungeons & Dragons]({URL_DND})*.""",
 
 			f"""I’ve owned a clear gelatinous cube pre-painted *D&D* mini for a while now, but I saw the mini again at my local game store when I was looking for new minis. Since I haven’t used my *Tesseract Glow* paint yet and rarely use my inks, I thought it’d be cool to make the iconic green slime out of the mini. So, I bought it.""",
 			
