@@ -219,6 +219,9 @@ def process_paragraph(paragraph: str) -> str:
 
 	processed_paragraph = _process_links(processed_paragraph)
 	processed_paragraph = _process_tooltips(processed_paragraph)
+
+	if "'" in processed_paragraph:
+		print_warning("Paragraph contains ', which should be replaced with `.")
 	
 	return processed_paragraph
 
