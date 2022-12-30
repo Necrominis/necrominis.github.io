@@ -261,11 +261,14 @@ posts = {
 				},
 			],
 		},
+		"thumbnail": "necrominis-2022-12-20-A-thumbnail.jpg",
 		"images": [
-			"necrominis-2022-12-20-A-raw-1.jpg",
-			"necrominis-2022-12-20-A-raw-2.jpg",
-			"necrominis-2022-12-20-A-raw-3.jpg",
-			"necrominis-2022-12-20-A-raw-4.jpg",
+			"necrominis-2022-12-20-A-1.jpg",
+			"necrominis-2022-12-20-A-2.jpg",
+			"necrominis-2022-12-20-A-3.jpg",
+			"necrominis-2022-12-20-A-4.jpg",
+			"necrominis-2022-12-20-A-5.jpg",
+			"necrominis-2022-12-20-A-6.jpg",
 		],
 		"paragraphs": [
 			f""":A [[Soulblight Gravelord Vampire]] painted with a dark purple and red color scheme.""",
@@ -504,7 +507,7 @@ posts = {
 			
 			f"""I used a lot of colors on this mini, compared to usual, but I really ranted to add some variety in the many articles of clothing, and equipment. It also took a bit to get the squig’s color right, as I didn’t quite have the right paint colors for what I wanted. I tried to make the squig orange, but I didn’t have any light oranges that weren’t desaturated and almost tan, so it took a few inks and washes to get it to turn out right.""",
 			
-			f"""For the base, I simply used some *Army Painter* [*Brown Battleground*](army-painter-brown-battleground) basing sand and [*Field Grass*](army-painter-field-grass) flocking. I then finished it off with a brown rim.""",
+			f"""For the base, I simply used some *Army Painter* *[Brown Battleground](army-painter-brown-battleground)* basing sand and *[Field Grass](army-painter-field-grass)* flocking. I then finished it off with a brown rim.""",
 
 			f"""Overall, I think the ork’s skin turned out beautifully, and is my best work yet, for skin tones. The squig didn’t turn out horribly either, though I’m not entirely happy with the color I ended up with. For my first airbrushed mini, I think this was a resounding success, and I’m excited to use my airbrush on anything I can.""",
 		],
@@ -561,13 +564,13 @@ posts = {
 			"necrominis-2022-03-13-raw-2.jpeg",
 		],
 		"paragraphs": [
-			f""":A [[Dragon Hatchling]] painted with an orange and teal color scheme, remniscent of the [*Pokémon*]({URL_POKEMON}), [Charizard]({URL_CHARIZARD}).""",
+			f""":A [[Dragon Hatchling]] painted with an orange and teal color scheme, remniscent of the *[Pokémon]({URL_POKEMON})*, [Charizard]({URL_CHARIZARD}).""",
 
 			f"""I painted this mini as a gift for my partner, so I decided to paint it orange, instead of a traditional forest color like green, as it’s my partner’s color. Being such a small mini, the details were very straining to paint. I individually painted each scale, and while it turned out nice, it was a bit straining to accomplish.""",
 			
 			f"""This was my first time painting a metal miniature, which was...interesting. After gluing the wings on, I broke them off three times through the painting process. Not sure I’m a fan of the brittleness of metal minis.""",
 			
-			f"""Since the mini was on a random rocky shape, I decided to clue the mini onto a 1-inch wood disc for a base. I then blended the terrain with some [*Milliput*]({"milliput-standard-yellow-grey"}) epoxy, and covered it in grass, using [*Army Painter Field Grass*]({"army-painter-field-grass"}) and a few [*Vallejo* grass tufts]({"vallejo-wild-tuft-green"}). I painted the base and even the grass with the same teal as the wings, to try and limit my color palette, as well as bring everything together.""",
+			f"""Since the mini was on a random rocky shape, I decided to clue the mini onto a 1-inch wood disc for a base. I then blended the terrain with some *[Milliput]({"milliput-standard-yellow-grey"})* epoxy, and covered it in grass, using *[Army Painter Field Grass]({"army-painter-field-grass"})* and a few [*Vallejo* grass tufts]({"vallejo-wild-tuft-green"}). I painted the base and even the grass with the same teal as the wings, to try and limit my color palette, as well as bring everything together.""",
 			
 			f"""Overall, I think the miniature turned out great. For having such small details, I was able to cleanly paint most of them, including the tiny teeth and eyes. I don’t think I’d paint a small metal miniature again, though, as it was too small to pin the parts together, and super glue didn’t hold the best.""",
 		],
@@ -616,7 +619,7 @@ posts = {
 		"paragraphs": [
 			f""":A [[Stormcast Eternals Vindicator]] painted black and gold.""",
 
-			f"""I painted this miniature partly because I liked the black and gold coloring of the [*Stormcast Eternals*]({URL_STORMCAST_ETERNALS}) army *Anvils of Heldenhammer*, but also as a black armor test for my future *Space Marine* army.""",
+			f"""I painted this miniature partly because I liked the black and gold coloring of the *[Stormcast Eternals]({URL_STORMCAST_ETERNALS})* army *Anvils of Heldenhammer*, but also as a black armor test for my future *Space Marine* army.""",
 			
 			f"""The majority of the armor is black, highlighted slightly toward light blue. This blue helped match it with the blue glow of the spear head and the shield. The glow effect on the spear head isn’t as good as I would’ve liked, but I had to use a subpar technique for it. Being winter and having the heat on has really dried out the air in my house. Even with a humidifier I found the paint drying very fast, often before even touching my brush to the model. This meant that glazing the standard gradient-based glow effects wouldn’t work (I tested it on a spare mini and it didn’t work). Therefore the glow effect was a mix of dry-brushing and edge-highlighting.""",
 			
@@ -743,7 +746,7 @@ posts = {
 			"necrominis-2021-10-26-raw-2.jpeg",
 		],
 		"paragraphs": [
-			f""":A [[Huge Air Elemental]] from [*Pathfinder*]({URL_PATHFINDER}), though it’ll be used for playing [*Dungeons & Dragons*]({URL_DND}).""",
+			f""":A [[Huge Air Elemental]] from *[Pathfinder]({URL_PATHFINDER})*, though it’ll be used for playing *[Dungeons & Dragons]({URL_DND})*.""",
 
 			f"""This miniature actually comes as a semi-transparent material, but I decided to paint it with solid colors, as they’d better give the bright white effect I was going for. Still feels like an unfortunate waste of the transparent opportunity, though.""",
 			
@@ -792,7 +795,7 @@ posts = {
 			"necrominis-2021-10-24-raw-3.jpeg",
 		],
 		"paragraphs": [
-			f""":Six [[Myconid Adults]] (fungus people from [*Dungeons & Dragons*]({URL_DND})) painted like the box art.""",
+			f""":Six [[Myconid Adults]] (fungus people from *[Dungeons & Dragons]({URL_DND}))* painted like the box art.""",
 			
 			f"""I don’t normally paint like the box art, as I find coming up with a color scheme part of the fun, but the original colors are just too good. With the way these creatures are supposed to look, there aren’t many harsh edges between colors. Despite being multi-colored, each color kind of fades into the next. For this, I tried a new technique that I’d like to call "[dry-blending]T({TT_DRY_BLENDING})".""",
 			
@@ -858,9 +861,9 @@ posts = {
 			"necrominis-2021-10-08-B-raw-2.jpeg",
 		],
 		"paragraphs": [
-			f""":A [3D printed]T({TT_3D_PRINTING}) [[Robot Flesh-Eater]], stepping on a dead [Space Marine’s]({URL_SPACE_MARINE}) helmet.""",
+			f""":A [3D printed]T({TT_3D_PRINTING}) [[Robot Flesh-Eater]], stepping on a dead *[Space Marine’s]({URL_SPACE_MARINE})* helmet.""",
 
-			f"""This mini was 3D printed on my [*Anycubic Photon S*](anycubic-photon-s) with [*Anycubic* UV resin](anycubic-uv-resin-grey). I 3D printed this mini in parts, and he turned out great (apart from the missing claw on his right hand). I also 3D printed the base and the *Space Marine* helmet.""",
+			f"""This mini was 3D printed on my *[Anycubic Photon S](anycubic-photon-s)* with [*Anycubic* UV resin](anycubic-uv-resin-grey). I 3D printed this mini in parts, and he turned out great (apart from the missing claw on his right hand). I also 3D printed the base and the *Space Marine* helmet.""",
 			
 			f"""This miniature looked so cool, and (in my opinion) I botched his paint job. I tried to keep him metallic, going off of the box-art color scheme of *[Warhammer’s Necrons](https://www.games-workshop.com/en-GB/Necron-Triarch-Praetorians-2020)*, but it didn’t turn out quite right. The gun-metal color worked fine, but the silver (on the head, toes, and claws) looked weird. The bronze colored metal parts aren’t perfect, but they work. They’re simply the same paint-job as the metal, but covered in a few layers of *Guilliman Flesh* *Contrast* paint. The blood also turned out a bit brighter than I would’ve liked. And finally, the metallic blue on the *Space Marine* helmet looks poor, but I was so fed up with this mini I’d rather print a new one and try a different method than fix it.""",
 			
@@ -911,7 +914,7 @@ posts = {
 		"paragraphs": [
 			f""":A [3D printed]T({TT_3D_PRINTING}) [[Steampunk Robot]], wandering through the desert.""",
 
-			f"""This mini was 3D printed on my [*Anycubic Photon S*](anycubic-photon-s) with [*Anycubic* UV resin](anycubic-uv-resin-grey).""",
+			f"""This mini was 3D printed on my *[Anycubic Photon S](anycubic-photon-s)* with [*Anycubic* UV resin](anycubic-uv-resin-grey).""",
 
 			f"""This has to be the smallest mini I’ve painted, so far. It was even printed at 120% scale, just to make sure he wouldn’t break if I breath on him too hard. Despite this, his print had two small failures. His left hand is partially missing, but it’s so small I elected to just accept it. The winding knob on his back was missing the lower half, so I sculpted a fix with some [*Green Stuff* epoxy](green-stuff-world-green-stuff-tape)*. It’s not perfect, but it really did turn out pretty good, considering the small size and super thin limbs.""",
 			
@@ -968,11 +971,11 @@ posts = {
 		"paragraphs": [
 			f""":A [3D printed]T({TT_3D_PRINTING}) [[Wolf]] sitting on some grass.""",
 
-			f"""This mini was 3D printed on my [*Anycubic Photon S*](anycubic-photon-s) with [*Anycubic* UV resin](anycubic-uv-resin-grey). It printed with a small failure on the tail, so the tail was re-sculpted with some [*Green Stuff*](green-stuff-world-green-stuff-tape). I’m surprised how well it turned out, given that I’m not a sculpter.""",
+			f"""This mini was 3D printed on my *[Anycubic Photon S](anycubic-photon-s)* with [*Anycubic* UV resin](anycubic-uv-resin-grey). It printed with a small failure on the tail, so the tail was re-sculpted with some *[Green Stuff](green-stuff-world-green-stuff-tape)*. I’m surprised how well it turned out, given that I’m not a sculpter.""",
 			
 			f"""For this paint-job, I simply [wet-blended]T({TT_WET_BLENDING}) the base-coat from the dark grey on the back, to brown in the middle, to tan on the belly. I then [dry-brushed]T({TT_DRY_BRUSHING}) highlights over the entirety of the fur. Finally, I painted the eyes, nose, and claws, and gave it a base.""",
 			
-			f"""The base was a plain 3D printed base, with some slight hills made with *Green Stuff*. I covered it in *Stirland Mud*, then added some [*Army Painter Field Grass*](army-painter-field-grass) and a few *[Vallejo* grass tufts](vallejo-wild-tuft-green).""",
+			f"""The base was a plain 3D printed base, with some slight hills made with *Green Stuff*. I covered it in *Stirland Mud*, then added some *[Army Painter Field Grass](army-painter-field-grass)* and a few [*Vallejo* grass tufts](vallejo-wild-tuft-green).""",
 			
 			f"""For some added detail, I gloss varnished the nose and claws, to contrast with the matte varnish on the rest of the model. The nose should look wet, and the claws shiny. I also gloss varnished the base rim as well, as I was curious about how it would turn out.""",
 
@@ -1020,11 +1023,11 @@ posts = {
 		"paragraphs": [
 			f""":A [3D printed]T({TT_3D_PRINTING}) [[Plague Doctor Alchemist]] painted a glow effect around the lantern.""",
 
-			f"""This mini was 3D printed on my [*Anycubic Photon S*](anycubic-photon-s) with [*Anycubic* UV resin](anycubic-uv-resin-grey).""",
+			f"""This mini was 3D printed on my *[Anycubic Photon S](anycubic-photon-s)* with [*Anycubic* UV resin](anycubic-uv-resin-grey).""",
 
 			f"""This mini started out a bit messy, but turned out really well, in my opinion. I did some messy [layering]T({TT_LAYERING}) to highlight the clothes and equipment. It wasn’t going the best, but adding the glow effect around the lantern (called [*Object-Source Lighting*, or OSL]T({TT_OSL})) really improved the look and tied everything together.""",
 			
-			f"""Printing this mini was a disaster, however. It was a test print, after tweaking my settings on my [3D printer](anycubic-photon-s). The shaft of the cane broke off, which I replaced with 1mm metal wire. The lantern broke off and had to be glued back on. The lower half of his cane-holding arm printed badly, so it was re-sculpted with some [*Green Stuff*](green-stuff-world-green-stuff-tape). Finally, the feather broke off after painting and also had to be glued back on. Needless to say, this mini will be handled as delicately as possible from now on.""",
+			f"""Printing this mini was a disaster, however. It was a test print, after tweaking my settings on my [3D printer](anycubic-photon-s). The shaft of the cane broke off, which I replaced with 1mm metal wire. The lantern broke off and had to be glued back on. The lower half of his cane-holding arm printed badly, so it was re-sculpted with some *[Green Stuff](green-stuff-world-green-stuff-tape)*. Finally, the feather broke off after painting and also had to be glued back on. Needless to say, this mini will be handled as delicately as possible from now on.""",
 
 			f"""The base was fun to make. It was a [*LITKO* 1-inch base](litko-1-inch-circular-base), covered in *Green Stuff*, then rolled with a [brick-pattern rolling pin](green-stuff-world-rolling-pin-dutch-bricks).""",
 			
@@ -1072,7 +1075,7 @@ posts = {
 			"necrominis-2021-07-05-raw-2.jpeg",
 		],
 		"paragraphs": [
-			f""":A small toy [[Imperial AT-ST Walker]] from [*Star Wars*]({URL_STAR_WARS}), repainted and given a forest base.""",
+			f""":A small toy [[Imperial AT-ST Walker]] from *[Star Wars]({URL_STAR_WARS})*, repainted and given a forest base.""",
 
 			f"""Following a [painting tutorial by Sorastro](https://www.youtube.com/watch?v=J1pq6_1BIE8), I primed and painted this toy, and gave it a base. I don’t normally follow tutorials exactly — I usually just use them for inspiration — but given that the model wasn’t the large one from [Star Wars: Legion]({URL_STAR_WARS_LEGION}), and since the base is entirely different, it still came out unique.""",
 			
@@ -1126,9 +1129,9 @@ posts = {
 			"necrominis-2021-05-25-raw-2.jpeg",
 		],
 		"paragraphs": [
-			f""":A [[Tiefling Wizard]], designed myself and purchased through [*Hero Forge*]({URL_HERO_FORGE}).""",
+			f""":A [[Tiefling Wizard]], designed myself and purchased through *[Hero Forge]({URL_HERO_FORGE})*.""",
 
-			f"""I designed this Tiefling Wizard as a possible character for [*Dungeons & Dragons*]({URL_DND}) (who unfortunately never got to be played). Then, when I made some minis in *Hero Forge*, I decided to make him, and buy him.""",
+			f"""I designed this Tiefling Wizard as a possible character for *[Dungeons & Dragons]({URL_DND})* (who unfortunately never got to be played). Then, when I made some minis in *Hero Forge*, I decided to make him, and buy him.""",
 			
 			f"""The robes on this mini were very annoying to paint, so I sped through them unfortunately. The fireball is also super messy because I used [layering]T({TT_LAYERING}), which I’ve never done for fire before. Normally I use [dry-brushing]T({TT_DRY_BRUSHING}) for fire, but it was the last thing I painted so I didn’t want to risk the brushing spilling over onto his arm.""",
 			
@@ -1182,9 +1185,9 @@ posts = {
 			"necrominis-2021-05-16-raw-3.jpeg",
 		],
 		"paragraphs": [
-			f""":A [[Half-Orc Soldier]], designed myself and purchased through [*Hero Forge*]({URL_HERO_FORGE}).""",
+			f""":A [[Half-Orc Soldier]], designed myself and purchased through *[Hero Forge]({URL_HERO_FORGE})*.""",
 
-			f"""This is my character for a [*Dungeons & Dragons*]({URL_DND}) campaign I used to play in. His name is Urag Gro-Shub (a name stolen from the orc librarian character in [*Skyrim*]({URL_SKYRIM})). My character was a half-orc fighter who was in the military. He hates magic, thinking it ruins the sanctity of battle and honor, which also brought on the quote by me, *"why would they change combat? Combat is combat!"*""",
+			f"""This is my character for a *[Dungeons & Dragons]({URL_DND})* campaign I used to play in. His name is Urag Gro-Shub (a name stolen from the orc librarian character in *[Skyrim]({URL_SKYRIM})*). My character was a half-orc fighter who was in the military. He hates magic, thinking it ruins the sanctity of battle and honor, which also brought on the quote by me, *"why would they change combat? Combat is combat!"*""",
 			
 			f"""Anyway, this mini was very hard to paint because the cape and the arrows sticking out of the ground were blocking my brush from reaching a lot of spots on his back and feet. I had to just accept that his back will not be very detailed (or even fully painted).""",
 			
@@ -1246,7 +1249,7 @@ posts = {
 		"paragraphs": [
 			f""":A [[Space Marine]] painted with an astronaut-like color scheme.""",
 
-			f"""When I first got this mini from a [*Warhammer*]({URL_WARHAMMER}) magazine, I noticed that under the right foot was a shoe imprint. It gets covered up by the foot, but it got me thinking about the astronauts on the moon leaving behind their foot prints. This inspired me to paint this [*Space Marine*]({URL_SPACE_MARINE}) with an astronaut theme.""",
+			f"""When I first got this mini from a *[Warhammer]({URL_WARHAMMER})* magazine, I noticed that under the right foot was a shoe imprint. It gets covered up by the foot, but it got me thinking about the astronauts on the moon leaving behind their foot prints. This inspired me to paint this *[Space Marine]({URL_SPACE_MARINE})* with an astronaut theme.""",
 			
 			f"""I tried a new technique for recess shading (or panel lining). Instead of painting the base coat and shading the recesses, I decided to paint the recess color first, then paint the base coat after and avoid the recesses. This technique worked really well, in my opinion, because it gave strong dark lines to break apart the different panels and edges, but took so much longer that I don’t know if I’ll use it very often.""",
 			
@@ -1309,7 +1312,7 @@ posts = {
 		"paragraphs": [
 			f""":A [3D printed]T({TT_3D_PRINTING}) [[Lich]] bust painted with heavy lighting effects.""",
 
-			f"""This mini was 3D printed on my [*Anycubic Photon S*](anycubic-photon-s) with [*Anycubic* UV resin](anycubic-uv-resin-grey).""",
+			f"""This mini was 3D printed on my *[Anycubic Photon S](anycubic-photon-s)* with [*Anycubic* UV resin](anycubic-uv-resin-grey).""",
 
 			f"""This was my first real attempt at two things: [zenithal highlighting]T({TT_ZENITHAL_HIGHLIGHTING}) and [object-source Lighting]T({TT_OSL}). I used these two techniques to give a moonlight effect from the back of the lich, and a purple magic glow from the front of the lich, as if he’s standing in front of some purple magic at night.""",
 			
@@ -1358,9 +1361,9 @@ posts = {
 			"necrominis-2021-03-06-raw-3.jpeg",
 		],
 		"paragraphs": [
-			f""":A [3D printed]T({TT_3D_PRINTING}) [[Sand Worm]] painted like the iconic purple worms in [*Dungeons & Dragons*]({URL_DND})""",
+			f""":A [3D printed]T({TT_3D_PRINTING}) [[Sand Worm]] painted like the iconic purple worms in *[Dungeons & Dragons]({URL_DND})*.""",
 
-			f"""This mini was 3D printed on my [*Anycubic Photon S*](anycubic-photon-s) with [*Anycubic* UV resin](anycubic-uv-resin-grey).""",
+			f"""This mini was 3D printed on my *[Anycubic Photon S](anycubic-photon-s)* with [*Anycubic* UV resin](anycubic-uv-resin-grey).""",
 
 			f"""I couldn’t really decide on colors here, so there was a lot of adjusting and repainting. At first, it was planned to be a brown and tan worm, to match the desert theme. It was a bit monochromatic and plain, so I used some yellow ink to add some color to the belly. Eventually I added some purple to the outer scales. This made the belly stand out and not match, so I added purple to the belly as well, which brought it back to a sort of pinkish brown.""",
 			
@@ -1409,7 +1412,7 @@ posts = {
 		"paragraphs": [
 			f""":A [3D printed]T({TT_3D_PRINTING}) [[Grogu]] model""",
 
-			f"""This was my first successful print with my new [*AnyCubic Photon S*](anycubic-photon-s) resin 3D printer, using the [*Anycubic* UV resin](anycubic-uv-resin-grey). It’s about an inch tall, and has a few imperfections. There’s a small dent on an ear, and part of the lowered hand is cut off due to forgetting to add using supports. The base’s rim is also not very smooth since the first few layers were wider and I struggled to shave them down.""",
+			f"""This was my first successful print with my new *[AnyCubic Photon S](anycubic-photon-s)* resin 3D printer, using the [*Anycubic* UV resin](anycubic-uv-resin-grey). It’s about an inch tall, and has a few imperfections. There’s a small dent on an ear, and part of the lowered hand is cut off due to forgetting to add using supports. The base’s rim is also not very smooth since the first few layers were wider and I struggled to shave them down.""",
 			
 			f"""This was my first real go at the [layering]T({TT_LAYERING}) technique for skin, and it went pretty well. I also tried [glazing]T({TT_GLAZING}) for the first time to add some red tones to the ears and face since the blood slightly shows through on areas with thinner skin like the face and ears. I also used a mix of [stippling]T({TT_STIPPLING}) and [dry-brushing]T({TT_DRY_BRUSHING}) to add a fuzzy texture to the clothes.""",
 			
@@ -1602,7 +1605,7 @@ _unpublished = {
 	# 	"paragraphs": [
 	# 		f""":A [3D printed]T({TT_3D_PRINTING}) [[Something]] painted with something or other...""",
 
-	#		f"""This mini was 3D printed on my [*Anycubic Photon S*](anycubic-photon-s) with [*Anycubic* UV resin](anycubic-uv-resin-grey).""",
+	#		f"""This mini was 3D printed on my *[Anycubic Photon S](anycubic-photon-s)* with [*Anycubic* UV resin](anycubic-uv-resin-grey).""",
 
 	# 		f"""I did blah blah and used blah blah...""",
 			
