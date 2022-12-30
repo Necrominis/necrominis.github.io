@@ -156,8 +156,8 @@ paint_brands = {
 	"tamiya": {
 		"text": "Tamiya",
 		"lines": {
-			"surface-primer-l": {
-				"text": "Surface Primer L",
+			"surface-primer": {
+				"text": "Surface Primer",
 			},
 		},
 	},
@@ -1262,9 +1262,9 @@ _primers = {
 		"url": "https://acrylicosvallejo.com/en/product/hobby/surface-primer-en/white-70600/s",
 	},
 	"tamiya-surface-primer-l-grey": {
-		"text": "Grey",
+		"text": "L Grey",
 		"brand": "tamiya",
-		"line": "surface-primer-l",
+		"line": "surface-primer",
 		"category": "primers",
 		"icon-css": _solid("#c0c4c2"),
 		"official-name": "Tamiya Surface Primer L Grey #87042",
