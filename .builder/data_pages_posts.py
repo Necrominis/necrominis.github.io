@@ -390,11 +390,14 @@ posts = {
 				},
 			],
 		},
+		"thumbnail": "necrominis-2022-06-10-thumbnail.jpg",
 		"images": [
-			"necrominis-2022-06-10-raw-1.jpeg",
-			"necrominis-2022-06-10-raw-2.jpeg",
-			"necrominis-2022-06-10-raw-3.jpeg",
-			"necrominis-2022-06-10-raw-4.jpeg",
+			"necrominis-2022-06-10-1.jpg",
+			"necrominis-2022-06-10-2.jpg",
+			"necrominis-2022-06-10-3.jpg",
+			"necrominis-2022-06-10-4.jpg",
+			"necrominis-2022-06-10-5.jpg",
+			"necrominis-2022-06-10-6.jpg",
 		],
 		"paragraphs": [
 			f""":A [[Soulblight Gravelord Vampire]] painted with a necromancy magic scheme.""",
