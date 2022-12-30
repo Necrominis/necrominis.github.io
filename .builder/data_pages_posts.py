@@ -152,7 +152,6 @@ posts = {
 			"necrominis-2022-12-21-9.jpg",
 			"necrominis-2022-12-21-10.jpg",
 			"necrominis-2022-12-21-11.jpg",
-			"necrominis-2022-12-21-12.jpg",
 		],
 		"paragraphs": [
 			f""":Four [[Myrmourn Banshees]] painted with with a darker ghostly scheme.""",
