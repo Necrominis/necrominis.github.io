@@ -1017,6 +1017,10 @@ hr.invisible {
 	margin: 0;
 }
 
+.paint-used a {
+	border: none; /* Prevent underlined icons. Use a span.underline instead. */
+}
+
 /* GALLERY */
 
 #gallery {
