@@ -741,9 +741,12 @@ posts = {
 				},
 			],
 		},
+		"thumbnail": "necrominis-2021-10-26-thumbnail.jpg",
 		"images": [
-			"necrominis-2021-10-26-raw-1.jpeg",
-			"necrominis-2021-10-26-raw-2.jpeg",
+			"necrominis-2021-10-26-1.jpg",
+			"necrominis-2021-10-26-2.jpg",
+			"necrominis-2021-10-26-3.jpg",
+			"necrominis-2021-10-26-4.jpg",
 		],
 		"paragraphs": [
 			f""":A [[Huge Air Elemental]] from *[Pathfinder]({URL_PATHFINDER})*, though it’ll be used for playing *[Dungeons & Dragons]({URL_DND})*.""",
@@ -1599,6 +1602,7 @@ _unpublished = {
 	# 			},
 	# 		],
 	# 	},
+	# 	"thumbnail": "",
 	# 	"images": [
 	# 		# "necrominis-.jpeg",
 	# 	],
