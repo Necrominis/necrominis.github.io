@@ -217,7 +217,6 @@ posts = {
 		"images": [
 			"necrominis-2022-12-20-B-1.jpg",
 			"necrominis-2022-12-20-B-2.jpg",
-			"necrominis-2022-12-20-B-3.jpg",
 		],
 		"paragraphs": [
 			f""":An [[Air Elemental]] painted to match my previously painted [](2021-10-26).""",

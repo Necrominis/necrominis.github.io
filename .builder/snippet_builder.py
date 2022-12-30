@@ -353,7 +353,7 @@ def build_slideshow_html(page_id: str) -> str:
 	# Handle no images being specified by the post.
 	if len(image_files) == 0:
 		image_files = [data['no-image']]
-		print_warning('Missing image reference for slideshow on page with ID: ', page_id)
+		print_warning('No images listed for page with ID: ', page_id)
 
 	# Get the starter slideshow HTML.
 	slideshow_html = read_html_file('slideshow.html')
@@ -364,7 +364,7 @@ def build_slideshow_html(page_id: str) -> str:
 		# Use missing image image if the image file can't be found.
 		_image_file = image_file
 		if not os.path.isfile(data['image-paths']['post-photos'] + image_file):
-			print_warning('Missing image file for slideshow for page with ID: ', page_id)
+			print_warning('Missing image file for slideshow: ', image_file)
 			_image_file = data['no-image']
 		# Add the image to the slide HTML.
 		slide_html = read_html_file('slideshow-slide.html')
