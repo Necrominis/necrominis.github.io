@@ -65,6 +65,10 @@ https://www.w3schools.com/howto/howto_css_aspect_ratio.asp
 	font-style: italic;
 	font-stretch: condensed;
 }
+@font-face {
+	font-family: zombie-bites;
+	src: url(./fonts/ZombieBites.ttf);
+}
 
 /* DEFAULT STYLE VARIABLES */
 
