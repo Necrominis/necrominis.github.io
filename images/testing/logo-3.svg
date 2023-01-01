@@ -7,7 +7,7 @@
    viewBox="0 0 256 256"
    version="1.1"
    id="SVGRoot"
-   sodipodi:docname="necrominis-logo (temp new).svg"
+   sodipodi:docname="logo-3.svg"
    xml:space="preserve"
    inkscape:version="1.2.2 (1:1.2.2+202212051550+b0a8486541)"
    inkscape:export-filename="logo.png"
@@ -28,8 +28,8 @@
      inkscape:document-units="px"
      showgrid="true"
      inkscape:zoom="1.4944853"
-     inkscape:cx="43.158671"
-     inkscape:cy="118.76999"
+     inkscape:cx="-33.456334"
+     inkscape:cy="119.43911"
      inkscape:window-width="1920"
      inkscape:window-height="1015"
      inkscape:window-x="0"
@@ -63,10 +63,7 @@
        sodipodi:nodetypes="ccccc" /><path
        style="fill:none;stroke:#e1e1e1;stroke-width:8;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
        d="m 0,-436 -4,8 h 8 z"
-       id="path5737" /><path
-       style="fill:#e1e1e1;fill-opacity:1;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-       d="M 0,0 V 288 H 256 V 0 Z"
-       id="path8108-9-4-4-2" /><text
+       id="path5737" /><text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:31.7314px;line-height:1.25;font-family:sans-serif;fill:#965adc;fill-opacity:1;stroke:none;stroke-width:0.881424"
        x="127.70575"
