@@ -1,6 +1,14 @@
+# About This Repository
+
+This is a Python-based program to generate the HTML files for my website (https://necrominis.github.io).
+
+The main reason for this program is that it enables me to decouple the page data from the page files themselves. All the actual page data is stored in a large Python dictionary (which I've learned isn't perfect and I might change later). This means that I can change the HTML page layouts or even the entire website's structure without affecting the core data on the pages.
+
+The other reason for this program is that it generates static HTML pages, rather than more dynamic websites like those made with React or Vue. This lets me host the site on GitHub Pages, without the need for a server, and it also gives me control over the HTML structure, the URL paths, etc. Finally, it also means pages can operate faster, as they don't need to make as many server requests and they don't use as much JavaScript.
+
 # Generating the Webpages
 
-The current working directory must be the root folder of this repository, to work properly.
+The current working directory must be the root folder of this repository (not the `.builder` folder) to work properly.
 
 ```bash
 cd ~/dev/necrominis.github.io
