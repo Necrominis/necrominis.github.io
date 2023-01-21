@@ -323,6 +323,15 @@ _colors = {
 		"official-name": "Citadel Base Mephiston Red",
 		"url": "https://www.games-workshop.com/en-US/Base-Mephiston-Red-2019",
 	},
+	"citadel-base-khorne-red": {
+		"text": "Khorne Red",
+		"brand": "citadel",
+		"line": "base",
+		"category": "colors",
+		"icon-css": _solid("#650001"),
+		"official-name": "Citadel Base Khorne Red",
+		"url": "https://www.games-workshop.com/en-US/Base-Khorne-Red-2019",
+	},
 	"vallejo-game-color-gory-red": {
 		"text": "Gory Red",
 		"brand": "vallejo",
