@@ -73,6 +73,9 @@ supplies_brands = {
 	"hayes-paper": {
 		"text": "Hayes Paper",
 	},
+	"honoson": {
+		"text": "Honoson",
+	},
 	"intllab": {
 		"text": "INTLLAB",
 	},
@@ -271,6 +274,13 @@ _equipment = {
 		"category": "equipment",
 		"official-name": "GCMini Paint Rack for Vallejo and Army Painter Style Dropper Bottles",
 		"url": "https://gcmini.mybigcommerce.com/paint-rack-26mm-for-vallejo-and-army-painter-style-dropper-bottles/",
+	},
+	"honoson-soft-diffusor-lamp-covers": {
+		"text": "Soft Diffusor Lamp Covers",
+		"brand": "honoson",
+		"category": "equipment",
+		"official-name": "Honoson 4 Pieces Lamp Sock Soft Diffusor Cover 7 Inches (White)",
+		"url": "https://www.amazon.com/gp/product/B09689MPJ7/ref=ppx_yo_dt_b_asin_title_o03_s00?ie=UTF8&th=1",
 	},
 	"intllab-vortex-mixer": {
 		"text": "Vortex Mixer",
