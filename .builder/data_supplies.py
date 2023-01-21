@@ -109,6 +109,12 @@ supplies_brands = {
 	"wizkids": {
 		"text": "WizKids",
 	},
+	"war-world-gaming": {
+		"text": "War World Gaming",
+	},
+	"woodland-scenics": {
+		"text": "Woodland Scenics",
+	},
 }
 
 
@@ -392,6 +398,48 @@ _materials = {
 		"category": "materials",
 		"official-name": "Vallejo Scenery SC406 Wild Tuft - Green",
 		"url": "https://acrylicosvallejo.com/en/product/hobby/scenery-en/wild-tuft-green-sc406/",
+	},
+	"war-world-gaming-rocky-canyon-basing-kit": {
+		"text": "Rocky Canyon Basing Kit",
+		"brand": "war-world-gaming",
+		"category": "materials",
+		"official-name": "War World Gaming Rocky Canyon Basing Kit",
+		"url": "https://warworldgaming.com/rocky-canyon-basing-kit/",
+	},
+	"woodland-scenics-blended-turf-green-blend": {
+		"text": "Blended Turf Green Blend",
+		"brand": "woodland-scenics",
+		"category": "materials",
+		"official-name": "Woodland Scenics T49 - Blended Turf - Green Blend",
+		"url": "https://woodlandscenics.woodlandscenics.com/show/item/BT-GB",
+	},
+	"woodland-scenics-clump-foliage-medium-green": {
+		"text": "Clump Foliage Medium Green",
+		"brand": "woodland-scenics",
+		"category": "materials",
+		"official-name": "Woodland Scenics FC683 - Clump Foliage Medium Green",
+		"url": "https://woodlandscenics.woodlandscenics.com/show/Item/CF-MG",
+	},
+	"woodland-scenics-fine-turf-burnt-grass": {
+		"text": "Fine Turf Burnt Grass",
+		"brand": "woodland-scenics",
+		"category": "materials",
+		"official-name": "Woodland Scenics T44 - Fine Turf Burnt Grass",
+		"url": "https://woodlandscenics.woodlandscenics.com/show/item/FT-BG",
+	},
+	"woodland-scenics-fine-turf-earth": {
+		"text": "Fine Turf Earth",
+		"brand": "woodland-scenics",
+		"category": "materials",
+		"official-name": "Woodland Scenics T42 - Fine Turf Earth",
+		"url": "https://woodlandscenics.woodlandscenics.com/show/item/FT-E",
+	},
+	"woodland-scenics-fine-turf-soil": {
+		"text": "Fine Turf Soil",
+		"brand": "woodland-scenics",
+		"category": "materials",
+		"official-name": "Woodland Scenics T41 - Fine Turf Soil",
+		"url": "https://woodlandscenics.woodlandscenics.com/show/item/FT-S",
 	},
 }
 
