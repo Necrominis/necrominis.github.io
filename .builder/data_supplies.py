@@ -40,6 +40,9 @@ supplies_categories = {
 
 # ============================================================================ #
 supplies_brands = {
+	"3m": {
+		"text": "3M",
+	},
 	"anycubic": {
 		"text": "Anycubic",
 	},
@@ -239,6 +242,20 @@ _brushes = {
 
 # ============================================================================ #
 _equipment = {
+	"3m-2091-p100-particulate-filter": {
+		"text": "2091 P100 Particulate Filter",
+		"brand": "3m",
+		"category": "equipment",
+		"official-name": "3M 2091 P100 Particulate Filter, 3 Pairs",
+		"url": "https://www.amazon.com/gp/product/B00KYX8JBU/ref=ppx_yo_dt_b_asin_title_o05_s00?ie=UTF8&psc=1",
+	},
+	"3m-reusable-respirator-half-face-medium": {
+		"text": "Reusable Respirator Half Face Medium",
+		"brand": "3m",
+		"category": "equipment",
+		"official-name": "3M Reusable Respirator, Half Face Piece 7502, Medium Size",
+		"url": "https://www.amazon.com/gp/product/B008MCUT86/ref=ppx_yo_dt_b_asin_title_o05_s00?ie=UTF8&th=1",
+	},
 	"anycubic-photon-s": {
 		"text": "Photon S",
 		"brand": "anycubic",
