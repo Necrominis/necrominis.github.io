@@ -61,6 +61,9 @@ supplies_brands = {
 	"ecotools": {
 		"text": "ecoTools",
 	},
+	"gale-force-nine": {
+		"text": "Gale Force Nine",
+	},
 	"ge-lighting": {
 		"text": "GE Lighting",
 	},
@@ -355,6 +358,13 @@ _materials = {
 		"category": "materials",
 		"official-name": "Chapter Customizer Raptor Head Decal White Version",
 		"url": "https://www.chaptercustomizer.com/products/cc-decal-001?variant=40619640140",
+	},
+	"gale-force-nine-hobby-plasticard-variety-pack": {
+		"text": "Hobby Plasticard Variety Pack",
+		"brand": "gale-force-nine",
+		"category": "materials",
+		"official-name": "Gale Force Nine Hobby Plasticard Variety Pack of 9",
+		"url": "https://www.amazon.com/gp/product/B001DT3VYO/ref=ppx_yo_dt_b_asin_title_o03_s00?ie=UTF8&psc=1",
 	},
 	"green-stuff-world-blue-stuff-mold": {
 		"text": "Blue Stuff Mold",
