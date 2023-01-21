@@ -97,6 +97,9 @@ supplies_brands = {
 	"milliput": {
 		"text": "Milliput",
 	},
+	"qep": {
+		"text": "QEP",
+	},
 	"rosemary-co": {
 		"text": "Rosemary & Co",
 	},
@@ -401,6 +404,13 @@ _materials = {
 		"category": "materials",
 		"official-name": "Milliput Standard Yellow-Grey",
 		"url": "https://www.amazon.com/dp/B001OBBTMW?psc=1&ref=ppx_yo2_dt_b_product_details",
+	},
+	"qep-x-large-sponge-yellow": {
+		"text": "X-Large Sponge Yellow",
+		"brand": "qep",
+		"category": "materials",
+		"official-name": "QEP 70005Q-6D 7.5 Inch x 5.5 Inch x 1.875 Inch X-Large Sponge, 6-Pack, Yellow",
+		"url": "https://www.amazon.com/gp/product/B0026T1A8E/ref=ppx_yo_dt_b_asin_title_o05_s00?ie=UTF8&psc=1",
 	},
 	"vallejo-wild-tuft-green": {
 		"text": "Wild Tuft Green",

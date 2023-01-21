@@ -100,7 +100,6 @@ Changes the current working directory within the script to the given path. The p
 * Add my camera.
 * Add the backdrop papers.
 * Add my plastic drawers.
-* Add yellow sponges.
 * Add plasticard variety pack.
 * Add painting mask and filters.
 
