@@ -144,7 +144,7 @@ if __name__ == '__main__':
 	# After processing arguments, start the main method.
 	main(clean, verbose, silent)
 
-	# Print the amout of memory used by this process.
+	# Print the amount of memory used by this process.
 	import os, psutil
 	process = psutil.Process(os.getpid())
 	bytes = process.memory_info().rss
