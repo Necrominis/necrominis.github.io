@@ -66,8 +66,8 @@ The following are identical syntaxes for the directory argument.
 ```bash
 python3 /path/to/necrominis.github.io/.builder/main.py -d "/path/to/necrominis.github.io/"
 python3 /path/to/necrominis.github.io/.builder/main.py -dir "/path/to/necrominis.github.io/"
-python3 /path/to/necrominis.github.io/.builder/main.py -directory "/path/to/necrominis.github.io/"
 python3 /path/to/necrominis.github.io/.builder/main.py --dir "/path/to/necrominis.github.io/"
+python3 /path/to/necrominis.github.io/.builder/main.py -directory "/path/to/necrominis.github.io/"
 python3 /path/to/necrominis.github.io/.builder/main.py --directory "/path/to/necrominis.github.io/"
 ```
 
@@ -75,7 +75,7 @@ Changes the current working directory within the script to the given path. The p
 
 # To-Do
 
-## Features
+## Planned Features
 
 * Add sorting to tags.
 * Add sorting to manufacturers.
@@ -93,17 +93,23 @@ Changes the current working directory within the script to the given path. The p
 * Add slideshow to modal.
 * Add redirect links for posts based on title.
 
-## Issues
-
-## Data
-
-* Add my camera.
-* Add the backdrop papers.
-* Add my plastic drawers.
-
-## Code
+## Unimplemented Code
 
 * `build_paints_article_content_html()`
 * `build_paint_article_content_html()`
 * `build_supplies_article_content_html()`
 * `build_supply_article_content_html()`
+
+## Open Issues
+
+## Posts & Photos
+
+* Post 2023-02-17 (Adeptus Mechanicus Skitarii Ranger) has no photos.
+
+## Un-Added Data
+
+* Add my camera.
+* Add the backdrop papers.
+* Add my plastic drawers.
+* Add hobby knife.
+	* Update paragraphs in post 2023-02-17.

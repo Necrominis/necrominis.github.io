@@ -61,6 +61,7 @@ TT_ZENITHAL_HIGHLIGHTING = """Zenithal highlighting the technique of base coatin
 	#                                    LINKS                                     #
 	# ============================================================================ #
 
+URL_ADEPTUS_MECHANICUS = """https://warhammer40k.fandom.com/wiki/Adeptus_Mechanicus"""
 URL_ASTRAL_HAWKS = """https://warhammer40k.fandom.com/wiki/Astral_Hawks"""
 URL_CHARIZARD = """https://bulbapedia.bulbagarden.net/wiki/Charizard"""
 URL_DND = """https://dnd.wizards.com/what-is-dnd"""

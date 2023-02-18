@@ -81,7 +81,7 @@ def _process_first_paragraph(paragraph: str) -> str:
 
 
 
-# Process the links using markdown syntax.
+# Process the italic text using markdown syntax.
 # Must be done after bold processing.
 # Example: *text*
 # ======================================================================================= #
@@ -100,7 +100,7 @@ def _process_italics(paragraph: str) -> str:
 
 
 
-# Process the links using markdown syntax.
+# Process the bold text using markdown syntax.
 # Example: **text**
 # ======================================================================================= #
 def _process_bolds(paragraph: str) -> str:

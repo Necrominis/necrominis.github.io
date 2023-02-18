@@ -1,0 +1,1 @@
+inscape input.svg -w <width> -o output.png

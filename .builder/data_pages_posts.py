@@ -5,11 +5,11 @@ from printer import *
 
 
 
+# Always add newest posts to the TOP!
 # Make sure to always use trailing commas!
 # Make sure to use ’ instead of ' in text!
 # Make sure to put italics and bold outside of links!
 # Press Alt+Z to toggle word-wrap when typing paragraphs!
-# Always add newest posts to the top!
 # Dates are YYYY-MM-DD-A where A-Z is for multiple posts in one day!
 
 
@@ -18,6 +18,87 @@ from printer import *
 
 # ============================================================================ #
 posts = {
+	# ============================================================================ #
+	"2023-02-17": {
+		"title": "Blue Skitarii Ranger",
+		"type": "post",
+		"properties": {
+			"created": "February 17, 2023",
+			"tags": [
+				"warhammer-40k",
+				"sci-fi",
+				"tabletop",
+			],
+			"manufacturers": [
+				"games-workshop",
+			],
+			"models": [
+				{
+					"text": "Skitarii Ranger",
+					"url": "https://www.games-workshop.com/en-US/Skitarii-Rangers-2017",
+				},
+				{
+					"text": "Necron (head)",
+					"url": "https://www.games-workshop.com/en-US/Warhammer-40000-Recruit-EN-2020",
+				},
+			],
+		},
+		"thumbnail": "", # TODO
+		"images": [
+			# TODO
+		],
+		"paragraphs": [
+			f""":A [[Skitarrii Ranger]] (or a cyborg for those unfamiliar with *[Warhammer]({URL_WARHAMMER})*) painted with a blue cloak and purple plasma weapon scheme.""",
+
+			f"""For this miniature, the first thing I started with was actually the base. I wasn`t sure what the best base would be, but I knew I didn`t want a basic Mars base like the miniature had in the box art. Quick research told me that one of the best enemies of the *[Adeptus Mechanicus]({URL_ADEPTUS_MECHANICUS})* faction, both in the lore and in the tabletop game, were the *[Necrons]({URL_NECRON})*. This gave me the idea to create a base that would give off the impression that this ranger had either stumbled across a *Necron* tomb world.""",
+
+			f"""To create the base, I cut up a thin [plasticard sheet](gale-force-nine-hobby-plasticard-variety-pack) and glued it onto the base. I left a gap between two pieces, to create a sci-fi looking recess between two plates of metal flooring. I then used a [metal sculpting tool](army-painter-sculpting-tools) to carve some lines and poke some holes into it, to give the impression of separate panels. I also carved some grooves into the lower recess directly onto the base, which would later be painted with a glow effect. To create some rusty spots, I added a small amount of *[Vallejo Brown Earth](vallejo-diorama-effects-brown-earth)* texture paste to a few areas. To finish off the base, I glued on a *Necron* head to make it even more clear that this *Skitarii Ranger* was in *Necron* territory.""",
+
+			f"""To prepare the actual miniature, I removed it from the sprue and cleaned up the mold lines with a hobby knife. There were some large caps in the cloak, where the two pieces were glued together, so I filled them in with some wet *[Milliput epoxy](milliput-standard-yellow-grey)*. After painting the miniature, I noticed that one of the gaps was still a little visible, but it was better than nothing. Because this miniature had a cloak, a backpack, and was holding a large gun across its chest, I opted to keep as many parts separate as I could, to make painting them easier. After painting it, I then glued it all together at the end.""",
+
+			f"""Finally, I began painting by starting with the base. I painted the recess on the base with black, highlighted with a very dark grey, just to give it some simple shading. For the metal plating, I wanted an old and rusty look, so I mixed up a 2:2:1 mix of *Terracotta*, *Beasty Brown*, and *Leadbelcher*. This created a reddish-brown that was slightly metallic, which I covered the floor with. I then did some messy [edge-highlighting]T({TT_EDGE_HIGHLIGHTING}) and [stippling]T({TT_STIPPLING}) with *Leadbelcher* to create the impression that some parts of the rust had been scratched off, revealing the silvery steel underneath. TO finish up the metal plating, I painted the rusty areas with *Beasty Brown* and a touch of *Ushabti Bone*. I then painted the *Necron* head with *Leadbelcher* and some highlights of silver. Finally, for the grean glowing effect I used a white, a lime green, and a bright green. First, I filled the lights and the *Necron`s* eyes with white. Then I used a [was]T({TT_WASH}) of lime green over the white, and bright green around it. I added a little more green around the edges, to strengthen how far the green glow reached, and then added more white in the center of the glowing areas to further brighten them, as lights should be near-white toward the center. I then cleaned up the base rim with some black, and I was ready to start on the ranger model.""",
+
+			f"""The first thing I painted was the cloak. I wanted it to be the highest quality part of the miniature, since it is a large focal point of the model. I also wanted to test out my skills at texturing fabric, which is an area I`s like to improve on. I didn`t have the right colors I wanted, so base-coated the outside of the cloak with a 1:1 mix of *Sotek Green* and *Ultramarine Blue*. I then mixed up a first highlight with a 2:1 mix of the previous mixture and *Electric Blue*. I watered it down into a [glaze]T({TT_GLAZING}) consistancy, and painted highlights, while always moving my brish in a horizontal direction to create some line textures. I then added a little white to the mixture, and did the same in a smaller area for the brightest highlight. For the inside of the cloak, I used the same technique but with a base-coat of a 2:1 mix of *Ushabti Bone* and *Beasty Brown*, a first highlight of pure *Ushabti* Bone, and a second highlight of *Wraithbone*. For the sharpest edges, I added a little white to the *Wraithbone*, since the final highlight wasn`t quite strong enough.""",
+
+			f"""For some added detail to the cloak, I added one of the waterslide decals to the corner. [Last time I used a decal](2022-12-28), it ended up having some wrinkles in it. This time was much better. I`m not sure if it was solely because the surface was flatter, or if it was because I tried using a damp paper towel to more firmly press it flat. This decal was white, which wasn`t a color I planned to use anywhere else on the mini (other than for glow effects), so I decided to carefully paint over the decal with the tan colors from the inside of the cloak.""",
+
+			f"""The next detail I painted was the rest of the parts that weren`t mainly metal, which was the pants and the backpack pouches. For these, I painted them with a black leather scheme. I base-coated them with a 1:1 mix of black and *Charred Brown*. I then highlighted with pure *Charred Brown* and then mixed in *Beasty Brown* and a tiny bit of white (to desaturate it) until I was happy with the highlights."""
+
+			f"""The next main part of the miniature was all of the metal parts, which there are a lot of. I started by just base-coating them all with my favorite dark silver, *Leadbelcher*. Since I wanted this miniature to look a little more dirty, I gave all the metal parts a brown wash of *Agrax Earthshade*. To pick out various areas of the metal parts, I painted some of the metal with a brass color. Since I still don`t have a good desaturated brass color I like, I mixed up a 1:1 mix of *Leadbelcher* and *Brass Scorpion*. For the brass parts, I added a wash of *Reikland Fleshshade* to bring back a little warmth, as well as to shade the recesses. Finally, I picked out some strong edges and raised survaces with a little silver to bring some focus and highlight to the metal parts.""",
+
+			f"""The last thing to paint on this miniature was the glow effects. For the gun and goggles, I wanted a purple/magenta glow, which would contrast well against the blue cloak and the rusty brown base. As with all glow effects, I base-coated the areas with white. I then created a mix of *Royal Purple* and *Warlord Purple*. Together, these made a good compramise between a magenta that was too pinkish, and a purple that was just too dark and desaturate. I used watered down mixes, with added white to slowly add a gradient from this new purple mixture toward a white. I made sure to paint the raised ridges of the gun`s plasma...thing...slightly darker than the recesses, as the light would be stronger toward the inside. I used this same scheme for the vents on the side of the gun barrel, the tip of the barrel, and the three bottle things on the side of the gun (which I believe are, or at least look like, plasma ammunition cartridges). This all took quite a bit of mixing and repainting to get the gradient quite right. Using very diluted washes helped wit this, as the blends would be smoother and the paint would seep into the recesses. I finally added some glazes of purple around the glowing areas, for the final tough fo this [OSL]T({TT_OSL}) effect.""",
+
+			f"""Finally, I used a similar technique on the blue glowing lights on the chest and backpack, and the miniature was finished.""",
+			
+			f"""Overall, I love how this miniature turned out. It has the perfect blend between steampunk and sci-fi that I was going for. I really love how the cloak turned out, as the texturing and the shade of blue look great. I wasn`t sure about the tan on the inside of the cloak, but it fits perfectly with this shade of blue. I`m not sold on the tan decal on the cloak, though. However, I`m not sure a bright white would`ve looked much better, as it would really stand out as being too bright compared to the test of the mini. The gun`s plasma glow looks perfect. I didn`t want a magenta that looked too pink, but a pure purple can be hard to work with, and I needed some amount of magenta to give it more vibrancy. The mix I came up with compramised very well, and the purple-to-white blending turned out great.The only things I`m not completely in love with are the metal parts. For the metal on the actual ranger, I think they work well. However, I`m never quite happy with highlighting with metallic paints, as it`s very hard to make the darkest and brightest parts contrast enough to be noticeably highlighted. I`m also not in love with the metal parts of the base. The color looks good, but there`s no variation in shading, as the metal reflects an even amount of light and washes it out when hit with the right light. Other than the metal parts not being one hundred percent to my liking, I really love how this miniature turned out. I don`t plan on using this scheme to paint up the rest of the squad I bought, but I will definitely use some these techniques for the other schemes I come up with in the future.""",
+		],
+		"paints-used": [
+			"vallejo-model-color-royal-purple",
+			"vallejo-model-color-white",
+			"vallejo-model-color-lime-green",
+			"vallejo-model-color-black",
+			"vallejo-game-color-charred-brown",
+			"vallejo-game-color-beasty-brown",
+			"vallejo-game-color-goblin-green",
+			"vallejo-game-color-terracotta",
+			"vallejo-game-color-silver",
+			"vallejo-game-color-warlord-purple",
+			"vallejo-game-color-electric-blue",
+			"vallejo-game-color-ultramarine-blue",
+			"citadel-base-leadbelcher",
+			"citadel-base-wraithbone",
+			"citadel-layer-eshin-grey",
+			"citadel-shade-agrax-earthshade",
+			"citadel-shade-reikland-fleshshade",
+			"citadel-layer-sotek-green",
+			"citadel-layer-ushabti-bone",
+			"citadel-layer-brass-scorpion",
+			"vallejo-auxiliaries-airbrush-thinner",
+			"stynylrez-surface-primer-black",
+			"liquitex-acrylic-mediums-flow-aid",
+			# "TODO: clear coat(s)",
+		],
+	},
 	# ============================================================================ #
 	"2022-12-28": {
 		"title": "Astral Hawks Space Marine Assault Intercessor Sergeant",
