@@ -580,6 +580,7 @@ def build_gallery_items_html(page_id: str) -> str:
 				print_warning('Missing image file for gallery item for page with ID: ', item_page_id)
 		# Default to missing image thumbnail.
 		else:
+			page_image = data['image-paths']['post-photos'] + data['no-image-thumbnail']
 			print_warning('Missing image reference for gallery item for page with ID: ', item_page_id)
 
 		# Build the starter gallery item HTML, and add the image and URL.
