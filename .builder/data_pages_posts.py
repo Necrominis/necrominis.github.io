@@ -48,7 +48,7 @@ posts = {
 			# TODO
 		],
 		"paragraphs": [
-			f""":A [[Skitarrii Ranger]] (or a cyborg for those unfamiliar with *[Warhammer]({URL_WARHAMMER})*) painted with a blue cloak and purple plasma weapon scheme.""",
+			f""":A [[Skitarii Ranger]] (or a cyborg for those unfamiliar with *[Warhammer]({URL_WARHAMMER})*) painted with a blue cloak and purple plasma weapon scheme.""",
 
 			f"""For this miniature, the first thing I started with was actually the base. I wasn`t sure what the best base would be, but I knew I didn`t want a basic Mars base like the miniature had in the box art. Quick research told me that one of the best enemies of the *[Adeptus Mechanicus]({URL_ADEPTUS_MECHANICUS})* faction, both in the lore and in the tabletop game, were the *[Necrons]({URL_NECRON})*. This gave me the idea to create a base that would give off the impression that this ranger had either stumbled across a *Necron* tomb world.""",
 
