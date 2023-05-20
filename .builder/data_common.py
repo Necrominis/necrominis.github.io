@@ -43,7 +43,7 @@ TT_SPRUE_GOO = """Sprue-goo is a sumstance made from melting bits of plastic spr
 
 TT_STIPPLING = """Stippling is a painting technique where you gently jab with the tip of your paint brush to create spotty splotches of color. It’s usually used for texturing rough-looking surfaces, or combined with glazing to create smooth blends."""
 
-TT_TABLE_READY = """Table-ready is a term to describe a miniature thay may not look as good as the painter would like, but looks good enough that it’s ready to be played with on in tabletop games."""
+TT_TABLE_READY = """Table-ready is a term to describe a miniature that may not look as good as the painter would like, but looks good enough that it’s ready to be played with on in tabletop games."""
 
 TT_VOLUMETRIC_HIGHLIGHTING = """Volumetric highlighting is the technique of highlighting and shading a miniature based on the physical properties of how light behaves on shapes and textures, rather than simply highlighting raised edges and shading recesses, in order to create a more realistic miniature."""
 
