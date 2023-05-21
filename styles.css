@@ -400,8 +400,8 @@ mark, span {
 	visibility: hidden;
 	font-size: var(--small-text-size);
 	font-stretch: condensed;
-	width: 9rem;
-	margin-left: -5rem;
+	width: 8rem;
+	margin-left: -4.5rem;
 	color: var(--tooltip-text);
 	background-color: var(--tooltip-background);
 	border-color: var(--tooltip-background);
@@ -685,6 +685,8 @@ img.icon.inline {
 	float: left;
 	width: calc(50% - 1rem); /* Large screens have 2 columns. */
 	padding: 0 0.5rem;
+	position: sticky;
+	top: 5rem;
 }
 
 @media only screen and (min-width: 1001px) {
@@ -1045,7 +1047,7 @@ hr.invisible {
 .gallery-item {
 	display: none;
 	float: left;
-	border-radius: var(--corner-radius);
+	border-radius: var(--small-border-radius);
 	padding: 0.5rem;
 	transition: transform var(--transition-speed);
 	border: var(--background-2) solid inset var(--thin-line-thickness);
