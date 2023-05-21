@@ -203,6 +203,18 @@ def _process_links(paragraph: str) -> str:
 
 
 
+# Process em dashes using double-dash syntax.
+# Example: --
+# Result: —
+# ======================================================================================= #
+def _process_em_dashes(paragraph: str) -> str:
+	processed_paragraph = paragraph.replace("--", "—")
+	return processed_paragraph
+
+
+
+
+
 # Post-process the markdown syntax in paragraphs.
 # ======================================================================================= #
 def process_paragraph(paragraph: str) -> str:
@@ -219,6 +231,8 @@ def process_paragraph(paragraph: str) -> str:
 
 	processed_paragraph = _process_links(processed_paragraph)
 	processed_paragraph = _process_tooltips(processed_paragraph)
+
+	processed_paragraph = _process_em_dashes(processed_paragraph)
 
 	if "'" in processed_paragraph:
 		print_warning("Paragraph contains ', which should be replaced with `.")
