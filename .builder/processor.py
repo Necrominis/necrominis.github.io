@@ -235,7 +235,7 @@ def process_paragraph(paragraph: str) -> str:
 	processed_paragraph = _process_em_dashes(processed_paragraph)
 
 	if "'" in processed_paragraph:
-		print_warning("Paragraph contains ', which should be replaced with `.")
+		print_warning("Paragraph contains ', which should be replaced with ’.")
 	
 	return processed_paragraph
 
