@@ -278,7 +278,7 @@ def build_paint_item_html(paint_id: str) -> str:
 # Build the paints-used HTML for a post page.
 # ======================================================================================= #
 def build_paints_list_html(paint_ids: '[str]') -> str:
-	# GO through each paint, build the list item HTML, and combine them.
+	# Go through each paint, build the list item HTML, and combine them.
 	paint_items_html = ''
 	for paint_id in sort_paints(paint_ids, True):
 		# Place breaks between paints if a paint item is empty.
@@ -304,7 +304,7 @@ def build_paints_used_html(page_id: str) -> str:
 	# Get the paints-used starter HTML.
 	paints_used_html = read_html_file('paints-used.html')
 
-	# GO through each paint, build the list item HTML, and combine them.
+	# Go through each paint, build the list item HTML, and combine them.
 	paint_items_html = build_paints_list_html(paints_used_ids)
 
 	# Add the paint items HTML to the final paints-used HTML and return it.
@@ -549,9 +549,6 @@ def build_gallery_filters_html(page_id: str) -> str:
 def build_gallery_items_html(page_id: str) -> str:
 	gallery_page = data['pages'][page_id]
 	page_ids = sort_pages(gallery_page['pages'])
-
-	# Get gallery starter HTML.
-	gallery_items_html = read_html_file('gallery-items.html')
 
 	# Get the gallery items starter HTML.
 	gallery_items_html = read_html_file('gallery-items.html')
