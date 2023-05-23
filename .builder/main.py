@@ -48,10 +48,10 @@ def make_pages(verbose: bool = False, silent: bool = False) -> None:
 	for page_id in page_ids:
 		# If specified, print out when each page is made. 
 		if not silent:
-			print_normal(f'  ./{page_id_to_subpath(page_id)}')
+			print_log(f'  ./{page_id_to_subpath(page_id)}')
 			if verbose:
-				print_normal(f'      {page_id_to_url(page_id)}')
-				print_normal(f'      {page_id_to_filepath(page_id, True)}')
+				print_log(f'      {page_id_to_url(page_id)}')
+				print_log(f'      {page_id_to_filepath(page_id, True)}')
 
 		# Build and create the page file(s).
 		make_page(page_id)
@@ -74,7 +74,7 @@ def main(clean: bool = False, verbose: bool = False, silent: bool = False) -> No
 	else:
 		print_warning('GENERATING LOCAL DEVELOPMENT WEBSITE:')
 		
-	print_normal()
+	print_log()
 
 	# If specified, delete all the old pages first.
 	if clean:

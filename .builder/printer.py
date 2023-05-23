@@ -33,7 +33,7 @@ def _reset() -> None:
 
 
 # Print normal message in white.
-def print_normal(message: str = '') -> None:
+def print_log(message: str = '') -> None:
 	print(Fore.LIGHTWHITE_EX + str(message))
 	_reset()
 
