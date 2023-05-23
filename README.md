@@ -89,7 +89,7 @@ Changes the current working directory within the script to the given path. The p
 * Add paints page.
 	* Have paints page get paints automatically, without having to list them specifically.
 * Add supplies page.
-	* Have supplies page get paints automatically, without having to list them specifically.
+	* Have supplies page get supplies automatically, without having to list them specifically.
 * Add slideshow to modal.
 * Add redirect links for posts based on title.
 
