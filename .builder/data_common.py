@@ -49,7 +49,7 @@ TT_VOLUMETRIC_HIGHLIGHTING = """Volumetric highlighting is the technique of high
 
 TT_WASH = """Washes are paints diluted with water, which can be "washed" onto a miniature in order for the paint to flow into the recesses, usually for shading purposes."""
 
-TT_WET_BLENDING = """wet-blending is the technique of painting an area of a miniature with two colors and smudging the border between them while the paint is still wet, in order to create smooth blends between colors on a miniature."""
+TT_WET_BLENDING = """Wet-blending is the technique of painting an area of a miniature with two colors and smudging the border between them while the paint is still wet, in order to create smooth blends between colors on a miniature."""
 
 TT_ZENITHAL_HIGHLIGHTING = """Zenithal highlighting the technique of base coating a miniature black, then spraying white paint from above, in order to give an aproximation of sunlight creating shadows and highlights."""
 
