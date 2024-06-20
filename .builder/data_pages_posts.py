@@ -19,6 +19,59 @@ from printer import *
 # ============================================================================ #
 posts = {
 	# ============================================================================ #
+	"2024-06-15": {
+		"title": "Dragonborn Blacksmith",
+		"type": "post",
+		"properties": {
+			"created": "June 15, 2024",
+			"tags": [
+			],
+			"manufacturers": [
+				"wildspire",
+			],
+			"models": [
+				{
+					"text": "Dragonborn Blacksmith",
+					"url": "Wildspire Miniatures - 29x 28mm Scale Miniatures (Heros & Animals Set)",
+				},
+			],
+		},
+		"thumbnail": "",
+		"images": [
+		],
+		"paragraphs": [
+			f""":A [[Dragonborn Blacksmith]] painted with red scales and silver armor.""",
+
+			f"""For this miniature, I wanted to test out some of my new AK Interactive paints. Since I only have a set of vibrant colors at the moment, I elected to paint the dragonborn's skin and scales red. I then slapped on some Vallejo Earth Texture to give the ground a simple rough texture, and then added a metal ingot to the anvil by sanding down a BRICK to have angled edges like most metal ingots, and then glued it to the anvil. I primed the mini with Citadel Chaos Black, and then started on the scales, as they were what the rest of the color scheme would rely on. For the scales, I base-coated with Wine Red, then latered up to Carmine and eventually Scarlet Red.""",
+			
+			f"""To bring focus to the character's red color, and since blacksmiths aren't known for being bright and colorful, I decided to paint the armor silver and the clothing brown. For the armor, I started by base-coating with a 50:50 mix of AK Interactive's Black and Eshin Grey. I then tried some simple non-metallic-metal by layering pure Eshin Grey, then Vallejo Neutral Grey, and finally Vallejo Medium Sea Grey. I also used the same colors on the anvil, but with a dry-brushing technique to give it a scuffed metal texture.""",
+
+			f"""For the clothes, I basecoated it all with Vallejo Charred Brown, and then layered on some Flat Brown and eventually Beasty Brown. I also added these colors to the base, to give it the effect that the floor is covered in dirt. Seeing as the red was very vibrant and the rest of the mini was extremely neutral, I decided to add one more bright color, so I painted the trim and details with AK Interactive Terquoise.""",
+
+			f"""To finish up, I painted the ingot with the same silver colors but brighter, but decided I wanted it to stand out even more so I glazed some Beasty Brown until it looked like copper or gold. I then painted the base rim black, gave the mini a clear coat of Krylon Matte Varnish, and called it done.""",
+			
+			f"""Overall, the mini was somewhat of a rush job. My mind just wasn't in the patient mood and the new paints took some getting used to with their consistency, but I think it looks good enough for tabletop use.""",
+		],
+		"paints-used": [
+			"AK Interactive Black",
+			"Citadel Layer Eshin Grey",
+			"Vallejo Model Color Neutral Grey",
+			"Vallejo Model Color Medium Sea Grey",
+			"AK Interactive Wine Red",
+			"AK Interactive Carmine",
+			"AK Interactive Scarlet Red",
+			"Vallejo Game Color Charred Brown",
+			"Vallejo Model Color Flat Brown",
+			"Vallejo Game Color Beasty Brown",
+			"AK Interactive Srchaic Turquoise",
+			
+			"Citadel Spray Chaos Black",
+			"Krylon Matte Varnish",
+			"Vallejo Earth Texture",
+			"Liquitex Flow Aid Additive",
+		],
+	},
+	# ============================================================================ #
 	"2023-02-17": {
 		"title": "Blue Skitarii Ranger",
 		"type": "post",
